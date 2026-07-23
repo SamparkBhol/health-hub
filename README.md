@@ -1,149 +1,230 @@
-  # Janaswasthya Odisha
+# Janaswasthya Odisha
 
-  Janaswasthya Odisha is an open-source, multilingual public-health intelligence platform built for Odisha. It combines online health-information
-  collection, geographic disease visualisation, environmental analysis, predictive modelling and a grounded AI assistant in one application.
+  Janaswasthya Odisha is an open-source, multilingual public-health intelligence platform for Odisha. It combines online health-information collection,
+  district-level disease mapping, environmental analysis, predictive modelling and a grounded AI assistant in one application.
 
-  The platform addresses three primary objectives:
+  ## Core capabilities
 
-  1. Collect health-related information in Odia, Hindi and English.
-  2. Display district-level disease patterns and heatmaps across Odisha.
-  3. Estimate one-to-three-month malaria surveillance risk using historical and environmental information.
+  ### 1. Multilingual health-information collection
 
-  ## What it does
+  The source registry contains 170 acquisition routes across government, public-health and media websites.
 
-  ### Multilingual health intelligence
+  The collection pipeline supports:
 
-  The platform maintains 170 acquisition routes across 65 government, health and media hosts. It can process:
-
-  - English, Hindi and Odia web pages
+  - Odia, Hindi and English web pages
   - Government notices and health bulletins
-  - Linked documents and scanned PDFs
-  - OCR content using English, Hindi and Odia language models
+  - HTML, PDF and scanned-document ingestion
+  - Tesseract OCR for Odia, Hindi and English
+  - Language identification and IndicTrans2 translation
+  - Disease, location and assertion extraction
+  - Cross-source deduplication
+  - Source provenance and review status
 
-  Collected information passes through language detection, OCR, translation, disease extraction, assertion classification, district resolution, cross-source
-  deduplication and provenance tracking.
+  The application reports the runtime state of every source instead of treating a configured source as successfully collected.
 
-  ### Disease and environmental maps
+  ### 2. Disease and environmental maps
 
-  The interactive dashboard covers all 30 Odisha districts and provides separate layers for:
+  The dashboard covers all 30 districts of Odisha and provides separate map layers for:
 
-  - Live health-related evidence collected from online sources
-  - Official historical malaria observations
-  - District-level malaria surveillance indicators
+  - Live health-related evidence collected from registered sources
+  - Official annual malaria observations
+  - District-month malaria surveillance indicators
   - Rainfall, temperature and environmental conditions
-  - One, two and three-month predictive outlooks
+  - One, two and three-month malaria surveillance outlooks
 
-  Every displayed record retains its source, collection time and evidence status.
+  Each displayed record retains its source, observation period, collection time and evidence state.
 
-  ### Predictive analysis
+  ### 3. Predictive analysis
 
-  The forecasting pipeline combines historical malaria surveillance indicators with seasonality, rainfall and temperature features.
+  The modelling pipeline combines:
 
-  Models are evaluated using rolling historical validation, calibration diagnostics, environmental-feature ablation and baseline comparisons. Results are
-  presented as district-level surveillance-priority probabilities rather than unsupported case-count claims.
+  - Historical malaria surveillance indicators
+  - Seasonal patterns
+  - Rainfall observations and outlooks
+  - Temperature observations and outlooks
+  - Recent district-level surveillance behaviour
 
-  ### Multilingual AI assistant
+  Models are evaluated using rolling historical validation, calibration diagnostics, baseline comparisons and environmental-feature ablation.
 
-  The local assistant answers questions about collected evidence, district patterns, environmental conditions and predictive outlooks.
+  The public outlook estimates whether a district’s malaria surveillance indicator is likely to exceed its historical reference level. It does not convert
+  missing observations into zero disease or present unsupported case-count forecasts.
 
-  It supports English, Hindi and Odia using open-source components for:
+  ### 4. Multilingual AI assistant
 
-  - Indic-language translation
-  - Multilingual semantic retrieval
-  - Grounded answer generation
-  - Source and evidence attribution
+  The assistant answers questions about:
 
-  No commercial AI API is required.
+  - Collected health evidence
+  - District disease patterns
+  - Environmental conditions
+  - Historical malaria observations
+  - One-to-three-month surveillance outlooks
 
-  ## How it works
+  It supports English, Hindi and Odia using IndicTrans2, multilingual semantic retrieval and a local Qwen model. Answers are grounded in application records
+  and include evidence context instead of relying on an external commercial AI API.
+
+  ## System workflow
 
   ```text
-  Registered sources
-          ↓
+  Registered health sources
+            │
+            ▼
   Crawler and document acquisition
-          ↓
+            │
+            ▼
   OCR, language detection and translation
-          ↓
+            │
+            ▼
   Disease, location and assertion extraction
-          ↓
+            │
+            ▼
   Deduplication, provenance and review workflow
-          ↓
-  District heatmaps and environmental features
-          ↓
-  Predictive models
-          ↓
+            │
+            ▼
+  District maps and environmental features
+            │
+            ▼
+  Predictive modelling
+            │
+            ▼
   Grounded multilingual assistant
-
-  The system uses specialised collection, extraction, verification, geographic, modelling and assistant components coordinated as an agentic workflow.
   ```
-  
+
+  The collection, extraction, verification, geographic, modelling and assistant components operate as a coordinated agentic workflow. Each stage has
+  explicit inputs, outputs, failure states and provenance.
+
   ## Technology
 
   - Python, FastAPI and Pydantic
   - React, TypeScript and Vite
-  - SQLite locally, with PostgreSQL support
+  - SQLite for local execution, with PostgreSQL support
   - Tesseract OCR and Poppler
   - IndicTrans2
-  - Multilingual-E5 retrieval
-  - Qwen local language model
+  - Multilingual-E5
+  - Qwen2.5 with llama.cpp
   - Scikit-learn and gradient-boosted models
   - Docker and Docker Compose
 
   ## Run locally
 
-  Requirements:
+  ### Requirements
 
   - Docker Desktop
+  - Git
   - At least 8 GB RAM
-  - Approximately 15–20 GB of free disk space
+  - Approximately 20 GB of free disk space
 
-  Download and extract the ZIP, or clone the repository:
+  ### 1. Download the project
 
+  ```bash
   git clone https://github.com/SamparkBhol/health-hub.git
   cd health-hub
+  ```
 
-  Build the application:
-
+  Alternatively, download the repository ZIP, extract it and open the extracted `health-hub` directory in a terminal.
+  ```bash
   docker compose build api
+  ```
 
-  Download the open-source language and assistant models:
+  ### 3. Download the local AI models
 
-  docker compose --profile setup run --rm model-init
+  The model weights are not stored in Git because they require several gigabytes.
 
-  Start the complete platform:
+  On Linux, macOS or Git Bash:
 
-  docker compose up -d
+  ```bash
+  mkdir -p models
 
-  Wait until the API becomes healthy:
+  API_IMAGE="$(docker compose images -q api)"
 
+  docker run --rm \
+    --user root \
+    -e ODISHA_MODELS_DIR=/app/models \
+    -v "$PWD/models:/app/models" \
+    --entrypoint python \
+    "$API_IMAGE" \
+    /app/scripts/fetch_models.py
+  ```
+
+  On Windows PowerShell:
+
+  ```powershell
+  New-Item -ItemType Directory -Force .\models | Out-Null
+
+  $MODEL_DIR = (Resolve-Path .\models).Path
+  $API_IMAGE = (docker compose images -q api).Trim()
+
+  docker run --rm `
+    --user root `
+    -e ODISHA_MODELS_DIR=/app/models `
+    -v "${MODEL_DIR}:/app/models" `
+    --entrypoint python `
+    $API_IMAGE `
+    /app/scripts/fetch_models.py
+  ```
+
+  ### 4. Start the application
+
+  ```bash
+  docker compose up --build -d
+  ```
+
+  Check the services:
+
+  ```bash
   docker compose ps
+  ```
 
-  Then open:
+  Wait until the API reports `healthy`, then open:
 
+  ```text
   http://localhost:5173
+  ```
 
-  Stop the platform with:
+  ### 5. Stop the application
 
+  ```bash
   docker compose down
+  ```
 
   ## Suggested evaluation
 
-  - Open Disease Map to inspect district-level disease patterns.
-  - Open Forecast to compare one, two and three-month outlooks.
-  - Open Sources to inspect multilingual acquisition routes and evidence.
-  - Ask the assistant:
+  Open the following sections:
 
+  - **Disease Map** — inspect district-level malaria and collected-evidence layers.
+  - **Forecast** — compare one, two and three-month district outlooks.
+  - **Sources** — inspect acquisition routes, languages and runtime states.
+  - **Assistant** — ask questions in English, Hindi or Odia.
+
+  Example questions:
+
+  ```text
   Which Odisha districts have the highest malaria surveillance priority over the next three months?
+  ```
 
-  How are rainfall and temperature affecting malaria risk?
+  ```text
+  How are rainfall and temperature affecting the malaria outlook?
+  ```
 
-  ଓଡ଼ିଶାର କେଉଁ ଜିଲ୍ଲାରେ ମ୍ୟାଲେରିଆ ନିରୀକ୍ଷଣ ପ୍ରାଥମିକତା ଅଧିକ?
+  ```
 
+  ```text
   अगले तीन महीनों में ओडिशा के किन जिलों में मलेरिया निगरानी की प्राथमिकता अधिक है?
+  ```
+
+  ## Verification
+
+  Run the automated validation suite with:
+
+  ```bash
+  make verify
+  ```
+
+  The verification pipeline covers ingestion, OCR integration, trilingual extraction, geographic resolution, forecasting, API behaviour, workflow
+  transitions and frontend compilation.
 
   ## Live evaluation
 
-  The complete hosted stack runs through GitHub Codespaces and requires approximately 10–15 minutes to activate its crawler, models, database and public
-  endpoint.
+  The complete hosted stack runs through GitHub Codespaces. Activating its crawler, database, local language models and public endpoint requires
+  approximately 10–15 minutes.
 
-  Please contact me before evaluating the live deployment. I will activate the Codespace and provide the working public link directly.
+  **Please contact me before evaluating the live deployment. I will activate the Codespace and provide the working public link directly.**

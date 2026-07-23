@@ -22,7 +22,7 @@ def make_client(tmp_path) -> TestClient:
 def assert_envelope(payload: dict) -> None:
     assert payload["schema_version"] == "1.0.0"
     assert payload["request_id"].startswith("req_")
-    assert payload["deployment_profile"] == "hackathon_production_shaped"
+    assert payload["deployment_profile"] == "production_shaped"
     assert payload["context"]["as_of"]["state"] == "value"
     assert isinstance(payload["warnings"], list)
     assert isinstance(payload["deferrals"], list)

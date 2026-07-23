@@ -1,14 +1,3 @@
----
-title: Janaswasthya Odisha
-emoji: 🩺
-colorFrom: green
-colorTo: blue
-sdk: docker
-app_port: 7860
-fullWidth: true
-header: mini
----
-
 # Janaswasthya Odisha
 
 Janaswasthya is a multilingual public-health intelligence system for Odisha. It

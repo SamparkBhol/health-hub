@@ -1,248 +1,148 @@
-# Janaswasthya Odisha
+  # Janaswasthya Odisha
 
-Janaswasthya is a multilingual public-health intelligence system for Odisha. It
-collects health-related information from registered Odia, Hindi and English
-sources, extracts district-level evidence, displays disease-pattern maps and
-serves a one-to-three-month malaria research outlook through a local assistant.
+  Janaswasthya Odisha is an open-source, multilingual public-health intelligence platform built for Odisha. It combines online health-information
+  collection, geographic disease visualisation, environmental analysis, predictive modelling and a grounded AI assistant in one application.
 
-Everything runs with open-source software and public data. Translation,
-retrieval and answer generation run inside the application; no commercial AI
-API is required.
+  The platform addresses three primary objectives:
 
-## What works
+  1. Collect health-related information in Odia, Hindi and English.
+  2. Display district-level disease patterns and heatmaps across Odisha.
+  3. Estimate one-to-three-month malaria surveillance risk using historical and environmental information.
 
-### Multilingual collection
+  ## What it does
 
-The source registry contains 170 acquisition routes across 65 hosts. The live
-path handles HTML, linked documents and scanned PDFs using bounded fetching,
-Poppler and Tesseract OCR (`ori`, `hin`, `eng`). It performs script detection,
-disease/place/assertion extraction, cross-source deduplication and review-state
-assignment.
+  ### Multilingual health intelligence
 
-### District maps
+  The platform maintains 170 acquisition routes across 65 government, health and media hosts. It can process:
 
-The interface keeps unlike measurements in separate layers:
+  - English, Hindi and Odia web pages
+  - Government notices and health bulletins
+  - Linked documents and scanned PDFs
+  - OCR content using English, Hindi and Odia language models
 
-- live published-evidence patterns from the multilingual collector;
-- official NCVBDC annual district malaria observations for 2010–2024;
-- Odisha HMIS district-month malaria indicators for April 2012–March 2020;
-- current rainfall, temperature and environmental context for all 30 districts.
+  Collected information passes through language detection, OCR, translation, disease extraction, assertion classification, district resolution, cross-source
+  deduplication and provenance tracking.
 
-Missing districts remain unknown rather than being converted to zero. District
-geometry is the DataMeet Census 2011 Odisha set under CC BY 2.5 India.
+  ### Disease and environmental maps
 
-### Predictive analysis
+  The interactive dashboard covers all 30 Odisha districts and provides separate layers for:
 
-The public model estimates whether monthly malaria microscopy positivity will
-exceed each district's historical 75th-percentile level over the next one, two
-or three months. It uses recent malaria positivity, calendar season, rainfall
-and temperature outlooks, with the latest official annual malaria burden shown
-as a separate priority rank.
+  - Live health-related evidence collected from online sources
+  - Official historical malaria observations
+  - District-level malaria surveillance indicators
+  - Rainfall, temperature and environmental conditions
+  - One, two and three-month predictive outlooks
 
-The model was evaluated with rolling origins in 2017, 2018 and 2019, seven
-competitors, calibration diagnostics and an environmental-feature ablation.
-The selected ridge model has Brier score `0.06518`, AUC `0.849` and Brier skill
-`+0.425767` against the unconditional constant.
+  Every displayed record retains its source, collection time and evidence status.
 
-The probability describes an elevated HMIS surveillance indicator, not a
-guarantee that a clinically confirmed outbreak will occur.
+  ### Predictive analysis
 
-### Local multilingual assistant
+  The forecasting pipeline combines historical malaria surveillance indicators with seasonality, rainfall and temperature features.
 
-| Function | Runtime |
-|---|---|
-| English ↔ Odia/Hindi translation | IndicTrans2 with CTranslate2 |
-| Cross-language evidence retrieval | multilingual-E5-small ONNX |
-| Grounded evidence answers | Qwen2.5-1.5B-Instruct GGUF with llama.cpp |
-| Scanned document OCR | Tesseract Odia, Hindi and English |
+  Models are evaluated using rolling historical validation, calibration diagnostics, environmental-feature ablation and baseline comparisons. Results are
+  presented as district-level surveillance-priority probabilities rather than unsupported case-count claims.
 
-Official-statistics and forecast questions are answered from validated data
-structures. Free-form evidence questions use retrieval and grounded generation
-and return supporting record identifiers.
+  ### Multilingual AI assistant
 
-## Run the complete system locally
+  The local assistant answers questions about collected evidence, district patterns, environmental conditions and predictive outlooks.
 
-Requirements:
+  It supports English, Hindi and Odia using open-source components for:
 
-- Docker Desktop with Docker Compose v2;
-- approximately 5 GB available RAM;
-- approximately 12 GB free disk;
-- a short Windows path such as `C:\health-hub`.
+  - Indic-language translation
+  - Multilingual semantic retrieval
+  - Grounded answer generation
+  - Source and evidence attribution
 
-In PowerShell, from the extracted project:
+  No commercial AI API is required.
 
-```powershell
-Set-Location C:\Users\skbho\Downloads\health-hub
-Copy-Item .env.example .env -ErrorAction SilentlyContinue
+  ## How it works
 
-docker compose build api
+  ```text
+  Registered sources
+          ↓
+  Crawler and document acquisition
+          ↓
+  OCR, language detection and translation
+          ↓
+  Disease, location and assertion extraction
+          ↓
+  Deduplication, provenance and review workflow
+          ↓
+  District heatmaps and environmental features
+          ↓
+  Predictive models
+          ↓
+  Grounded multilingual assistant
 
-$API_IMAGE = docker compose images -q api
-docker run --rm `
-  -e ODISHA_MODELS_DIR=/app/models `
-  -v "${PWD}/models:/app/models" `
-  --entrypoint python `
-  $API_IMAGE `
-  /app/scripts/fetch_models.py
+  The system uses specialised collection, extraction, verification, geographic, modelling and assistant components coordinated as an agentic workflow.
 
-docker run --rm `
-  -e ODISHA_MODELS_DIR=/app/models `
-  -v "${PWD}/models:/app/models" `
-  --entrypoint python `
-  $API_IMAGE `
-  /app/scripts/fetch_models.py --check
+  ## Technology
 
-docker compose up -d
-docker compose ps
-```
+  - Python, FastAPI and Pydantic
+  - React, TypeScript and Vite
+  - SQLite locally, with PostgreSQL support
+  - Tesseract OCR and Poppler
+  - IndicTrans2
+  - Multilingual-E5 retrieval
+  - Qwen local language model
+  - Scikit-learn and gradient-boosted models
+  - Docker and Docker Compose
 
-Wait until `api` shows `healthy`, then open:
+  ## Run locally
 
-```powershell
-Start-Process http://localhost:5173
-```
+  Requirements:
 
-Useful local endpoints:
+  - Docker Desktop
+  - At least 8 GB RAM
+  - Approximately 15–20 GB of free disk space
 
-- interface: <http://localhost:5173>
-- API readiness: <http://localhost:8000/api/v1/readyz>
-- interactive API: <http://localhost:8000/docs>
-- collection state: <http://localhost:8000/api/v1/collector/status>
+  Download and extract the ZIP, or clone the repository:
 
-Stop without deleting downloaded models:
+  git clone https://github.com/SamparkBhol/health-hub.git
+  cd health-hub
 
-```powershell
-docker compose down
-```
+  Build the application:
 
-## Free public deployment from GitHub
+  docker compose build api
 
-The complete stack uses about 4.3 GB RAM when crawling, translating, retrieving
-and generating together. It is packaged as one Hugging Face Docker Space:
-FastAPI, the React interface, continuous collection, environmental refresh,
-IndicTrans2, multilingual-E5 and Qwen all run in the same free CPU container.
+  Download the open-source language and assistant models:
 
-### 1. Push this repository
+  docker compose --profile setup run --rm model-init
 
-```powershell
-Set-Location C:\Users\skbho\Downloads\health-hub
-git init
-git add .
-git commit -m "Initial Janaswasthya release"
-git branch -M main
-git remote add origin https://github.com/SamparkBhol/health-hub.git
-git push -u origin main
-```
+  Start the complete platform:
 
-### 2. Create the free Space
+  docker compose up -d
 
-1. Sign in at <https://huggingface.co/join>.
-2. Open <https://huggingface.co/new-space>.
-3. Enter `health-hub` as the Space name.
-4. Choose a public Space.
-5. Select **Docker** as the SDK.
-6. Select the free **CPU Basic** hardware.
-7. Create the Space.
+  Wait until the API becomes healthy:
 
-No model-provider API key is required by the application.
+  docker compose ps
 
-### 3. Connect GitHub to the Space
+  Then open:
 
-1. In Hugging Face, open **Settings → Access Tokens → New token**.
-2. Create a fine-grained write token scoped to the `health-hub` Space.
-3. In GitHub, open `SamparkBhol/health-hub`.
-4. Open **Settings → Secrets and variables → Actions → Secrets**.
-5. Add a repository secret named `HF_TOKEN`; paste the Hugging Face token.
-6. Open the **Variables** tab on the same page.
-7. Add `HF_SPACE_ID` with value `YOUR_HF_USERNAME/health-hub`.
-8. Open GitHub **Actions → sync hugging face space**.
-9. Select **Run workflow → Run workflow**.
+  http://localhost:5173
 
-GitHub uploads the source to the Space. Hugging Face then builds the Docker
-image, downloads the four public model packages into the image and starts the
-application. The first build is large and can take 20–45 minutes. Follow the
-Space's **Building** log until its status becomes **Running**.
+  Stop the platform with:
 
-The public URL is displayed on the Space page and normally has this form:
+  docker compose down
 
-```text
-https://YOUR_HF_USERNAME-health-hub.hf.space
-```
+  ## Suggested evaluation
 
-Every later push to GitHub `main` automatically synchronises and rebuilds the
-Space.
+  - Open Disease Map to inspect district-level disease patterns.
+  - Open Forecast to compare one, two and three-month outlooks.
+  - Open Sources to inspect multilingual acquisition routes and evidence.
+  - Ask the assistant:
 
-Free CPU Spaces sleep after inactivity. Visiting the URL wakes the same
-application again. Runtime crawler records are ephemeral on the free disk and
-are reacquired after a restart; the official maps, trained model and model
-weights are built into the image.
+  Which Odisha districts have the highest malaria surveillance priority over the next three months?
 
-## Questions that exercise the complete system
+  How are rainfall and temperature affecting malaria risk?
 
-Ask these in the **Assistant** tab:
+  ଓଡ଼ିଶାର କେଉଁ ଜିଲ୍ଲାରେ ମ୍ୟାଲେରିଆ ନିରୀକ୍ଷଣ ପ୍ରାଥମିକତା ଅଧିକ?
 
-```text
-Which district had more malaria cases in 2024, Koraput or Malkangiri?
-```
+  अगले तीन महीनों में ओडिशा के किन जिलों में मलेरिया निगरानी की प्राथमिकता अधिक है?
 
-```text
-Show me the malaria heatmap across Odisha.
-```
+  ## Live evaluation
 
-```text
-Predict malaria risk in Kandhamal for the next 3 months.
-```
+  The complete hosted stack runs through GitHub Codespaces and requires approximately 10–15 minutes to activate its crawler, models, database and public
+  endpoint.
 
-```text
-Which districts have the highest likelihood of an elevated malaria indicator next month?
-```
-
-```text
-Which districts have published dengue evidence, and from which sources?
-```
-
-```text
-Show dengue evidence for Khordha and cite the supporting records.
-```
-
-```text
-ଗଞ୍ଜାମରେ ଡେଙ୍ଗୁ ସତର୍କ ସଙ୍କେତ ଦେଖାନ୍ତୁ।
-```
-
-```text
-खुर्दा जिले में डेंगू के बारे में कौन से रिकॉर्ड प्रकाशित हुए हैं?
-```
-
-```text
-ଖୋର୍ଦ୍ଧାରେ ମ୍ୟାଲେରିଆ ସମ୍ଭାବନା ଆଗାମୀ ୩ ମାସରେ କେତେ?
-```
-
-```text
-Can the EpiClim historical data train an Odisha outbreak forecast?
-```
-
-## Main API routes
-
-| Route | Purpose |
-|---|---|
-| `GET /api/v1/sources` | Source registry and acquisition state |
-| `GET /api/v1/maps/published-signals` | Live evidence-pattern map |
-| `GET /api/v1/public-health/malaria/map` | Official annual malaria map |
-| `GET /api/v1/public-health/hmis/map` | Historical HMIS indicator map |
-| `GET /api/v1/environment/current/map` | Current environmental map |
-| `GET /api/v1/outlook/public/map` | One-to-three-month malaria outlook |
-| `GET /api/v1/outlook/public/evaluation` | Backtest and ablation evidence |
-| `POST /api/v1/translate` | Odia/Hindi/English translation |
-| `POST /api/v1/agent/query` | Grounded assistant |
-
-## Engineering verification
-
-```bash
-uv sync --all-groups --all-extras
-npm --prefix apps/web ci
-make verify
-```
-
-Source policies and attribution are recorded in [SOURCES.md](SOURCES.md),
-[NOTICE.md](NOTICE.md) and the executable source registry. The software is
-licensed under Apache-2.0.
+  Please contact me before evaluating the live deployment. I will activate the Codespace and provide the working public link directly.

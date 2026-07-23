@@ -7,7 +7,7 @@ https://turbo-space-enigma-jj59vx6r65xj3prwj-7860.app.github.dev/  , for github 
 
   ## Core capabilities
 
-  ### 1. Multilingual health-information collection
+  ### 1. Multilingual health information collection
 
   The source registry contains 170 acquisition routes across government, public-health and media websites.
 

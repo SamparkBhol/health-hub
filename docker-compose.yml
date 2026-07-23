@@ -8,7 +8,9 @@ services:
       DEMO_API_TOKEN: local-demo-only
       COLLECTOR_API_TOKEN: local-collector-only
       DEPLOYMENT_PROFILE: production_shaped
-      AUTO_REPLAY_FIXTURES: "true"
+      AUTO_REPLAY_FIXTURES: "false"
+      LIVE_COLLECTION_ENABLED: "true"
+      ENABLE_IN_PROCESS_SCHEDULER: "true"
       PUBLIC_WRITE_ENABLED: "true"
       WEB_APP_URL: http://localhost:5173
     volumes:

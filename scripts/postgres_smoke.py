@@ -19,6 +19,7 @@ from typing import Any
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
 from services.api.database import Database
+from workers.ingestion.registry import load_registry
 
 
 def require(condition: bool, message: str) -> None:
@@ -44,10 +45,18 @@ def main() -> None:
         require(database.ready(), "PostgreSQL readiness query failed")
 
         sources = database.list_sources()
-        require(len(sources) == 12, f"expected 12 registered sources, found {len(sources)}")
+        registry = load_registry()
+        expected_source_count = len(registry.sources)
+        expected_enabled_count = sum(bool(source.enabled) for source in registry.sources)
+        require(
+            len(sources) == expected_source_count,
+            f"expected {expected_source_count} registered sources, found {len(sources)}",
+        )
         enabled_count = sum(bool(row["enabled"]) for row in sources)
-        require(enabled_count == 5, f"expected 5 enabled sources, found {enabled_count}")
-
+        require(
+            enabled_count == expected_enabled_count,
+            f"expected {expected_enabled_count} enabled sources, found {enabled_count}",
+        )
         database.replay_demo_fixtures()
         replay = database.replay_demo_fixtures()
         require(replay["created_signals"] == 0, "fixture replay is not signal-idempotent")

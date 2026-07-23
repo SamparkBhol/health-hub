@@ -235,4 +235,4 @@
   The complete hosted stack runs through GitHub Codespaces. Activating its crawler, database, local language models and public endpoint requires
   approximately 10–15 minutes.
 
-  **Please contact me before evaluating the live deployment. I will activate the Codespace and provide the working public link directly.**
+  **Please contact me before evaluating the live deployment. I will activate the Codespace and provide the working public link directly as it has many things that cant be deployed for free**

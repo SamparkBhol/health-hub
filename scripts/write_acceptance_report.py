@@ -134,9 +134,9 @@ def main() -> None:
         "synthetic_watermark": (
             forecast["watermark"] == "SIMULATION_ONLY_NOT_ODISHA_RISK"
         ),
-        "real_odisha_prediction_absent": (
-            forecast["real_odisha_prediction_available"] is False
-        ),
+      "synthetic_harness_excludes_real_odisha_prediction": (
+          forecast["real_odisha_prediction_available"] is False
+       ),
         "synthetic_payload_flag": forecast["is_synthetic"] is True,
         "official_malaria_panel": len(ncvbdc_rows) == 450
         and len(

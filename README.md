@@ -209,15 +209,9 @@
 
   ```text
   Which Odisha districts have the highest malaria surveillance priority over the next three months?
-  ```
-
-  ```text
+  
   How are rainfall and temperature affecting the malaria outlook?
-  ```
 
-  ```
-
-  ```text
   अगले तीन महीनों में ओडिशा के किन जिलों में मलेरिया निगरानी की प्राथमिकता अधिक है?
   ```
 

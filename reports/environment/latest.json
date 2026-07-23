@@ -1,0 +1,318 @@
+{
+  "captured_live": true,
+  "chirps": [
+    {
+      "archive_started_no_history_before": null,
+      "metadata": {
+        "direct_data_host_automation": false,
+        "final_must_not_replace_preliminary_vintage": true,
+        "robots_checked_at": "2026-07-21"
+      },
+      "observed_at": "2026-07-21T15:07:05.253160Z",
+      "product": "CHIRPS 2.0 preliminary",
+      "provider": "UCSB Climate Hazards Center",
+      "reason": "The selected data host robots.txt was observed as Disallow: / on 2026-07-21. No automated fetch occurs until a provider-approved API, written permission, or a newly reviewed policy permits it.",
+      "request_id": null,
+      "state": "awaiting_source_permission_or_approved_api"
+    },
+    {
+      "archive_started_no_history_before": null,
+      "metadata": {
+        "direct_data_host_automation": false,
+        "final_must_not_replace_preliminary_vintage": true,
+        "robots_checked_at": "2026-07-21"
+      },
+      "observed_at": "2026-07-21T15:07:05.253160Z",
+      "product": "CHIRPS 3.0 preliminary",
+      "provider": "UCSB Climate Hazards Center",
+      "reason": "The selected data host robots.txt was observed as Disallow: / on 2026-07-21. No automated fetch occurs until a provider-approved API, written permission, or a newly reviewed policy permits it.",
+      "request_id": null,
+      "state": "awaiting_source_permission_or_approved_api"
+    }
+  ],
+  "era5_land_t": {
+    "archive_started_no_history_before": null,
+    "metadata": {
+      "archive_start_only_after_validated_capture": true,
+      "near_real_time_is_later_overwritten": true
+    },
+    "observed_at": "2026-07-21T15:07:05.253160Z",
+    "product": "ERA5-Land-T",
+    "provider": "ECMWF Copernicus Climate Data Store",
+    "reason": "CDS credentials are not configured; no request was submitted.",
+    "request_id": null,
+    "state": "credentials_required"
+  },
+  "generated_at": "2026-07-21T15:07:05.253160Z",
+  "nasa_power": {
+    "api_version": "v2.9.4",
+    "byte_length": 1377,
+    "end": "2026-07-19",
+    "final_url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=PRECTOTCORR%2CT2M%2CT2M_MAX%2CT2M_MIN%2CRH2M&community=AG&longitude=85.820000&latitude=20.300000&start=20260713&end=20260719&format=JSON&time-standard=UTC",
+    "latitude": 20.3,
+    "longitude": 85.82,
+    "product": "daily_point_v2",
+    "provider": "NASA POWER",
+    "requested_url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=PRECTOTCORR%2CT2M%2CT2M_MAX%2CT2M_MIN%2CRH2M&community=AG&longitude=85.820000&latitude=20.300000&start=20260713&end=20260719&format=JSON&time-standard=UTC",
+    "retrieved_at": "2026-07-21T15:07:05.252913Z",
+    "sha256": "d5f1b3275ac07e2ec26f7e399fe8ea65f8a609b5506d07e7048d79ece3b5ee31",
+    "source_snapshot_id": "nasa_power_20260721T150705Z_d5f1b3275ac0",
+    "start": "2026-07-13",
+    "state": "retrieved_and_validated",
+    "time_standard": "UTC",
+    "values": [
+      {
+        "day": "2026-07-13",
+        "is_fill_value": false,
+        "parameter": "PRECTOTCORR",
+        "unit": "mm/day",
+        "value": 10.79
+      },
+      {
+        "day": "2026-07-13",
+        "is_fill_value": false,
+        "parameter": "RH2M",
+        "unit": "%",
+        "value": 83.77
+      },
+      {
+        "day": "2026-07-13",
+        "is_fill_value": false,
+        "parameter": "T2M",
+        "unit": "C",
+        "value": 29.29
+      },
+      {
+        "day": "2026-07-13",
+        "is_fill_value": false,
+        "parameter": "T2M_MAX",
+        "unit": "C",
+        "value": 32.9
+      },
+      {
+        "day": "2026-07-13",
+        "is_fill_value": false,
+        "parameter": "T2M_MIN",
+        "unit": "C",
+        "value": 26.58
+      },
+      {
+        "day": "2026-07-14",
+        "is_fill_value": false,
+        "parameter": "PRECTOTCORR",
+        "unit": "mm/day",
+        "value": 11.19
+      },
+      {
+        "day": "2026-07-14",
+        "is_fill_value": false,
+        "parameter": "RH2M",
+        "unit": "%",
+        "value": 90.73
+      },
+      {
+        "day": "2026-07-14",
+        "is_fill_value": false,
+        "parameter": "T2M",
+        "unit": "C",
+        "value": 27.72
+      },
+      {
+        "day": "2026-07-14",
+        "is_fill_value": false,
+        "parameter": "T2M_MAX",
+        "unit": "C",
+        "value": 29.54
+      },
+      {
+        "day": "2026-07-14",
+        "is_fill_value": false,
+        "parameter": "T2M_MIN",
+        "unit": "C",
+        "value": 26.28
+      },
+      {
+        "day": "2026-07-15",
+        "is_fill_value": false,
+        "parameter": "PRECTOTCORR",
+        "unit": "mm/day",
+        "value": 39.9
+      },
+      {
+        "day": "2026-07-15",
+        "is_fill_value": false,
+        "parameter": "RH2M",
+        "unit": "%",
+        "value": 87.08
+      },
+      {
+        "day": "2026-07-15",
+        "is_fill_value": false,
+        "parameter": "T2M",
+        "unit": "C",
+        "value": 27.92
+      },
+      {
+        "day": "2026-07-15",
+        "is_fill_value": false,
+        "parameter": "T2M_MAX",
+        "unit": "C",
+        "value": 31.0
+      },
+      {
+        "day": "2026-07-15",
+        "is_fill_value": false,
+        "parameter": "T2M_MIN",
+        "unit": "C",
+        "value": 25.22
+      },
+      {
+        "day": "2026-07-16",
+        "is_fill_value": false,
+        "parameter": "PRECTOTCORR",
+        "unit": "mm/day",
+        "value": 11.66
+      },
+      {
+        "day": "2026-07-16",
+        "is_fill_value": false,
+        "parameter": "RH2M",
+        "unit": "%",
+        "value": 91.82
+      },
+      {
+        "day": "2026-07-16",
+        "is_fill_value": false,
+        "parameter": "T2M",
+        "unit": "C",
+        "value": 26.83
+      },
+      {
+        "day": "2026-07-16",
+        "is_fill_value": false,
+        "parameter": "T2M_MAX",
+        "unit": "C",
+        "value": 29.45
+      },
+      {
+        "day": "2026-07-16",
+        "is_fill_value": false,
+        "parameter": "T2M_MIN",
+        "unit": "C",
+        "value": 25.27
+      },
+      {
+        "day": "2026-07-17",
+        "is_fill_value": false,
+        "parameter": "PRECTOTCORR",
+        "unit": "mm/day",
+        "value": 8.12
+      },
+      {
+        "day": "2026-07-17",
+        "is_fill_value": false,
+        "parameter": "RH2M",
+        "unit": "%",
+        "value": 89.66
+      },
+      {
+        "day": "2026-07-17",
+        "is_fill_value": false,
+        "parameter": "T2M",
+        "unit": "C",
+        "value": 27.52
+      },
+      {
+        "day": "2026-07-17",
+        "is_fill_value": false,
+        "parameter": "T2M_MAX",
+        "unit": "C",
+        "value": 30.42
+      },
+      {
+        "day": "2026-07-17",
+        "is_fill_value": false,
+        "parameter": "T2M_MIN",
+        "unit": "C",
+        "value": 25.39
+      },
+      {
+        "day": "2026-07-18",
+        "is_fill_value": false,
+        "parameter": "PRECTOTCORR",
+        "unit": "mm/day",
+        "value": 2.78
+      },
+      {
+        "day": "2026-07-18",
+        "is_fill_value": false,
+        "parameter": "RH2M",
+        "unit": "%",
+        "value": 87.65
+      },
+      {
+        "day": "2026-07-18",
+        "is_fill_value": false,
+        "parameter": "T2M",
+        "unit": "C",
+        "value": 27.56
+      },
+      {
+        "day": "2026-07-18",
+        "is_fill_value": false,
+        "parameter": "T2M_MAX",
+        "unit": "C",
+        "value": 29.98
+      },
+      {
+        "day": "2026-07-18",
+        "is_fill_value": false,
+        "parameter": "T2M_MIN",
+        "unit": "C",
+        "value": 25.31
+      },
+      {
+        "day": "2026-07-19",
+        "is_fill_value": false,
+        "parameter": "PRECTOTCORR",
+        "unit": "mm/day",
+        "value": 11.86
+      },
+      {
+        "day": "2026-07-19",
+        "is_fill_value": false,
+        "parameter": "RH2M",
+        "unit": "%",
+        "value": 85.9
+      },
+      {
+        "day": "2026-07-19",
+        "is_fill_value": false,
+        "parameter": "T2M",
+        "unit": "C",
+        "value": 28.32
+      },
+      {
+        "day": "2026-07-19",
+        "is_fill_value": false,
+        "parameter": "T2M_MAX",
+        "unit": "C",
+        "value": 32.24
+      },
+      {
+        "day": "2026-07-19",
+        "is_fill_value": false,
+        "parameter": "T2M_MIN",
+        "unit": "C",
+        "value": 25.52
+      }
+    ],
+    "warnings": [
+      "coarse_grid_environmental_context_not_district_incidence",
+      "fixed_demo_point_is_not_an_authoritative_district_centroid"
+    ]
+  },
+  "provider_error": null,
+  "schema_version": "1.0.0",
+  "warning": "NASA POWER is coarse environmental context, not disease surveillance."
+}

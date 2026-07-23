@@ -1,0 +1,1483 @@
+{
+  "schema_version": "1.0.0",
+  "generated_at": "2026-07-22T09:21:05.242761Z",
+  "provider": "Open-Meteo seasonal API",
+  "underlying_models": "ECMWF EC46 for the first 46 days, then ECMWF SEAS5",
+  "model": "ecmwf_seasonal_seamless",
+  "ensemble_members": 51,
+  "spatial_resolution": "approximately 36 km; representative point, not district average",
+  "bias_correction": "none",
+  "license": "ECMWF/Open-Meteo attribution applies; see SOURCES.md",
+  "districts": [
+    {
+      "district_id": "OD-DIST-angul",
+      "district_name": "Angul",
+      "requested_latitude": 20.986366,
+      "requested_longitude": 84.908959,
+      "grid_latitude": 20.936768,
+      "grid_longitude": 84.96001,
+      "model": "ecmwf_seasonal_seamless",
+      "source_url": "https://seasonal-api.open-meteo.com/v1/seasonal?latitude=20.986366&longitude=84.908959&daily=temperature_2m_mean%2Cprecipitation_sum&models=ecmwf_seasonal_seamless&forecast_days=120&timezone=Asia%2FKolkata",
+      "source_sha256": "de03d3056f02b7a804fd46ba08a024cd65910ed514656a7eac32d7d104cd9107",
+      "windows": [
+        {
+          "horizon_month": 1,
+          "start_date": "2026-07-22",
+          "end_date": "2026-08-20",
+          "ensemble_size": 51,
+          "precipitation_mean_mm": 317.465,
+          "precipitation_p10_mm": 204.9,
+          "precipitation_p90_mm": 479.3,
+          "temperature_mean_c": 27.147,
+          "temperature_p10_c": 26.77,
+          "temperature_p90_c": 27.537
+        },
+        {
+          "horizon_month": 2,
+          "start_date": "2026-08-21",
+          "end_date": "2026-09-19",
+          "ensemble_size": 51,
+          "precipitation_mean_mm": 228.629,
+          "precipitation_p10_mm": 141.68,
+          "precipitation_p90_mm": 360.58,
+          "temperature_mean_c": 27.631,
+          "temperature_p10_c": 27.307,
+          "temperature_p90_c": 27.937
+        },
+        {
+          "horizon_month": 3,
+          "start_date": "2026-09-20",
+          "end_date": "2026-10-19",
+          "ensemble_size": 51,
+          "precipitation_mean_mm": 88.155,
+          "precipitation_p10_mm": 37.3,
+          "precipitation_p90_mm": 147.9,
+          "temperature_mean_c": 27.188,
+          "temperature_p10_c": 26.697,
+          "temperature_p90_c": 27.71
+        }
+      ]
+    },
+    {
+      "district_id": "OD-DIST-balangir",
+      "district_name": "Balangir",
+      "requested_latitude": 20.590462,
+      "requested_longitude": 83.173883,
+      "grid_latitude": 20.655737,
+      "grid_longitude": 83.187256,
+      "model": "ecmwf_seasonal_seamless",
+      "source_url": "https://seasonal-api.open-meteo.com/v1/seasonal?latitude=20.590462&longitude=83.173883&daily=temperature_2m_mean%2Cprecipitation_sum&models=ecmwf_seasonal_seamless&forecast_days=120&timezone=Asia%2FKolkata",
+      "source_sha256": "a555d7b224130e209b22ab58cef3cff380a34d8a72fd712765ea0b0fad20bec7",
+      "windows": [
+        {
+          "horizon_month": 1,
+          "start_date": "2026-07-22",
+          "end_date": "2026-08-20",
+          "ensemble_size": 51,
+          "precipitation_mean_mm": 382.208,
+          "precipitation_p10_mm": 222.6,
+          "precipitation_p90_mm": 578.9,
+          "temperature_mean_c": 26.436,
+          "temperature_p10_c": 26.03,
+          "temperature_p90_c": 26.857
+        },
+        {
+          "horizon_month": 2,
+          "start_date": "2026-08-21",
+          "end_date": "2026-09-19",
+          "ensemble_size": 51,
+          "precipitation_mean_mm": 240.554,
+          "precipitation_p10_mm": 145.88,
+          "precipitation_p90_mm": 354.11,
+          "temperature_mean_c": 26.819,
+          "temperature_p10_c": 26.47,
+          "temperature_p90_c": 27.193
+        },
+        {
+          "horizon_month": 3,
+          "start_date": "2026-09-20",
+          "end_date": "2026-10-19",
+          "ensemble_size": 51,
+          "precipitation_mean_mm": 55.149,
+          "precipitation_p10_mm": 8.4,
+          "precipitation_p90_mm": 108.9,
+          "temperature_mean_c": 26.47,
+          "temperature_p10_c": 25.88,
+          "temperature_p90_c": 26.973
+        }
+      ]
+    },
+    {
+      "district_id": "OD-DIST-balasore",
+      "district_name": "Balasore",
+      "requested_latitude": 21.491486,
+      "requested_longitude": 86.916988,
+      "grid_latitude": 21.498829,
+      "grid_longitude": 86.73387,
+      "model": "ecmwf_seasonal_seamless",
+      "source_url": "https://seasonal-api.open-meteo.com/v1/seasonal?latitude=21.491486&longitude=86.916988&daily=temperature_2m_mean%2Cprecipitation_sum&models=ecmwf_seasonal_seamless&forecast_days=120&timezone=Asia%2FKolkata",
+      "source_sha256": "95163399a6da6d00332769873d34297020b51501baf3909722a22b7c429eb663",
+      "windows": [
+        {
+          "horizon_month": 1,
+          "start_date": "2026-07-22",
+          "end_date": "2026-08-20",
+          "ensemble_size": 51,
+          "precipitation_mean_mm": 402.743,
+          "precipitation_p10_mm": 281.3,
+          "precipitation_p90_mm": 487.8,
+          "temperature_mean_c": 27.917,
+          "temperature_p10_c": 27.603,
+          "temperature_p90_c": 28.24
+        },
+        {
+          "horizon_month": 2,
+          "start_date": "2026-08-21",
+          "end_date": "2026-09-19",
+          "ensemble_size": 51,
+          "precipitation_mean_mm": 263.054,
+          "precipitation_p10_mm": 170.48,
+          "precipitation_p90_mm": 352.03,
+          "temperature_mean_c": 28.474,
+          "temperature_p10_c": 28.047,
+          "temperature_p90_c": 28.897
+        },
+        {
+          "horizon_month": 3,
+          "start_date": "2026-09-20",
+          "end_date": "2026-10-19",
+          "ensemble_size": 51,
+          "precipitation_mean_mm": 148.157,
+          "precipitation_p10_mm": 61.8,
+          "precipitation_p90_mm": 256.0,
+          "temperature_mean_c": 27.753,
+          "temperature_p10_c": 27.1,
+          "temperature_p90_c": 28.323
+        }
+      ]
+    },
+    {
+      "district_id": "OD-DIST-bargarh",
+      "district_name": "Bargarh",
+      "requested_latitude": 21.220225,
+      "requested_longitude": 83.353441,
+      "grid_latitude": 21.217798,
+      "grid_longitude": 83.49397,
+      "model": "ecmwf_seasonal_seamless",
+      "source_url": "https://seasonal-api.open-meteo.com/v1/seasonal?latitude=21.220225&longitude=83.353441&daily=temperature_2m_mean%2Cprecipitation_sum&models=ecmwf_seasonal_seamless&forecast_days=120&timezone=Asia%2FKolkata",
+      "source_sha256": "2a4e4386236d17da5ddc10b6f120f3bbfcf38c1f4cf0a8816f6785a8ccedad21",
+      "windows": [
+        {
+          "horizon_month": 1,
+          "start_date": "2026-07-22",
+          "end_date": "2026-08-20",
+          "ensemble_size": 51,
+          "precipitation_mean_mm": 404.424,
+          "precipitation_p10_mm": 260.4,
+          "precipitation_p90_mm": 572.9,
+          "temperature_mean_c": 27.47,
+          "temperature_p10_c": 27.043,
+          "temperature_p90_c": 27.913
+        },
+        {
+          "horizon_month": 2,
+          "start_date": "2026-08-21",
+          "end_date": "2026-09-19",
+          "ensemble_size": 51,
+          "precipitation_mean_mm": 254.699,
+          "precipitation_p10_mm": 176.3,
+          "precipitation_p90_mm": 388.85,
+          "temperature_mean_c": 27.94,
+          "temperature_p10_c": 27.61,
+          "temperature_p90_c": 28.26
+        },
+        {
+          "horizon_month": 3,
+          "start_date": "2026-09-20",
+          "end_date": "2026-10-19",
+          "ensemble_size": 51,
+          "precipitation_mean_mm": 60.802,
+          "precipitation_p10_mm": 12.0,
+          "precipitation_p90_mm": 125.9,
+          "temperature_mean_c": 27.809,
+          "temperature_p10_c": 27.137,
+          "temperature_p90_c": 28.457
+        }
+      ]
+    },
+    {
+      "district_id": "OD-DIST-bhadrak",
+      "district_name": "Bhadrak",
+      "requested_latitude": 20.985859,
+      "requested_longitude": 86.625402,
+      "grid_latitude": 20.936768,
+      "grid_longitude": 86.76,
+      "model": "ecmwf_seasonal_seamless",
+      "source_url": "https://seasonal-api.open-meteo.com/v1/seasonal?latitude=20.985859&longitude=86.625402&daily=temperature_2m_mean%2Cprecipitation_sum&models=ecmwf_seasonal_seamless&forecast_days=120&timezone=Asia%2FKolkata",
+      "source_sha256": "a377a8eaefba8d7407f5dc1a8922c222bdf2fe1fb6fa260ef4e8a58e62452ffd",
+      "windows": [
+        {
+          "horizon_month": 1,
+          "start_date": "2026-07-22",
+          "end_date": "2026-08-20",
+          "ensemble_size": 51,
+          "precipitation_mean_mm": 314.702,
+          "precipitation_p10_mm": 211.8,
+          "precipitation_p90_mm": 425.5,
+          "temperature_mean_c": 28.571,
+          "temperature_p10_c": 28.193,
+          "temperature_p90_c": 28.94
+        },
+        {
+          "horizon_month": 2,
+          "start_date": "2026-08-21",
+          "end_date": "2026-09-19",
+          "ensemble_size": 51,
+          "precipitation_mean_mm": 208.683,
+          "precipitation_p10_mm": 119.13,
+          "precipitation_p90_mm": 315.53,
+          "temperature_mean_c": 29.088,
+          "temperature_p10_c": 28.683,
+          "temperature_p90_c": 29.523
+        },
+        {
+          "horizon_month": 3,
+          "start_date": "2026-09-20",
+          "end_date": "2026-10-19",
+          "ensemble_size": 51,
+          "precipitation_mean_mm": 107.355,
+          "precipitation_p10_mm": 41.8,
+          "precipitation_p90_mm": 203.6,
+          "temperature_mean_c": 28.633,
+          "temperature_p10_c": 27.973,
+          "temperature_p90_c": 29.423
+        }
+      ]
+    },
+    {
+      "district_id": "OD-DIST-boudh",
+      "district_name": "Boudh",
+      "requested_latitude": 20.646815,
+      "requested_longitude": 84.177645,
+      "grid_latitude": 20.655737,
+      "grid_longitude": 84.26295,
+      "model": "ecmwf_seasonal_seamless",
+      "source_url": "https://seasonal-api.open-meteo.com/v1/seasonal?latitude=20.646815&longitude=84.177645&daily=temperature_2m_mean%2Cprecipitation_sum&models=ecmwf_seasonal_seamless&forecast_days=120&timezone=Asia%2FKolkata",
+      "source_sha256": "38a815ff304c5f3c0f9ff9badfa60a859b70e2217af41264fec341248f44b790",
+      "windows": [
+        {
+          "horizon_month": 1,
+          "start_date": "2026-07-22",
+          "end_date": "2026-08-20",
+          "ensemble_size": 51,
+          "precipitation_mean_mm": 327.333,
+          "precipitation_p10_mm": 206.7,
+          "precipitation_p90_mm": 468.6,
+          "temperature_mean_c": 25.936,
+          "temperature_p10_c": 25.523,
+          "temperature_p90_c": 26.36
+        },
+        {
+          "horizon_month": 2,
+          "start_date": "2026-08-21",
+          "end_date": "2026-09-19",
+          "ensemble_size": 51,
+          "precipitation_mean_mm": 236.818,
+          "precipitation_p10_mm": 138.85,
+          "precipitation_p90_mm": 350.16,
+          "temperature_mean_c": 26.452,
+          "temperature_p10_c": 26.15,
+          "temperature_p90_c": 26.733
+        },
+        {
+          "horizon_month": 3,
+          "start_date": "2026-09-20",
+          "end_date": "2026-10-19",
+          "ensemble_size": 51,
+          "precipitation_mean_mm": 75.62,
+          "precipitation_p10_mm": 31.9,
+          "precipitation_p90_mm": 132.8,
+          "temperature_mean_c": 26.021,
+          "temperature_p10_c": 25.413,
+          "temperature_p90_c": 26.517
+        }
+      ]
+    },
+    {
+      "district_id": "OD-DIST-cuttack",
+      "district_name": "Cuttack",
+      "requested_latitude": 20.450428,
+      "requested_longitude": 85.704454,
+      "grid_latitude": 20.374706,
+      "grid_longitude": 85.71429,
+      "model": "ecmwf_seasonal_seamless",
+      "source_url": "https://seasonal-api.open-meteo.com/v1/seasonal?latitude=20.450428&longitude=85.704454&daily=temperature_2m_mean%2Cprecipitation_sum&models=ecmwf_seasonal_seamless&forecast_days=120&timezone=Asia%2FKolkata",
+      "source_sha256": "41a7649a4e75e95f5524a938037044a3c08d855b71ab0f3274ad03b4709c537e",
+      "windows": [
+        {
+          "horizon_month": 1,
+          "start_date": "2026-07-22",
+          "end_date": "2026-08-20",
+          "ensemble_size": 51,
+          "precipitation_mean_mm": 386.98,
+          "precipitation_p10_mm": 261.0,
+          "precipitation_p90_mm": 522.4,
+          "temperature_mean_c": 27.562,
+          "temperature_p10_c": 27.143,
+          "temperature_p90_c": 27.993
+        },
+        {
+          "horizon_month": 2,
+          "start_date": "2026-08-21",
+          "end_date": "2026-09-19",
+          "ensemble_size": 51,
+          "precipitation_mean_mm": 268.734,
+          "precipitation_p10_mm": 166.58,
+          "precipitation_p90_mm": 391.08,
+          "temperature_mean_c": 28.191,
+          "temperature_p10_c": 27.78,
+          "temperature_p90_c": 28.617
+        },
+        {
+          "horizon_month": 3,
+          "start_date": "2026-09-20",
+          "end_date": "2026-10-19",
+          "ensemble_size": 51,
+          "precipitation_mean_mm": 124.118,
+          "precipitation_p10_mm": 52.7,
+          "precipitation_p90_mm": 181.8,
+          "temperature_mean_c": 27.63,
+          "temperature_p10_c": 27.12,
+          "temperature_p90_c": 28.127
+        }
+      ]
+    },
+    {
+      "district_id": "OD-DIST-deogarh",
+      "district_name": "Deogarh",
+      "requested_latitude": 21.465867,
+      "requested_longitude": 84.803732,
+      "grid_latitude": 21.498829,
+      "grid_longitude": 84.91936,
+      "model": "ecmwf_seasonal_seamless",
+      "source_url": "https://seasonal-api.open-meteo.com/v1/seasonal?latitude=21.465867&longitude=84.803732&daily=temperature_2m_mean%2Cprecipitation_sum&models=ecmwf_seasonal_seamless&forecast_days=120&timezone=Asia%2FKolkata",
+      "source_sha256": "b637bdcea073cfb022f5a1713b3980311717b862f2e1a08fc57e2ea638a3e5fd",
+      "windows": [
+        {
+          "horizon_month": 1,
+          "start_date": "2026-07-22",
+          "end_date": "2026-08-20",
+          "ensemble_size": 51,
+          "precipitation_mean_mm": 418.971,
+          "precipitation_p10_mm": 316.1,
+          "precipitation_p90_mm": 543.9,
+          "temperature_mean_c": 27.277,
+          "temperature_p10_c": 26.933,
+          "temperature_p90_c": 27.677
+        },
+        {
+          "horizon_month": 2,
+          "start_date": "2026-08-21",
+          "end_date": "2026-09-19",
+          "ensemble_size": 51,
+          "precipitation_mean_mm": 269.743,
+          "precipitation_p10_mm": 171.33,
+          "precipitation_p90_mm": 382.31,
+          "temperature_mean_c": 27.941,
+          "temperature_p10_c": 27.653,
+          "temperature_p90_c": 28.31
+        },
+        {
+          "horizon_month": 3,
+          "start_date": "2026-09-20",
+          "end_date": "2026-10-19",
+          "ensemble_size": 51,
+          "precipitation_mean_mm": 86.796,
+          "precipitation_p10_mm": 39.0,
+          "precipitation_p90_mm": 147.7,
+          "temperature_mean_c": 27.554,
+          "temperature_p10_c": 27.027,
+          "temperature_p90_c": 28.03
+        }
+      ]
+    },
+    {
+      "district_id": "OD-DIST-dhenkanal",
+      "district_name": "Dhenkanal",
+      "requested_latitude": 20.826122,
+      "requested_longitude": 85.526309,
+      "grid_latitude": 20.936768,
+      "grid_longitude": 85.68,
+      "model": "ecmwf_seasonal_seamless",
+      "source_url": "https://seasonal-api.open-meteo.com/v1/seasonal?latitude=20.826122&longitude=85.526309&daily=temperature_2m_mean%2Cprecipitation_sum&models=ecmwf_seasonal_seamless&forecast_days=120&timezone=Asia%2FKolkata",
+      "source_sha256": "9719610c5ca02f80683bd6e72e978b88082469c9996f4330857cfcc3aba5e12f",
+      "windows": [
+        {
+          "horizon_month": 1,
+          "start_date": "2026-07-22",
+          "end_date": "2026-08-20",
+          "ensemble_size": 51,
+          "precipitation_mean_mm": 333.147,
+          "precipitation_p10_mm": 221.1,
+          "precipitation_p90_mm": 491.1,
+          "temperature_mean_c": 27.46,
+          "temperature_p10_c": 27.097,
+          "temperature_p90_c": 27.853
+        },
+        {
+          "horizon_month": 2,
+          "start_date": "2026-08-21",
+          "end_date": "2026-09-19",
+          "ensemble_size": 51,
+          "precipitation_mean_mm": 244.702,
+          "precipitation_p10_mm": 130.68,
+          "precipitation_p90_mm": 365.13,
+          "temperature_mean_c": 27.893,
+          "temperature_p10_c": 27.533,
+          "temperature_p90_c": 28.367
+        },
+        {
+          "horizon_month": 3,
+          "start_date": "2026-09-20",
+          "end_date": "2026-10-19",
+          "ensemble_size": 51,
+          "precipitation_mean_mm": 110.635,
+          "precipitation_p10_mm": 50.6,
+          "precipitation_p90_mm": 190.2,
+          "temperature_mean_c": 27.137,
+          "temperature_p10_c": 26.68,
+          "temperature_p90_c": 27.613
+        }
+      ]
+    },
+    {
+      "district_id": "OD-DIST-gajapati",
+      "district_name": "Gajapati",
+      "requested_latitude": 19.173383,
+      "requested_longitude": 84.16068,
+      "grid_latitude": 19.250586,
+      "grid_longitude": 84.02344,
+      "model": "ecmwf_seasonal_seamless",
+      "source_url": "https://seasonal-api.open-meteo.com/v1/seasonal?latitude=19.173383&longitude=84.16068&daily=temperature_2m_mean%2Cprecipitation_sum&models=ecmwf_seasonal_seamless&forecast_days=120&timezone=Asia%2FKolkata",
+      "source_sha256": "12f61a83bab5f2ad3059bb90b7025fd4b90c32ecdcba4373679f84f5ea3af47d",
+      "windows": [
+        {
+          "horizon_month": 1,
+          "start_date": "2026-07-22",
+          "end_date": "2026-08-20",
+          "ensemble_size": 51,
+          "precipitation_mean_mm": 268.814,
+          "precipitation_p10_mm": 143.0,
+          "precipitation_p90_mm": 371.3,
+          "temperature_mean_c": 24.176,
+          "temperature_p10_c": 23.67,
+          "temperature_p90_c": 24.59
+        },
+        {
+          "horizon_month": 2,
+          "start_date": "2026-08-21",
+          "end_date": "2026-09-19",
+          "ensemble_size": 51,
+          "precipitation_mean_mm": 203.438,
+          "precipitation_p10_mm": 116.15,
+          "precipitation_p90_mm": 287.28,
+          "temperature_mean_c": 24.632,
+          "temperature_p10_c": 24.217,
+          "temperature_p90_c": 25.03
+        },
+        {
+          "horizon_month": 3,
+          "start_date": "2026-09-20",
+          "end_date": "2026-10-19",
+          "ensemble_size": 51,
+          "precipitation_mean_mm": 99.167,
+          "precipitation_p10_mm": 38.2,
+          "precipitation_p90_mm": 170.3,
+          "temperature_mean_c": 24.133,
+          "temperature_p10_c": 23.62,
+          "temperature_p90_c": 24.59
+        }
+      ]
+    },
+    {
+      "district_id": "OD-DIST-ganjam",
+      "district_name": "Ganjam",
+      "requested_latitude": 19.626933,
+      "requested_longitude": 84.671068,
+      "grid_latitude": 19.531614,
+      "grid_longitude": 84.70589,
+      "model": "ecmwf_seasonal_seamless",
+      "source_url": "https://seasonal-api.open-meteo.com/v1/seasonal?latitude=19.626933&longitude=84.671068&daily=temperature_2m_mean%2Cprecipitation_sum&models=ecmwf_seasonal_seamless&forecast_days=120&timezone=Asia%2FKolkata",
+      "source_sha256": "4f221847a09b4d0c010eb30ae7889e18049c36d958d80afd53e671604774b26f",
+      "windows": [
+        {
+          "horizon_month": 1,
+          "start_date": "2026-07-22",
+          "end_date": "2026-08-20",
+          "ensemble_size": 51,
+          "precipitation_mean_mm": 333.161,
+          "precipitation_p10_mm": 175.9,
+          "precipitation_p90_mm": 485.8,
+          "temperature_mean_c": 27.644,
+          "temperature_p10_c": 27.157,
+          "temperature_p90_c": 28.1
+        },
+        {
+          "horizon_month": 2,
+          "start_date": "2026-08-21",
+          "end_date": "2026-09-19",
+          "ensemble_size": 51,
+          "precipitation_mean_mm": 246.527,
+          "precipitation_p10_mm": 132.73,
+          "precipitation_p90_mm": 356.55,
+          "temperature_mean_c": 28.083,
+          "temperature_p10_c": 27.657,
+          "temperature_p90_c": 28.56
+        },
+        {
+          "horizon_month": 3,
+          "start_date": "2026-09-20",
+          "end_date": "2026-10-19",
+          "ensemble_size": 51,
+          "precipitation_mean_mm": 134.525,
+          "precipitation_p10_mm": 45.3,
+          "precipitation_p90_mm": 246.2,
+          "temperature_mean_c": 27.3,
+          "temperature_p10_c": 26.623,
+          "temperature_p90_c": 27.763
+        }
+      ]
+    },
+    {
+      "district_id": "OD-DIST-jagatsinghpur",
+      "district_name": "Jagatsinghpur",
+      "requested_latitude": 20.22182,
+      "requested_longitude": 86.343651,
+      "grid_latitude": 20.093676,
+      "grid_longitude": 86.44269,
+      "model": "ecmwf_seasonal_seamless",
+      "source_url": "https://seasonal-api.open-meteo.com/v1/seasonal?latitude=20.22182&longitude=86.343651&daily=temperature_2m_mean%2Cprecipitation_sum&models=ecmwf_seasonal_seamless&forecast_days=120&timezone=Asia%2FKolkata",
+      "source_sha256": "af3646bc0a140cb444a17687eae2e9d62248116f7597b6995b3961cb4e76c4ab",
+      "windows": [
+        {
+          "horizon_month": 1,
+          "start_date": "2026-07-22",
+          "end_date": "2026-08-20",
+          "ensemble_size": 51,
+          "precipitation_mean_mm": 329.81,
+          "precipitation_p10_mm": 231.2,
+          "precipitation_p90_mm": 467.5,
+          "temperature_mean_c": 28.489,
+          "temperature_p10_c": 28.12,
+          "temperature_p90_c": 28.883
+        },
+        {
+          "horizon_month": 2,
+          "start_date": "2026-08-21",
+          "end_date": "2026-09-19",
+          "ensemble_size": 51,
+          "precipitation_mean_mm": 229.888,
+          "precipitation_p10_mm": 103.0,
+          "precipitation_p90_mm": 338.35,
+          "temperature_mean_c": 28.994,
+          "temperature_p10_c": 28.517,
+          "temperature_p90_c": 29.45
+        },
+        {
+          "horizon_month": 3,
+          "start_date": "2026-09-20",
+          "end_date": "2026-10-19",
+          "ensemble_size": 51,
+          "precipitation_mean_mm": 118.569,
+          "precipitation_p10_mm": 57.7,
+          "precipitation_p90_mm": 205.2,
+          "temperature_mean_c": 28.611,
+          "temperature_p10_c": 27.96,
+          "temperature_p90_c": 29.207
+        }
+      ]
+    },
+    {
+      "district_id": "OD-DIST-jajpur",
+      "district_name": "Jajpur",
+      "requested_latitude": 20.855928,
+      "requested_longitude": 86.152197,
+      "grid_latitude": 20.936768,
+      "grid_longitude": 86.04,
+      "model": "ecmwf_seasonal_seamless",
+      "source_url": "https://seasonal-api.open-meteo.com/v1/seasonal?latitude=20.855928&longitude=86.152197&daily=temperature_2m_mean%2Cprecipitation_sum&models=ecmwf_seasonal_seamless&forecast_days=120&timezone=Asia%2FKolkata",
+      "source_sha256": "b012165f72eb43fbf5722b736a98284b498728e3650a9cd8393fb1574a1cc83c",
+      "windows": [
+        {
+          "horizon_month": 1,
+          "start_date": "2026-07-22",
+          "end_date": "2026-08-20",
+          "ensemble_size": 51,
+          "precipitation_mean_mm": 362.049,
+          "precipitation_p10_mm": 251.3,
+          "precipitation_p90_mm": 508.6,
+          "temperature_mean_c": 27.72,
+          "temperature_p10_c": 27.37,
+          "temperature_p90_c": 28.063
+        },
+        {
+          "horizon_month": 2,
+          "start_date": "2026-08-21",
+          "end_date": "2026-09-19",
+          "ensemble_size": 51,
+          "precipitation_mean_mm": 260.061,
+          "precipitation_p10_mm": 151.11,
+          "precipitation_p90_mm": 383.65,
+          "temperature_mean_c": 28.132,
+          "temperature_p10_c": 27.753,
+          "temperature_p90_c": 28.567
+        },
+        {
+          "horizon_month": 3,
+          "start_date": "2026-09-20",
+          "end_date": "2026-10-19",
+          "ensemble_size": 51,
+          "precipitation_mean_mm": 131.241,
+          "precipitation_p10_mm": 61.1,
+          "precipitation_p90_mm": 205.4,
+          "temperature_mean_c": 27.275,
+          "temperature_p10_c": 26.75,
+          "temperature_p90_c": 27.8
+        }
+      ]
+    },
+    {
+      "district_id": "OD-DIST-jharsuguda",
+      "district_name": "Jharsuguda",
+      "requested_latitude": 21.805985,
+      "requested_longitude": 83.954734,
+      "grid_latitude": 21.77986,
+      "grid_longitude": 83.805664,
+      "model": "ecmwf_seasonal_seamless",
+      "source_url": "https://seasonal-api.open-meteo.com/v1/seasonal?latitude=21.805985&longitude=83.954734&daily=temperature_2m_mean%2Cprecipitation_sum&models=ecmwf_seasonal_seamless&forecast_days=120&timezone=Asia%2FKolkata",
+      "source_sha256": "29ce25d872b4e3f27fd02361319f37671aee776e98d3e7a92b93323ae818bf61",
+      "windows": [
+        {
+          "horizon_month": 1,
+          "start_date": "2026-07-22",
+          "end_date": "2026-08-20",
+          "ensemble_size": 51,
+          "precipitation_mean_mm": 432.504,
+          "precipitation_p10_mm": 304.1,
+          "precipitation_p90_mm": 599.0,
+          "temperature_mean_c": 26.608,
+          "temperature_p10_c": 26.257,
+          "temperature_p90_c": 27.023
+        },
+        {
+          "horizon_month": 2,
+          "start_date": "2026-08-21",
+          "end_date": "2026-09-19",
+          "ensemble_size": 51,
+          "precipitation_mean_mm": 257.714,
+          "precipitation_p10_mm": 159.68,
+          "precipitation_p90_mm": 350.91,
+          "temperature_mean_c": 27.29,
+          "temperature_p10_c": 26.937,
+          "temperature_p90_c": 27.683
+        },
+        {
+          "horizon_month": 3,
+          "start_date": "2026-09-20",
+          "end_date": "2026-10-19",
+          "ensemble_size": 51,
+          "precipitation_mean_mm": 61.106,
+          "precipitation_p10_mm": 17.7,
+          "precipitation_p90_mm": 106.6,
+          "temperature_mean_c": 27.207,
+          "temperature_p10_c": 26.683,
+          "temperature_p90_c": 27.733
+        }
+      ]
+    },
+    {
+      "district_id": "OD-DIST-kalahandi",
+      "district_name": "Kalahandi",
+      "requested_latitude": 19.867699,
+      "requested_longitude": 83.109231,
+      "grid_latitude": 19.812645,
+      "grid_longitude": 83.267715,
+      "model": "ecmwf_seasonal_seamless",
+      "source_url": "https://seasonal-api.open-meteo.com/v1/seasonal?latitude=19.867699&longitude=83.109231&daily=temperature_2m_mean%2Cprecipitation_sum&models=ecmwf_seasonal_seamless&forecast_days=120&timezone=Asia%2FKolkata",
+      "source_sha256": "b55bb8a1faa89d763978f43d7366aadf22a2cfeb87731ab618f1ac3f633ef679",
+      "windows": [
+        {
+          "horizon_month": 1,
+          "start_date": "2026-07-22",
+          "end_date": "2026-08-20",
+          "ensemble_size": 51,
+          "precipitation_mean_mm": 323.059,
+          "precipitation_p10_mm": 174.0,
+          "precipitation_p90_mm": 480.2,
+          "temperature_mean_c": 25.681,
+          "temperature_p10_c": 25.317,
+          "temperature_p90_c": 26.117
+        },
+        {
+          "horizon_month": 2,
+          "start_date": "2026-08-21",
+          "end_date": "2026-09-19",
+          "ensemble_size": 51,
+          "precipitation_mean_mm": 248.567,
+          "precipitation_p10_mm": 118.54,
+          "precipitation_p90_mm": 358.38,
+          "temperature_mean_c": 26.156,
+          "temperature_p10_c": 25.75,
+          "temperature_p90_c": 26.53
+        },
+        {
+          "horizon_month": 3,
+          "start_date": "2026-09-20",
+          "end_date": "2026-10-19",
+          "ensemble_size": 51,
+          "precipitation_mean_mm": 78.367,
+          "precipitation_p10_mm": 20.5,
+          "precipitation_p90_mm": 145.4,
+          "temperature_mean_c": 25.969,
+          "temperature_p10_c": 25.413,
+          "temperature_p90_c": 26.433
+        }
+      ]
+    },
+    {
+      "district_id": "OD-DIST-kandhamal",
+      "district_name": "Kandhamal",
+      "requested_latitude": 20.128896,
+      "requested_longitude": 84.047243,
+      "grid_latitude": 20.093676,
+      "grid_longitude": 83.95257,
+      "model": "ecmwf_seasonal_seamless",
+      "source_url": "https://seasonal-api.open-meteo.com/v1/seasonal?latitude=20.128896&longitude=84.047243&daily=temperature_2m_mean%2Cprecipitation_sum&models=ecmwf_seasonal_seamless&forecast_days=120&timezone=Asia%2FKolkata",
+      "source_sha256": "c417fbf51c4f3a253294bf5e48495f0904330ba2a925231e9318b1eb8d9d2951",
+      "windows": [
+        {
+          "horizon_month": 1,
+          "start_date": "2026-07-22",
+          "end_date": "2026-08-20",
+          "ensemble_size": 51,
+          "precipitation_mean_mm": 337.261,
+          "precipitation_p10_mm": 198.7,
+          "precipitation_p90_mm": 507.5,
+          "temperature_mean_c": 24.061,
+          "temperature_p10_c": 23.643,
+          "temperature_p90_c": 24.42
+        },
+        {
+          "horizon_month": 2,
+          "start_date": "2026-08-21",
+          "end_date": "2026-09-19",
+          "ensemble_size": 51,
+          "precipitation_mean_mm": 257.997,
+          "precipitation_p10_mm": 142.64,
+          "precipitation_p90_mm": 382.83,
+          "temperature_mean_c": 24.638,
+          "temperature_p10_c": 24.32,
+          "temperature_p90_c": 24.947
+        },
+        {
+          "horizon_month": 3,
+          "start_date": "2026-09-20",
+          "end_date": "2026-10-19",
+          "ensemble_size": 51,
+          "precipitation_mean_mm": 100.425,
+          "precipitation_p10_mm": 46.8,
+          "precipitation_p90_mm": 176.1,
+          "temperature_mean_c": 24.452,
+          "temperature_p10_c": 23.95,
+          "temperature_p90_c": 24.793
+        }
+      ]
+    },
+    {
+      "district_id": "OD-DIST-kendrapara",
+      "district_name": "Kendrapara",
+      "requested_latitude": 20.553531,
+      "requested_longitude": 86.607575,
+      "grid_latitude": 20.655737,
+      "grid_longitude": 86.77291,
+      "model": "ecmwf_seasonal_seamless",
+      "source_url": "https://seasonal-api.open-meteo.com/v1/seasonal?latitude=20.553531&longitude=86.607575&daily=temperature_2m_mean%2Cprecipitation_sum&models=ecmwf_seasonal_seamless&forecast_days=120&timezone=Asia%2FKolkata",
+      "source_sha256": "505bbb1170c865443b1cdff0136703d1571a38f6ed11f173e007aae21bf8560c",
+      "windows": [
+        {
+          "horizon_month": 1,
+          "start_date": "2026-07-22",
+          "end_date": "2026-08-20",
+          "ensemble_size": 51,
+          "precipitation_mean_mm": 335.724,
+          "precipitation_p10_mm": 231.5,
+          "precipitation_p90_mm": 482.4,
+          "temperature_mean_c": 28.346,
+          "temperature_p10_c": 27.967,
+          "temperature_p90_c": 28.773
+        },
+        {
+          "horizon_month": 2,
+          "start_date": "2026-08-21",
+          "end_date": "2026-09-19",
+          "ensemble_size": 51,
+          "precipitation_mean_mm": 239.938,
+          "precipitation_p10_mm": 124.76,
+          "precipitation_p90_mm": 361.18,
+          "temperature_mean_c": 28.894,
+          "temperature_p10_c": 28.447,
+          "temperature_p90_c": 29.307
+        },
+        {
+          "horizon_month": 3,
+          "start_date": "2026-09-20",
+          "end_date": "2026-10-19",
+          "ensemble_size": 51,
+          "precipitation_mean_mm": 147.845,
+          "precipitation_p10_mm": 59.1,
+          "precipitation_p90_mm": 244.9,
+          "temperature_mean_c": 28.318,
+          "temperature_p10_c": 27.693,
+          "temperature_p90_c": 28.9
+        }
+      ]
+    },
+    {
+      "district_id": "OD-DIST-keonjhar",
+      "district_name": "Keonjhar",
+      "requested_latitude": 21.537081,
+      "requested_longitude": 85.705072,
+      "grid_latitude": 21.498829,
+      "grid_longitude": 85.645164,
+      "model": "ecmwf_seasonal_seamless",
+      "source_url": "https://seasonal-api.open-meteo.com/v1/seasonal?latitude=21.537081&longitude=85.705072&daily=temperature_2m_mean%2Cprecipitation_sum&models=ecmwf_seasonal_seamless&forecast_days=120&timezone=Asia%2FKolkata",
+      "source_sha256": "c500edc843d8a5d8da82e52f0bfb87217aecf480ca621b256fc1f2292c093b0a",
+      "windows": [
+        {
+          "horizon_month": 1,
+          "start_date": "2026-07-22",
+          "end_date": "2026-08-20",
+          "ensemble_size": 51,
+          "precipitation_mean_mm": 393.686,
+          "precipitation_p10_mm": 283.7,
+          "precipitation_p90_mm": 497.0,
+          "temperature_mean_c": 25.621,
+          "temperature_p10_c": 25.317,
+          "temperature_p90_c": 25.897
+        },
+        {
+          "horizon_month": 2,
+          "start_date": "2026-08-21",
+          "end_date": "2026-09-19",
+          "ensemble_size": 51,
+          "precipitation_mean_mm": 270.225,
+          "precipitation_p10_mm": 176.6,
+          "precipitation_p90_mm": 388.58,
+          "temperature_mean_c": 26.224,
+          "temperature_p10_c": 25.913,
+          "temperature_p90_c": 26.653
+        },
+        {
+          "horizon_month": 3,
+          "start_date": "2026-09-20",
+          "end_date": "2026-10-19",
+          "ensemble_size": 51,
+          "precipitation_mean_mm": 105.892,
+          "precipitation_p10_mm": 41.0,
+          "precipitation_p90_mm": 183.3,
+          "temperature_mean_c": 25.594,
+          "temperature_p10_c": 25.147,
+          "temperature_p90_c": 26.083
+        }
+      ]
+    },
+    {
+      "district_id": "OD-DIST-khordha",
+      "district_name": "Khordha",
+      "requested_latitude": 20.089963,
+      "requested_longitude": 85.511418,
+      "grid_latitude": 20.093676,
+      "grid_longitude": 85.375496,
+      "model": "ecmwf_seasonal_seamless",
+      "source_url": "https://seasonal-api.open-meteo.com/v1/seasonal?latitude=20.089963&longitude=85.511418&daily=temperature_2m_mean%2Cprecipitation_sum&models=ecmwf_seasonal_seamless&forecast_days=120&timezone=Asia%2FKolkata",
+      "source_sha256": "df9d15d46eeb34d47e83afec7cb22d9c2dd99858d5b46f3bd98915a3cd1ce937",
+      "windows": [
+        {
+          "horizon_month": 1,
+          "start_date": "2026-07-22",
+          "end_date": "2026-08-20",
+          "ensemble_size": 51,
+          "precipitation_mean_mm": 349.422,
+          "precipitation_p10_mm": 217.5,
+          "precipitation_p90_mm": 474.7,
+          "temperature_mean_c": 27.579,
+          "temperature_p10_c": 27.167,
+          "temperature_p90_c": 27.973
+        },
+        {
+          "horizon_month": 2,
+          "start_date": "2026-08-21",
+          "end_date": "2026-09-19",
+          "ensemble_size": 51,
+          "precipitation_mean_mm": 249.697,
+          "precipitation_p10_mm": 150.23,
+          "precipitation_p90_mm": 354.73,
+          "temperature_mean_c": 28.306,
+          "temperature_p10_c": 27.877,
+          "temperature_p90_c": 28.717
+        },
+        {
+          "horizon_month": 3,
+          "start_date": "2026-09-20",
+          "end_date": "2026-10-19",
+          "ensemble_size": 51,
+          "precipitation_mean_mm": 125.725,
+          "precipitation_p10_mm": 52.1,
+          "precipitation_p90_mm": 197.6,
+          "temperature_mean_c": 27.93,
+          "temperature_p10_c": 27.4,
+          "temperature_p90_c": 28.51
+        }
+      ]
+    },
+    {
+      "district_id": "OD-DIST-koraput",
+      "district_name": "Koraput",
+      "requested_latitude": 18.816546,
+      "requested_longitude": 82.721266,
+      "grid_latitude": 18.688524,
+      "grid_longitude": 82.674416,
+      "model": "ecmwf_seasonal_seamless",
+      "source_url": "https://seasonal-api.open-meteo.com/v1/seasonal?latitude=18.816546&longitude=82.721266&daily=temperature_2m_mean%2Cprecipitation_sum&models=ecmwf_seasonal_seamless&forecast_days=120&timezone=Asia%2FKolkata",
+      "source_sha256": "3b806fd318c3ff33f72ed7003fe6d807643c2b88e7ed065c1ff327a2a5564c43",
+      "windows": [
+        {
+          "horizon_month": 1,
+          "start_date": "2026-07-22",
+          "end_date": "2026-08-20",
+          "ensemble_size": 51,
+          "precipitation_mean_mm": 343.657,
+          "precipitation_p10_mm": 202.9,
+          "precipitation_p90_mm": 522.6,
+          "temperature_mean_c": 22.282,
+          "temperature_p10_c": 21.79,
+          "temperature_p90_c": 22.71
+        },
+        {
+          "horizon_month": 2,
+          "start_date": "2026-08-21",
+          "end_date": "2026-09-19",
+          "ensemble_size": 51,
+          "precipitation_mean_mm": 256.053,
+          "precipitation_p10_mm": 146.93,
+          "precipitation_p90_mm": 378.78,
+          "temperature_mean_c": 23.098,
+          "temperature_p10_c": 22.737,
+          "temperature_p90_c": 23.427
+        },
+        {
+          "horizon_month": 3,
+          "start_date": "2026-09-20",
+          "end_date": "2026-10-19",
+          "ensemble_size": 51,
+          "precipitation_mean_mm": 117.506,
+          "precipitation_p10_mm": 43.7,
+          "precipitation_p90_mm": 204.3,
+          "temperature_mean_c": 23.354,
+          "temperature_p10_c": 22.933,
+          "temperature_p90_c": 23.753
+        }
+      ]
+    },
+    {
+      "district_id": "OD-DIST-malkangiri",
+      "district_name": "Malkangiri",
+      "requested_latitude": 18.258068,
+      "requested_longitude": 81.956331,
+      "grid_latitude": 18.407494,
+      "grid_longitude": 82.00772,
+      "model": "ecmwf_seasonal_seamless",
+      "source_url": "https://seasonal-api.open-meteo.com/v1/seasonal?latitude=18.258068&longitude=81.956331&daily=temperature_2m_mean%2Cprecipitation_sum&models=ecmwf_seasonal_seamless&forecast_days=120&timezone=Asia%2FKolkata",
+      "source_sha256": "f7a6a322d5c554da3319b4900df152a55968aaab06b72eb7c5c9d05f37bcae4a",
+      "windows": [
+        {
+          "horizon_month": 1,
+          "start_date": "2026-07-22",
+          "end_date": "2026-08-20",
+          "ensemble_size": 51,
+          "precipitation_mean_mm": 377.094,
+          "precipitation_p10_mm": 225.3,
+          "precipitation_p90_mm": 556.2,
+          "temperature_mean_c": 26.593,
+          "temperature_p10_c": 26.103,
+          "temperature_p90_c": 27.013
+        },
+        {
+          "horizon_month": 2,
+          "start_date": "2026-08-21",
+          "end_date": "2026-09-19",
+          "ensemble_size": 51,
+          "precipitation_mean_mm": 248.475,
+          "precipitation_p10_mm": 107.58,
+          "precipitation_p90_mm": 406.28,
+          "temperature_mean_c": 27.258,
+          "temperature_p10_c": 26.773,
+          "temperature_p90_c": 27.73
+        },
+        {
+          "horizon_month": 3,
+          "start_date": "2026-09-20",
+          "end_date": "2026-10-19",
+          "ensemble_size": 51,
+          "precipitation_mean_mm": 92.786,
+          "precipitation_p10_mm": 13.8,
+          "precipitation_p90_mm": 197.5,
+          "temperature_mean_c": 27.828,
+          "temperature_p10_c": 27.157,
+          "temperature_p90_c": 28.343
+        }
+      ]
+    },
+    {
+      "district_id": "OD-DIST-mayurbhanj",
+      "district_name": "Mayurbhanj",
+      "requested_latitude": 21.895172,
+      "requested_longitude": 86.411179,
+      "grid_latitude": 21.77986,
+      "grid_longitude": 86.35627,
+      "model": "ecmwf_seasonal_seamless",
+      "source_url": "https://seasonal-api.open-meteo.com/v1/seasonal?latitude=21.895172&longitude=86.411179&daily=temperature_2m_mean%2Cprecipitation_sum&models=ecmwf_seasonal_seamless&forecast_days=120&timezone=Asia%2FKolkata",
+      "source_sha256": "6a72281592e0e0f18b1b719d651369416f6c40cbab48056adb551604c5882193",
+      "windows": [
+        {
+          "horizon_month": 1,
+          "start_date": "2026-07-22",
+          "end_date": "2026-08-20",
+          "ensemble_size": 51,
+          "precipitation_mean_mm": 462.694,
+          "precipitation_p10_mm": 363.9,
+          "precipitation_p90_mm": 545.3,
+          "temperature_mean_c": 22.975,
+          "temperature_p10_c": 22.65,
+          "temperature_p90_c": 23.263
+        },
+        {
+          "horizon_month": 2,
+          "start_date": "2026-08-21",
+          "end_date": "2026-09-19",
+          "ensemble_size": 51,
+          "precipitation_mean_mm": 299.186,
+          "precipitation_p10_mm": 206.68,
+          "precipitation_p90_mm": 410.62,
+          "temperature_mean_c": 23.449,
+          "temperature_p10_c": 23.107,
+          "temperature_p90_c": 23.863
+        },
+        {
+          "horizon_month": 3,
+          "start_date": "2026-09-20",
+          "end_date": "2026-10-19",
+          "ensemble_size": 51,
+          "precipitation_mean_mm": 156.265,
+          "precipitation_p10_mm": 69.6,
+          "precipitation_p90_mm": 250.9,
+          "temperature_mean_c": 22.52,
+          "temperature_p10_c": 21.88,
+          "temperature_p90_c": 23.053
+        }
+      ]
+    },
+    {
+      "district_id": "OD-DIST-nabarangpur",
+      "district_name": "Nabarangpur",
+      "requested_latitude": 19.588042,
+      "requested_longitude": 82.337664,
+      "grid_latitude": 19.531614,
+      "grid_longitude": 82.2353,
+      "model": "ecmwf_seasonal_seamless",
+      "source_url": "https://seasonal-api.open-meteo.com/v1/seasonal?latitude=19.588042&longitude=82.337664&daily=temperature_2m_mean%2Cprecipitation_sum&models=ecmwf_seasonal_seamless&forecast_days=120&timezone=Asia%2FKolkata",
+      "source_sha256": "90840e23c7c53864b22686dcd92eab895f90231cf5db12c3e486d805a4556800",
+      "windows": [
+        {
+          "horizon_month": 1,
+          "start_date": "2026-07-22",
+          "end_date": "2026-08-20",
+          "ensemble_size": 51,
+          "precipitation_mean_mm": 307.233,
+          "precipitation_p10_mm": 166.9,
+          "precipitation_p90_mm": 489.8,
+          "temperature_mean_c": 24.743,
+          "temperature_p10_c": 24.28,
+          "temperature_p90_c": 25.12
+        },
+        {
+          "horizon_month": 2,
+          "start_date": "2026-08-21",
+          "end_date": "2026-09-19",
+          "ensemble_size": 51,
+          "precipitation_mean_mm": 236.651,
+          "precipitation_p10_mm": 112.73,
+          "precipitation_p90_mm": 357.83,
+          "temperature_mean_c": 25.157,
+          "temperature_p10_c": 24.76,
+          "temperature_p90_c": 25.54
+        },
+        {
+          "horizon_month": 3,
+          "start_date": "2026-09-20",
+          "end_date": "2026-10-19",
+          "ensemble_size": 51,
+          "precipitation_mean_mm": 69.645,
+          "precipitation_p10_mm": 14.8,
+          "precipitation_p90_mm": 161.2,
+          "temperature_mean_c": 25.091,
+          "temperature_p10_c": 24.46,
+          "temperature_p90_c": 25.57
+        }
+      ]
+    },
+    {
+      "district_id": "OD-DIST-nayagarh",
+      "district_name": "Nayagarh",
+      "requested_latitude": 20.213057,
+      "requested_longitude": 84.999438,
+      "grid_latitude": 20.093676,
+      "grid_longitude": 85.01976,
+      "model": "ecmwf_seasonal_seamless",
+      "source_url": "https://seasonal-api.open-meteo.com/v1/seasonal?latitude=20.213057&longitude=84.999438&daily=temperature_2m_mean%2Cprecipitation_sum&models=ecmwf_seasonal_seamless&forecast_days=120&timezone=Asia%2FKolkata",
+      "source_sha256": "e9b2267e09a49719b859fd4463e770744308e9635d805aea02b21de6f68b0bfb",
+      "windows": [
+        {
+          "horizon_month": 1,
+          "start_date": "2026-07-22",
+          "end_date": "2026-08-20",
+          "ensemble_size": 51,
+          "precipitation_mean_mm": 358.502,
+          "precipitation_p10_mm": 215.5,
+          "precipitation_p90_mm": 502.7,
+          "temperature_mean_c": 27.268,
+          "temperature_p10_c": 26.797,
+          "temperature_p90_c": 27.68
+        },
+        {
+          "horizon_month": 2,
+          "start_date": "2026-08-21",
+          "end_date": "2026-09-19",
+          "ensemble_size": 51,
+          "precipitation_mean_mm": 246.506,
+          "precipitation_p10_mm": 151.3,
+          "precipitation_p90_mm": 358.53,
+          "temperature_mean_c": 27.921,
+          "temperature_p10_c": 27.503,
+          "temperature_p90_c": 28.373
+        },
+        {
+          "horizon_month": 3,
+          "start_date": "2026-09-20",
+          "end_date": "2026-10-19",
+          "ensemble_size": 51,
+          "precipitation_mean_mm": 124.912,
+          "precipitation_p10_mm": 51.8,
+          "precipitation_p90_mm": 213.2,
+          "temperature_mean_c": 27.409,
+          "temperature_p10_c": 26.82,
+          "temperature_p90_c": 27.86
+        }
+      ]
+    },
+    {
+      "district_id": "OD-DIST-nuapada",
+      "district_name": "Nuapada",
+      "requested_latitude": 20.465662,
+      "requested_longitude": 82.578315,
+      "grid_latitude": 20.374706,
+      "grid_longitude": 82.5,
+      "model": "ecmwf_seasonal_seamless",
+      "source_url": "https://seasonal-api.open-meteo.com/v1/seasonal?latitude=20.465662&longitude=82.578315&daily=temperature_2m_mean%2Cprecipitation_sum&models=ecmwf_seasonal_seamless&forecast_days=120&timezone=Asia%2FKolkata",
+      "source_sha256": "2d4754262631caf12b22d1ca324f4231c75e688cb85857b141c76d82544eb0de",
+      "windows": [
+        {
+          "horizon_month": 1,
+          "start_date": "2026-07-22",
+          "end_date": "2026-08-20",
+          "ensemble_size": 51,
+          "precipitation_mean_mm": 319.557,
+          "precipitation_p10_mm": 158.3,
+          "precipitation_p90_mm": 499.0,
+          "temperature_mean_c": 25.947,
+          "temperature_p10_c": 25.507,
+          "temperature_p90_c": 26.387
+        },
+        {
+          "horizon_month": 2,
+          "start_date": "2026-08-21",
+          "end_date": "2026-09-19",
+          "ensemble_size": 51,
+          "precipitation_mean_mm": 221.019,
+          "precipitation_p10_mm": 128.33,
+          "precipitation_p90_mm": 341.63,
+          "temperature_mean_c": 26.391,
+          "temperature_p10_c": 26.023,
+          "temperature_p90_c": 26.82
+        },
+        {
+          "horizon_month": 3,
+          "start_date": "2026-09-20",
+          "end_date": "2026-10-19",
+          "ensemble_size": 51,
+          "precipitation_mean_mm": 59.414,
+          "precipitation_p10_mm": 15.4,
+          "precipitation_p90_mm": 123.5,
+          "temperature_mean_c": 26.67,
+          "temperature_p10_c": 26.047,
+          "temperature_p90_c": 27.227
+        }
+      ]
+    },
+    {
+      "district_id": "OD-DIST-puri",
+      "district_name": "Puri",
+      "requested_latitude": 19.876548,
+      "requested_longitude": 85.720894,
+      "grid_latitude": 19.812645,
+      "grid_longitude": 85.74803,
+      "model": "ecmwf_seasonal_seamless",
+      "source_url": "https://seasonal-api.open-meteo.com/v1/seasonal?latitude=19.876548&longitude=85.720894&daily=temperature_2m_mean%2Cprecipitation_sum&models=ecmwf_seasonal_seamless&forecast_days=120&timezone=Asia%2FKolkata",
+      "source_sha256": "0c059cac8eefb5603dc99f076c38b3372e7f7399f3c55ae9336c2e1a2e111c96",
+      "windows": [
+        {
+          "horizon_month": 1,
+          "start_date": "2026-07-22",
+          "end_date": "2026-08-20",
+          "ensemble_size": 51,
+          "precipitation_mean_mm": 295.443,
+          "precipitation_p10_mm": 182.2,
+          "precipitation_p90_mm": 420.1,
+          "temperature_mean_c": 28.292,
+          "temperature_p10_c": 27.897,
+          "temperature_p90_c": 28.667
+        },
+        {
+          "horizon_month": 2,
+          "start_date": "2026-08-21",
+          "end_date": "2026-09-19",
+          "ensemble_size": 51,
+          "precipitation_mean_mm": 241.252,
+          "precipitation_p10_mm": 126.88,
+          "precipitation_p90_mm": 355.1,
+          "temperature_mean_c": 28.871,
+          "temperature_p10_c": 28.313,
+          "temperature_p90_c": 29.383
+        },
+        {
+          "horizon_month": 3,
+          "start_date": "2026-09-20",
+          "end_date": "2026-10-19",
+          "ensemble_size": 51,
+          "precipitation_mean_mm": 152.749,
+          "precipitation_p10_mm": 66.4,
+          "precipitation_p90_mm": 243.6,
+          "temperature_mean_c": 28.401,
+          "temperature_p10_c": 27.813,
+          "temperature_p90_c": 28.957
+        }
+      ]
+    },
+    {
+      "district_id": "OD-DIST-rayagada",
+      "district_name": "Rayagada",
+      "requested_latitude": 19.362278,
+      "requested_longitude": 83.513845,
+      "grid_latitude": 19.250586,
+      "grid_longitude": 83.671875,
+      "model": "ecmwf_seasonal_seamless",
+      "source_url": "https://seasonal-api.open-meteo.com/v1/seasonal?latitude=19.362278&longitude=83.513845&daily=temperature_2m_mean%2Cprecipitation_sum&models=ecmwf_seasonal_seamless&forecast_days=120&timezone=Asia%2FKolkata",
+      "source_sha256": "e438dc94239ce4f42822f429494ea285a926e1f69fc0bef3266840ea1b47ab01",
+      "windows": [
+        {
+          "horizon_month": 1,
+          "start_date": "2026-07-22",
+          "end_date": "2026-08-20",
+          "ensemble_size": 51,
+          "precipitation_mean_mm": 240.5,
+          "precipitation_p10_mm": 130.2,
+          "precipitation_p90_mm": 358.5,
+          "temperature_mean_c": 26.175,
+          "temperature_p10_c": 25.717,
+          "temperature_p90_c": 26.577
+        },
+        {
+          "horizon_month": 2,
+          "start_date": "2026-08-21",
+          "end_date": "2026-09-19",
+          "ensemble_size": 51,
+          "precipitation_mean_mm": 193.102,
+          "precipitation_p10_mm": 99.6,
+          "precipitation_p90_mm": 300.96,
+          "temperature_mean_c": 26.502,
+          "temperature_p10_c": 26.147,
+          "temperature_p90_c": 26.867
+        },
+        {
+          "horizon_month": 3,
+          "start_date": "2026-09-20",
+          "end_date": "2026-10-19",
+          "ensemble_size": 51,
+          "precipitation_mean_mm": 99.208,
+          "precipitation_p10_mm": 38.3,
+          "precipitation_p90_mm": 198.3,
+          "temperature_mean_c": 26.085,
+          "temperature_p10_c": 25.65,
+          "temperature_p90_c": 26.597
+        }
+      ]
+    },
+    {
+      "district_id": "OD-DIST-sambalpur",
+      "district_name": "Sambalpur",
+      "requested_latitude": 21.451912,
+      "requested_longitude": 84.280934,
+      "grid_latitude": 21.498829,
+      "grid_longitude": 84.19355,
+      "model": "ecmwf_seasonal_seamless",
+      "source_url": "https://seasonal-api.open-meteo.com/v1/seasonal?latitude=21.451912&longitude=84.280934&daily=temperature_2m_mean%2Cprecipitation_sum&models=ecmwf_seasonal_seamless&forecast_days=120&timezone=Asia%2FKolkata",
+      "source_sha256": "07b8ad232c0c00be653d15c78374dca01987fba8cae8aa41742b8f40fe95b637",
+      "windows": [
+        {
+          "horizon_month": 1,
+          "start_date": "2026-07-22",
+          "end_date": "2026-08-20",
+          "ensemble_size": 51,
+          "precipitation_mean_mm": 441.741,
+          "precipitation_p10_mm": 311.1,
+          "precipitation_p90_mm": 629.2,
+          "temperature_mean_c": 25.533,
+          "temperature_p10_c": 25.2,
+          "temperature_p90_c": 25.953
+        },
+        {
+          "horizon_month": 2,
+          "start_date": "2026-08-21",
+          "end_date": "2026-09-19",
+          "ensemble_size": 51,
+          "precipitation_mean_mm": 277.532,
+          "precipitation_p10_mm": 163.43,
+          "precipitation_p90_mm": 394.1,
+          "temperature_mean_c": 26.232,
+          "temperature_p10_c": 25.967,
+          "temperature_p90_c": 26.55
+        },
+        {
+          "horizon_month": 3,
+          "start_date": "2026-09-20",
+          "end_date": "2026-10-19",
+          "ensemble_size": 51,
+          "precipitation_mean_mm": 65.841,
+          "precipitation_p10_mm": 16.6,
+          "precipitation_p90_mm": 132.8,
+          "temperature_mean_c": 26.143,
+          "temperature_p10_c": 25.617,
+          "temperature_p90_c": 26.71
+        }
+      ]
+    },
+    {
+      "district_id": "OD-DIST-subarnapur",
+      "district_name": "Subarnapur",
+      "requested_latitude": 20.931536,
+      "requested_longitude": 83.824863,
+      "grid_latitude": 20.936768,
+      "grid_longitude": 83.880005,
+      "model": "ecmwf_seasonal_seamless",
+      "source_url": "https://seasonal-api.open-meteo.com/v1/seasonal?latitude=20.931536&longitude=83.824863&daily=temperature_2m_mean%2Cprecipitation_sum&models=ecmwf_seasonal_seamless&forecast_days=120&timezone=Asia%2FKolkata",
+      "source_sha256": "0ef909a944acc4b4dbcc8e1992aabd21c8c65104a3ff2b607acc234a5c0befb5",
+      "windows": [
+        {
+          "horizon_month": 1,
+          "start_date": "2026-07-22",
+          "end_date": "2026-08-20",
+          "ensemble_size": 51,
+          "precipitation_mean_mm": 372.782,
+          "precipitation_p10_mm": 238.1,
+          "precipitation_p90_mm": 504.0,
+          "temperature_mean_c": 27.239,
+          "temperature_p10_c": 26.793,
+          "temperature_p90_c": 27.727
+        },
+        {
+          "horizon_month": 2,
+          "start_date": "2026-08-21",
+          "end_date": "2026-09-19",
+          "ensemble_size": 51,
+          "precipitation_mean_mm": 255.63,
+          "precipitation_p10_mm": 147.44,
+          "precipitation_p90_mm": 374.71,
+          "temperature_mean_c": 27.735,
+          "temperature_p10_c": 27.403,
+          "temperature_p90_c": 28.07
+        },
+        {
+          "horizon_month": 3,
+          "start_date": "2026-09-20",
+          "end_date": "2026-10-19",
+          "ensemble_size": 51,
+          "precipitation_mean_mm": 65.622,
+          "precipitation_p10_mm": 17.4,
+          "precipitation_p90_mm": 130.5,
+          "temperature_mean_c": 27.44,
+          "temperature_p10_c": 26.85,
+          "temperature_p90_c": 28.063
+        }
+      ]
+    },
+    {
+      "district_id": "OD-DIST-sundargarh",
+      "district_name": "Sundargarh",
+      "requested_latitude": 22.000966,
+      "requested_longitude": 84.764703,
+      "grid_latitude": 22.060888,
+      "grid_longitude": 84.87805,
+      "model": "ecmwf_seasonal_seamless",
+      "source_url": "https://seasonal-api.open-meteo.com/v1/seasonal?latitude=22.000966&longitude=84.764703&daily=temperature_2m_mean%2Cprecipitation_sum&models=ecmwf_seasonal_seamless&forecast_days=120&timezone=Asia%2FKolkata",
+      "source_sha256": "af93ea16760aa892e7bf0aa825026c12bf525fcf4d15c68bfce3e4f8d740a496",
+      "windows": [
+        {
+          "horizon_month": 1,
+          "start_date": "2026-07-22",
+          "end_date": "2026-08-20",
+          "ensemble_size": 51,
+          "precipitation_mean_mm": 393.016,
+          "precipitation_p10_mm": 309.6,
+          "precipitation_p90_mm": 498.5,
+          "temperature_mean_c": 24.644,
+          "temperature_p10_c": 24.343,
+          "temperature_p90_c": 25.04
+        },
+        {
+          "horizon_month": 2,
+          "start_date": "2026-08-21",
+          "end_date": "2026-09-19",
+          "ensemble_size": 51,
+          "precipitation_mean_mm": 244.525,
+          "precipitation_p10_mm": 161.11,
+          "precipitation_p90_mm": 377.78,
+          "temperature_mean_c": 25.221,
+          "temperature_p10_c": 24.907,
+          "temperature_p90_c": 25.637
+        },
+        {
+          "horizon_month": 3,
+          "start_date": "2026-09-20",
+          "end_date": "2026-10-19",
+          "ensemble_size": 51,
+          "precipitation_mean_mm": 70.651,
+          "precipitation_p10_mm": 29.2,
+          "precipitation_p90_mm": 131.8,
+          "temperature_mean_c": 24.562,
+          "temperature_p10_c": 24.047,
+          "temperature_p90_c": 25.147
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+import type { Signal, SourceState } from "./types";
+
+export const districtNames = [
+  "Angul", "Balangir", "Balasore", "Bargarh", "Bhadrak", "Boudh", "Cuttack", "Deogarh",
+  "Dhenkanal", "Gajapati", "Ganjam", "Jagatsinghpur", "Jajpur", "Jharsuguda", "Kalahandi",
+  "Kandhamal", "Kendrapara", "Keonjhar", "Khordha", "Koraput", "Malkangiri", "Mayurbhanj",
+  "Nabarangpur", "Nayagarh", "Nuapada", "Puri", "Rayagada", "Sambalpur", "Subarnapur", "Sundargarh",
+];
+
+export const fallbackSignals: Signal[] = [
+  {
+    id: "fixture-or-negation",
+    title: "Odia negation fixture — must not become an event",
+    titleOriginal: "ଡେଙ୍ଗୁର କୌଣସି ମାମଲା ମିଳିନାହିଁ",
+    language: "or",
+    source: "Bundled test fixture",
+    district: "Khordha",
+    disease: "Dengue",
+    assertion: "not_affirmed",
+    reviewState: "rejected",
+    retrievedAt: "2026-07-21T00:00:00Z",
+    evidence: "ଡେଙ୍ଗୁର କୌଣସି ମାମଲା ମିଳିନାହିଁ",
+    hash: "fixture-manifest",
+    isFixture: true,
+  },
+  {
+    id: "fixture-hi-relevance",
+    title: "Hindi routing fixture — synthetic public-safe record",
+    titleOriginal: "स्वास्थ्य विभाग ने निगरानी बढ़ाने का निर्देश दिया",
+    language: "hi",
+    source: "Bundled test fixture",
+    district: "Ganjam",
+    disease: "Acute diarrhoeal disease",
+    assertion: "affirmed",
+    reviewState: "unreviewed",
+    retrievedAt: "2026-07-21T00:00:00Z",
+    evidence: "स्वास्थ्य विभाग ने निगरानी बढ़ाने का निर्देश दिया",
+    hash: "fixture-manifest",
+    isFixture: true,
+  },
+  {
+    id: "fixture-en-historical",
+    title: "English non-current reference fixture",
+    language: "en",
+    source: "Bundled test fixture",
+    district: "Malkangiri",
+    disease: "AES/JE",
+    assertion: "non_current",
+    reviewState: "rejected",
+    retrievedAt: "2026-07-21T00:00:00Z",
+    evidence: "The report refers to a historical outbreak and makes no current claim.",
+    hash: "fixture-manifest",
+    isFixture: true,
+  },
+];
+
+export const fallbackSources: SourceState[] = [
+  { id: "odisha_hfw_circulars_en", name: "Odisha H&FW circulars (English)", language: "English", kind: "HTML → scanned PDF", url: "https://health.odisha.gov.in/en/notifications/circulars", state: "registered_uncontacted", note: "Registered route only; no live receipt in static fallback." },
+  { id: "odisha_hfw_circulars_or", name: "Odisha H&FW circulars (Odia)", language: "Odia", kind: "HTML → scanned PDF", url: "https://health.odisha.gov.in/or/notifications/circulars", state: "registered_uncontacted", note: "Registered route only; no live receipt in static fallback." },
+  { id: "nhm_odisha_notifications", name: "NHM Odisha notifications", language: "English", kind: "HTML → PDF", url: "https://nhmodisha.gov.in/notificationss/", state: "registered_uncontacted", note: "Registered route only; no live receipt in static fallback." },
+  { id: "pib_bhubaneswar_en", name: "PIB Bhubaneswar (English)", language: "English", kind: "HTML", url: "https://www.pib.gov.in/allRel.aspx?reg=21&lang=1", state: "policy_pending", note: "Disabled after the registered collector route returned HTTP 403 on 21 July 2026." },
+  { id: "pib_bhubaneswar_hi", name: "PIB Bhubaneswar (Hindi)", language: "Hindi", kind: "HTML", url: "https://www.pib.gov.in/allRel.aspx?reg=21&lang=2", state: "policy_pending", note: "This PIB route is disabled after the registered collector returned HTTP 403." },
+  { id: "newsonair_odisha_dengue_hi", name: "Akashvani Hindi — Odisha dengue search", language: "Hindi", kind: "HTML", url: "https://newsonair.gov.in/hi/?s=%E0%A4%93%E0%A4%A1%E0%A4%BF%E0%A4%B6%E0%A4%BE+%E0%A4%A1%E0%A5%87%E0%A4%82%E0%A4%97%E0%A5%82", state: "policy_pending", note: "Technically verified live, but disabled: the publisher requires prior written NSD/AIR permission for this use." },
+  { id: "cbhi_national_health_profile_hi", name: "CBHI National Health Profile (Hindi reference)", language: "Hindi", kind: "Reference HTML", url: "https://cbhidghs.mohfw.gov.in/hi/publications/national-health-profile", state: "policy_pending", note: "Official native-Hindi reference route is reachable and attribution-compatible, but automated crawl is disabled because robots policy could not be retrieved; it is not a current Odisha incident feed." },
+  { id: "ganjam_collectorate", name: "Ganjam Collectorate", language: "English / Odia", kind: "HTML", url: "https://ganjam.odisha.gov.in/or", state: "registered_uncontacted", note: "Direct HTTPS Odia route; the site root's cleartext redirect is not followed." },
+  { id: "dharitri", name: "Dharitri", language: "Odia", kind: "HTML", url: "https://www.dharitri.com/", state: "policy_pending", note: "Path-specific policy and permission required before retention." },
+  { id: "prameya", name: "Prameya", language: "Odia", kind: "HTML", url: "https://www.prameya.com/", state: "policy_pending", note: "Path-specific policy and permission required before retention." },
+  { id: "odisha_government_press", name: "Odisha Government Press gazettes", language: "English / Odia", kind: "PDF", url: "https://govtpress.odisha.gov.in/en/light/odisha-gazettes", state: "policy_pending", note: "Disabled: TLS and source-rights review are unresolved; verification is never bypassed." },
+  { id: "idsp_weekly_outbreaks", name: "IDSP weekly outbreak catalogue", language: "English", kind: "PDF", url: "https://idsp.mohfw.gov.in/index4.php?lang=1&level=0&linkid=406&lid=3689", state: "registered_uncontacted", note: "Live-first/Wayback connector is configured; static fallback has no runtime receipt." },
+];

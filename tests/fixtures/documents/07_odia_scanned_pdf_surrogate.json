@@ -1,0 +1,11 @@
+{
+  "fixture_schema": "1.0",
+  "fixture_kind": "synthetic_ocr_surrogate",
+  "watermark": "SYNTHETIC OCR OUTPUT — NO GOVERNMENT PDF BYTES INCLUDED",
+  "media_type": "application/pdf",
+  "source_id": "synthetic_odia_scan",
+  "source_language_hint": "or",
+  "ocr_text": "ଏହା କୃତ୍ରିମ ତଥ୍ୟ। ରାୟଗଡ଼ାରେ ଅତିସାର ମାମଲା ଚିହ୍ନଟ ହୋଇଛି।",
+  "ocr_confidence": 0.91,
+  "expected": {"language": "or", "assertion": "affirmed", "diseases": ["acute_diarrhoeal_disease"], "district_ids": ["OD-DIST-rayagada"], "eligible": true, "manual_review": false}
+}

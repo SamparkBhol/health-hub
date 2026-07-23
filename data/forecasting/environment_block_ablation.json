@@ -1,0 +1,544 @@
+{
+  "cells": [
+    {
+      "disease_group": "any_reported_outbreak",
+      "events": 154,
+      "horizon_weeks": 1,
+      "rolling_origins": [
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ],
+      "rows": 10740,
+      "seasonal_baseline_brier": 0.01414422,
+      "seasonal_baseline_log_score": 0.073801,
+      "status": "evaluated",
+      "variants": {
+        "environment_v1_0_0": {
+          "auc": 0.7283,
+          "brier": 0.0139238822,
+          "brier_change_vs_no_environment": 1.28738e-05,
+          "brier_skill_score_vs_baseline": 0.015578,
+          "delta_brier_ci_2_5": 9.9514503e-05,
+          "delta_brier_ci_97_5": 0.0003711934,
+          "log_score": 0.070066,
+          "log_score_gain_nats": 0.003735
+        },
+        "environment_v1_1_0": {
+          "auc": 0.7266,
+          "brier": 0.0139126374,
+          "brier_change_vs_no_environment": 1.629e-06,
+          "brier_skill_score_vs_baseline": 0.016373,
+          "delta_brier_ci_2_5": 9.1995415e-05,
+          "delta_brier_ci_97_5": 0.000422381582,
+          "log_score": 0.070069,
+          "log_score_gain_nats": 0.003732
+        },
+        "no_environment": {
+          "auc": 0.7297,
+          "brier": 0.0139110084,
+          "brier_change_vs_no_environment": 0.0,
+          "brier_skill_score_vs_baseline": 0.016488,
+          "delta_brier_ci_2_5": 8.5880601e-05,
+          "delta_brier_ci_97_5": 0.000388675661,
+          "log_score": 0.069936,
+          "log_score_gain_nats": 0.003865
+        }
+      }
+    },
+    {
+      "disease_group": "any_reported_outbreak",
+      "events": 151,
+      "horizon_weeks": 2,
+      "rolling_origins": [
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ],
+      "rows": 10530,
+      "seasonal_baseline_brier": 0.01414317,
+      "seasonal_baseline_log_score": 0.073798,
+      "status": "evaluated",
+      "variants": {
+        "environment_v1_0_0": {
+          "auc": 0.7156,
+          "brier": 0.0140037613,
+          "brier_change_vs_no_environment": 4.8995e-06,
+          "brier_skill_score_vs_baseline": 0.009857,
+          "delta_brier_ci_2_5": 4.6154319e-05,
+          "delta_brier_ci_97_5": 0.00022801151,
+          "log_score": 0.070917,
+          "log_score_gain_nats": 0.00288
+        },
+        "environment_v1_1_0": {
+          "auc": 0.7114,
+          "brier": 0.014003074,
+          "brier_change_vs_no_environment": 4.2122e-06,
+          "brier_skill_score_vs_baseline": 0.009906,
+          "delta_brier_ci_2_5": 2.5372458e-05,
+          "delta_brier_ci_97_5": 0.000252373819,
+          "log_score": 0.071041,
+          "log_score_gain_nats": 0.002757
+        },
+        "no_environment": {
+          "auc": 0.7175,
+          "brier": 0.0139988618,
+          "brier_change_vs_no_environment": 0.0,
+          "brier_skill_score_vs_baseline": 0.010203,
+          "delta_brier_ci_2_5": 3.7652675e-05,
+          "delta_brier_ci_97_5": 0.000230120263,
+          "log_score": 0.070812,
+          "log_score_gain_nats": 0.002986
+        }
+      }
+    },
+    {
+      "disease_group": "any_reported_outbreak",
+      "events": 148,
+      "horizon_weeks": 4,
+      "rolling_origins": [
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ],
+      "rows": 10110,
+      "seasonal_baseline_brier": 0.01442885,
+      "seasonal_baseline_log_score": 0.074882,
+      "status": "evaluated",
+      "variants": {
+        "environment_v1_0_0": {
+          "auc": 0.7267,
+          "brier": 0.0143434695,
+          "brier_change_vs_no_environment": 1.71522e-05,
+          "brier_skill_score_vs_baseline": 0.005917,
+          "delta_brier_ci_2_5": 1.4089498e-05,
+          "delta_brier_ci_97_5": 0.000151206781,
+          "log_score": 0.072021,
+          "log_score_gain_nats": 0.002861
+        },
+        "environment_v1_1_0": {
+          "auc": 0.7212,
+          "brier": 0.014364851,
+          "brier_change_vs_no_environment": 3.85337e-05,
+          "brier_skill_score_vs_baseline": 0.004435,
+          "delta_brier_ci_2_5": -3.2616403e-05,
+          "delta_brier_ci_97_5": 0.000148698898,
+          "log_score": 0.072326,
+          "log_score_gain_nats": 0.002556
+        },
+        "no_environment": {
+          "auc": 0.7298,
+          "brier": 0.0143263173,
+          "brier_change_vs_no_environment": 0.0,
+          "brier_skill_score_vs_baseline": 0.007106,
+          "delta_brier_ci_2_5": 4.5021927e-05,
+          "delta_brier_ci_97_5": 0.000152332948,
+          "log_score": 0.071795,
+          "log_score_gain_nats": 0.003088
+        }
+      }
+    },
+    {
+      "disease_group": "any_reported_outbreak",
+      "events": 135,
+      "horizon_weeks": 8,
+      "rolling_origins": [
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ],
+      "rows": 9270,
+      "seasonal_baseline_brier": 0.01436068,
+      "seasonal_baseline_log_score": 0.074784,
+      "status": "evaluated",
+      "variants": {
+        "environment_v1_0_0": {
+          "auc": 0.7106,
+          "brier": 0.0142707028,
+          "brier_change_vs_no_environment": -1.05585e-05,
+          "brier_skill_score_vs_baseline": 0.006265,
+          "delta_brier_ci_2_5": -8.004704e-05,
+          "delta_brier_ci_97_5": 0.000228972614,
+          "log_score": 0.072459,
+          "log_score_gain_nats": 0.002325
+        },
+        "environment_v1_1_0": {
+          "auc": 0.7043,
+          "brier": 0.0142794643,
+          "brier_change_vs_no_environment": -1.797e-06,
+          "brier_skill_score_vs_baseline": 0.005655,
+          "delta_brier_ci_2_5": -7.606297e-05,
+          "delta_brier_ci_97_5": 0.000202656758,
+          "log_score": 0.072723,
+          "log_score_gain_nats": 0.002061
+        },
+        "no_environment": {
+          "auc": 0.712,
+          "brier": 0.0142812613,
+          "brier_change_vs_no_environment": 0.0,
+          "brier_skill_score_vs_baseline": 0.00553,
+          "delta_brier_ci_2_5": -5.6785965e-05,
+          "delta_brier_ci_97_5": 0.000193223493,
+          "log_score": 0.0724,
+          "log_score_gain_nats": 0.002384
+        }
+      }
+    },
+    {
+      "disease_group": "any_reported_outbreak",
+      "events": 126,
+      "horizon_weeks": 12,
+      "rolling_origins": [
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ],
+      "rows": 8430,
+      "seasonal_baseline_brier": 0.01474378,
+      "seasonal_baseline_log_score": 0.076586,
+      "status": "evaluated",
+      "variants": {
+        "environment_v1_0_0": {
+          "auc": 0.6496,
+          "brier": 0.0148993029,
+          "brier_change_vs_no_environment": 7.6559e-06,
+          "brier_skill_score_vs_baseline": -0.010548,
+          "delta_brier_ci_2_5": -0.000300628649,
+          "delta_brier_ci_97_5": -2.3681403e-05,
+          "log_score": 0.077225,
+          "log_score_gain_nats": -0.000639
+        },
+        "environment_v1_1_0": {
+          "auc": 0.6602,
+          "brier": 0.0148722661,
+          "brier_change_vs_no_environment": -1.93808e-05,
+          "brier_skill_score_vs_baseline": -0.008715,
+          "delta_brier_ci_2_5": -0.000225864992,
+          "delta_brier_ci_97_5": -3.790887e-05,
+          "log_score": 0.076794,
+          "log_score_gain_nats": -0.000207
+        },
+        "no_environment": {
+          "auc": 0.6381,
+          "brier": 0.0148916469,
+          "brier_change_vs_no_environment": 0.0,
+          "brier_skill_score_vs_baseline": -0.010029,
+          "delta_brier_ci_2_5": -0.000242880049,
+          "delta_brier_ci_97_5": -5.9930614e-05,
+          "log_score": 0.077484,
+          "log_score_gain_nats": -0.000898
+        }
+      }
+    },
+    {
+      "disease_group": "diarrhoeal_and_cholera",
+      "events": 152,
+      "horizon_weeks": 1,
+      "rolling_origins": [
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ],
+      "rows": 10740,
+      "seasonal_baseline_brier": 0.0139529,
+      "seasonal_baseline_log_score": 0.072933,
+      "status": "evaluated",
+      "variants": {
+        "environment_v1_0_0": {
+          "auc": 0.7371,
+          "brier": 0.0137156913,
+          "brier_change_vs_no_environment": 1.31199e-05,
+          "brier_skill_score_vs_baseline": 0.017,
+          "delta_brier_ci_2_5": 0.000111549584,
+          "delta_brier_ci_97_5": 0.00038530217,
+          "log_score": 0.068834,
+          "log_score_gain_nats": 0.004099
+        },
+        "environment_v1_1_0": {
+          "auc": 0.7355,
+          "brier": 0.0137077761,
+          "brier_change_vs_no_environment": 5.2047e-06,
+          "brier_skill_score_vs_baseline": 0.017568,
+          "delta_brier_ci_2_5": 0.000105462165,
+          "delta_brier_ci_97_5": 0.000417990058,
+          "log_score": 0.068858,
+          "log_score_gain_nats": 0.004075
+        },
+        "no_environment": {
+          "auc": 0.7376,
+          "brier": 0.0137025714,
+          "brier_change_vs_no_environment": 0.0,
+          "brier_skill_score_vs_baseline": 0.017941,
+          "delta_brier_ci_2_5": 9.1054201e-05,
+          "delta_brier_ci_97_5": 0.00041691996,
+          "log_score": 0.068755,
+          "log_score_gain_nats": 0.004178
+        }
+      }
+    },
+    {
+      "disease_group": "diarrhoeal_and_cholera",
+      "events": 149,
+      "horizon_weeks": 2,
+      "rolling_origins": [
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ],
+      "rows": 10530,
+      "seasonal_baseline_brier": 0.01394925,
+      "seasonal_baseline_log_score": 0.072925,
+      "status": "evaluated",
+      "variants": {
+        "environment_v1_0_0": {
+          "auc": 0.7281,
+          "brier": 0.013791695,
+          "brier_change_vs_no_environment": 5.0347e-06,
+          "brier_skill_score_vs_baseline": 0.011295,
+          "delta_brier_ci_2_5": 6.5604258e-05,
+          "delta_brier_ci_97_5": 0.000234684265,
+          "log_score": 0.069563,
+          "log_score_gain_nats": 0.003363
+        },
+        "environment_v1_1_0": {
+          "auc": 0.7249,
+          "brier": 0.0137922192,
+          "brier_change_vs_no_environment": 5.559e-06,
+          "brier_skill_score_vs_baseline": 0.011258,
+          "delta_brier_ci_2_5": 5.8514953e-05,
+          "delta_brier_ci_97_5": 0.000247481839,
+          "log_score": 0.069669,
+          "log_score_gain_nats": 0.003256
+        },
+        "no_environment": {
+          "auc": 0.7283,
+          "brier": 0.0137866603,
+          "brier_change_vs_no_environment": 0.0,
+          "brier_skill_score_vs_baseline": 0.011656,
+          "delta_brier_ci_2_5": 5.3162775e-05,
+          "delta_brier_ci_97_5": 0.000256103313,
+          "log_score": 0.069503,
+          "log_score_gain_nats": 0.003423
+        }
+      }
+    },
+    {
+      "disease_group": "diarrhoeal_and_cholera",
+      "events": 147,
+      "horizon_weeks": 4,
+      "rolling_origins": [
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ],
+      "rows": 10110,
+      "seasonal_baseline_brier": 0.01432279,
+      "seasonal_baseline_log_score": 0.074371,
+      "status": "evaluated",
+      "variants": {
+        "environment_v1_0_0": {
+          "auc": 0.7371,
+          "brier": 0.0142195709,
+          "brier_change_vs_no_environment": 1.97406e-05,
+          "brier_skill_score_vs_baseline": 0.007206,
+          "delta_brier_ci_2_5": 5.7744322e-05,
+          "delta_brier_ci_97_5": 0.000148428991,
+          "log_score": 0.071127,
+          "log_score_gain_nats": 0.003244
+        },
+        "environment_v1_1_0": {
+          "auc": 0.7318,
+          "brier": 0.0142403225,
+          "brier_change_vs_no_environment": 4.04923e-05,
+          "brier_skill_score_vs_baseline": 0.005757,
+          "delta_brier_ci_2_5": 2.2295259e-05,
+          "delta_brier_ci_97_5": 0.000138936967,
+          "log_score": 0.07143,
+          "log_score_gain_nats": 0.002941
+        },
+        "no_environment": {
+          "auc": 0.7374,
+          "brier": 0.0141998303,
+          "brier_change_vs_no_environment": 0.0,
+          "brier_skill_score_vs_baseline": 0.008585,
+          "delta_brier_ci_2_5": 5.7623773e-05,
+          "delta_brier_ci_97_5": 0.000187205316,
+          "log_score": 0.070964,
+          "log_score_gain_nats": 0.003407
+        }
+      }
+    },
+    {
+      "disease_group": "diarrhoeal_and_cholera",
+      "events": 134,
+      "horizon_weeks": 8,
+      "rolling_origins": [
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ],
+      "rows": 9270,
+      "seasonal_baseline_brier": 0.01424714,
+      "seasonal_baseline_log_score": 0.07425,
+      "status": "evaluated",
+      "variants": {
+        "environment_v1_0_0": {
+          "auc": 0.7085,
+          "brier": 0.0141561977,
+          "brier_change_vs_no_environment": -3.5438e-06,
+          "brier_skill_score_vs_baseline": 0.006383,
+          "delta_brier_ci_2_5": -6.8754216e-05,
+          "delta_brier_ci_97_5": 0.000223608751,
+          "log_score": 0.072065,
+          "log_score_gain_nats": 0.002184
+        },
+        "environment_v1_1_0": {
+          "auc": 0.7026,
+          "brier": 0.0141658246,
+          "brier_change_vs_no_environment": 6.0831e-06,
+          "brier_skill_score_vs_baseline": 0.005707,
+          "delta_brier_ci_2_5": -6.7550645e-05,
+          "delta_brier_ci_97_5": 0.000201619809,
+          "log_score": 0.072332,
+          "log_score_gain_nats": 0.001917
+        },
+        "no_environment": {
+          "auc": 0.7099,
+          "brier": 0.0141597415,
+          "brier_change_vs_no_environment": 0.0,
+          "brier_skill_score_vs_baseline": 0.006134,
+          "delta_brier_ci_2_5": -4.4485186e-05,
+          "delta_brier_ci_97_5": 0.000210796587,
+          "log_score": 0.072,
+          "log_score_gain_nats": 0.002249
+        }
+      }
+    },
+    {
+      "disease_group": "diarrhoeal_and_cholera",
+      "events": 125,
+      "horizon_weeks": 12,
+      "rolling_origins": [
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ],
+      "rows": 8430,
+      "seasonal_baseline_brier": 0.01461832,
+      "seasonal_baseline_log_score": 0.076009,
+      "status": "evaluated",
+      "variants": {
+        "environment_v1_0_0": {
+          "auc": 0.6527,
+          "brier": 0.0147236195,
+          "brier_change_vs_no_environment": 5.4424e-06,
+          "brier_skill_score_vs_baseline": -0.007203,
+          "delta_brier_ci_2_5": -0.000239129164,
+          "delta_brier_ci_97_5": 2.750586e-06,
+          "log_score": 0.076429,
+          "log_score_gain_nats": -0.00042
+        },
+        "environment_v1_1_0": {
+          "auc": 0.6627,
+          "brier": 0.0146984112,
+          "brier_change_vs_no_environment": -1.9766e-05,
+          "brier_skill_score_vs_baseline": -0.005479,
+          "delta_brier_ci_2_5": -0.000170661205,
+          "delta_brier_ci_97_5": -5.295775e-06,
+          "log_score": 0.075998,
+          "log_score_gain_nats": 1.1e-05
+        },
+        "no_environment": {
+          "auc": 0.6439,
+          "brier": 0.0147181772,
+          "brier_change_vs_no_environment": 0.0,
+          "brier_skill_score_vs_baseline": -0.006831,
+          "delta_brier_ci_2_5": -0.000174668176,
+          "delta_brier_ci_97_5": -3.3227981e-05,
+          "log_score": 0.076632,
+          "log_score_gain_nats": -0.000623
+        }
+      }
+    }
+  ],
+  "conclusion": "The environmental block does not earn its place. Against a pooled Brier score of order 1e-02 it moves the score by order 1e-05, in both directions depending on horizon, and the enriched block did not rescue it. Substantially all of the model's skill comes from the seasonal climatology and the reporting-history block. The enriched block was therefore not shipped.",
+  "design": {
+    "penalty_is_fixed_rationale": "Tuning each variant separately would let a difference in tuning masquerade as a difference in information.",
+    "ridge_penalty": 8.0,
+    "rolling_origins": "identical across variants",
+    "rows": "identical across variants",
+    "seasonal_climatology_baseline": "identical across variants",
+    "target_kind": "reported_outbreak_occurrence",
+    "target_statement": "Probability that at least one outbreak REPORT for this district-week appears in the national IDSP-derived outbreak catalogue. This is reported-event occurrence, jointly driven by disease activity and by surveillance and publication behaviour. It is not incidence, not a case count, and a zero is an absence of publication, not an absence of disease."
+  },
+  "feature_notes": {
+    "dtr_4w_c": "4-week trailing mean diurnal temperature range (T2M_MAX - T2M_MIN)",
+    "humid_days_4w": "days with mean relative humidity at or above 80 percent in the trailing 4 weeks",
+    "longest_dry_run_4w_days": "longest run of consecutive days below 1 mm in the trailing 4 weeks",
+    "rain_1w_mm": "corrected precipitation total over the issue ISO week",
+    "rain_2w_mm": "2-week trailing precipitation accumulation ending at the issue week",
+    "rain_4w_anomaly_sd": "4-week accumulation minus the expanding same-ISO-week mean from strictly earlier years, scaled by the expanding standard deviation",
+    "rain_4w_mm": "4-week trailing precipitation accumulation ending at the issue week",
+    "rain_4w_x_t2m_4w": "product of the 4-week rain accumulation and the 4-week mean temperature centred at a fixed reference; an explicit warm-and-wet interaction",
+    "rain_8w_anomaly_sd": "8-week accumulation anomaly against the expanding same-ISO-week climatology from strictly earlier years",
+    "rain_8w_mm": "8-week trailing precipitation accumulation ending at the issue week",
+    "rh_4w_anomaly_sd": "expanding same-ISO-week humidity anomaly in standard deviations",
+    "rh_4w_pct": "4-week trailing mean 2 m relative humidity",
+    "t2m_4w_anomaly_sd": "expanding same-ISO-week temperature anomaly in standard deviations",
+    "t2m_4w_c": "4-week trailing mean 2 m air temperature",
+    "tmax_4w_c": "4-week trailing mean daily maximum temperature"
+  },
+  "generated_at": "2026-07-21T21:19:26.265424Z",
+  "is_synthetic": false,
+  "question": "Does the environmental block add information beyond the seasonal climatology and the reporting-history block?",
+  "schema_version": "1.0.0",
+  "uses_real_odisha_data": true,
+  "variants": {
+    "environment_v1_0_0": "the 10 published environmental columns",
+    "environment_v1_1_0": "the published columns plus 5 candidates: rain_8w_anomaly_sd, longest_dry_run_4w_days, humid_days_4w, tmax_4w_c, rain_4w_x_t2m_4w",
+    "no_environment": "calendar + reporting history"
+  },
+  "warnings": [
+    "This measures information about whether an outbreak REPORT is published, not about disease. A null result here is not evidence that weather does not drive disease in Odisha; it is evidence that weather does not predict this catalogue's publication behaviour beyond season and reporting history."
+  ]
+}

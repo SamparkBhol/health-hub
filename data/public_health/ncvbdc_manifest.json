@@ -1,0 +1,116 @@
+{
+  "schema_version": "1.0.0",
+  "retrieved_at": "2026-07-22T09:12:26.238573Z",
+  "publisher": "National Centre for Vector Borne Diseases Control, MoHFW",
+  "scope": "Official annual district-wise malaria reports; not weekly incidence",
+  "row_count": 450,
+  "district_count": 30,
+  "reports": [
+    {
+      "year": 2010,
+      "source_url": "https://ncvbdc.mohfw.gov.in/Doc/Malaria-Annual-Report-2010.pdf",
+      "sha256": "cf0ad56b97057841c36d382a91845821e8bee5f26efe6e5e6c532cb629450a24",
+      "byte_length": 232172,
+      "district_rows": 30
+    },
+    {
+      "year": 2011,
+      "source_url": "https://ncvbdc.mohfw.gov.in/Doc/Malaria-Annual-Report-2011.pdf",
+      "sha256": "686819c96294c9539e2eee246a585db560192aea776730a505a3a20946940cf3",
+      "byte_length": 232204,
+      "district_rows": 30
+    },
+    {
+      "year": 2012,
+      "source_url": "https://ncvbdc.mohfw.gov.in/Doc/Malaria-Annual-Report-2012.pdf",
+      "sha256": "ac7ad7335917f57a38e4d034942fb72ff290a1a0640345ca75b08a6eb3f953aa",
+      "byte_length": 234046,
+      "district_rows": 30
+    },
+    {
+      "year": 2013,
+      "source_url": "https://ncvbdc.mohfw.gov.in/Doc/Malaria-Annual-Report-2013.pdf",
+      "sha256": "98a6ba7e419df6ef8a9f72a3988cdc90224ab7cd3ec134762fe4100b5bdbea8a",
+      "byte_length": 235204,
+      "district_rows": 30
+    },
+    {
+      "year": 2014,
+      "source_url": "https://ncvbdc.mohfw.gov.in/Doc/Malaria-Annual-Report-2014.pdf",
+      "sha256": "119bb6380dcbbbf7a69369339b7bb113102887ee752a14083c00dd0235228da2",
+      "byte_length": 237469,
+      "district_rows": 30
+    },
+    {
+      "year": 2015,
+      "source_url": "https://ncvbdc.mohfw.gov.in/Doc/Malaria-Annual-Report-2015.pdf",
+      "sha256": "8beb7b6d7a4a4177142e3162994f80e5d9730813e3f7e3f7a6d012cd47b069c5",
+      "byte_length": 236870,
+      "district_rows": 30
+    },
+    {
+      "year": 2016,
+      "source_url": "https://ncvbdc.mohfw.gov.in/Doc/Malaria-Annual-Report-2016.pdf",
+      "sha256": "f693c19f224f681faafd839a731b0a616aee97dee6dbf563e12bb8c1d9900e91",
+      "byte_length": 236804,
+      "district_rows": 30
+    },
+    {
+      "year": 2017,
+      "source_url": "https://ncvbdc.mohfw.gov.in/Doc/Annual-Report-2017.pdf",
+      "sha256": "4622637c4bc6561ffc7f0fa5f4b66c9dbcbe33d0f0e4041c5ab47a85bde5fcab",
+      "byte_length": 793890,
+      "district_rows": 30
+    },
+    {
+      "year": 2018,
+      "source_url": "https://ncvbdc.mohfw.gov.in/Doc/Annual-Report-2018.pdf",
+      "sha256": "eac520f386bffa9bb8768a430482e690f6ccc64c1a9bbf97e0895cca7abffd3e",
+      "byte_length": 773696,
+      "district_rows": 30
+    },
+    {
+      "year": 2019,
+      "source_url": "https://ncvbdc.mohfw.gov.in/Doc/Malaria-AnnualReport-2019.pdf",
+      "sha256": "0ca92fe55fc6114497464215dcf1635b72d29bf07ed7d624206c878a93861ed0",
+      "byte_length": 229641,
+      "district_rows": 30
+    },
+    {
+      "year": 2020,
+      "source_url": "https://ncvbdc.mohfw.gov.in/Doc/Malaria-AnnualReport-2020.pdf",
+      "sha256": "4274a770a146e571ab6fc9e99cdf6cb357aad4cbc5bf7d325f9076a2f6010210",
+      "byte_length": 272450,
+      "district_rows": 30
+    },
+    {
+      "year": 2021,
+      "source_url": "https://ncvbdc.mohfw.gov.in/Doc/Malaria-AnnualReport-2021.pdf",
+      "sha256": "8d0febc38c13329a2a33b2e3fef6090e5663a9a9af41aa564ced9d8b7bca1726",
+      "byte_length": 337611,
+      "district_rows": 30
+    },
+    {
+      "year": 2022,
+      "source_url": "https://ncvbdc.mohfw.gov.in/Doc/Malaria-AnnualReport-2022.pdf",
+      "sha256": "3736738ca183938947f6206fd366272c0d3bbe4f59d89ee0ce924fdd08cfafd3",
+      "byte_length": 275842,
+      "district_rows": 30
+    },
+    {
+      "year": 2023,
+      "source_url": "https://ncvbdc.mohfw.gov.in/Doc/Malaria-AnnualReport-2023.pdf",
+      "sha256": "b9acc1568317fc4cfb107f2ab8a0d3f16ced77cfa7ddfc5daf35be1aa1db5f2d",
+      "byte_length": 261114,
+      "district_rows": 30
+    },
+    {
+      "year": 2024,
+      "source_url": "https://ncvbdc.mohfw.gov.in/Doc/Malaria-Annual-Report-2024.pdf",
+      "sha256": "ac15c6af6654d49ba857df54a766ab36cba690d08ab25051f3bee2c78536baab",
+      "byte_length": 323707,
+      "district_rows": 30
+    }
+  ],
+  "derived_csv_sha256": "a5f371bfe763d5c0a7882cf8fae57738bf27994af3ab432324d3ac32a0db853c"
+}

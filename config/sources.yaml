@@ -1,0 +1,3654 @@
+{
+  "schema_version": "1.1.0",
+  "verified_at": "2026-07-21T00:00:00Z",
+  "verification_note": "availability_state is the literal outcome of fetching this exact URL through workers.ingestion.safe_fetch on the verified_at date; robots_state is the runtime robots.txt verdict for the crawler token.",
+  "sources": [
+    {
+      "id": "odisha_hfw_circulars_en",
+      "name": "Odisha Health and Family Welfare circulars (English)",
+      "url": "https://health.odisha.gov.in/en/notifications/circulars",
+      "allowed_hosts": [
+        "health.odisha.gov.in"
+      ],
+      "kind": "html_index_pdf",
+      "languages": [
+        "en"
+      ],
+      "enabled": true,
+      "minimum_interval_seconds": 10,
+      "robots_state": "robots_unavailable_http_403_checked_2026_07_21",
+      "rights_state": "official_source_review_required_before_full_text_redistribution",
+      "retention": "hash_metadata_and_redacted_excerpt",
+      "content_role": "index",
+      "link_policy": "health_only",
+      "availability_state": "collector_http_200_text_html_87141_bytes_checked_2026_07_21"
+    },
+    {
+      "id": "odisha_hfw_circulars_or",
+      "name": "Odisha Health and Family Welfare circulars (Odia)",
+      "url": "https://health.odisha.gov.in/or/notifications/circulars",
+      "allowed_hosts": [
+        "health.odisha.gov.in"
+      ],
+      "kind": "html_index_pdf",
+      "languages": [
+        "or"
+      ],
+      "enabled": true,
+      "minimum_interval_seconds": 10,
+      "robots_state": "robots_unavailable_http_403_checked_2026_07_21",
+      "rights_state": "official_source_review_required_before_full_text_redistribution",
+      "retention": "hash_metadata_and_redacted_excerpt",
+      "content_role": "index",
+      "link_policy": "health_only",
+      "availability_state": "collector_http_200_text_html_91711_bytes_checked_2026_07_21"
+    },
+    {
+      "id": "odisha_hfw_home_en",
+      "name": "Odisha Health and Family Welfare portal (English)",
+      "url": "https://health.odisha.gov.in/en",
+      "allowed_hosts": [
+        "health.odisha.gov.in"
+      ],
+      "kind": "html_state_health_portal",
+      "languages": [
+        "en"
+      ],
+      "enabled": true,
+      "minimum_interval_seconds": 10,
+      "robots_state": "robots_unavailable_http_403_checked_2026_07_21",
+      "rights_state": "official_source_review_required_before_full_text_redistribution",
+      "retention": "hash_metadata_and_redacted_excerpt",
+      "content_role": "document",
+      "link_policy": "section",
+      "availability_state": "collector_http_200_text_html_107918_bytes_checked_2026_07_21"
+    },
+    {
+      "id": "odisha_hfw_home_or",
+      "name": "Odisha Health and Family Welfare portal (Odia)",
+      "url": "https://health.odisha.gov.in/or",
+      "allowed_hosts": [
+        "health.odisha.gov.in"
+      ],
+      "kind": "html_state_health_portal",
+      "languages": [
+        "or"
+      ],
+      "enabled": true,
+      "minimum_interval_seconds": 10,
+      "robots_state": "robots_unavailable_http_403_checked_2026_07_21",
+      "rights_state": "official_source_review_required_before_full_text_redistribution",
+      "retention": "hash_metadata_and_redacted_excerpt",
+      "content_role": "document",
+      "link_policy": "section",
+      "availability_state": "collector_http_200_text_html_118536_bytes_checked_2026_07_21"
+    },
+    {
+      "id": "odisha_hfw_news_en",
+      "name": "Odisha Health and Family Welfare news (English)",
+      "url": "https://health.odisha.gov.in/en/news",
+      "allowed_hosts": [
+        "health.odisha.gov.in"
+      ],
+      "kind": "html_state_health_portal",
+      "languages": [
+        "en"
+      ],
+      "enabled": true,
+      "minimum_interval_seconds": 10,
+      "robots_state": "robots_unavailable_http_403_checked_2026_07_21",
+      "rights_state": "official_source_review_required_before_full_text_redistribution",
+      "retention": "hash_metadata_and_redacted_excerpt",
+      "content_role": "index",
+      "link_policy": "section",
+      "availability_state": "collector_http_200_text_html_56280_bytes_checked_2026_07_21"
+    },
+    {
+      "id": "odisha_hfw_news_or",
+      "name": "Odisha Health and Family Welfare news (Odia)",
+      "url": "https://health.odisha.gov.in/or/news",
+      "allowed_hosts": [
+        "health.odisha.gov.in"
+      ],
+      "kind": "html_state_health_portal",
+      "languages": [
+        "or"
+      ],
+      "enabled": true,
+      "minimum_interval_seconds": 10,
+      "robots_state": "robots_unavailable_http_403_checked_2026_07_21",
+      "rights_state": "official_source_review_required_before_full_text_redistribution",
+      "retention": "hash_metadata_and_redacted_excerpt",
+      "content_role": "index",
+      "link_policy": "section",
+      "availability_state": "collector_http_200_text_html_63679_bytes_checked_2026_07_21"
+    },
+    {
+      "id": "odisha_hfw_disaster_health_en",
+      "name": "Odisha health disaster-management plan (English)",
+      "url": "https://health.odisha.gov.in/en/healthplan/disaster-management",
+      "allowed_hosts": [
+        "health.odisha.gov.in"
+      ],
+      "kind": "html_state_health_portal",
+      "languages": [
+        "en"
+      ],
+      "enabled": true,
+      "minimum_interval_seconds": 10,
+      "robots_state": "robots_unavailable_http_403_checked_2026_07_21",
+      "rights_state": "official_source_review_required_before_full_text_redistribution",
+      "retention": "hash_metadata_and_redacted_excerpt",
+      "content_role": "document",
+      "link_policy": "health_only",
+      "availability_state": "collector_http_200_text_html_56041_bytes_checked_2026_07_21"
+    },
+    {
+      "id": "odisha_hfw_indicators_en",
+      "name": "Odisha health indicators (English)",
+      "url": "https://health.odisha.gov.in/en/healthindicator/indicators",
+      "allowed_hosts": [
+        "health.odisha.gov.in"
+      ],
+      "kind": "html_state_health_portal",
+      "languages": [
+        "en"
+      ],
+      "enabled": true,
+      "minimum_interval_seconds": 10,
+      "robots_state": "robots_unavailable_http_403_checked_2026_07_21",
+      "rights_state": "official_source_review_required_before_full_text_redistribution",
+      "retention": "hash_metadata_and_redacted_excerpt",
+      "content_role": "document",
+      "link_policy": "health_only",
+      "availability_state": "collector_http_200_text_html_67793_bytes_checked_2026_07_21"
+    },
+    {
+      "id": "nhm_odisha_notifications",
+      "name": "National Health Mission Odisha notifications",
+      "url": "https://nhmodisha.gov.in/notificationss/",
+      "allowed_hosts": [
+        "nhmodisha.gov.in"
+      ],
+      "kind": "html_index_pdf",
+      "languages": [
+        "en"
+      ],
+      "enabled": true,
+      "minimum_interval_seconds": 10,
+      "robots_state": "allowed_checked_2026_07_21",
+      "rights_state": "official_source_review_required_before_full_text_redistribution",
+      "retention": "hash_metadata_and_redacted_excerpt",
+      "content_role": "index",
+      "link_policy": "section",
+      "availability_state": "collector_http_200_text_html_163177_bytes_checked_2026_07_21"
+    },
+    {
+      "id": "nhm_odisha_home",
+      "name": "National Health Mission Odisha portal",
+      "url": "https://nhmodisha.gov.in/",
+      "allowed_hosts": [
+        "nhmodisha.gov.in"
+      ],
+      "kind": "html_index_pdf",
+      "languages": [
+        "en"
+      ],
+      "enabled": true,
+      "minimum_interval_seconds": 10,
+      "robots_state": "allowed_checked_2026_07_21",
+      "rights_state": "official_source_review_required_before_full_text_redistribution",
+      "retention": "hash_metadata_and_redacted_excerpt",
+      "content_role": "index",
+      "link_policy": "section",
+      "availability_state": "collector_http_200_text_html_375108_bytes_checked_2026_07_21"
+    },
+    {
+      "id": "nhm_odisha_notification_archive",
+      "name": "National Health Mission Odisha notification archive",
+      "url": "https://nhmodisha.gov.in/notification/",
+      "allowed_hosts": [
+        "nhmodisha.gov.in"
+      ],
+      "kind": "html_index_pdf",
+      "languages": [
+        "en"
+      ],
+      "enabled": true,
+      "minimum_interval_seconds": 10,
+      "robots_state": "allowed_checked_2026_07_21",
+      "rights_state": "official_source_review_required_before_full_text_redistribution",
+      "retention": "hash_metadata_and_redacted_excerpt",
+      "content_role": "index",
+      "link_policy": "section",
+      "availability_state": "collector_http_200_text_html_67027_bytes_checked_2026_07_21"
+    },
+    {
+      "id": "osdma_home",
+      "name": "Odisha State Disaster Management Authority",
+      "url": "https://www.osdma.org/",
+      "allowed_hosts": [
+        "www.osdma.org",
+        "osdma.org"
+      ],
+      "kind": "html_index",
+      "languages": [
+        "en"
+      ],
+      "enabled": true,
+      "minimum_interval_seconds": 10,
+      "robots_state": "allowed_checked_2026_07_21",
+      "rights_state": "official_source_review_required_before_full_text_redistribution",
+      "retention": "hash_metadata_and_redacted_excerpt",
+      "content_role": "index",
+      "link_policy": "section",
+      "availability_state": "collector_http_200_text_html_348934_bytes_checked_2026_07_21"
+    },
+    {
+      "id": "osdma_situation_report",
+      "name": "OSDMA situation reports",
+      "url": "https://www.osdma.org/situation-report/",
+      "allowed_hosts": [
+        "www.osdma.org",
+        "osdma.org"
+      ],
+      "kind": "html_index_pdf",
+      "languages": [
+        "en"
+      ],
+      "enabled": true,
+      "minimum_interval_seconds": 10,
+      "robots_state": "allowed_checked_2026_07_21",
+      "rights_state": "official_source_review_required_before_full_text_redistribution",
+      "retention": "hash_metadata_and_redacted_excerpt",
+      "content_role": "index",
+      "link_policy": "section",
+      "availability_state": "collector_http_200_text_html_67827_bytes_checked_2026_07_21"
+    },
+    {
+      "id": "src_odisha_home",
+      "name": "Special Relief Commissioner, Odisha",
+      "url": "https://srcodisha.nic.in/",
+      "allowed_hosts": [
+        "srcodisha.nic.in"
+      ],
+      "kind": "html_index_pdf",
+      "languages": [
+        "en"
+      ],
+      "enabled": true,
+      "minimum_interval_seconds": 10,
+      "robots_state": "allowed_checked_2026_07_21",
+      "rights_state": "official_source_review_required_before_full_text_redistribution",
+      "retention": "hash_metadata_and_redacted_excerpt",
+      "content_role": "index",
+      "link_policy": "section",
+      "availability_state": "collector_http_200_text_html_102475_bytes_checked_2026_07_21"
+    },
+    {
+      "id": "ncvbdc_dengue_situation_en",
+      "name": "NCVBDC dengue situation in India (English)",
+      "url": "https://ncvbdc.mohfw.gov.in/index4.php?lang=1&level=0&linkid=431&lid=3715",
+      "allowed_hosts": [
+        "ncvbdc.mohfw.gov.in"
+      ],
+      "kind": "national_vector_borne_programme",
+      "languages": [
+        "en"
+      ],
+      "enabled": true,
+      "minimum_interval_seconds": 15,
+      "robots_state": "robots_unavailable_http_404_checked_2026_07_21",
+      "rights_state": "official_source_review_required_before_full_text_redistribution",
+      "retention": "hash_metadata_and_redacted_excerpt",
+      "content_role": "document",
+      "link_policy": "health_only",
+      "granularity_state": "national_and_state_tables_not_district_incidence",
+      "availability_state": "collector_http_200_text_html_90075_bytes_checked_2026_07_21"
+    },
+    {
+      "id": "ncvbdc_dengue_situation_hi",
+      "name": "NCVBDC dengue situation in India (Hindi)",
+      "url": "https://ncvbdc.mohfw.gov.in/index4.php?lang=2&level=0&linkid=431&lid=3715",
+      "allowed_hosts": [
+        "ncvbdc.mohfw.gov.in"
+      ],
+      "kind": "national_vector_borne_programme",
+      "languages": [
+        "hi"
+      ],
+      "enabled": true,
+      "minimum_interval_seconds": 15,
+      "robots_state": "robots_unavailable_http_404_checked_2026_07_21",
+      "rights_state": "official_source_review_required_before_full_text_redistribution",
+      "retention": "hash_metadata_and_redacted_excerpt",
+      "content_role": "document",
+      "link_policy": "health_only",
+      "granularity_state": "national_and_state_tables_not_district_incidence",
+      "availability_state": "collector_http_200_text_html_29553_bytes_checked_2026_07_21"
+    },
+    {
+      "id": "ncvbdc_malaria_situation_en",
+      "name": "NCVBDC malaria situation (English)",
+      "url": "https://ncvbdc.mohfw.gov.in/index1.php?lang=1&level=1&sublinkid=5784&lid=3689",
+      "allowed_hosts": [
+        "ncvbdc.mohfw.gov.in"
+      ],
+      "kind": "national_vector_borne_programme",
+      "languages": [
+        "en"
+      ],
+      "enabled": true,
+      "minimum_interval_seconds": 15,
+      "robots_state": "robots_unavailable_http_404_checked_2026_07_21",
+      "rights_state": "official_source_review_required_before_full_text_redistribution",
+      "retention": "hash_metadata_and_redacted_excerpt",
+      "content_role": "document",
+      "link_policy": "health_only",
+      "granularity_state": "national_and_state_tables_not_district_incidence",
+      "availability_state": "collector_http_200_text_html_52098_bytes_checked_2026_07_21"
+    },
+    {
+      "id": "ncvbdc_malaria_situation_hi",
+      "name": "NCVBDC malaria situation (Hindi)",
+      "url": "https://ncvbdc.mohfw.gov.in/index1.php?lang=2&level=1&sublinkid=5784&lid=3689",
+      "allowed_hosts": [
+        "ncvbdc.mohfw.gov.in"
+      ],
+      "kind": "national_vector_borne_programme",
+      "languages": [
+        "hi"
+      ],
+      "enabled": true,
+      "minimum_interval_seconds": 15,
+      "robots_state": "robots_unavailable_http_404_checked_2026_07_21",
+      "rights_state": "official_source_review_required_before_full_text_redistribution",
+      "retention": "hash_metadata_and_redacted_excerpt",
+      "content_role": "document",
+      "link_policy": "health_only",
+      "granularity_state": "national_and_state_tables_not_district_incidence",
+      "availability_state": "collector_http_200_text_html_29505_bytes_checked_2026_07_21"
+    },
+    {
+      "id": "ncvbdc_hindi_home_hi",
+      "name": "NCVBDC Hindi portal",
+      "url": "https://ncvbdc.mohfw.gov.in/index.php?lang=2",
+      "allowed_hosts": [
+        "ncvbdc.mohfw.gov.in"
+      ],
+      "kind": "national_vector_borne_programme",
+      "languages": [
+        "hi"
+      ],
+      "enabled": true,
+      "minimum_interval_seconds": 15,
+      "robots_state": "robots_unavailable_http_404_checked_2026_07_21",
+      "rights_state": "official_source_review_required_before_full_text_redistribution",
+      "retention": "hash_metadata_and_redacted_excerpt",
+      "content_role": "document",
+      "link_policy": "health_only",
+      "granularity_state": "national_and_state_tables_not_district_incidence",
+      "availability_state": "collector_http_200_text_html_49051_bytes_checked_2026_07_21"
+    },
+    {
+      "id": "ncdc_home_en",
+      "name": "National Centre for Disease Control",
+      "url": "https://ncdc.mohfw.gov.in/",
+      "allowed_hosts": [
+        "ncdc.mohfw.gov.in"
+      ],
+      "kind": "national_communicable_disease_centre",
+      "languages": [
+        "en"
+      ],
+      "enabled": true,
+      "minimum_interval_seconds": 15,
+      "robots_state": "robots_unavailable_http_404_checked_2026_07_21",
+      "rights_state": "official_source_review_required_before_full_text_redistribution",
+      "retention": "hash_metadata_and_redacted_excerpt",
+      "content_role": "document",
+      "link_policy": "section",
+      "availability_state": "collector_http_200_text_html_82806_bytes_checked_2026_07_21"
+    },
+    {
+      "id": "dghs_hindi_home_hi",
+      "name": "Directorate General of Health Services (Hindi)",
+      "url": "https://dghs.mohfw.gov.in/index.php",
+      "allowed_hosts": [
+        "dghs.mohfw.gov.in"
+      ],
+      "kind": "national_health_directorate",
+      "languages": [
+        "hi"
+      ],
+      "enabled": true,
+      "minimum_interval_seconds": 15,
+      "robots_state": "robots_unavailable_http_404_checked_2026_07_21",
+      "rights_state": "official_source_review_required_before_full_text_redistribution",
+      "retention": "hash_metadata_and_redacted_excerpt",
+      "content_role": "document",
+      "link_policy": "section",
+      "availability_state": "collector_http_200_text_html_77787_bytes_checked_2026_07_21"
+    },
+    {
+      "id": "who_disease_outbreak_news_en",
+      "name": "WHO Disease Outbreak News",
+      "url": "https://www.who.int/emergencies/disease-outbreak-news",
+      "allowed_hosts": [
+        "www.who.int"
+      ],
+      "kind": "international_outbreak_bulletin",
+      "languages": [
+        "en"
+      ],
+      "enabled": true,
+      "minimum_interval_seconds": 20,
+      "robots_state": "allowed_checked_2026_07_21",
+      "rights_state": "who_cc_by_nc_sa_3_0_igo_attribution_required",
+      "retention": "hash_metadata_and_redacted_excerpt",
+      "content_role": "index",
+      "link_policy": "section",
+      "availability_state": "collector_http_200_text_html_330231_bytes_checked_2026_07_21"
+    },
+    {
+      "id": "ddnews_hindi_national_hi",
+      "name": "DD News Hindi national bulletin",
+      "url": "https://ddnews.gov.in/hi/national/",
+      "allowed_hosts": [
+        "ddnews.gov.in"
+      ],
+      "kind": "public_broadcaster_bulletin",
+      "languages": [
+        "hi"
+      ],
+      "enabled": true,
+      "minimum_interval_seconds": 12,
+      "robots_state": "allowed_checked_2026_07_21",
+      "rights_state": "official_source_review_required_before_full_text_redistribution",
+      "retention": "hash_metadata_and_redacted_excerpt",
+      "content_role": "index",
+      "link_policy": "section",
+      "availability_state": "collector_http_200_text_html_64715_bytes_checked_2026_07_21"
+    },
+    {
+      "id": "mygov_hindi_hi",
+      "name": "MyGov Hindi",
+      "url": "https://www.mygov.in/hi/",
+      "allowed_hosts": [
+        "www.mygov.in"
+      ],
+      "kind": "government_citizen_portal",
+      "languages": [
+        "hi"
+      ],
+      "enabled": true,
+      "minimum_interval_seconds": 12,
+      "robots_state": "allowed_checked_2026_07_21",
+      "rights_state": "official_source_review_required_before_full_text_redistribution",
+      "retention": "hash_metadata_and_redacted_excerpt",
+      "content_role": "index",
+      "link_policy": "health_only",
+      "availability_state": "collector_http_200_text_html_214205_bytes_checked_2026_07_21"
+    },
+    {
+      "id": "idsp_weekly_outbreaks",
+      "name": "IDSP weekly outbreak reports",
+      "url": "https://idsp.mohfw.gov.in/index4.php?lang=1&level=0&linkid=406&lid=3689",
+      "allowed_hosts": [
+        "idsp.mohfw.gov.in",
+        "web.archive.org"
+      ],
+      "kind": "official_catalogue_pdf",
+      "languages": [
+        "en"
+      ],
+      "enabled": true,
+      "minimum_interval_seconds": 30,
+      "robots_state": "robots_unavailable_network_error_checked_2026_07_21",
+      "rights_state": "official_public_report_review_required_before_raw_redistribution",
+      "retention": "hash_metadata_and_structured_catalogue_rows",
+      "availability_state": "collector_network_error_checked_2026_07_21",
+      "fallback": "wayback_cdx_then_id_endpoint",
+      "archive_pattern": "https://web.archive.org/web/{timestamp}id_/{original_url}",
+      "content_role": "index",
+      "link_policy": "health_only"
+    },
+    {
+      "id": "ganjam_collectorate",
+      "name": "Ganjam Collectorate",
+      "url": "https://ganjam.odisha.gov.in/or",
+      "allowed_hosts": [
+        "ganjam.odisha.gov.in"
+      ],
+      "kind": "html_index",
+      "languages": [
+        "en",
+        "or"
+      ],
+      "enabled": true,
+      "minimum_interval_seconds": 8,
+      "robots_state": "allowed_checked_2026_07_21",
+      "rights_state": "official_source_review_required_before_full_text_redistribution",
+      "retention": "hash_metadata_and_redacted_excerpt",
+      "district_id": "OD-DIST-ganjam",
+      "content_role": "index",
+      "link_policy": "health_only",
+      "availability_state": "collector_http_200_text_html_127990_bytes_checked_2026_07_21"
+    },
+    {
+      "id": "district_balangir_health_or",
+      "name": "Balangir district health department (or)",
+      "url": "https://balangir.odisha.gov.in/or/departments/health",
+      "allowed_hosts": [
+        "balangir.odisha.gov.in"
+      ],
+      "kind": "district_collectorate_health_page",
+      "languages": [
+        "or"
+      ],
+      "enabled": true,
+      "minimum_interval_seconds": 6,
+      "robots_state": "allowed_checked_2026_07_21",
+      "rights_state": "official_source_review_required_before_full_text_redistribution",
+      "retention": "hash_metadata_and_redacted_excerpt",
+      "district_id": "OD-DIST-balangir",
+      "content_role": "document",
+      "link_policy": "section",
+      "availability_state": "collector_http_200_text_html_241885_bytes_checked_2026_07_21"
+    },
+    {
+      "id": "district_balangir_health_en",
+      "name": "Balangir district health department (en)",
+      "url": "https://balangir.odisha.gov.in/en/departments/health",
+      "allowed_hosts": [
+        "balangir.odisha.gov.in"
+      ],
+      "kind": "district_collectorate_health_page",
+      "languages": [
+        "en"
+      ],
+      "enabled": true,
+      "minimum_interval_seconds": 6,
+      "robots_state": "allowed_checked_2026_07_21",
+      "rights_state": "official_source_review_required_before_full_text_redistribution",
+      "retention": "hash_metadata_and_redacted_excerpt",
+      "district_id": "OD-DIST-balangir",
+      "content_role": "document",
+      "link_policy": "section",
+      "availability_state": "collector_http_200_text_html_64133_bytes_checked_2026_07_21"
+    },
+    {
+      "id": "district_bhadrak_health_or",
+      "name": "Bhadrak district health department (or)",
+      "url": "https://bhadrak.odisha.gov.in/or/departments/health",
+      "allowed_hosts": [
+        "bhadrak.odisha.gov.in"
+      ],
+      "kind": "district_collectorate_health_page",
+      "languages": [
+        "or"
+      ],
+      "enabled": true,
+      "minimum_interval_seconds": 6,
+      "robots_state": "allowed_checked_2026_07_21",
+      "rights_state": "official_source_review_required_before_full_text_redistribution",
+      "retention": "hash_metadata_and_redacted_excerpt",
+      "district_id": "OD-DIST-bhadrak",
+      "content_role": "document",
+      "link_policy": "section",
+      "availability_state": "collector_http_200_text_html_172407_bytes_checked_2026_07_21"
+    },
+    {
+      "id": "district_bhadrak_health_en",
+      "name": "Bhadrak district health department (en)",
+      "url": "https://bhadrak.odisha.gov.in/en/departments/health",
+      "allowed_hosts": [
+        "bhadrak.odisha.gov.in"
+      ],
+      "kind": "district_collectorate_health_page",
+      "languages": [
+        "en"
+      ],
+      "enabled": true,
+      "minimum_interval_seconds": 6,
+      "robots_state": "allowed_checked_2026_07_21",
+      "rights_state": "official_source_review_required_before_full_text_redistribution",
+      "retention": "hash_metadata_and_redacted_excerpt",
+      "district_id": "OD-DIST-bhadrak",
+      "content_role": "document",
+      "link_policy": "section",
+      "availability_state": "collector_http_200_text_html_157109_bytes_checked_2026_07_21"
+    },
+    {
+      "id": "district_boudh_health_or",
+      "name": "Boudh district health department (or)",
+      "url": "https://boudh.odisha.gov.in/or/departments/health",
+      "allowed_hosts": [
+        "boudh.odisha.gov.in"
+      ],
+      "kind": "district_collectorate_health_page",
+      "languages": [
+        "or"
+      ],
+      "enabled": true,
+      "minimum_interval_seconds": 6,
+      "robots_state": "allowed_checked_2026_07_21",
+      "rights_state": "official_source_review_required_before_full_text_redistribution",
+      "retention": "hash_metadata_and_redacted_excerpt",
+      "district_id": "OD-DIST-boudh",
+      "content_role": "document",
+      "link_policy": "section",
+      "availability_state": "collector_http_200_text_html_72653_bytes_checked_2026_07_21"
+    },
+    {
+      "id": "district_boudh_health_en",
+      "name": "Boudh district health department (en)",
+      "url": "https://boudh.odisha.gov.in/en/departments/health",
+      "allowed_hosts": [
+        "boudh.odisha.gov.in"
+      ],
+      "kind": "district_collectorate_health_page",
+      "languages": [
+        "en"
+      ],
+      "enabled": true,
+      "minimum_interval_seconds": 6,
+      "robots_state": "allowed_checked_2026_07_21",
+      "rights_state": "official_source_review_required_before_full_text_redistribution",
+      "retention": "hash_metadata_and_redacted_excerpt",
+      "district_id": "OD-DIST-boudh",
+      "content_role": "document",
+      "link_policy": "section",
+      "availability_state": "collector_http_200_text_html_57910_bytes_checked_2026_07_21"
+    },
+    {
+      "id": "district_dhenkanal_health_or",
+      "name": "Dhenkanal district health department (or)",
+      "url": "https://dhenkanal.odisha.gov.in/or/departments/health",
+      "allowed_hosts": [
+        "dhenkanal.odisha.gov.in"
+      ],
+      "kind": "district_collectorate_health_page",
+      "languages": [
+        "or"
+      ],
+      "enabled": true,
+      "minimum_interval_seconds": 6,
+      "robots_state": "allowed_checked_2026_07_21",
+      "rights_state": "official_source_review_required_before_full_text_redistribution",
+      "retention": "hash_metadata_and_redacted_excerpt",
+      "district_id": "OD-DIST-dhenkanal",
+      "content_role": "document",
+      "link_policy": "section",
+      "availability_state": "collector_http_200_text_html_67301_bytes_checked_2026_07_21"
+    },
+    {
+      "id": "district_dhenkanal_health_en",
+      "name": "Dhenkanal district health department (en)",
+      "url": "https://dhenkanal.odisha.gov.in/en/departments/health",
+      "allowed_hosts": [
+        "dhenkanal.odisha.gov.in"
+      ],
+      "kind": "district_collectorate_health_page",
+      "languages": [
+        "en"
+      ],
+      "enabled": true,
+      "minimum_interval_seconds": 6,
+      "robots_state": "allowed_checked_2026_07_21",
+      "rights_state": "official_source_review_required_before_full_text_redistribution",
+      "retention": "hash_metadata_and_redacted_excerpt",
+      "district_id": "OD-DIST-dhenkanal",
+      "content_role": "document",
+      "link_policy": "section",
+      "availability_state": "collector_http_200_text_html_59504_bytes_checked_2026_07_21"
+    },
+    {
+      "id": "district_gajapati_health_or",
+      "name": "Gajapati district health department (or)",
+      "url": "https://gajapati.odisha.gov.in/or/departments/health",
+      "allowed_hosts": [
+        "gajapati.odisha.gov.in"
+      ],
+      "kind": "district_collectorate_health_page",
+      "languages": [
+        "or"
+      ],
+      "enabled": true,
+      "minimum_interval_seconds": 6,
+      "robots_state": "allowed_checked_2026_07_21",
+      "rights_state": "official_source_review_required_before_full_text_redistribution",
+      "retention": "hash_metadata_and_redacted_excerpt",
+      "district_id": "OD-DIST-gajapati",
+      "content_role": "document",
+      "link_policy": "section",
+      "availability_state": "collector_http_200_text_html_179630_bytes_checked_2026_07_21"
+    },
+    {
+      "id": "district_gajapati_health_en",
+      "name": "Gajapati district health department (en)",
+      "url": "https://gajapati.odisha.gov.in/en/departments/health",
+      "allowed_hosts": [
+        "gajapati.odisha.gov.in"
+      ],
+      "kind": "district_collectorate_health_page",
+      "languages": [
+        "en"
+      ],
+      "enabled": true,
+      "minimum_interval_seconds": 6,
+      "robots_state": "allowed_checked_2026_07_21",
+      "rights_state": "official_source_review_required_before_full_text_redistribution",
+      "retention": "hash_metadata_and_redacted_excerpt",
+      "district_id": "OD-DIST-gajapati",
+      "content_role": "document",
+      "link_policy": "section",
+      "availability_state": "collector_http_200_text_html_62998_bytes_checked_2026_07_21"
+    },
+    {
+      "id": "district_ganjam_health_or",
+      "name": "Ganjam district health department (or)",
+      "url": "https://ganjam.odisha.gov.in/or/departments/health",
+      "allowed_hosts": [
+        "ganjam.odisha.gov.in"
+      ],
+      "kind": "district_collectorate_health_page",
+      "languages": [
+        "or"
+      ],
+      "enabled": true,
+      "minimum_interval_seconds": 6,
+      "robots_state": "allowed_checked_2026_07_21",
+      "rights_state": "official_source_review_required_before_full_text_redistribution",
+      "retention": "hash_metadata_and_redacted_excerpt",
+      "district_id": "OD-DIST-ganjam",
+      "content_role": "document",
+      "link_policy": "section",
+      "availability_state": "collector_http_200_text_html_366417_bytes_checked_2026_07_21"
+    },
+    {
+      "id": "district_ganjam_health_en",
+      "name": "Ganjam district health department (en)",
+      "url": "https://ganjam.odisha.gov.in/en/departments/health",
+      "allowed_hosts": [
+        "ganjam.odisha.gov.in"
+      ],
+      "kind": "district_collectorate_health_page",
+      "languages": [
+        "en"
+      ],
+      "enabled": true,
+      "minimum_interval_seconds": 6,
+      "robots_state": "allowed_checked_2026_07_21",
+      "rights_state": "official_source_review_required_before_full_text_redistribution",
+      "retention": "hash_metadata_and_redacted_excerpt",
+      "district_id": "OD-DIST-ganjam",
+      "content_role": "document",
+      "link_policy": "section",
+      "availability_state": "collector_http_200_text_html_72875_bytes_checked_2026_07_21"
+    },
+    {
+      "id": "district_jagatsinghpur_health_or",
+      "name": "Jagatsinghpur district health department (or)",
+      "url": "https://jagatsinghpur.odisha.gov.in/or/departments/health",
+      "allowed_hosts": [
+        "jagatsinghpur.odisha.gov.in"
+      ],
+      "kind": "district_collectorate_health_page",
+      "languages": [
+        "or"
+      ],
+      "enabled": true,
+      "minimum_interval_seconds": 6,
+      "robots_state": "allowed_checked_2026_07_21",
+      "rights_state": "official_source_review_required_before_full_text_redistribution",
+      "retention": "hash_metadata_and_redacted_excerpt",
+      "district_id": "OD-DIST-jagatsinghpur",
+      "content_role": "document",
+      "link_policy": "section",
+      "availability_state": "collector_http_200_text_html_461150_bytes_checked_2026_07_21"
+    },
+    {
+      "id": "district_jagatsinghpur_health_en",
+      "name": "Jagatsinghpur district health department (en)",
+      "url": "https://jagatsinghpur.odisha.gov.in/en/departments/health",
+      "allowed_hosts": [
+        "jagatsinghpur.odisha.gov.in"
+      ],
+      "kind": "district_collectorate_health_page",
+      "languages": [
+        "en"
+      ],
+      "enabled": true,
+      "minimum_interval_seconds": 6,
+      "robots_state": "allowed_checked_2026_07_21",
+      "rights_state": "official_source_review_required_before_full_text_redistribution",
+      "retention": "hash_metadata_and_redacted_excerpt",
+      "district_id": "OD-DIST-jagatsinghpur",
+      "content_role": "document",
+      "link_policy": "section",
+      "availability_state": "collector_http_200_text_html_79767_bytes_checked_2026_07_21"
+    },
+    {
+      "id": "district_jajpur_health_or",
+      "name": "Jajpur district health department (or)",
+      "url": "https://jajpur.odisha.gov.in/or/departments/health",
+      "allowed_hosts": [
+        "jajpur.odisha.gov.in"
+      ],
+      "kind": "district_collectorate_health_page",
+      "languages": [
+        "or"
+      ],
+      "enabled": true,
+      "minimum_interval_seconds": 6,
+      "robots_state": "allowed_checked_2026_07_21",
+      "rights_state": "official_source_review_required_before_full_text_redistribution",
+      "retention": "hash_metadata_and_redacted_excerpt",
+      "district_id": "OD-DIST-jajpur",
+      "content_role": "document",
+      "link_policy": "section",
+      "availability_state": "collector_http_200_text_html_60448_bytes_checked_2026_07_21"
+    },
+    {
+      "id": "district_jajpur_health_en",
+      "name": "Jajpur district health department (en)",
+      "url": "https://jajpur.odisha.gov.in/en/departments/health",
+      "allowed_hosts": [
+        "jajpur.odisha.gov.in"
+      ],
+      "kind": "district_collectorate_health_page",
+      "languages": [
+        "en"
+      ],
+      "enabled": true,
+      "minimum_interval_seconds": 6,
+      "robots_state": "allowed_checked_2026_07_21",
+      "rights_state": "official_source_review_required_before_full_text_redistribution",
+      "retention": "hash_metadata_and_redacted_excerpt",
+      "district_id": "OD-DIST-jajpur",
+      "content_role": "document",
+      "link_policy": "section",
+      "availability_state": "collector_http_200_text_html_54851_bytes_checked_2026_07_21"
+    },
+    {
+      "id": "district_jharsuguda_health_or",
+      "name": "Jharsuguda district health department (or)",
+      "url": "https://jharsuguda.odisha.gov.in/or/departments/health",
+      "allowed_hosts": [
+        "jharsuguda.odisha.gov.in"
+      ],
+      "kind": "district_collectorate_health_page",
+      "languages": [
+        "or"
+      ],
+      "enabled": true,
+      "minimum_interval_seconds": 6,
+      "robots_state": "allowed_checked_2026_07_21",
+      "rights_state": "official_source_review_required_before_full_text_redistribution",
+      "retention": "hash_metadata_and_redacted_excerpt",
+      "district_id": "OD-DIST-jharsuguda",
+      "content_role": "document",
+      "link_policy": "section",
+      "availability_state": "collector_http_200_text_html_87607_bytes_checked_2026_07_21"
+    },
+    {
+      "id": "district_jharsuguda_health_en",
+      "name": "Jharsuguda district health department (en)",
+      "url": "https://jharsuguda.odisha.gov.in/en/departments/health",
+      "allowed_hosts": [
+        "jharsuguda.odisha.gov.in"
+      ],
+      "kind": "district_collectorate_health_page",
+      "languages": [
+        "en"
+      ],
+      "enabled": true,
+      "minimum_interval_seconds": 6,
+      "robots_state": "allowed_checked_2026_07_21",
+      "rights_state": "official_source_review_required_before_full_text_redistribution",
+      "retention": "hash_metadata_and_redacted_excerpt",
+      "district_id": "OD-DIST-jharsuguda",
+      "content_role": "document",
+      "link_policy": "section",
+      "availability_state": "collector_http_200_text_html_76214_bytes_checked_2026_07_21"
+    },
+    {
+      "id": "district_kalahandi_health_or",
+      "name": "Kalahandi district health department (or)",
+      "url": "https://kalahandi.odisha.gov.in/or/departments/health",
+      "allowed_hosts": [
+        "kalahandi.odisha.gov.in"
+      ],
+      "kind": "district_collectorate_health_page",
+      "languages": [
+        "or"
+      ],
+      "enabled": true,
+      "minimum_interval_seconds": 6,
+      "robots_state": "allowed_checked_2026_07_21",
+      "rights_state": "official_source_review_required_before_full_text_redistribution",
+      "retention": "hash_metadata_and_redacted_excerpt",
+      "district_id": "OD-DIST-kalahandi",
+      "content_role": "document",
+      "link_policy": "section",
+      "availability_state": "collector_http_200_text_html_63503_bytes_checked_2026_07_21"
+    },
+    {
+      "id": "district_kalahandi_health_en",
+      "name": "Kalahandi district health department (en)",
+      "url": "https://kalahandi.odisha.gov.in/en/departments/health",
+      "allowed_hosts": [
+        "kalahandi.odisha.gov.in"
+      ],
+      "kind": "district_collectorate_health_page",
+      "languages": [
+        "en"
+      ],
+      "enabled": true,
+      "minimum_interval_seconds": 6,
+      "robots_state": "allowed_checked_2026_07_21",
+      "rights_state": "official_source_review_required_before_full_text_redistribution",
+      "retention": "hash_metadata_and_redacted_excerpt",
+      "district_id": "OD-DIST-kalahandi",
+      "content_role": "document",
+      "link_policy": "section",
+      "availability_state": "collector_http_200_text_html_55744_bytes_checked_2026_07_21"
+    },
+    {
+      "id": "district_kandhamal_health_or",
+      "name": "Kandhamal district health department (or)",
+      "url": "https://kandhamal.odisha.gov.in/or/departments/health",
+      "allowed_hosts": [
+        "kandhamal.odisha.gov.in"
+      ],
+      "kind": "district_collectorate_health_page",
+      "languages": [
+        "or"
+      ],
+      "enabled": true,
+      "minimum_interval_seconds": 6,
+      "robots_state": "allowed_checked_2026_07_21",
+      "rights_state": "official_source_review_required_before_full_text_redistribution",
+      "retention": "hash_metadata_and_redacted_excerpt",
+      "district_id": "OD-DIST-kandhamal",
+      "content_role": "document",
+      "link_policy": "section",
+      "availability_state": "collector_http_200_text_html_19573_bytes_checked_2026_07_21"
+    },
+    {
+      "id": "district_kandhamal_health_en",
+      "name": "Kandhamal district health department (en)",
+      "url": "https://kandhamal.odisha.gov.in/en/departments/health",
+      "allowed_hosts": [
+        "kandhamal.odisha.gov.in"
+      ],
+      "kind": "district_collectorate_health_page",
+      "languages": [
+        "en"
+      ],
+      "enabled": true,
+      "minimum_interval_seconds": 6,
+      "robots_state": "allowed_checked_2026_07_21",
+      "rights_state": "official_source_review_required_before_full_text_redistribution",
+      "retention": "hash_metadata_and_redacted_excerpt",
+      "district_id": "OD-DIST-kandhamal",
+      "content_role": "document",
+      "link_policy": "section",
+      "availability_state": "collector_http_200_text_html_18546_bytes_checked_2026_07_21"
+    },
+    {
+      "id": "district_kendrapada_health_or",
+      "name": "Kendrapara district health department (or)",
+      "url": "https://kendrapada.odisha.gov.in/or/departments/health",
+      "allowed_hosts": [
+        "kendrapada.odisha.gov.in"
+      ],
+      "kind": "district_collectorate_health_page",
+      "languages": [
+        "or"
+      ],
+      "enabled": true,
+      "minimum_interval_seconds": 6,
+      "robots_state": "allowed_checked_2026_07_21",
+      "rights_state": "official_source_review_required_before_full_text_redistribution",
+      "retention": "hash_metadata_and_redacted_excerpt",
+      "district_id": "OD-DIST-kendrapara",
+      "content_role": "document",
+      "link_policy": "section",
+      "availability_state": "collector_http_200_text_html_58761_bytes_checked_2026_07_21"
+    },
+    {
+      "id": "district_kendrapada_health_en",
+      "name": "Kendrapara district health department (en)",
+      "url": "https://kendrapada.odisha.gov.in/en/departments/health",
+      "allowed_hosts": [
+        "kendrapada.odisha.gov.in"
+      ],
+      "kind": "district_collectorate_health_page",
+      "languages": [
+        "en"
+      ],
+      "enabled": true,
+      "minimum_interval_seconds": 6,
+      "robots_state": "allowed_checked_2026_07_21",
+      "rights_state": "official_source_review_required_before_full_text_redistribution",
+      "retention": "hash_metadata_and_redacted_excerpt",
+      "district_id": "OD-DIST-kendrapara",
+      "content_role": "document",
+      "link_policy": "section",
+      "availability_state": "collector_http_200_text_html_52746_bytes_checked_2026_07_21"
+    },
+    {
+      "id": "district_kendujhar_health_or",
+      "name": "Keonjhar district health department (or)",
+      "url": "https://kendujhar.odisha.gov.in/or/departments/health",
+      "allowed_hosts": [
+        "kendujhar.odisha.gov.in"
+      ],
+      "kind": "district_collectorate_health_page",
+      "languages": [
+        "or"
+      ],
+      "enabled": true,
+      "minimum_interval_seconds": 6,
+      "robots_state": "allowed_checked_2026_07_21",
+      "rights_state": "official_source_review_required_before_full_text_redistribution",
+      "retention": "hash_metadata_and_redacted_excerpt",
+      "district_id": "OD-DIST-keonjhar",
+      "content_role": "document",
+      "link_policy": "section",
+      "availability_state": "collector_http_200_text_html_75878_bytes_checked_2026_07_21"
+    },
+    {
+      "id": "district_kendujhar_health_en",
+      "name": "Keonjhar district health department (en)",
+      "url": "https://kendujhar.odisha.gov.in/en/departments/health",
+      "allowed_hosts": [
+        "kendujhar.odisha.gov.in"
+      ],
+      "kind": "district_collectorate_health_page",
+      "languages": [
+        "en"
+      ],
+      "enabled": true,
+      "minimum_interval_seconds": 6,
+      "robots_state": "allowed_checked_2026_07_21",
+      "rights_state": "official_source_review_required_before_full_text_redistribution",
+      "retention": "hash_metadata_and_redacted_excerpt",
+      "district_id": "OD-DIST-keonjhar",
+      "content_role": "document",
+      "link_policy": "section",
+      "availability_state": "collector_http_200_text_html_58345_bytes_checked_2026_07_21"
+    },
+    {
+      "id": "district_khordha_health_or",
+      "name": "Khordha district health department (or)",
+      "url": "https://khordha.odisha.gov.in/or/departments/health",
+      "allowed_hosts": [
+        "khordha.odisha.gov.in"
+      ],
+      "kind": "district_collectorate_health_page",
+      "languages": [
+        "or"
+      ],
+      "enabled": true,
+      "minimum_interval_seconds": 6,
+      "robots_state": "allowed_checked_2026_07_21",
+      "rights_state": "official_source_review_required_before_full_text_redistribution",
+      "retention": "hash_metadata_and_redacted_excerpt",
+      "district_id": "OD-DIST-khordha",
+      "content_role": "document",
+      "link_policy": "section",
+      "availability_state": "collector_http_200_text_html_66011_bytes_checked_2026_07_21"
+    },
+    {
+      "id": "district_khordha_health_en",
+      "name": "Khordha district health department (en)",
+      "url": "https://khordha.odisha.gov.in/en/departments/health",
+      "allowed_hosts": [
+        "khordha.odisha.gov.in"
+      ],
+      "kind": "district_collectorate_health_page",
+      "languages": [
+        "en"
+      ],
+      "enabled": true,
+      "minimum_interval_seconds": 6,
+      "robots_state": "allowed_checked_2026_07_21",
+      "rights_state": "official_source_review_required_before_full_text_redistribution",
+      "retention": "hash_metadata_and_redacted_excerpt",
+      "district_id": "OD-DIST-khordha",
+      "content_role": "document",
+      "link_policy": "section",
+      "availability_state": "collector_http_200_text_html_55894_bytes_checked_2026_07_21"
+    },
+    {
+      "id": "district_koraput_health_or",
+      "name": "Koraput district health department (or)",
+      "url": "https://koraput.odisha.gov.in/or/departments/health",
+      "allowed_hosts": [
+        "koraput.odisha.gov.in"
+      ],
+      "kind": "district_collectorate_health_page",
+      "languages": [
+        "or"
+      ],
+      "enabled": true,
+      "minimum_interval_seconds": 6,
+      "robots_state": "allowed_checked_2026_07_21",
+      "rights_state": "official_source_review_required_before_full_text_redistribution",
+      "retention": "hash_metadata_and_redacted_excerpt",
+      "district_id": "OD-DIST-koraput",
+      "content_role": "document",
+      "link_policy": "section",
+      "availability_state": "collector_http_200_text_html_90733_bytes_checked_2026_07_21"
+    },
+    {
+      "id": "district_koraput_health_en",
+      "name": "Koraput district health department (en)",
+      "url": "https://koraput.odisha.gov.in/en/departments/health",
+      "allowed_hosts": [
+        "koraput.odisha.gov.in"
+      ],
+      "kind": "district_collectorate_health_page",
+      "languages": [
+        "en"
+      ],
+      "enabled": true,
+      "minimum_interval_seconds": 6,
+      "robots_state": "allowed_checked_2026_07_21",
+      "rights_state": "official_source_review_required_before_full_text_redistribution",
+      "retention": "hash_metadata_and_redacted_excerpt",
+      "district_id": "OD-DIST-koraput",
+      "content_role": "document",
+      "link_policy": "section",
+      "availability_state": "collector_http_200_text_html_80518_bytes_checked_2026_07_21"
+    },
+    {
+      "id": "district_malkangiri_health_or",
+      "name": "Malkangiri district health department (or)",
+      "url": "https://malkangiri.odisha.gov.in/or/departments/health",
+      "allowed_hosts": [
+        "malkangiri.odisha.gov.in"
+      ],
+      "kind": "district_collectorate_health_page",
+      "languages": [
+        "or"
+      ],
+      "enabled": true,
+      "minimum_interval_seconds": 6,
+      "robots_state": "allowed_checked_2026_07_21",
+      "rights_state": "official_source_review_required_before_full_text_redistribution",
+      "retention": "hash_metadata_and_redacted_excerpt",
+      "district_id": "OD-DIST-malkangiri",
+      "content_role": "document",
+      "link_policy": "section",
+      "availability_state": "collector_http_200_text_html_233609_bytes_checked_2026_07_21"
+    },
+    {
+      "id": "district_malkangiri_health_en",
+      "name": "Malkangiri district health department (en)",
+      "url": "https://malkangiri.odisha.gov.in/en/departments/health",
+      "allowed_hosts": [
+        "malkangiri.odisha.gov.in"
+      ],
+      "kind": "district_collectorate_health_page",
+      "languages": [
+        "en"
+      ],
+      "enabled": true,
+      "minimum_interval_seconds": 6,
+      "robots_state": "allowed_checked_2026_07_21",
+      "rights_state": "official_source_review_required_before_full_text_redistribution",
+      "retention": "hash_metadata_and_redacted_excerpt",
+      "district_id": "OD-DIST-malkangiri",
+      "content_role": "document",
+      "link_policy": "section",
+      "availability_state": "collector_http_200_text_html_62548_bytes_checked_2026_07_21"
+    },
+    {
+      "id": "district_mayurbhanj_health_or",
+      "name": "Mayurbhanj district health department (or)",
+      "url": "https://mayurbhanj.odisha.gov.in/or/departments/health",
+      "allowed_hosts": [
+        "mayurbhanj.odisha.gov.in"
+      ],
+      "kind": "district_collectorate_health_page",
+      "languages": [
+        "or"
+      ],
+      "enabled": true,
+      "minimum_interval_seconds": 6,
+      "robots_state": "allowed_checked_2026_07_21",
+      "rights_state": "official_source_review_required_before_full_text_redistribution",
+      "retention": "hash_metadata_and_redacted_excerpt",
+      "district_id": "OD-DIST-mayurbhanj",
+      "content_role": "document",
+      "link_policy": "section",
+      "availability_state": "collector_http_200_text_html_72334_bytes_checked_2026_07_21"
+    },
+    {
+      "id": "district_mayurbhanj_health_en",
+      "name": "Mayurbhanj district health department (en)",
+      "url": "https://mayurbhanj.odisha.gov.in/en/departments/health",
+      "allowed_hosts": [
+        "mayurbhanj.odisha.gov.in"
+      ],
+      "kind": "district_collectorate_health_page",
+      "languages": [
+        "en"
+      ],
+      "enabled": true,
+      "minimum_interval_seconds": 6,
+      "robots_state": "allowed_checked_2026_07_21",
+      "rights_state": "official_source_review_required_before_full_text_redistribution",
+      "retention": "hash_metadata_and_redacted_excerpt",
+      "district_id": "OD-DIST-mayurbhanj",
+      "content_role": "document",
+      "link_policy": "section",
+      "availability_state": "collector_http_200_text_html_64806_bytes_checked_2026_07_21"
+    },
+    {
+      "id": "district_nabarangpur_health_or",
+      "name": "Nabarangpur district health department (or)",
+      "url": "https://nabarangpur.odisha.gov.in/or/departments/health",
+      "allowed_hosts": [
+        "nabarangpur.odisha.gov.in"
+      ],
+      "kind": "district_collectorate_health_page",
+      "languages": [
+        "or"
+      ],
+      "enabled": true,
+      "minimum_interval_seconds": 6,
+      "robots_state": "allowed_checked_2026_07_21",
+      "rights_state": "official_source_review_required_before_full_text_redistribution",
+      "retention": "hash_metadata_and_redacted_excerpt",
+      "district_id": "OD-DIST-nabarangpur",
+      "content_role": "document",
+      "link_policy": "section",
+      "availability_state": "collector_http_200_text_html_58672_bytes_checked_2026_07_21"
+    },
+    {
+      "id": "district_nabarangpur_health_en",
+      "name": "Nabarangpur district health department (en)",
+      "url": "https://nabarangpur.odisha.gov.in/en/departments/health",
+      "allowed_hosts": [
+        "nabarangpur.odisha.gov.in"
+      ],
+      "kind": "district_collectorate_health_page",
+      "languages": [
+        "en"
+      ],
+      "enabled": true,
+      "minimum_interval_seconds": 6,
+      "robots_state": "allowed_checked_2026_07_21",
+      "rights_state": "official_source_review_required_before_full_text_redistribution",
+      "retention": "hash_metadata_and_redacted_excerpt",
+      "district_id": "OD-DIST-nabarangpur",
+      "content_role": "document",
+      "link_policy": "section",
+      "availability_state": "collector_http_200_text_html_52345_bytes_checked_2026_07_21"
+    },
+    {
+      "id": "district_nuapada_health_or",
+      "name": "Nuapada district health department (or)",
+      "url": "https://nuapada.odisha.gov.in/or/departments/health",
+      "allowed_hosts": [
+        "nuapada.odisha.gov.in"
+      ],
+      "kind": "district_collectorate_health_page",
+      "languages": [
+        "or"
+      ],
+      "enabled": true,
+      "minimum_interval_seconds": 6,
+      "robots_state": "allowed_checked_2026_07_21",
+      "rights_state": "official_source_review_required_before_full_text_redistribution",
+      "retention": "hash_metadata_and_redacted_excerpt",
+      "district_id": "OD-DIST-nuapada",
+      "content_role": "document",
+      "link_policy": "section",
+      "availability_state": "collector_http_200_text_html_70386_bytes_checked_2026_07_21"
+    },
+    {
+      "id": "district_nuapada_health_en",
+      "name": "Nuapada district health department (en)",
+      "url": "https://nuapada.odisha.gov.in/en/departments/health",
+      "allowed_hosts": [
+        "nuapada.odisha.gov.in"
+      ],
+      "kind": "district_collectorate_health_page",
+      "languages": [
+        "en"
+      ],
+      "enabled": true,
+      "minimum_interval_seconds": 6,
+      "robots_state": "allowed_checked_2026_07_21",
+      "rights_state": "official_source_review_required_before_full_text_redistribution",
+      "retention": "hash_metadata_and_redacted_excerpt",
+      "district_id": "OD-DIST-nuapada",
+      "content_role": "document",
+      "link_policy": "section",
+      "availability_state": "collector_http_200_text_html_57311_bytes_checked_2026_07_21"
+    },
+    {
+      "id": "district_puri_health_or",
+      "name": "Puri district health department (or)",
+      "url": "https://puri.odisha.gov.in/or/departments/health",
+      "allowed_hosts": [
+        "puri.odisha.gov.in"
+      ],
+      "kind": "district_collectorate_health_page",
+      "languages": [
+        "or"
+      ],
+      "enabled": true,
+      "minimum_interval_seconds": 6,
+      "robots_state": "allowed_checked_2026_07_21",
+      "rights_state": "official_source_review_required_before_full_text_redistribution",
+      "retention": "hash_metadata_and_redacted_excerpt",
+      "district_id": "OD-DIST-puri",
+      "content_role": "document",
+      "link_policy": "section",
+      "availability_state": "collector_http_200_text_html_174740_bytes_checked_2026_07_21"
+    },
+    {
+      "id": "district_puri_health_en",
+      "name": "Puri district health department (en)",
+      "url": "https://puri.odisha.gov.in/en/departments/health",
+      "allowed_hosts": [
+        "puri.odisha.gov.in"
+      ],
+      "kind": "district_collectorate_health_page",
+      "languages": [
+        "en"
+      ],
+      "enabled": true,
+      "minimum_interval_seconds": 6,
+      "robots_state": "allowed_checked_2026_07_21",
+      "rights_state": "official_source_review_required_before_full_text_redistribution",
+      "retention": "hash_metadata_and_redacted_excerpt",
+      "district_id": "OD-DIST-puri",
+      "content_role": "document",
+      "link_policy": "section",
+      "availability_state": "collector_http_200_text_html_60416_bytes_checked_2026_07_21"
+    },
+    {
+      "id": "district_rayagada_health_or",
+      "name": "Rayagada district health department (or)",
+      "url": "https://rayagada.odisha.gov.in/or/departments/health",
+      "allowed_hosts": [
+        "rayagada.odisha.gov.in"
+      ],
+      "kind": "district_collectorate_health_page",
+      "languages": [
+        "or"
+      ],
+      "enabled": true,
+      "minimum_interval_seconds": 6,
+      "robots_state": "allowed_checked_2026_07_21",
+      "rights_state": "official_source_review_required_before_full_text_redistribution",
+      "retention": "hash_metadata_and_redacted_excerpt",
+      "district_id": "OD-DIST-rayagada",
+      "content_role": "document",
+      "link_policy": "section",
+      "availability_state": "collector_http_200_text_html_82467_bytes_checked_2026_07_21"
+    },
+    {
+      "id": "district_rayagada_health_en",
+      "name": "Rayagada district health department (en)",
+      "url": "https://rayagada.odisha.gov.in/en/departments/health",
+      "allowed_hosts": [
+        "rayagada.odisha.gov.in"
+      ],
+      "kind": "district_collectorate_health_page",
+      "languages": [
+        "en"
+      ],
+      "enabled": true,
+      "minimum_interval_seconds": 6,
+      "robots_state": "allowed_checked_2026_07_21",
+      "rights_state": "official_source_review_required_before_full_text_redistribution",
+      "retention": "hash_metadata_and_redacted_excerpt",
+      "district_id": "OD-DIST-rayagada",
+      "content_role": "document",
+      "link_policy": "section",
+      "availability_state": "collector_http_200_text_html_69473_bytes_checked_2026_07_21"
+    },
+    {
+      "id": "district_sambalpur_health_or",
+      "name": "Sambalpur district health department (or)",
+      "url": "https://sambalpur.odisha.gov.in/or/departments/health",
+      "allowed_hosts": [
+        "sambalpur.odisha.gov.in"
+      ],
+      "kind": "district_collectorate_health_page",
+      "languages": [
+        "or"
+      ],
+      "enabled": true,
+      "minimum_interval_seconds": 6,
+      "robots_state": "allowed_checked_2026_07_21",
+      "rights_state": "official_source_review_required_before_full_text_redistribution",
+      "retention": "hash_metadata_and_redacted_excerpt",
+      "district_id": "OD-DIST-sambalpur",
+      "content_role": "document",
+      "link_policy": "section",
+      "availability_state": "collector_http_200_text_html_70436_bytes_checked_2026_07_21"
+    },
+    {
+      "id": "district_sambalpur_health_en",
+      "name": "Sambalpur district health department (en)",
+      "url": "https://sambalpur.odisha.gov.in/en/departments/health",
+      "allowed_hosts": [
+        "sambalpur.odisha.gov.in"
+      ],
+      "kind": "district_collectorate_health_page",
+      "languages": [
+        "en"
+      ],
+      "enabled": true,
+      "minimum_interval_seconds": 6,
+      "robots_state": "allowed_checked_2026_07_21",
+      "rights_state": "official_source_review_required_before_full_text_redistribution",
+      "retention": "hash_metadata_and_redacted_excerpt",
+      "district_id": "OD-DIST-sambalpur",
+      "content_role": "document",
+      "link_policy": "section",
+      "availability_state": "collector_http_200_text_html_59317_bytes_checked_2026_07_21"
+    },
+    {
+      "id": "district_subarnapur_health_or",
+      "name": "Subarnapur district health department (or)",
+      "url": "https://subarnapur.odisha.gov.in/or/departments/health",
+      "allowed_hosts": [
+        "subarnapur.odisha.gov.in"
+      ],
+      "kind": "district_collectorate_health_page",
+      "languages": [
+        "or"
+      ],
+      "enabled": true,
+      "minimum_interval_seconds": 6,
+      "robots_state": "allowed_checked_2026_07_21",
+      "rights_state": "official_source_review_required_before_full_text_redistribution",
+      "retention": "hash_metadata_and_redacted_excerpt",
+      "district_id": "OD-DIST-subarnapur",
+      "content_role": "document",
+      "link_policy": "section",
+      "availability_state": "collector_http_200_text_html_79551_bytes_checked_2026_07_21"
+    },
+    {
+      "id": "district_subarnapur_health_en",
+      "name": "Subarnapur district health department (en)",
+      "url": "https://subarnapur.odisha.gov.in/en/departments/health",
+      "allowed_hosts": [
+        "subarnapur.odisha.gov.in"
+      ],
+      "kind": "district_collectorate_health_page",
+      "languages": [
+        "en"
+      ],
+      "enabled": true,
+      "minimum_interval_seconds": 6,
+      "robots_state": "allowed_checked_2026_07_21",
+      "rights_state": "official_source_review_required_before_full_text_redistribution",
+      "retention": "hash_metadata_and_redacted_excerpt",
+      "district_id": "OD-DIST-subarnapur",
+      "content_role": "document",
+      "link_policy": "section",
+      "availability_state": "collector_http_200_text_html_57143_bytes_checked_2026_07_21"
+    },
+    {
+      "id": "sambad_district_anugol_or",
+      "name": "Sambad Odia district desk: Angul",
+      "url": "https://sambad.in/district/anugol",
+      "allowed_hosts": [
+        "sambad.in",
+        "www.sambad.in"
+      ],
+      "kind": "odia_daily_district_desk",
+      "languages": [
+        "or"
+      ],
+      "enabled": true,
+      "minimum_interval_seconds": 6,
+      "robots_state": "allowed_checked_2026_07_21",
+      "rights_state": "third_party_copyright_indexed_under_robots_no_source_text_retained",
+      "retention": "hash_metadata_and_structured_extraction_only_no_source_text",
+      "district_id": "OD-DIST-angul",
+      "content_role": "index",
+      "link_policy": "section",
+      "availability_state": "collector_http_200_text_html_222449_bytes_checked_2026_07_21"
+    },
+    {
+      "id": "sambad_district_balangir_or",
+      "name": "Sambad Odia district desk: Balangir",
+      "url": "https://sambad.in/district/balangir",
+      "allowed_hosts": [
+        "sambad.in",
+        "www.sambad.in"
+      ],
+      "kind": "odia_daily_district_desk",
+      "languages": [
+        "or"
+      ],
+      "enabled": true,
+      "minimum_interval_seconds": 6,
+      "robots_state": "allowed_checked_2026_07_21",
+      "rights_state": "third_party_copyright_indexed_under_robots_no_source_text_retained",
+      "retention": "hash_metadata_and_structured_extraction_only_no_source_text",
+      "district_id": "OD-DIST-balangir",
+      "content_role": "index",
+      "link_policy": "section",
+      "availability_state": "collector_http_200_text_html_223901_bytes_checked_2026_07_21"
+    },
+    {
+      "id": "sambad_district_baleswar_or",
+      "name": "Sambad Odia district desk: Balasore",
+      "url": "https://sambad.in/district/baleswar",
+      "allowed_hosts": [
+        "sambad.in",
+        "www.sambad.in"
+      ],
+      "kind": "odia_daily_district_desk",
+      "languages": [
+        "or"
+      ],
+      "enabled": true,
+      "minimum_interval_seconds": 6,
+      "robots_state": "allowed_checked_2026_07_21",
+      "rights_state": "third_party_copyright_indexed_under_robots_no_source_text_retained",
+      "retention": "hash_metadata_and_structured_extraction_only_no_source_text",
+      "district_id": "OD-DIST-balasore",
+      "content_role": "index",
+      "link_policy": "section",
+      "availability_state": "collector_http_200_text_html_221445_bytes_checked_2026_07_21"
+    },
+    {
+      "id": "sambad_district_bargarh_or",
+      "name": "Sambad Odia district desk: Bargarh",
+      "url": "https://sambad.in/district/bargarh",
+      "allowed_hosts": [
+        "sambad.in",
+        "www.sambad.in"
+      ],
+      "kind": "odia_daily_district_desk",
+      "languages": [
+        "or"
+      ],
+      "enabled": true,
+      "minimum_interval_seconds": 6,
+      "robots_state": "allowed_checked_2026_07_21",
+      "rights_state": "third_party_copyright_indexed_under_robots_no_source_text_retained",
+      "retention": "hash_metadata_and_structured_extraction_only_no_source_text",
+      "district_id": "OD-DIST-bargarh",
+      "content_role": "index",
+      "link_policy": "section",
+      "availability_state": "collector_http_200_text_html_221343_bytes_checked_2026_07_21"
+    },
+    {
+      "id": "sambad_district_bhadrak_or",
+      "name": "Sambad Odia district desk: Bhadrak",
+      "url": "https://sambad.in/district/bhadrak",
+      "allowed_hosts": [
+        "sambad.in",
+        "www.sambad.in"
+      ],
+      "kind": "odia_daily_district_desk",
+      "languages": [
+        "or"
+      ],
+      "enabled": true,
+      "minimum_interval_seconds": 6,
+      "robots_state": "allowed_checked_2026_07_21",
+      "rights_state": "third_party_copyright_indexed_under_robots_no_source_text_retained",
+      "retention": "hash_metadata_and_structured_extraction_only_no_source_text",
+      "district_id": "OD-DIST-bhadrak",
+      "content_role": "index",
+      "link_policy": "section",
+      "availability_state": "collector_http_200_text_html_225163_bytes_checked_2026_07_21"
+    },
+    {
+      "id": "sambad_district_boudh_or",
+      "name": "Sambad Odia district desk: Boudh",
+      "url": "https://sambad.in/district/boudh",
+      "allowed_hosts": [
+        "sambad.in",
+        "www.sambad.in"
+      ],
+      "kind": "odia_daily_district_desk",
+      "languages": [
+        "or"
+      ],
+      "enabled": true,
+      "minimum_interval_seconds": 6,
+      "robots_state": "allowed_checked_2026_07_21",
+      "rights_state": "third_party_copyright_indexed_under_robots_no_source_text_retained",
+      "retention": "hash_metadata_and_structured_extraction_only_no_source_text",
+      "district_id": "OD-DIST-boudh",
+      "content_role": "index",
+      "link_policy": "section",
+      "availability_state": "collector_http_200_text_html_222576_bytes_checked_2026_07_21"
+    },
+    {
+      "id": "sambad_district_cuttack_or",
+      "name": "Sambad Odia district desk: Cuttack",
+      "url": "https://sambad.in/district/cuttack",
+      "allowed_hosts": [
+        "sambad.in",
+        "www.sambad.in"
+      ],
+      "kind": "odia_daily_district_desk",
+      "languages": [
+        "or"
+      ],
+      "enabled": true,
+      "minimum_interval_seconds": 6,
+      "robots_state": "allowed_checked_2026_07_21",
+      "rights_state": "third_party_copyright_indexed_under_robots_no_source_text_retained",
+      "retention": "hash_metadata_and_structured_extraction_only_no_source_text",
+      "district_id": "OD-DIST-cuttack",
+      "content_role": "index",
+      "link_policy": "section",
+      "availability_state": "collector_http_200_text_html_223415_bytes_checked_2026_07_21"
+    },
+    {
+      "id": "sambad_district_deogarh_or",
+      "name": "Sambad Odia district desk: Deogarh",
+      "url": "https://sambad.in/district/deogarh",
+      "allowed_hosts": [
+        "sambad.in",
+        "www.sambad.in"
+      ],
+      "kind": "odia_daily_district_desk",
+      "languages": [
+        "or"
+      ],
+      "enabled": true,
+      "minimum_interval_seconds": 6,
+      "robots_state": "allowed_checked_2026_07_21",
+      "rights_state": "third_party_copyright_indexed_under_robots_no_source_text_retained",
+      "retention": "hash_metadata_and_structured_extraction_only_no_source_text",
+      "district_id": "OD-DIST-deogarh",
+      "content_role": "index",
+      "link_policy": "section",
+      "availability_state": "collector_http_200_text_html_222466_bytes_checked_2026_07_21"
+    },
+    {
+      "id": "sambad_district_dhenkanal_or",
+      "name": "Sambad Odia district desk: Dhenkanal",
+      "url": "https://sambad.in/district/dhenkanal",
+      "allowed_hosts": [
+        "sambad.in",
+        "www.sambad.in"
+      ],
+      "kind": "odia_daily_district_desk",
+      "languages": [
+        "or"
+      ],
+      "enabled": true,
+      "minimum_interval_seconds": 6,
+      "robots_state": "allowed_checked_2026_07_21",
+      "rights_state": "third_party_copyright_indexed_under_robots_no_source_text_retained",
+      "retention": "hash_metadata_and_structured_extraction_only_no_source_text",
+      "district_id": "OD-DIST-dhenkanal",
+      "content_role": "index",
+      "link_policy": "section",
+      "availability_state": "collector_http_200_text_html_221722_bytes_checked_2026_07_21"
+    },
+    {
+      "id": "sambad_district_gajapati_or",
+      "name": "Sambad Odia district desk: Gajapati",
+      "url": "https://sambad.in/district/gajapati",
+      "allowed_hosts": [
+        "sambad.in",
+        "www.sambad.in"
+      ],
+      "kind": "odia_daily_district_desk",
+      "languages": [
+        "or"
+      ],
+      "enabled": true,
+      "minimum_interval_seconds": 6,
+      "robots_state": "allowed_checked_2026_07_21",
+      "rights_state": "third_party_copyright_indexed_under_robots_no_source_text_retained",
+      "retention": "hash_metadata_and_structured_extraction_only_no_source_text",
+      "district_id": "OD-DIST-gajapati",
+      "content_role": "index",
+      "link_policy": "section",
+      "availability_state": "collector_http_200_text_html_223134_bytes_checked_2026_07_21"
+    },
+    {
+      "id": "sambad_district_ganjam_or",
+      "name": "Sambad Odia district desk: Ganjam",
+      "url": "https://sambad.in/district/ganjam",
+      "allowed_hosts": [
+        "sambad.in",
+        "www.sambad.in"
+      ],
+      "kind": "odia_daily_district_desk",
+      "languages": [
+        "or"
+      ],
+      "enabled": true,
+      "minimum_interval_seconds": 6,
+      "robots_state": "allowed_checked_2026_07_21",
+      "rights_state": "third_party_copyright_indexed_under_robots_no_source_text_retained",
+      "retention": "hash_metadata_and_structured_extraction_only_no_source_text",
+      "district_id": "OD-DIST-ganjam",
+      "content_role": "index",
+      "link_policy": "section",
+      "availability_state": "collector_http_200_text_html_222583_bytes_checked_2026_07_21"
+    },
+    {
+      "id": "sambad_district_jagatsinghpur_or",
+      "name": "Sambad Odia district desk: Jagatsinghpur",
+      "url": "https://sambad.in/district/jagatsinghpur",
+      "allowed_hosts": [
+        "sambad.in",
+        "www.sambad.in"
+      ],
+      "kind": "odia_daily_district_desk",
+      "languages": [
+        "or"
+      ],
+      "enabled": true,
+      "minimum_interval_seconds": 6,
+      "robots_state": "allowed_checked_2026_07_21",
+      "rights_state": "third_party_copyright_indexed_under_robots_no_source_text_retained",
+      "retention": "hash_metadata_and_structured_extraction_only_no_source_text",
+      "district_id": "OD-DIST-jagatsinghpur",
+      "content_role": "index",
+      "link_policy": "section",
+      "availability_state": "collector_http_200_text_html_223755_bytes_checked_2026_07_21"
+    },
+    {
+      "id": "sambad_district_jajpur_or",
+      "name": "Sambad Odia district desk: Jajpur",
+      "url": "https://sambad.in/district/jajpur",
+      "allowed_hosts": [
+        "sambad.in",
+        "www.sambad.in"
+      ],
+      "kind": "odia_daily_district_desk",
+      "languages": [
+        "or"
+      ],
+      "enabled": true,
+      "minimum_interval_seconds": 6,
+      "robots_state": "allowed_checked_2026_07_21",
+      "rights_state": "third_party_copyright_indexed_under_robots_no_source_text_retained",
+      "retention": "hash_metadata_and_structured_extraction_only_no_source_text",
+      "district_id": "OD-DIST-jajpur",
+      "content_role": "index",
+      "link_policy": "section",
+      "availability_state": "collector_http_200_text_html_222665_bytes_checked_2026_07_21"
+    },
+    {
+      "id": "sambad_district_jharsuguda_or",
+      "name": "Sambad Odia district desk: Jharsuguda",
+      "url": "https://sambad.in/district/jharsuguda",
+      "allowed_hosts": [
+        "sambad.in",
+        "www.sambad.in"
+      ],
+      "kind": "odia_daily_district_desk",
+      "languages": [
+        "or"
+      ],
+      "enabled": true,
+      "minimum_interval_seconds": 6,
+      "robots_state": "allowed_checked_2026_07_21",
+      "rights_state": "third_party_copyright_indexed_under_robots_no_source_text_retained",
+      "retention": "hash_metadata_and_structured_extraction_only_no_source_text",
+      "district_id": "OD-DIST-jharsuguda",
+      "content_role": "index",
+      "link_policy": "section",
+      "availability_state": "collector_http_200_text_html_223110_bytes_checked_2026_07_21"
+    },
+    {
+      "id": "sambad_district_kalahandi_or",
+      "name": "Sambad Odia district desk: Kalahandi",
+      "url": "https://sambad.in/district/kalahandi",
+      "allowed_hosts": [
+        "sambad.in",
+        "www.sambad.in"
+      ],
+      "kind": "odia_daily_district_desk",
+      "languages": [
+        "or"
+      ],
+      "enabled": true,
+      "minimum_interval_seconds": 6,
+      "robots_state": "allowed_checked_2026_07_21",
+      "rights_state": "third_party_copyright_indexed_under_robots_no_source_text_retained",
+      "retention": "hash_metadata_and_structured_extraction_only_no_source_text",
+      "district_id": "OD-DIST-kalahandi",
+      "content_role": "index",
+      "link_policy": "section",
+      "availability_state": "collector_http_200_text_html_224172_bytes_checked_2026_07_21"
+    },
+    {
+      "id": "sambad_district_kandhmal_or",
+      "name": "Sambad Odia district desk: Kandhamal",
+      "url": "https://sambad.in/district/kandhmal",
+      "allowed_hosts": [
+        "sambad.in",
+        "www.sambad.in"
+      ],
+      "kind": "odia_daily_district_desk",
+      "languages": [
+        "or"
+      ],
+      "enabled": true,
+      "minimum_interval_seconds": 6,
+      "robots_state": "allowed_checked_2026_07_21",
+      "rights_state": "third_party_copyright_indexed_under_robots_no_source_text_retained",
+      "retention": "hash_metadata_and_structured_extraction_only_no_source_text",
+      "district_id": "OD-DIST-kandhamal",
+      "content_role": "index",
+      "link_policy": "section",
+      "availability_state": "collector_http_200_text_html_224439_bytes_checked_2026_07_21"
+    },
+    {
+      "id": "sambad_district_kendrapara_or",
+      "name": "Sambad Odia district desk: Kendrapara",
+      "url": "https://sambad.in/district/kendrapara",
+      "allowed_hosts": [
+        "sambad.in",
+        "www.sambad.in"
+      ],
+      "kind": "odia_daily_district_desk",
+      "languages": [
+        "or"
+      ],
+      "enabled": true,
+      "minimum_interval_seconds": 6,
+      "robots_state": "allowed_checked_2026_07_21",
+      "rights_state": "third_party_copyright_indexed_under_robots_no_source_text_retained",
+      "retention": "hash_metadata_and_structured_extraction_only_no_source_text",
+      "district_id": "OD-DIST-kendrapara",
+      "content_role": "index",
+      "link_policy": "section",
+      "availability_state": "collector_http_200_text_html_223014_bytes_checked_2026_07_21"
+    },
+    {
+      "id": "sambad_district_keonjhar_or",
+      "name": "Sambad Odia district desk: Keonjhar",
+      "url": "https://sambad.in/district/keonjhar",
+      "allowed_hosts": [
+        "sambad.in",
+        "www.sambad.in"
+      ],
+      "kind": "odia_daily_district_desk",
+      "languages": [
+        "or"
+      ],
+      "enabled": true,
+      "minimum_interval_seconds": 6,
+      "robots_state": "allowed_checked_2026_07_21",
+      "rights_state": "third_party_copyright_indexed_under_robots_no_source_text_retained",
+      "retention": "hash_metadata_and_structured_extraction_only_no_source_text",
+      "district_id": "OD-DIST-keonjhar",
+      "content_role": "index",
+      "link_policy": "section",
+      "availability_state": "collector_http_200_text_html_223553_bytes_checked_2026_07_21"
+    },
+    {
+      "id": "sambad_district_khordha_or",
+      "name": "Sambad Odia district desk: Khordha",
+      "url": "https://sambad.in/district/khordha",
+      "allowed_hosts": [
+        "sambad.in",
+        "www.sambad.in"
+      ],
+      "kind": "odia_daily_district_desk",
+      "languages": [
+        "or"
+      ],
+      "enabled": true,
+      "minimum_interval_seconds": 6,
+      "robots_state": "allowed_checked_2026_07_21",
+      "rights_state": "third_party_copyright_indexed_under_robots_no_source_text_retained",
+      "retention": "hash_metadata_and_structured_extraction_only_no_source_text",
+      "district_id": "OD-DIST-khordha",
+      "content_role": "index",
+      "link_policy": "section",
+      "availability_state": "collector_http_200_text_html_223648_bytes_checked_2026_07_21"
+    },
+    {
+      "id": "sambad_district_koraput_or",
+      "name": "Sambad Odia district desk: Koraput",
+      "url": "https://sambad.in/district/koraput",
+      "allowed_hosts": [
+        "sambad.in",
+        "www.sambad.in"
+      ],
+      "kind": "odia_daily_district_desk",
+      "languages": [
+        "or"
+      ],
+      "enabled": true,
+      "minimum_interval_seconds": 6,
+      "robots_state": "allowed_checked_2026_07_21",
+      "rights_state": "third_party_copyright_indexed_under_robots_no_source_text_retained",
+      "retention": "hash_metadata_and_structured_extraction_only_no_source_text",
+      "district_id": "OD-DIST-koraput",
+      "content_role": "index",
+      "link_policy": "section",
+      "availability_state": "collector_http_200_text_html_223727_bytes_checked_2026_07_21"
+    },
+    {
+      "id": "sambad_district_malkangiri_or",
+      "name": "Sambad Odia district desk: Malkangiri",
+      "url": "https://sambad.in/district/malkangiri",
+      "allowed_hosts": [
+        "sambad.in",
+        "www.sambad.in"
+      ],
+      "kind": "odia_daily_district_desk",
+      "languages": [
+        "or"
+      ],
+      "enabled": true,
+      "minimum_interval_seconds": 6,
+      "robots_state": "allowed_checked_2026_07_21",
+      "rights_state": "third_party_copyright_indexed_under_robots_no_source_text_retained",
+      "retention": "hash_metadata_and_structured_extraction_only_no_source_text",
+      "district_id": "OD-DIST-malkangiri",
+      "content_role": "index",
+      "link_policy": "section",
+      "availability_state": "collector_http_200_text_html_223613_bytes_checked_2026_07_21"
+    },
+    {
+      "id": "sambad_district_mayurbhanj_or",
+      "name": "Sambad Odia district desk: Mayurbhanj",
+      "url": "https://sambad.in/district/mayurbhanj",
+      "allowed_hosts": [
+        "sambad.in",
+        "www.sambad.in"
+      ],
+      "kind": "odia_daily_district_desk",
+      "languages": [
+        "or"
+      ],
+      "enabled": true,
+      "minimum_interval_seconds": 6,
+      "robots_state": "allowed_checked_2026_07_21",
+      "rights_state": "third_party_copyright_indexed_under_robots_no_source_text_retained",
+      "retention": "hash_metadata_and_structured_extraction_only_no_source_text",
+      "district_id": "OD-DIST-mayurbhanj",
+      "content_role": "index",
+      "link_policy": "section",
+      "availability_state": "collector_http_200_text_html_223219_bytes_checked_2026_07_21"
+    },
+    {
+      "id": "sambad_district_nabarangpur_or",
+      "name": "Sambad Odia district desk: Nabarangpur",
+      "url": "https://sambad.in/district/nabarangpur",
+      "allowed_hosts": [
+        "sambad.in",
+        "www.sambad.in"
+      ],
+      "kind": "odia_daily_district_desk",
+      "languages": [
+        "or"
+      ],
+      "enabled": true,
+      "minimum_interval_seconds": 6,
+      "robots_state": "allowed_checked_2026_07_21",
+      "rights_state": "third_party_copyright_indexed_under_robots_no_source_text_retained",
+      "retention": "hash_metadata_and_structured_extraction_only_no_source_text",
+      "district_id": "OD-DIST-nabarangpur",
+      "content_role": "index",
+      "link_policy": "section",
+      "availability_state": "collector_http_200_text_html_221444_bytes_checked_2026_07_21"
+    },
+    {
+      "id": "sambad_district_nayagarh_or",
+      "name": "Sambad Odia district desk: Nayagarh",
+      "url": "https://sambad.in/district/nayagarh",
+      "allowed_hosts": [
+        "sambad.in",
+        "www.sambad.in"
+      ],
+      "kind": "odia_daily_district_desk",
+      "languages": [
+        "or"
+      ],
+      "enabled": true,
+      "minimum_interval_seconds": 6,
+      "robots_state": "allowed_checked_2026_07_21",
+      "rights_state": "third_party_copyright_indexed_under_robots_no_source_text_retained",
+      "retention": "hash_metadata_and_structured_extraction_only_no_source_text",
+      "district_id": "OD-DIST-nayagarh",
+      "content_role": "index",
+      "link_policy": "section",
+      "availability_state": "collector_http_200_text_html_221940_bytes_checked_2026_07_21"
+    },
+    {
+      "id": "sambad_district_nuapada_or",
+      "name": "Sambad Odia district desk: Nuapada",
+      "url": "https://sambad.in/district/nuapada",
+      "allowed_hosts": [
+        "sambad.in",
+        "www.sambad.in"
+      ],
+      "kind": "odia_daily_district_desk",
+      "languages": [
+        "or"
+      ],
+      "enabled": true,
+      "minimum_interval_seconds": 6,
+      "robots_state": "allowed_checked_2026_07_21",
+      "rights_state": "third_party_copyright_indexed_under_robots_no_source_text_retained",
+      "retention": "hash_metadata_and_structured_extraction_only_no_source_text",
+      "district_id": "OD-DIST-nuapada",
+      "content_role": "index",
+      "link_policy": "section",
+      "availability_state": "collector_http_200_text_html_222480_bytes_checked_2026_07_21"
+    },
+    {
+      "id": "sambad_district_puri_or",
+      "name": "Sambad Odia district desk: Puri",
+      "url": "https://sambad.in/district/puri",
+      "allowed_hosts": [
+        "sambad.in",
+        "www.sambad.in"
+      ],
+      "kind": "odia_daily_district_desk",
+      "languages": [
+        "or"
+      ],
+      "enabled": true,
+      "minimum_interval_seconds": 6,
+      "robots_state": "allowed_checked_2026_07_21",
+      "rights_state": "third_party_copyright_indexed_under_robots_no_source_text_retained",
+      "retention": "hash_metadata_and_structured_extraction_only_no_source_text",
+      "district_id": "OD-DIST-puri",
+      "content_role": "index",
+      "link_policy": "section",
+      "availability_state": "collector_http_200_text_html_223458_bytes_checked_2026_07_21"
+    },
+    {
+      "id": "sambad_district_rayagada_or",
+      "name": "Sambad Odia district desk: Rayagada",
+      "url": "https://sambad.in/district/rayagada",
+      "allowed_hosts": [
+        "sambad.in",
+        "www.sambad.in"
+      ],
+      "kind": "odia_daily_district_desk",
+      "languages": [
+        "or"
+      ],
+      "enabled": true,
+      "minimum_interval_seconds": 6,
+      "robots_state": "allowed_checked_2026_07_21",
+      "rights_state": "third_party_copyright_indexed_under_robots_no_source_text_retained",
+      "retention": "hash_metadata_and_structured_extraction_only_no_source_text",
+      "district_id": "OD-DIST-rayagada",
+      "content_role": "index",
+      "link_policy": "section",
+      "availability_state": "collector_http_200_text_html_222316_bytes_checked_2026_07_21"
+    },
+    {
+      "id": "sambad_district_sambalpur_or",
+      "name": "Sambad Odia district desk: Sambalpur",
+      "url": "https://sambad.in/district/sambalpur",
+      "allowed_hosts": [
+        "sambad.in",
+        "www.sambad.in"
+      ],
+      "kind": "odia_daily_district_desk",
+      "languages": [
+        "or"
+      ],
+      "enabled": true,
+      "minimum_interval_seconds": 6,
+      "robots_state": "allowed_checked_2026_07_21",
+      "rights_state": "third_party_copyright_indexed_under_robots_no_source_text_retained",
+      "retention": "hash_metadata_and_structured_extraction_only_no_source_text",
+      "district_id": "OD-DIST-sambalpur",
+      "content_role": "index",
+      "link_policy": "section",
+      "availability_state": "collector_http_200_text_html_221392_bytes_checked_2026_07_21"
+    },
+    {
+      "id": "sambad_district_subarnapur_or",
+      "name": "Sambad Odia district desk: Subarnapur",
+      "url": "https://sambad.in/district/subarnapur",
+      "allowed_hosts": [
+        "sambad.in",
+        "www.sambad.in"
+      ],
+      "kind": "odia_daily_district_desk",
+      "languages": [
+        "or"
+      ],
+      "enabled": true,
+      "minimum_interval_seconds": 6,
+      "robots_state": "allowed_checked_2026_07_21",
+      "rights_state": "third_party_copyright_indexed_under_robots_no_source_text_retained",
+      "retention": "hash_metadata_and_structured_extraction_only_no_source_text",
+      "district_id": "OD-DIST-subarnapur",
+      "content_role": "index",
+      "link_policy": "section",
+      "availability_state": "collector_http_200_text_html_222973_bytes_checked_2026_07_21"
+    },
+    {
+      "id": "sambad_district_sundargarh_or",
+      "name": "Sambad Odia district desk: Sundargarh",
+      "url": "https://sambad.in/district/sundargarh",
+      "allowed_hosts": [
+        "sambad.in",
+        "www.sambad.in"
+      ],
+      "kind": "odia_daily_district_desk",
+      "languages": [
+        "or"
+      ],
+      "enabled": true,
+      "minimum_interval_seconds": 6,
+      "robots_state": "allowed_checked_2026_07_21",
+      "rights_state": "third_party_copyright_indexed_under_robots_no_source_text_retained",
+      "retention": "hash_metadata_and_structured_extraction_only_no_source_text",
+      "district_id": "OD-DIST-sundargarh",
+      "content_role": "index",
+      "link_policy": "section",
+      "availability_state": "collector_http_200_text_html_224698_bytes_checked_2026_07_21"
+    },
+    {
+      "id": "sambad_health_tag_or",
+      "name": "Sambad Odia health tag",
+      "url": "https://sambad.in/tag/health/",
+      "allowed_hosts": [
+        "sambad.in",
+        "www.sambad.in"
+      ],
+      "kind": "odia_daily_health_desk",
+      "languages": [
+        "or"
+      ],
+      "enabled": true,
+      "minimum_interval_seconds": 6,
+      "robots_state": "allowed_checked_2026_07_21",
+      "rights_state": "third_party_copyright_indexed_under_robots_no_source_text_retained",
+      "retention": "hash_metadata_and_structured_extraction_only_no_source_text",
+      "content_role": "index",
+      "link_policy": "section",
+      "availability_state": "collector_http_200_text_html_215640_bytes_checked_2026_07_21"
+    },
+    {
+      "id": "dharitri_home_or",
+      "name": "Dharitri (Odia daily)",
+      "url": "https://www.dharitri.com/",
+      "allowed_hosts": [
+        "www.dharitri.com",
+        "dharitri.com"
+      ],
+      "kind": "odisha_news_health_desk",
+      "languages": [
+        "or"
+      ],
+      "enabled": true,
+      "minimum_interval_seconds": 8,
+      "robots_state": "allowed_checked_2026_07_21",
+      "rights_state": "third_party_copyright_indexed_under_robots_no_source_text_retained",
+      "retention": "hash_metadata_and_structured_extraction_only_no_source_text",
+      "content_role": "index",
+      "link_policy": "section",
+      "availability_state": "collector_http_200_text_html_280756_bytes_checked_2026_07_21"
+    },
+    {
+      "id": "dharitri_state_news_or",
+      "name": "Dharitri state news (Odia)",
+      "url": "https://www.dharitri.com/category/state-news/",
+      "allowed_hosts": [
+        "www.dharitri.com",
+        "dharitri.com"
+      ],
+      "kind": "odisha_news_health_desk",
+      "languages": [
+        "or"
+      ],
+      "enabled": true,
+      "minimum_interval_seconds": 8,
+      "robots_state": "allowed_checked_2026_07_21",
+      "rights_state": "third_party_copyright_indexed_under_robots_no_source_text_retained",
+      "retention": "hash_metadata_and_structured_extraction_only_no_source_text",
+      "content_role": "index",
+      "link_policy": "section",
+      "availability_state": "collector_http_200_text_html_115106_bytes_checked_2026_07_21"
+    },
+    {
+      "id": "dharitri_district_news_or",
+      "name": "Dharitri district news (Odia)",
+      "url": "https://www.dharitri.com/category/district-news/",
+      "allowed_hosts": [
+        "www.dharitri.com",
+        "dharitri.com"
+      ],
+      "kind": "odisha_news_health_desk",
+      "languages": [
+        "or"
+      ],
+      "enabled": true,
+      "minimum_interval_seconds": 8,
+      "robots_state": "allowed_checked_2026_07_21",
+      "rights_state": "third_party_copyright_indexed_under_robots_no_source_text_retained",
+      "retention": "hash_metadata_and_structured_extraction_only_no_source_text",
+      "content_role": "index",
+      "link_policy": "section",
+      "availability_state": "collector_http_200_text_html_114628_bytes_checked_2026_07_21"
+    },
+    {
+      "id": "prameya_odisha_or",
+      "name": "Prameya Odisha desk (Odia)",
+      "url": "https://www.prameya.com/category/odisha",
+      "allowed_hosts": [
+        "www.prameya.com",
+        "prameya.com"
+      ],
+      "kind": "odisha_news_health_desk",
+      "languages": [
+        "or"
+      ],
+      "enabled": true,
+      "minimum_interval_seconds": 8,
+      "robots_state": "allowed_checked_2026_07_21",
+      "rights_state": "third_party_copyright_indexed_under_robots_no_source_text_retained",
+      "retention": "hash_metadata_and_structured_extraction_only_no_source_text",
+      "content_role": "index",
+      "link_policy": "section",
+      "availability_state": "collector_http_200_text_html_118465_bytes_checked_2026_07_21"
+    },
+    {
+      "id": "orissapost_health_en",
+      "name": "Orissa Post health desk",
+      "url": "https://www.orissapost.com/category/health/",
+      "allowed_hosts": [
+        "www.orissapost.com",
+        "orissapost.com"
+      ],
+      "kind": "odisha_news_health_desk",
+      "languages": [
+        "en"
+      ],
+      "enabled": true,
+      "minimum_interval_seconds": 8,
+      "robots_state": "allowed_checked_2026_07_21",
+      "rights_state": "third_party_copyright_indexed_under_robots_no_source_text_retained",
+      "retention": "hash_metadata_and_structured_extraction_only_no_source_text",
+      "content_role": "index",
+      "link_policy": "section",
+      "availability_state": "collector_http_200_text_html_210001_bytes_checked_2026_07_21"
+    },
+    {
+      "id": "orissapost_dengue_tag_en",
+      "name": "Orissa Post dengue tag",
+      "url": "https://www.orissapost.com/tag/dengue/",
+      "allowed_hosts": [
+        "www.orissapost.com",
+        "orissapost.com"
+      ],
+      "kind": "odisha_news_health_desk",
+      "languages": [
+        "en"
+      ],
+      "enabled": true,
+      "minimum_interval_seconds": 8,
+      "robots_state": "allowed_checked_2026_07_21",
+      "rights_state": "third_party_copyright_indexed_under_robots_no_source_text_retained",
+      "retention": "hash_metadata_and_structured_extraction_only_no_source_text",
+      "content_role": "index",
+      "link_policy": "section",
+      "availability_state": "collector_http_200_text_html_196713_bytes_checked_2026_07_21"
+    },
+    {
+      "id": "kalingatv_health_en",
+      "name": "Kalinga TV health desk",
+      "url": "https://kalingatv.com/category/health/",
+      "allowed_hosts": [
+        "kalingatv.com",
+        "www.kalingatv.com"
+      ],
+      "kind": "odisha_news_health_desk",
+      "languages": [
+        "en"
+      ],
+      "enabled": true,
+      "minimum_interval_seconds": 8,
+      "robots_state": "allowed_checked_2026_07_21",
+      "rights_state": "third_party_copyright_indexed_under_robots_no_source_text_retained",
+      "retention": "hash_metadata_and_structured_extraction_only_no_source_text",
+      "content_role": "index",
+      "link_policy": "section",
+      "availability_state": "collector_http_200_text_html_148125_bytes_checked_2026_07_21"
+    },
+    {
+      "id": "odishatv_health_en",
+      "name": "OTV health desk",
+      "url": "https://odishatv.in/news/health",
+      "allowed_hosts": [
+        "odishatv.in",
+        "www.odishatv.in"
+      ],
+      "kind": "odisha_news_health_desk",
+      "languages": [
+        "en"
+      ],
+      "enabled": true,
+      "minimum_interval_seconds": 8,
+      "robots_state": "allowed_checked_2026_07_21",
+      "rights_state": "third_party_copyright_indexed_under_robots_no_source_text_retained",
+      "retention": "hash_metadata_and_structured_extraction_only_no_source_text",
+      "content_role": "index",
+      "link_policy": "section",
+      "availability_state": "collector_http_200_text_html_169303_bytes_checked_2026_07_21"
+    },
+    {
+      "id": "odishabytes_health_en",
+      "name": "Odisha Bytes health desk",
+      "url": "https://odishabytes.com/category/health/",
+      "allowed_hosts": [
+        "odishabytes.com",
+        "www.odishabytes.com"
+      ],
+      "kind": "odisha_news_health_desk",
+      "languages": [
+        "en"
+      ],
+      "enabled": true,
+      "minimum_interval_seconds": 8,
+      "robots_state": "allowed_checked_2026_07_21",
+      "rights_state": "third_party_copyright_indexed_under_robots_no_source_text_retained",
+      "retention": "hash_metadata_and_structured_extraction_only_no_source_text",
+      "content_role": "index",
+      "link_policy": "section",
+      "availability_state": "collector_http_200_text_html_182665_bytes_checked_2026_07_21"
+    },
+    {
+      "id": "pragativadi_health_en",
+      "name": "Pragativadi health desk",
+      "url": "https://pragativadi.com/category/health/",
+      "allowed_hosts": [
+        "pragativadi.com",
+        "www.pragativadi.com"
+      ],
+      "kind": "odisha_news_health_desk",
+      "languages": [
+        "en"
+      ],
+      "enabled": true,
+      "minimum_interval_seconds": 8,
+      "robots_state": "allowed_checked_2026_07_21",
+      "rights_state": "third_party_copyright_indexed_under_robots_no_source_text_retained",
+      "retention": "hash_metadata_and_structured_extraction_only_no_source_text",
+      "content_role": "index",
+      "link_policy": "section",
+      "availability_state": "collector_http_200_text_html_198008_bytes_checked_2026_07_21"
+    },
+    {
+      "id": "argusnews_health_en",
+      "name": "Argus News health desk",
+      "url": "https://argusnews.in/health",
+      "allowed_hosts": [
+        "argusnews.in",
+        "www.argusnews.in"
+      ],
+      "kind": "odisha_news_health_desk",
+      "languages": [
+        "en"
+      ],
+      "enabled": true,
+      "minimum_interval_seconds": 8,
+      "robots_state": "allowed_checked_2026_07_21",
+      "rights_state": "third_party_copyright_indexed_under_robots_no_source_text_retained",
+      "retention": "hash_metadata_and_structured_extraction_only_no_source_text",
+      "content_role": "index",
+      "link_policy": "section",
+      "availability_state": "collector_http_200_text_html_70070_bytes_checked_2026_07_21"
+    },
+    {
+      "id": "jagran_odisha_hi",
+      "name": "Dainik Jagran Odisha desk (Hindi)",
+      "url": "https://www.jagran.com/odisha/",
+      "allowed_hosts": [
+        "www.jagran.com",
+        "jagran.com"
+      ],
+      "kind": "hindi_news_odisha_desk",
+      "languages": [
+        "hi"
+      ],
+      "enabled": true,
+      "minimum_interval_seconds": 8,
+      "robots_state": "allowed_checked_2026_07_21",
+      "rights_state": "third_party_copyright_indexed_under_robots_no_source_text_retained",
+      "retention": "hash_metadata_and_structured_extraction_only_no_source_text",
+      "content_role": "index",
+      "link_policy": "section",
+      "availability_state": "collector_http_200_text_html_131524_bytes_checked_2026_07_21"
+    },
+    {
+      "id": "livehindustan_odisha_hi",
+      "name": "Live Hindustan Odisha desk (Hindi)",
+      "url": "https://www.livehindustan.com/odisha",
+      "allowed_hosts": [
+        "www.livehindustan.com",
+        "livehindustan.com"
+      ],
+      "kind": "hindi_news_odisha_desk",
+      "languages": [
+        "hi"
+      ],
+      "enabled": true,
+      "minimum_interval_seconds": 8,
+      "robots_state": "allowed_checked_2026_07_21",
+      "rights_state": "third_party_copyright_indexed_under_robots_no_source_text_retained",
+      "retention": "hash_metadata_and_structured_extraction_only_no_source_text",
+      "content_role": "index",
+      "link_policy": "section",
+      "availability_state": "collector_http_200_text_html_433208_bytes_checked_2026_07_21"
+    },
+    {
+      "id": "abplive_odisha_hi",
+      "name": "ABP Live Odisha desk (Hindi)",
+      "url": "https://www.abplive.com/states/odisha",
+      "allowed_hosts": [
+        "www.abplive.com",
+        "abplive.com"
+      ],
+      "kind": "hindi_news_odisha_desk",
+      "languages": [
+        "hi"
+      ],
+      "enabled": true,
+      "minimum_interval_seconds": 8,
+      "robots_state": "allowed_checked_2026_07_21",
+      "rights_state": "third_party_copyright_indexed_under_robots_no_source_text_retained",
+      "retention": "hash_metadata_and_structured_extraction_only_no_source_text",
+      "content_role": "index",
+      "link_policy": "section",
+      "availability_state": "collector_http_200_text_html_245189_bytes_checked_2026_07_21"
+    },
+    {
+      "id": "aajtak_odisha_hi",
+      "name": "Aaj Tak Odisha topic (Hindi)",
+      "url": "https://www.aajtak.in/topic/odisha",
+      "allowed_hosts": [
+        "www.aajtak.in",
+        "aajtak.in"
+      ],
+      "kind": "hindi_news_odisha_desk",
+      "languages": [
+        "hi"
+      ],
+      "enabled": true,
+      "minimum_interval_seconds": 8,
+      "robots_state": "allowed_checked_2026_07_21",
+      "rights_state": "third_party_copyright_indexed_under_robots_no_source_text_retained",
+      "retention": "hash_metadata_and_structured_extraction_only_no_source_text",
+      "content_role": "index",
+      "link_policy": "section",
+      "availability_state": "collector_http_200_text_html_512900_bytes_checked_2026_07_21"
+    },
+    {
+      "id": "pib_bhubaneswar_en",
+      "name": "Press Information Bureau Bhubaneswar (English)",
+      "url": "https://www.pib.gov.in/allRel.aspx?reg=21&lang=1",
+      "allowed_hosts": [
+        "www.pib.gov.in",
+        "pib.gov.in"
+      ],
+      "kind": "html_index",
+      "languages": [
+        "en"
+      ],
+      "enabled": false,
+      "minimum_interval_seconds": 30,
+      "robots_state": "robots_unavailable_http_403_checked_2026_07_21",
+      "rights_state": "reproduction_with_attribution_per_pib_copyright_policy",
+      "retention": "disabled_route_no_retention",
+      "disabled_reason": "collector_http_403",
+      "content_role": "index",
+      "link_policy": "health_only",
+      "availability_state": "collector_http_403_checked_2026_07_21",
+      "rights_url": "https://www.pib.gov.in/content/186_2_Copyright-Policy.aspx?lang=1&reg=5"
+    },
+    {
+      "id": "pib_bhubaneswar_hi",
+      "name": "Press Information Bureau Bhubaneswar (Hindi)",
+      "url": "https://www.pib.gov.in/allRel.aspx?reg=21&lang=2",
+      "allowed_hosts": [
+        "www.pib.gov.in",
+        "pib.gov.in"
+      ],
+      "kind": "html_index",
+      "languages": [
+        "hi"
+      ],
+      "enabled": false,
+      "minimum_interval_seconds": 30,
+      "robots_state": "robots_unavailable_http_403_checked_2026_07_21",
+      "rights_state": "reproduction_with_attribution_per_pib_copyright_policy",
+      "retention": "disabled_route_no_retention",
+      "disabled_reason": "collector_http_403",
+      "content_role": "index",
+      "link_policy": "health_only",
+      "availability_state": "collector_http_403_checked_2026_07_21",
+      "rights_url": "https://www.pib.gov.in/content/186_2_Copyright-Policy.aspx?lang=1&reg=5"
+    },
+    {
+      "id": "mohfw_home_en",
+      "name": "Ministry of Health and Family Welfare",
+      "url": "https://www.mohfw.gov.in/",
+      "allowed_hosts": [
+        "www.mohfw.gov.in",
+        "mohfw.gov.in"
+      ],
+      "kind": "html_index",
+      "languages": [
+        "en"
+      ],
+      "enabled": false,
+      "minimum_interval_seconds": 30,
+      "robots_state": "robots_unavailable_http_403_checked_2026_07_21",
+      "rights_state": "official_source_review_required_before_full_text_redistribution",
+      "retention": "disabled_route_no_retention",
+      "disabled_reason": "collector_http_403",
+      "content_role": "index",
+      "link_policy": "health_only",
+      "availability_state": "collector_http_403_checked_2026_07_21"
+    },
+    {
+      "id": "odisha_government_press",
+      "name": "Odisha Government Press gazettes",
+      "url": "https://govtpress.odisha.gov.in/en/light/odisha-gazettes",
+      "allowed_hosts": [
+        "govtpress.odisha.gov.in"
+      ],
+      "kind": "html_index",
+      "languages": [
+        "en"
+      ],
+      "enabled": false,
+      "minimum_interval_seconds": 30,
+      "robots_state": "robots_unavailable_network_error_checked_2026_07_21",
+      "rights_state": "government_work_is_not_automatically_reusable_review_required",
+      "retention": "disabled_route_no_retention",
+      "disabled_reason": "tls_chain_invalid_no_bypass_permitted",
+      "content_role": "index",
+      "link_policy": "health_only",
+      "availability_state": "collector_network_error_checked_2026_07_21",
+      "transport_state": "tls_chain_invalid_checked_2026_07_21_no_tls_bypass_permitted"
+    },
+    {
+      "id": "newsonair_odisha_dengue_hi",
+      "name": "Akashvani Hindi Odisha dengue search",
+      "url": "https://newsonair.gov.in/hi/?s=%E0%A4%93%E0%A4%A1%E0%A4%BF%E0%A4%B6%E0%A4%BE+%E0%A4%A1%E0%A5%87%E0%A4%82%E0%A4%97%E0%A5%82",
+      "allowed_hosts": [
+        "newsonair.gov.in",
+        "www.newsonair.gov.in"
+      ],
+      "kind": "html_index",
+      "languages": [
+        "hi"
+      ],
+      "enabled": false,
+      "minimum_interval_seconds": 30,
+      "robots_state": "allowed_checked_2026_07_21",
+      "rights_state": "prior_written_nsd_air_permission_required",
+      "retention": "disabled_route_no_retention",
+      "disabled_reason": "prior_written_nsd_air_permission_required",
+      "content_role": "index",
+      "link_policy": "health_only",
+      "availability_state": "collector_http_200_text_html_75392_bytes_checked_2026_07_21",
+      "rights_url": "https://newsonair.gov.in/copyright-policy/"
+    },
+    {
+      "id": "district_baleshwar_health_or",
+      "name": "Balasore district health department (or)",
+      "url": "https://baleshwar.odisha.gov.in/or/departments/health",
+      "allowed_hosts": [
+        "baleshwar.odisha.gov.in"
+      ],
+      "kind": "district_collectorate_health_page",
+      "languages": [
+        "or"
+      ],
+      "enabled": true,
+      "minimum_interval_seconds": 6,
+      "robots_state": "allowed_checked_2026_07_21",
+      "rights_state": "official_source_review_required_before_full_text_redistribution",
+      "retention": "hash_metadata_and_redacted_excerpt",
+      "district_id": "OD-DIST-balasore",
+      "content_role": "document",
+      "link_policy": "section",
+      "availability_state": "collector_http_200_text_html_70485_bytes_checked_2026_07_21"
+    },
+    {
+      "id": "district_baleshwar_health_en",
+      "name": "Balasore district health department (en)",
+      "url": "https://baleshwar.odisha.gov.in/en/departments/health",
+      "allowed_hosts": [
+        "baleshwar.odisha.gov.in"
+      ],
+      "kind": "district_collectorate_health_page",
+      "languages": [
+        "en"
+      ],
+      "enabled": true,
+      "minimum_interval_seconds": 6,
+      "robots_state": "allowed_checked_2026_07_21",
+      "rights_state": "official_source_review_required_before_full_text_redistribution",
+      "retention": "hash_metadata_and_redacted_excerpt",
+      "district_id": "OD-DIST-balasore",
+      "content_role": "document",
+      "link_policy": "section",
+      "availability_state": "collector_http_200_text_html_61509_bytes_checked_2026_07_21"
+    },
+    {
+      "id": "district_angul_health_or",
+      "name": "Angul district health department (or)",
+      "url": "https://angul.odisha.gov.in/or/departments/health",
+      "allowed_hosts": [
+        "angul.odisha.gov.in"
+      ],
+      "kind": "district_collectorate_health_page",
+      "languages": [
+        "or"
+      ],
+      "enabled": false,
+      "minimum_interval_seconds": 6,
+      "robots_state": "not_reachable_to_check_2026_07_21",
+      "rights_state": "official_source_review_required_before_full_text_redistribution",
+      "retention": "disabled_route_no_retention",
+      "district_id": "OD-DIST-angul",
+      "content_role": "document",
+      "link_policy": "section",
+      "availability_state": "collector_dns_failed_checked_2026_07_21",
+      "disabled_reason": "listed_on_odisha_gov_in_state_portal_but_no_dns_a_record_from_verification_network_district_covered_by_odia_press_desk_instead"
+    },
+    {
+      "id": "district_bargarh_health_or",
+      "name": "Bargarh district health department (or)",
+      "url": "https://bargarh.odisha.gov.in/or/departments/health",
+      "allowed_hosts": [
+        "bargarh.odisha.gov.in"
+      ],
+      "kind": "district_collectorate_health_page",
+      "languages": [
+        "or"
+      ],
+      "enabled": false,
+      "minimum_interval_seconds": 6,
+      "robots_state": "not_reachable_to_check_2026_07_21",
+      "rights_state": "official_source_review_required_before_full_text_redistribution",
+      "retention": "disabled_route_no_retention",
+      "district_id": "OD-DIST-bargarh",
+      "content_role": "document",
+      "link_policy": "section",
+      "availability_state": "collector_dns_failed_checked_2026_07_21",
+      "disabled_reason": "listed_on_odisha_gov_in_state_portal_but_no_dns_a_record_from_verification_network_district_covered_by_odia_press_desk_instead"
+    },
+    {
+      "id": "district_cuttack_health_or",
+      "name": "Cuttack district health department (or)",
+      "url": "https://cuttack.odisha.gov.in/or/departments/health",
+      "allowed_hosts": [
+        "cuttack.odisha.gov.in"
+      ],
+      "kind": "district_collectorate_health_page",
+      "languages": [
+        "or"
+      ],
+      "enabled": false,
+      "minimum_interval_seconds": 6,
+      "robots_state": "not_reachable_to_check_2026_07_21",
+      "rights_state": "official_source_review_required_before_full_text_redistribution",
+      "retention": "disabled_route_no_retention",
+      "district_id": "OD-DIST-cuttack",
+      "content_role": "document",
+      "link_policy": "section",
+      "availability_state": "collector_dns_failed_checked_2026_07_21",
+      "disabled_reason": "listed_on_odisha_gov_in_state_portal_but_no_dns_a_record_from_verification_network_district_covered_by_odia_press_desk_instead"
+    },
+    {
+      "id": "district_deogarh_health_or",
+      "name": "Deogarh district health department (or)",
+      "url": "https://deogarh.odisha.gov.in/or/departments/health",
+      "allowed_hosts": [
+        "deogarh.odisha.gov.in"
+      ],
+      "kind": "district_collectorate_health_page",
+      "languages": [
+        "or"
+      ],
+      "enabled": false,
+      "minimum_interval_seconds": 6,
+      "robots_state": "not_reachable_to_check_2026_07_21",
+      "rights_state": "official_source_review_required_before_full_text_redistribution",
+      "retention": "disabled_route_no_retention",
+      "district_id": "OD-DIST-deogarh",
+      "content_role": "document",
+      "link_policy": "section",
+      "availability_state": "collector_dns_failed_checked_2026_07_21",
+      "disabled_reason": "listed_on_odisha_gov_in_state_portal_but_no_dns_a_record_from_verification_network_district_covered_by_odia_press_desk_instead"
+    },
+    {
+      "id": "district_nayagarh_health_or",
+      "name": "Nayagarh district health department (or)",
+      "url": "https://nayagarh.odisha.gov.in/or/departments/health",
+      "allowed_hosts": [
+        "nayagarh.odisha.gov.in"
+      ],
+      "kind": "district_collectorate_health_page",
+      "languages": [
+        "or"
+      ],
+      "enabled": false,
+      "minimum_interval_seconds": 6,
+      "robots_state": "not_reachable_to_check_2026_07_21",
+      "rights_state": "official_source_review_required_before_full_text_redistribution",
+      "retention": "disabled_route_no_retention",
+      "district_id": "OD-DIST-nayagarh",
+      "content_role": "document",
+      "link_policy": "section",
+      "availability_state": "collector_dns_failed_checked_2026_07_21",
+      "disabled_reason": "listed_on_odisha_gov_in_state_portal_but_no_dns_a_record_from_verification_network_district_covered_by_odia_press_desk_instead"
+    },
+    {
+      "id": "district_sundargarh_health_or",
+      "name": "Sundargarh district health department (or)",
+      "url": "https://sundargarh.odisha.gov.in/or/departments/health",
+      "allowed_hosts": [
+        "sundargarh.odisha.gov.in"
+      ],
+      "kind": "district_collectorate_health_page",
+      "languages": [
+        "or"
+      ],
+      "enabled": false,
+      "minimum_interval_seconds": 6,
+      "robots_state": "not_reachable_to_check_2026_07_21",
+      "rights_state": "official_source_review_required_before_full_text_redistribution",
+      "retention": "disabled_route_no_retention",
+      "district_id": "OD-DIST-sundargarh",
+      "content_role": "document",
+      "link_policy": "section",
+      "availability_state": "collector_dns_failed_checked_2026_07_21",
+      "disabled_reason": "listed_on_odisha_gov_in_state_portal_but_no_dns_a_record_from_verification_network_district_covered_by_odia_press_desk_instead"
+    },
+    {
+      "id": "amarujala_district_bhubaneswar_hi",
+      "name": "Amar Ujala Odisha district desk (Hindi): Bhubaneswar",
+      "url": "https://www.amarujala.com/odisha/bhubaneswar",
+      "allowed_hosts": [
+        "www.amarujala.com",
+        "amarujala.com"
+      ],
+      "kind": "hindi_daily_district_desk",
+      "languages": [
+        "hi"
+      ],
+      "enabled": true,
+      "minimum_interval_seconds": 8,
+      "robots_state": "allowed_checked_2026_07_22",
+      "rights_state": "third_party_copyright_indexed_under_robots_no_source_text_retained",
+      "retention": "hash_metadata_and_structured_extraction_only_no_source_text",
+      "district_id": "OD-DIST-khordha",
+      "content_role": "index",
+      "link_policy": "section",
+      "availability_state": "collector_http_200_text_html_830067_bytes_checked_2026_07_22",
+      "district_scope_note": "bhubaneswar_city_desk_lies_in_khordha_district"
+    },
+    {
+      "id": "amarujala_district_cuttack_hi",
+      "name": "Amar Ujala Odisha district desk (Hindi): Cuttack",
+      "url": "https://www.amarujala.com/odisha/cuttack",
+      "allowed_hosts": [
+        "www.amarujala.com",
+        "amarujala.com"
+      ],
+      "kind": "hindi_daily_district_desk",
+      "languages": [
+        "hi"
+      ],
+      "enabled": true,
+      "minimum_interval_seconds": 8,
+      "robots_state": "allowed_checked_2026_07_22",
+      "rights_state": "third_party_copyright_indexed_under_robots_no_source_text_retained",
+      "retention": "hash_metadata_and_structured_extraction_only_no_source_text",
+      "district_id": "OD-DIST-cuttack",
+      "content_role": "index",
+      "link_policy": "section",
+      "availability_state": "collector_http_200_text_html_826002_bytes_checked_2026_07_22"
+    },
+    {
+      "id": "amarujala_district_puri_hi",
+      "name": "Amar Ujala Odisha district desk (Hindi): Puri",
+      "url": "https://www.amarujala.com/odisha/puri",
+      "allowed_hosts": [
+        "www.amarujala.com",
+        "amarujala.com"
+      ],
+      "kind": "hindi_daily_district_desk",
+      "languages": [
+        "hi"
+      ],
+      "enabled": true,
+      "minimum_interval_seconds": 8,
+      "robots_state": "allowed_checked_2026_07_22",
+      "rights_state": "third_party_copyright_indexed_under_robots_no_source_text_retained",
+      "retention": "hash_metadata_and_structured_extraction_only_no_source_text",
+      "district_id": "OD-DIST-puri",
+      "content_role": "index",
+      "link_policy": "section",
+      "availability_state": "collector_http_200_text_html_828795_bytes_checked_2026_07_22"
+    },
+    {
+      "id": "amarujala_district_balasore_hi",
+      "name": "Amar Ujala Odisha district desk (Hindi): Balasore",
+      "url": "https://www.amarujala.com/odisha/balasore",
+      "allowed_hosts": [
+        "www.amarujala.com",
+        "amarujala.com"
+      ],
+      "kind": "hindi_daily_district_desk",
+      "languages": [
+        "hi"
+      ],
+      "enabled": true,
+      "minimum_interval_seconds": 8,
+      "robots_state": "allowed_checked_2026_07_22",
+      "rights_state": "third_party_copyright_indexed_under_robots_no_source_text_retained",
+      "retention": "hash_metadata_and_structured_extraction_only_no_source_text",
+      "district_id": "OD-DIST-balasore",
+      "content_role": "index",
+      "link_policy": "section",
+      "availability_state": "collector_http_200_text_html_832556_bytes_checked_2026_07_22"
+    },
+    {
+      "id": "amarujala_district_bhadrak_hi",
+      "name": "Amar Ujala Odisha district desk (Hindi): Bhadrak",
+      "url": "https://www.amarujala.com/odisha/bhadrak",
+      "allowed_hosts": [
+        "www.amarujala.com",
+        "amarujala.com"
+      ],
+      "kind": "hindi_daily_district_desk",
+      "languages": [
+        "hi"
+      ],
+      "enabled": true,
+      "minimum_interval_seconds": 8,
+      "robots_state": "allowed_checked_2026_07_22",
+      "rights_state": "third_party_copyright_indexed_under_robots_no_source_text_retained",
+      "retention": "hash_metadata_and_structured_extraction_only_no_source_text",
+      "district_id": "OD-DIST-bhadrak",
+      "content_role": "index",
+      "link_policy": "section",
+      "availability_state": "collector_http_200_text_html_710781_bytes_checked_2026_07_22"
+    },
+    {
+      "id": "amarujala_district_sambalpur_hi",
+      "name": "Amar Ujala Odisha district desk (Hindi): Sambalpur",
+      "url": "https://www.amarujala.com/odisha/sambalpur",
+      "allowed_hosts": [
+        "www.amarujala.com",
+        "amarujala.com"
+      ],
+      "kind": "hindi_daily_district_desk",
+      "languages": [
+        "hi"
+      ],
+      "enabled": true,
+      "minimum_interval_seconds": 8,
+      "robots_state": "allowed_checked_2026_07_22",
+      "rights_state": "third_party_copyright_indexed_under_robots_no_source_text_retained",
+      "retention": "hash_metadata_and_structured_extraction_only_no_source_text",
+      "district_id": "OD-DIST-sambalpur",
+      "content_role": "index",
+      "link_policy": "section",
+      "availability_state": "collector_http_200_text_html_825207_bytes_checked_2026_07_22"
+    },
+    {
+      "id": "amarujala_district_rourkela_hi",
+      "name": "Amar Ujala Odisha district desk (Hindi): Rourkela",
+      "url": "https://www.amarujala.com/odisha/rourkela",
+      "allowed_hosts": [
+        "www.amarujala.com",
+        "amarujala.com"
+      ],
+      "kind": "hindi_daily_district_desk",
+      "languages": [
+        "hi"
+      ],
+      "enabled": true,
+      "minimum_interval_seconds": 8,
+      "robots_state": "allowed_checked_2026_07_22",
+      "rights_state": "third_party_copyright_indexed_under_robots_no_source_text_retained",
+      "retention": "hash_metadata_and_structured_extraction_only_no_source_text",
+      "district_id": "OD-DIST-sundargarh",
+      "content_role": "index",
+      "link_policy": "section",
+      "availability_state": "collector_http_200_text_html_732415_bytes_checked_2026_07_22",
+      "district_scope_note": "rourkela_city_desk_lies_in_sundargarh_district"
+    },
+    {
+      "id": "amarujala_district_dhenkanal_hi",
+      "name": "Amar Ujala Odisha district desk (Hindi): Dhenkanal",
+      "url": "https://www.amarujala.com/odisha/dhenkanal",
+      "allowed_hosts": [
+        "www.amarujala.com",
+        "amarujala.com"
+      ],
+      "kind": "hindi_daily_district_desk",
+      "languages": [
+        "hi"
+      ],
+      "enabled": true,
+      "minimum_interval_seconds": 8,
+      "robots_state": "allowed_checked_2026_07_22",
+      "rights_state": "third_party_copyright_indexed_under_robots_no_source_text_retained",
+      "retention": "hash_metadata_and_structured_extraction_only_no_source_text",
+      "district_id": "OD-DIST-dhenkanal",
+      "content_role": "index",
+      "link_policy": "section",
+      "availability_state": "collector_http_200_text_html_661265_bytes_checked_2026_07_22"
+    },
+    {
+      "id": "amarujala_district_jajpur_hi",
+      "name": "Amar Ujala Odisha district desk (Hindi): Jajpur",
+      "url": "https://www.amarujala.com/odisha/jajpur",
+      "allowed_hosts": [
+        "www.amarujala.com",
+        "amarujala.com"
+      ],
+      "kind": "hindi_daily_district_desk",
+      "languages": [
+        "hi"
+      ],
+      "enabled": true,
+      "minimum_interval_seconds": 8,
+      "robots_state": "allowed_checked_2026_07_22",
+      "rights_state": "third_party_copyright_indexed_under_robots_no_source_text_retained",
+      "retention": "hash_metadata_and_structured_extraction_only_no_source_text",
+      "district_id": "OD-DIST-jajpur",
+      "content_role": "index",
+      "link_policy": "section",
+      "availability_state": "collector_http_200_text_html_696508_bytes_checked_2026_07_22"
+    },
+    {
+      "id": "amarujala_district_kendrapara_hi",
+      "name": "Amar Ujala Odisha district desk (Hindi): Kendrapara",
+      "url": "https://www.amarujala.com/odisha/kendrapara",
+      "allowed_hosts": [
+        "www.amarujala.com",
+        "amarujala.com"
+      ],
+      "kind": "hindi_daily_district_desk",
+      "languages": [
+        "hi"
+      ],
+      "enabled": true,
+      "minimum_interval_seconds": 8,
+      "robots_state": "allowed_checked_2026_07_22",
+      "rights_state": "third_party_copyright_indexed_under_robots_no_source_text_retained",
+      "retention": "hash_metadata_and_structured_extraction_only_no_source_text",
+      "district_id": "OD-DIST-kendrapara",
+      "content_role": "index",
+      "link_policy": "section",
+      "availability_state": "collector_http_200_text_html_791928_bytes_checked_2026_07_22"
+    },
+    {
+      "id": "amarujala_district_jagatsinghpur_hi",
+      "name": "Amar Ujala Odisha district desk (Hindi): Jagatsinghpur",
+      "url": "https://www.amarujala.com/odisha/jagatsinghpur",
+      "allowed_hosts": [
+        "www.amarujala.com",
+        "amarujala.com"
+      ],
+      "kind": "hindi_daily_district_desk",
+      "languages": [
+        "hi"
+      ],
+      "enabled": true,
+      "minimum_interval_seconds": 8,
+      "robots_state": "allowed_checked_2026_07_22",
+      "rights_state": "third_party_copyright_indexed_under_robots_no_source_text_retained",
+      "retention": "hash_metadata_and_structured_extraction_only_no_source_text",
+      "district_id": "OD-DIST-jagatsinghpur",
+      "content_role": "index",
+      "link_policy": "section",
+      "availability_state": "collector_http_200_text_html_629568_bytes_checked_2026_07_22"
+    },
+    {
+      "id": "amarujala_district_mayurbhanj_hi",
+      "name": "Amar Ujala Odisha district desk (Hindi): Mayurbhanj",
+      "url": "https://www.amarujala.com/odisha/mayurbhanj",
+      "allowed_hosts": [
+        "www.amarujala.com",
+        "amarujala.com"
+      ],
+      "kind": "hindi_daily_district_desk",
+      "languages": [
+        "hi"
+      ],
+      "enabled": true,
+      "minimum_interval_seconds": 8,
+      "robots_state": "allowed_checked_2026_07_22",
+      "rights_state": "third_party_copyright_indexed_under_robots_no_source_text_retained",
+      "retention": "hash_metadata_and_structured_extraction_only_no_source_text",
+      "district_id": "OD-DIST-mayurbhanj",
+      "content_role": "index",
+      "link_policy": "section",
+      "availability_state": "collector_http_200_text_html_819929_bytes_checked_2026_07_22"
+    },
+    {
+      "id": "amarujala_district_ganjam_hi",
+      "name": "Amar Ujala Odisha district desk (Hindi): Ganjam",
+      "url": "https://www.amarujala.com/odisha/ganjam",
+      "allowed_hosts": [
+        "www.amarujala.com",
+        "amarujala.com"
+      ],
+      "kind": "hindi_daily_district_desk",
+      "languages": [
+        "hi"
+      ],
+      "enabled": true,
+      "minimum_interval_seconds": 8,
+      "robots_state": "allowed_checked_2026_07_22",
+      "rights_state": "third_party_copyright_indexed_under_robots_no_source_text_retained",
+      "retention": "hash_metadata_and_structured_extraction_only_no_source_text",
+      "district_id": "OD-DIST-ganjam",
+      "content_role": "index",
+      "link_policy": "section",
+      "availability_state": "collector_http_200_text_html_750805_bytes_checked_2026_07_22"
+    },
+    {
+      "id": "amarujala_district_gajapati_hi",
+      "name": "Amar Ujala Odisha district desk (Hindi): Gajapati",
+      "url": "https://www.amarujala.com/odisha/gajapati",
+      "allowed_hosts": [
+        "www.amarujala.com",
+        "amarujala.com"
+      ],
+      "kind": "hindi_daily_district_desk",
+      "languages": [
+        "hi"
+      ],
+      "enabled": true,
+      "minimum_interval_seconds": 8,
+      "robots_state": "allowed_checked_2026_07_22",
+      "rights_state": "third_party_copyright_indexed_under_robots_no_source_text_retained",
+      "retention": "hash_metadata_and_structured_extraction_only_no_source_text",
+      "district_id": "OD-DIST-gajapati",
+      "content_role": "index",
+      "link_policy": "section",
+      "availability_state": "collector_http_200_text_html_639946_bytes_checked_2026_07_22"
+    },
+    {
+      "id": "amarujala_district_koraput_hi",
+      "name": "Amar Ujala Odisha district desk (Hindi): Koraput",
+      "url": "https://www.amarujala.com/odisha/koraput",
+      "allowed_hosts": [
+        "www.amarujala.com",
+        "amarujala.com"
+      ],
+      "kind": "hindi_daily_district_desk",
+      "languages": [
+        "hi"
+      ],
+      "enabled": true,
+      "minimum_interval_seconds": 8,
+      "robots_state": "allowed_checked_2026_07_22",
+      "rights_state": "third_party_copyright_indexed_under_robots_no_source_text_retained",
+      "retention": "hash_metadata_and_structured_extraction_only_no_source_text",
+      "district_id": "OD-DIST-koraput",
+      "content_role": "index",
+      "link_policy": "section",
+      "availability_state": "collector_http_200_text_html_698306_bytes_checked_2026_07_22"
+    },
+    {
+      "id": "amarujala_district_rayagada_hi",
+      "name": "Amar Ujala Odisha district desk (Hindi): Rayagada",
+      "url": "https://www.amarujala.com/odisha/rayagada",
+      "allowed_hosts": [
+        "www.amarujala.com",
+        "amarujala.com"
+      ],
+      "kind": "hindi_daily_district_desk",
+      "languages": [
+        "hi"
+      ],
+      "enabled": true,
+      "minimum_interval_seconds": 8,
+      "robots_state": "allowed_checked_2026_07_22",
+      "rights_state": "third_party_copyright_indexed_under_robots_no_source_text_retained",
+      "retention": "hash_metadata_and_structured_extraction_only_no_source_text",
+      "district_id": "OD-DIST-rayagada",
+      "content_role": "index",
+      "link_policy": "section",
+      "availability_state": "collector_http_200_text_html_671341_bytes_checked_2026_07_22"
+    },
+    {
+      "id": "amarujala_district_nabarangpur_hi",
+      "name": "Amar Ujala Odisha district desk (Hindi): Nabarangpur",
+      "url": "https://www.amarujala.com/odisha/nabarangpur",
+      "allowed_hosts": [
+        "www.amarujala.com",
+        "amarujala.com"
+      ],
+      "kind": "hindi_daily_district_desk",
+      "languages": [
+        "hi"
+      ],
+      "enabled": true,
+      "minimum_interval_seconds": 8,
+      "robots_state": "allowed_checked_2026_07_22",
+      "rights_state": "third_party_copyright_indexed_under_robots_no_source_text_retained",
+      "retention": "hash_metadata_and_structured_extraction_only_no_source_text",
+      "district_id": "OD-DIST-nabarangpur",
+      "content_role": "index",
+      "link_policy": "section",
+      "availability_state": "collector_http_200_text_html_631018_bytes_checked_2026_07_22"
+    },
+    {
+      "id": "amarujala_district_malkangiri_hi",
+      "name": "Amar Ujala Odisha district desk (Hindi): Malkangiri",
+      "url": "https://www.amarujala.com/odisha/malkangiri",
+      "allowed_hosts": [
+        "www.amarujala.com",
+        "amarujala.com"
+      ],
+      "kind": "hindi_daily_district_desk",
+      "languages": [
+        "hi"
+      ],
+      "enabled": true,
+      "minimum_interval_seconds": 8,
+      "robots_state": "allowed_checked_2026_07_22",
+      "rights_state": "third_party_copyright_indexed_under_robots_no_source_text_retained",
+      "retention": "hash_metadata_and_structured_extraction_only_no_source_text",
+      "district_id": "OD-DIST-malkangiri",
+      "content_role": "index",
+      "link_policy": "section",
+      "availability_state": "collector_http_200_text_html_805735_bytes_checked_2026_07_22"
+    },
+    {
+      "id": "amarujala_district_kalahandi_hi",
+      "name": "Amar Ujala Odisha district desk (Hindi): Kalahandi",
+      "url": "https://www.amarujala.com/odisha/kalahandi",
+      "allowed_hosts": [
+        "www.amarujala.com",
+        "amarujala.com"
+      ],
+      "kind": "hindi_daily_district_desk",
+      "languages": [
+        "hi"
+      ],
+      "enabled": true,
+      "minimum_interval_seconds": 8,
+      "robots_state": "allowed_checked_2026_07_22",
+      "rights_state": "third_party_copyright_indexed_under_robots_no_source_text_retained",
+      "retention": "hash_metadata_and_structured_extraction_only_no_source_text",
+      "district_id": "OD-DIST-kalahandi",
+      "content_role": "index",
+      "link_policy": "section",
+      "availability_state": "collector_http_200_text_html_782754_bytes_checked_2026_07_22"
+    },
+    {
+      "id": "amarujala_district_balangir_hi",
+      "name": "Amar Ujala Odisha district desk (Hindi): Balangir",
+      "url": "https://www.amarujala.com/odisha/balangir",
+      "allowed_hosts": [
+        "www.amarujala.com",
+        "amarujala.com"
+      ],
+      "kind": "hindi_daily_district_desk",
+      "languages": [
+        "hi"
+      ],
+      "enabled": true,
+      "minimum_interval_seconds": 8,
+      "robots_state": "allowed_checked_2026_07_22",
+      "rights_state": "third_party_copyright_indexed_under_robots_no_source_text_retained",
+      "retention": "hash_metadata_and_structured_extraction_only_no_source_text",
+      "district_id": "OD-DIST-balangir",
+      "content_role": "index",
+      "link_policy": "section",
+      "availability_state": "collector_http_200_text_html_675375_bytes_checked_2026_07_22"
+    },
+    {
+      "id": "amarujala_district_sonepur_hi",
+      "name": "Amar Ujala Odisha district desk (Hindi): Sonepur",
+      "url": "https://www.amarujala.com/odisha/sonepur",
+      "allowed_hosts": [
+        "www.amarujala.com",
+        "amarujala.com"
+      ],
+      "kind": "hindi_daily_district_desk",
+      "languages": [
+        "hi"
+      ],
+      "enabled": true,
+      "minimum_interval_seconds": 8,
+      "robots_state": "allowed_checked_2026_07_22",
+      "rights_state": "third_party_copyright_indexed_under_robots_no_source_text_retained",
+      "retention": "hash_metadata_and_structured_extraction_only_no_source_text",
+      "district_id": "OD-DIST-subarnapur",
+      "content_role": "index",
+      "link_policy": "section",
+      "availability_state": "collector_http_200_text_html_623406_bytes_checked_2026_07_22",
+      "district_scope_note": "sonepur_town_is_the_headquarters_of_subarnapur_district"
+    },
+    {
+      "id": "amarujala_district_kandhamal_hi",
+      "name": "Amar Ujala Odisha district desk (Hindi): Kandhamal",
+      "url": "https://www.amarujala.com/odisha/kandhamal",
+      "allowed_hosts": [
+        "www.amarujala.com",
+        "amarujala.com"
+      ],
+      "kind": "hindi_daily_district_desk",
+      "languages": [
+        "hi"
+      ],
+      "enabled": true,
+      "minimum_interval_seconds": 8,
+      "robots_state": "allowed_checked_2026_07_22",
+      "rights_state": "third_party_copyright_indexed_under_robots_no_source_text_retained",
+      "retention": "hash_metadata_and_structured_extraction_only_no_source_text",
+      "district_id": "OD-DIST-kandhamal",
+      "content_role": "index",
+      "link_policy": "section",
+      "availability_state": "collector_http_200_text_html_638317_bytes_checked_2026_07_22"
+    },
+    {
+      "id": "amarujala_district_deogarh_hi",
+      "name": "Amar Ujala Odisha district desk (Hindi): Deogarh",
+      "url": "https://www.amarujala.com/odisha/deogarh",
+      "allowed_hosts": [
+        "www.amarujala.com",
+        "amarujala.com"
+      ],
+      "kind": "hindi_daily_district_desk",
+      "languages": [
+        "hi"
+      ],
+      "enabled": true,
+      "minimum_interval_seconds": 8,
+      "robots_state": "allowed_checked_2026_07_22",
+      "rights_state": "third_party_copyright_indexed_under_robots_no_source_text_retained",
+      "retention": "hash_metadata_and_structured_extraction_only_no_source_text",
+      "district_id": "OD-DIST-deogarh",
+      "content_role": "index",
+      "link_policy": "section",
+      "availability_state": "collector_http_200_text_html_668911_bytes_checked_2026_07_22"
+    },
+    {
+      "id": "amarujala_district_jharsuguda_hi",
+      "name": "Amar Ujala Odisha district desk (Hindi): Jharsuguda",
+      "url": "https://www.amarujala.com/odisha/jharsuguda",
+      "allowed_hosts": [
+        "www.amarujala.com",
+        "amarujala.com"
+      ],
+      "kind": "hindi_daily_district_desk",
+      "languages": [
+        "hi"
+      ],
+      "enabled": true,
+      "minimum_interval_seconds": 8,
+      "robots_state": "allowed_checked_2026_07_22",
+      "rights_state": "third_party_copyright_indexed_under_robots_no_source_text_retained",
+      "retention": "hash_metadata_and_structured_extraction_only_no_source_text",
+      "district_id": "OD-DIST-jharsuguda",
+      "content_role": "index",
+      "link_policy": "section",
+      "availability_state": "collector_http_200_text_html_689906_bytes_checked_2026_07_22"
+    },
+    {
+      "id": "amarujala_district_talcher_hi",
+      "name": "Amar Ujala Odisha district desk (Hindi): Talcher",
+      "url": "https://www.amarujala.com/odisha/talcher",
+      "allowed_hosts": [
+        "www.amarujala.com",
+        "amarujala.com"
+      ],
+      "kind": "hindi_daily_district_desk",
+      "languages": [
+        "hi"
+      ],
+      "enabled": true,
+      "minimum_interval_seconds": 8,
+      "robots_state": "allowed_checked_2026_07_22",
+      "rights_state": "third_party_copyright_indexed_under_robots_no_source_text_retained",
+      "retention": "hash_metadata_and_structured_extraction_only_no_source_text",
+      "district_id": "OD-DIST-angul",
+      "content_role": "index",
+      "link_policy": "section",
+      "availability_state": "collector_http_200_text_html_619030_bytes_checked_2026_07_22",
+      "district_scope_note": "talcher_subdivision_lies_in_angul_district"
+    },
+    {
+      "id": "amarujala_district_padampur_hi",
+      "name": "Amar Ujala Odisha district desk (Hindi): Padampur",
+      "url": "https://www.amarujala.com/odisha/padampur",
+      "allowed_hosts": [
+        "www.amarujala.com",
+        "amarujala.com"
+      ],
+      "kind": "hindi_daily_district_desk",
+      "languages": [
+        "hi"
+      ],
+      "enabled": true,
+      "minimum_interval_seconds": 8,
+      "robots_state": "allowed_checked_2026_07_22",
+      "rights_state": "third_party_copyright_indexed_under_robots_no_source_text_retained",
+      "retention": "hash_metadata_and_structured_extraction_only_no_source_text",
+      "district_id": "OD-DIST-bargarh",
+      "content_role": "index",
+      "link_policy": "section",
+      "availability_state": "collector_http_200_text_html_616822_bytes_checked_2026_07_22",
+      "district_scope_note": "padampur_subdivision_lies_in_bargarh_district"
+    },
+    {
+      "id": "amarujala_district_baudh_hi",
+      "name": "Amar Ujala Odisha district desk (Hindi): Baudh",
+      "url": "https://www.amarujala.com/odisha/baudh",
+      "allowed_hosts": [
+        "www.amarujala.com",
+        "amarujala.com"
+      ],
+      "kind": "hindi_daily_district_desk",
+      "languages": [
+        "hi"
+      ],
+      "enabled": true,
+      "minimum_interval_seconds": 8,
+      "robots_state": "allowed_checked_2026_07_22",
+      "rights_state": "third_party_copyright_indexed_under_robots_no_source_text_retained",
+      "retention": "hash_metadata_and_structured_extraction_only_no_source_text",
+      "district_id": "OD-DIST-boudh",
+      "content_role": "index",
+      "link_policy": "section",
+      "availability_state": "collector_http_200_text_html_800157_bytes_checked_2026_07_22",
+      "district_scope_note": "baudh_town_is_the_headquarters_of_boudh_district"
+    },
+    {
+      "id": "jagran_district_khordha_hi",
+      "name": "Dainik Jagran Odisha district desk (Hindi): Khordha",
+      "url": "https://www.jagran.com/odisha/khordha",
+      "allowed_hosts": [
+        "www.jagran.com",
+        "jagran.com"
+      ],
+      "kind": "hindi_daily_district_desk",
+      "languages": [
+        "hi"
+      ],
+      "enabled": true,
+      "minimum_interval_seconds": 8,
+      "robots_state": "allowed_checked_2026_07_22",
+      "rights_state": "third_party_copyright_indexed_under_robots_no_source_text_retained",
+      "retention": "hash_metadata_and_structured_extraction_only_no_source_text",
+      "district_id": "OD-DIST-khordha",
+      "content_role": "index",
+      "link_policy": "section",
+      "availability_state": "collector_http_200_text_html_152079_bytes_checked_2026_07_22"
+    },
+    {
+      "id": "jagran_district_cuttack_hi",
+      "name": "Dainik Jagran Odisha district desk (Hindi): Cuttack",
+      "url": "https://www.jagran.com/odisha/cuttack",
+      "allowed_hosts": [
+        "www.jagran.com",
+        "jagran.com"
+      ],
+      "kind": "hindi_daily_district_desk",
+      "languages": [
+        "hi"
+      ],
+      "enabled": true,
+      "minimum_interval_seconds": 8,
+      "robots_state": "allowed_checked_2026_07_22",
+      "rights_state": "third_party_copyright_indexed_under_robots_no_source_text_retained",
+      "retention": "hash_metadata_and_structured_extraction_only_no_source_text",
+      "district_id": "OD-DIST-cuttack",
+      "content_role": "index",
+      "link_policy": "section",
+      "availability_state": "collector_http_200_text_html_155494_bytes_checked_2026_07_22"
+    },
+    {
+      "id": "jagran_district_sambalpur_hi",
+      "name": "Dainik Jagran Odisha district desk (Hindi): Sambalpur",
+      "url": "https://www.jagran.com/odisha/sambalpur",
+      "allowed_hosts": [
+        "www.jagran.com",
+        "jagran.com"
+      ],
+      "kind": "hindi_daily_district_desk",
+      "languages": [
+        "hi"
+      ],
+      "enabled": true,
+      "minimum_interval_seconds": 8,
+      "robots_state": "allowed_checked_2026_07_22",
+      "rights_state": "third_party_copyright_indexed_under_robots_no_source_text_retained",
+      "retention": "hash_metadata_and_structured_extraction_only_no_source_text",
+      "district_id": "OD-DIST-sambalpur",
+      "content_role": "index",
+      "link_policy": "section",
+      "availability_state": "collector_http_200_text_html_154524_bytes_checked_2026_07_22"
+    },
+    {
+      "id": "jagran_district_puri_hi",
+      "name": "Dainik Jagran Odisha district desk (Hindi): Puri",
+      "url": "https://www.jagran.com/odisha/puri",
+      "allowed_hosts": [
+        "www.jagran.com",
+        "jagran.com"
+      ],
+      "kind": "hindi_daily_district_desk",
+      "languages": [
+        "hi"
+      ],
+      "enabled": true,
+      "minimum_interval_seconds": 8,
+      "robots_state": "allowed_checked_2026_07_22",
+      "rights_state": "third_party_copyright_indexed_under_robots_no_source_text_retained",
+      "retention": "hash_metadata_and_structured_extraction_only_no_source_text",
+      "district_id": "OD-DIST-puri",
+      "content_role": "index",
+      "link_policy": "section",
+      "availability_state": "collector_http_200_text_html_155988_bytes_checked_2026_07_22"
+    },
+    {
+      "id": "jagran_district_jharsuguda_hi",
+      "name": "Dainik Jagran Odisha district desk (Hindi): Jharsuguda",
+      "url": "https://www.jagran.com/odisha/jharsuguda",
+      "allowed_hosts": [
+        "www.jagran.com",
+        "jagran.com"
+      ],
+      "kind": "hindi_daily_district_desk",
+      "languages": [
+        "hi"
+      ],
+      "enabled": true,
+      "minimum_interval_seconds": 8,
+      "robots_state": "allowed_checked_2026_07_22",
+      "rights_state": "third_party_copyright_indexed_under_robots_no_source_text_retained",
+      "retention": "hash_metadata_and_structured_extraction_only_no_source_text",
+      "district_id": "OD-DIST-jharsuguda",
+      "content_role": "index",
+      "link_policy": "section",
+      "availability_state": "collector_http_200_text_html_140915_bytes_checked_2026_07_22"
+    },
+    {
+      "id": "jagran_district_kendrapara_hi",
+      "name": "Dainik Jagran Odisha district desk (Hindi): Kendrapara",
+      "url": "https://www.jagran.com/odisha/kendrapara",
+      "allowed_hosts": [
+        "www.jagran.com",
+        "jagran.com"
+      ],
+      "kind": "hindi_daily_district_desk",
+      "languages": [
+        "hi"
+      ],
+      "enabled": true,
+      "minimum_interval_seconds": 8,
+      "robots_state": "allowed_checked_2026_07_22",
+      "rights_state": "third_party_copyright_indexed_under_robots_no_source_text_retained",
+      "retention": "hash_metadata_and_structured_extraction_only_no_source_text",
+      "district_id": "OD-DIST-kendrapara",
+      "content_role": "index",
+      "link_policy": "section",
+      "availability_state": "collector_http_200_text_html_73560_bytes_checked_2026_07_22"
+    },
+    {
+      "id": "jagran_district_sundergarh_hi",
+      "name": "Dainik Jagran Odisha district desk (Hindi): Sundargarh",
+      "url": "https://www.jagran.com/odisha/sundergarh",
+      "allowed_hosts": [
+        "www.jagran.com",
+        "jagran.com"
+      ],
+      "kind": "hindi_daily_district_desk",
+      "languages": [
+        "hi"
+      ],
+      "enabled": true,
+      "minimum_interval_seconds": 8,
+      "robots_state": "allowed_checked_2026_07_22",
+      "rights_state": "third_party_copyright_indexed_under_robots_no_source_text_retained",
+      "retention": "hash_metadata_and_structured_extraction_only_no_source_text",
+      "district_id": "OD-DIST-sundargarh",
+      "content_role": "index",
+      "link_policy": "section",
+      "availability_state": "collector_http_200_text_html_151911_bytes_checked_2026_07_22"
+    },
+    {
+      "id": "jagran_district_keonjhar_hi",
+      "name": "Dainik Jagran Odisha district desk (Hindi): Keonjhar",
+      "url": "https://www.jagran.com/odisha/keonjhar",
+      "allowed_hosts": [
+        "www.jagran.com",
+        "jagran.com"
+      ],
+      "kind": "hindi_daily_district_desk",
+      "languages": [
+        "hi"
+      ],
+      "enabled": true,
+      "minimum_interval_seconds": 8,
+      "robots_state": "allowed_checked_2026_07_22",
+      "rights_state": "third_party_copyright_indexed_under_robots_no_source_text_retained",
+      "retention": "hash_metadata_and_structured_extraction_only_no_source_text",
+      "district_id": "OD-DIST-keonjhar",
+      "content_role": "index",
+      "link_policy": "section",
+      "availability_state": "collector_http_200_text_html_73604_bytes_checked_2026_07_22"
+    },
+    {
+      "id": "jagran_district_jagatsinghpur_hi",
+      "name": "Dainik Jagran Odisha district desk (Hindi): Jagatsinghpur",
+      "url": "https://www.jagran.com/odisha/jagatsinghpur",
+      "allowed_hosts": [
+        "www.jagran.com",
+        "jagran.com"
+      ],
+      "kind": "hindi_daily_district_desk",
+      "languages": [
+        "hi"
+      ],
+      "enabled": true,
+      "minimum_interval_seconds": 8,
+      "robots_state": "allowed_checked_2026_07_22",
+      "rights_state": "third_party_copyright_indexed_under_robots_no_source_text_retained",
+      "retention": "hash_metadata_and_structured_extraction_only_no_source_text",
+      "district_id": "OD-DIST-jagatsinghpur",
+      "content_role": "index",
+      "link_policy": "section",
+      "availability_state": "collector_http_200_text_html_69509_bytes_checked_2026_07_22"
+    },
+    {
+      "id": "livehindustan_district_hi",
+      "name": "Live Hindustan Odisha district path (Hindi)",
+      "url": "https://www.livehindustan.com/odisha/angul",
+      "allowed_hosts": [
+        "www.livehindustan.com",
+        "livehindustan.com"
+      ],
+      "kind": "hindi_daily_district_desk",
+      "languages": [
+        "hi"
+      ],
+      "enabled": false,
+      "minimum_interval_seconds": 8,
+      "robots_state": "not_rechecked_route_disabled_2026_07_22",
+      "rights_state": "third_party_copyright_indexed_under_robots_no_source_text_retained",
+      "retention": "disabled_route_no_retention",
+      "content_role": "index",
+      "link_policy": "section",
+      "availability_state": "collector_http_200_text_html_466245_bytes_checked_2026_07_22",
+      "disabled_reason": "soft_200_catch_all_every_odisha_slug_including_a_nonexistent_control_returns_byte_identical_state_page_so_no_district_scope_exists"
+    },
+    {
+      "id": "amarujala_district_nayagarh_hi",
+      "name": "Amar Ujala Odisha district desk (Hindi): Nayagarh",
+      "url": "https://www.amarujala.com/odisha/nayagarh",
+      "allowed_hosts": [
+        "www.amarujala.com",
+        "amarujala.com"
+      ],
+      "kind": "hindi_daily_district_desk",
+      "languages": [
+        "hi"
+      ],
+      "enabled": false,
+      "minimum_interval_seconds": 8,
+      "robots_state": "not_rechecked_route_disabled_2026_07_22",
+      "rights_state": "third_party_copyright_indexed_under_robots_no_source_text_retained",
+      "retention": "disabled_route_no_retention",
+      "district_id": "OD-DIST-nayagarh",
+      "content_role": "index",
+      "link_policy": "section",
+      "availability_state": "collector_http_404_checked_2026_07_22",
+      "disabled_reason": "no_hindi_publisher_checked_amar_ujala_and_dainik_jagran_exposes_a_district_desk_for_this_district_both_return_http_404_district_stays_odia_and_english_only"
+    },
+    {
+      "id": "amarujala_district_nuapada_hi",
+      "name": "Amar Ujala Odisha district desk (Hindi): Nuapada",
+      "url": "https://www.amarujala.com/odisha/nuapada",
+      "allowed_hosts": [
+        "www.amarujala.com",
+        "amarujala.com"
+      ],
+      "kind": "hindi_daily_district_desk",
+      "languages": [
+        "hi"
+      ],
+      "enabled": false,
+      "minimum_interval_seconds": 8,
+      "robots_state": "not_rechecked_route_disabled_2026_07_22",
+      "rights_state": "third_party_copyright_indexed_under_robots_no_source_text_retained",
+      "retention": "disabled_route_no_retention",
+      "district_id": "OD-DIST-nuapada",
+      "content_role": "index",
+      "link_policy": "section",
+      "availability_state": "collector_http_404_checked_2026_07_22",
+      "disabled_reason": "no_hindi_publisher_checked_amar_ujala_and_dainik_jagran_exposes_a_district_desk_for_this_district_both_return_http_404_district_stays_odia_and_english_only"
+    }
+  ]
+}

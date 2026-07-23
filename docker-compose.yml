@@ -1,0 +1,50 @@
+services:
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile.local
+    environment:
+      DATABASE_URL: sqlite:////app/runtime/odisha_health_hub.db
+      DEMO_API_TOKEN: local-demo-only
+      COLLECTOR_API_TOKEN: local-collector-only
+      DEPLOYMENT_PROFILE: production_shaped
+      AUTO_REPLAY_FIXTURES: "true"
+      PUBLIC_WRITE_ENABLED: "true"
+      WEB_APP_URL: http://localhost:5173
+    volumes:
+      - demo-runtime:/app/runtime
+      # Sponsor-supplied aggregate and offline-fitted artefacts are mounted so
+      # an authorised refresh does not require rebuilding the API image.
+      - ./data/authorised_surveillance:/app/data/authorised_surveillance:ro
+      - ./data/forecasting:/app/data/forecasting:ro
+      # Model weights are fetched once with `make models`; they are mounted
+      # rather than baked into a multi-gigabyte, non-reproducible image layer.
+      - ./models:/app/models:ro
+    ports:
+      # The checked-in credentials below are local smoke-test credentials.
+      # Never publish this development profile on a LAN interface.
+      - "127.0.0.1:8000:8000"
+    healthcheck:
+      test: ["CMD", "curl", "--fail", "http://localhost:8000/api/v1/readyz"]
+      interval: 10s
+      timeout: 3s
+      retries: 10
+
+  web:
+    image: node:22-alpine
+    working_dir: /web
+    command: sh -c "npm ci && npm run dev -- --host 0.0.0.0"
+    environment:
+      VITE_API_BASE_URL: http://localhost:8000
+    volumes:
+      - ./apps/web:/web
+      - web-node-modules:/web/node_modules
+    ports:
+      - "127.0.0.1:5173:4173"
+    depends_on:
+      api:
+        condition: service_healthy
+
+volumes:
+  demo-runtime:
+  web-node-modules:

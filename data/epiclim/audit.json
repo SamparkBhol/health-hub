@@ -1,0 +1,63 @@
+{
+  "audit_date": "2026-07-21",
+  "eligibility": {
+    "district_week_count_forecast": "ineligible",
+    "missing_rows_are_zero": false,
+    "reason_codes": [
+      "POSITIVE_ONLY_EVENT_CATALOGUE",
+      "NO_PUBLISHED_DISTRICT_WEEK_NIL_PANEL",
+      "NO_EXPECTED_REPORT_DENOMINATOR",
+      "TEMPORAL_INDEX_INCONSISTENCY",
+      "STALE_DISEASE_SPECIFIC_ODISHA_HISTORY"
+    ]
+  },
+  "national": {
+    "deaths_blank_fraction": 0.715748,
+    "deaths_blank_rows": 6431,
+    "non_numeric_case_values": [
+      "3/1"
+    ],
+    "numeric_case_min": 1.0,
+    "numeric_case_zero_rows": 0,
+    "rows": 8985,
+    "week_distance_convention": "nearest valid ISO week across the observed ISO year and adjacent years",
+    "week_index_comparable_rows": 8985,
+    "week_index_mismatch_gt_one_week_fraction": 0.280134,
+    "week_index_mismatch_gt_one_week_rows": 2517,
+    "year_counts_selected": {
+      "2016": 1113,
+      "2020": 151,
+      "2021": 367,
+      "2022": 188
+    },
+    "year_max": 2022,
+    "year_min": 2009
+  },
+  "odisha": {
+    "aes_rows": 0,
+    "dengue_last_year": 2012,
+    "disease_counts": {
+      "Acute Diarrhoeal Disease": 315,
+      "Acute Gastroenteritis": 6,
+      "Chikungunya": 7,
+      "Cholera": 21,
+      "Dengue": 2,
+      "Malaria": 7
+    },
+    "distinct_district_strings": 38,
+    "district_coordinate_sets_all_singleton": true,
+    "leptospirosis_rows": 0,
+    "malaria_last_year": 2015,
+    "rows": 358,
+    "rows_per_district_year": 0.852381,
+    "scrub_typhus_rows": 0
+  },
+  "schema_version": "1.0.0",
+  "source": {
+    "authority_status": "secondary_derived",
+    "download": "https://zenodo.org/api/records/14580510/files/Final_data.csv/content",
+    "md5": "a6c961b95a454226e4720ae1745f9f16",
+    "record": "https://zenodo.org/records/14580510",
+    "sha256": "7348076420202f8146ec2d36f36423cebd31af3cfbb8784e8c01e84b8ce0fb31"
+  }
+}

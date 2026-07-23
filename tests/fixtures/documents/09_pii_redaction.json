@@ -1,0 +1,10 @@
+{
+  "fixture_schema": "1.0",
+  "fixture_kind": "synthetic",
+  "watermark": "SYNTHETIC TEST FIXTURE — NAME AND NUMBER ARE FICTIONAL",
+  "media_type": "text/html",
+  "source_id": "synthetic_privacy_notice",
+  "source_language_hint": "en",
+  "body": "<html><body><p>This is synthetic test data. Dr Mira Nanda reported dengue in Cuttack. Contact 98765 43210.</p></body></html>",
+  "expected": {"language": "en", "assertion": "affirmed", "diseases": ["dengue"], "district_ids": ["OD-DIST-cuttack"], "eligible": false, "contains": ["[PERSON_1]", "[PHONE_1]"], "excludes": ["Mira Nanda", "98765 43210"]}
+}

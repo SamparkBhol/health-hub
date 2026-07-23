@@ -1,0 +1,20 @@
+{
+  "allowed_use": "evidence/coverage demonstration; not an operational State boundary",
+  "asset": "odisha_districts_census_2011.geojson",
+  "asset_sha256": "8ad5fcc58dffa9d5c99b73a49c65fd3d49e78119cf673e36db99fdaa03fad470",
+  "attribution": "DataMeet India community \u2014 India District Map",
+  "feature_count": 30,
+  "geometry_authority": "community_demo",
+  "licence": "CC-BY-2.5-IN",
+  "schema_version": "1.0.0",
+  "source_commit": "b3fbbde595310b397a55d718e0958ce249a4fa1f",
+  "source_path": "Districts/Census_2011/2011_Dist.*",
+  "source_repository": "https://github.com/datameet/maps",
+  "source_sha256": {
+    "dbf": "2c7b03578fdf41a4c4e29941a564fa90bf0b0e4f865f5e54481ef7ac8494eb7d",
+    "prj": "a02a27b1d1982c8516d83398e85a3c8b1aef1713c13ef4d84d7bde17430c07c4",
+    "shp": "3636e627a519f67b4615b6a97df48c2b279e8c7b2566d3bfbc3eda1d06e33206",
+    "shx": "12b6028dfac9e3f20686b3d0a44f9d3989acfdb3f3cda853881d1cf2d8579eab"
+  },
+  "source_vintage": "Census 2011"
+}

@@ -1,0 +1,10 @@
+{
+  "fixture_schema": "1.0",
+  "fixture_kind": "synthetic",
+  "watermark": "SYNTHETIC TEST FIXTURE — NOT A REAL HEALTH EVENT",
+  "media_type": "text/html",
+  "source_id": "synthetic_odia_notice",
+  "source_language_hint": "or",
+  "body": "<html lang=\"or\"><body><p>ଏହା କୃତ୍ରିମ ତଥ୍ୟ। ମାଲକାନଗିରି ଜିଲ୍ଲାରେ ମ୍ୟାଲେରିଆ ମାମଲା ଚିହ୍ନଟ ହୋଇଛି।</p></body></html>",
+  "expected": {"language": "or", "assertion": "affirmed", "diseases": ["malaria"], "district_ids": ["OD-DIST-malkangiri"], "eligible": true}
+}

@@ -1,0 +1,320 @@
+{
+  "horizon_weeks": 1,
+  "is_synthetic": true,
+  "latest_simulation_map": [
+    {
+      "display_name": "Synthetic Angul",
+      "issue_date": "2025-12-15",
+      "probability": 0.150288,
+      "synthetic_district_id": "SIM-D01",
+      "target_date": "2025-12-22",
+      "watermark": "SIMULATION_ONLY_NOT_ODISHA_RISK"
+    },
+    {
+      "display_name": "Synthetic Balangir",
+      "issue_date": "2025-12-15",
+      "probability": 0.143558,
+      "synthetic_district_id": "SIM-D02",
+      "target_date": "2025-12-22",
+      "watermark": "SIMULATION_ONLY_NOT_ODISHA_RISK"
+    },
+    {
+      "display_name": "Synthetic Balasore",
+      "issue_date": "2025-12-15",
+      "probability": 0.230189,
+      "synthetic_district_id": "SIM-D03",
+      "target_date": "2025-12-22",
+      "watermark": "SIMULATION_ONLY_NOT_ODISHA_RISK"
+    },
+    {
+      "display_name": "Synthetic Bargarh",
+      "issue_date": "2025-12-15",
+      "probability": 0.270431,
+      "synthetic_district_id": "SIM-D04",
+      "target_date": "2025-12-22",
+      "watermark": "SIMULATION_ONLY_NOT_ODISHA_RISK"
+    },
+    {
+      "display_name": "Synthetic Bhadrak",
+      "issue_date": "2025-12-15",
+      "probability": 0.14436,
+      "synthetic_district_id": "SIM-D05",
+      "target_date": "2025-12-22",
+      "watermark": "SIMULATION_ONLY_NOT_ODISHA_RISK"
+    },
+    {
+      "display_name": "Synthetic Boudh",
+      "issue_date": "2025-12-15",
+      "probability": 0.14396,
+      "synthetic_district_id": "SIM-D06",
+      "target_date": "2025-12-22",
+      "watermark": "SIMULATION_ONLY_NOT_ODISHA_RISK"
+    },
+    {
+      "display_name": "Synthetic Cuttack",
+      "issue_date": "2025-12-15",
+      "probability": 0.14116,
+      "synthetic_district_id": "SIM-D07",
+      "target_date": "2025-12-22",
+      "watermark": "SIMULATION_ONLY_NOT_ODISHA_RISK"
+    },
+    {
+      "display_name": "Synthetic Deogarh",
+      "issue_date": "2025-12-15",
+      "probability": 0.234946,
+      "synthetic_district_id": "SIM-D08",
+      "target_date": "2025-12-22",
+      "watermark": "SIMULATION_ONLY_NOT_ODISHA_RISK"
+    },
+    {
+      "display_name": "Synthetic Dhenkanal",
+      "issue_date": "2025-12-15",
+      "probability": 0.150341,
+      "synthetic_district_id": "SIM-D09",
+      "target_date": "2025-12-22",
+      "watermark": "SIMULATION_ONLY_NOT_ODISHA_RISK"
+    },
+    {
+      "display_name": "Synthetic Gajapati",
+      "issue_date": "2025-12-15",
+      "probability": 0.147402,
+      "synthetic_district_id": "SIM-D10",
+      "target_date": "2025-12-22",
+      "watermark": "SIMULATION_ONLY_NOT_ODISHA_RISK"
+    },
+    {
+      "display_name": "Synthetic Ganjam",
+      "issue_date": "2025-12-15",
+      "probability": 0.151978,
+      "synthetic_district_id": "SIM-D11",
+      "target_date": "2025-12-22",
+      "watermark": "SIMULATION_ONLY_NOT_ODISHA_RISK"
+    },
+    {
+      "display_name": "Synthetic Jagatsinghapur",
+      "issue_date": "2025-12-15",
+      "probability": 0.142732,
+      "synthetic_district_id": "SIM-D12",
+      "target_date": "2025-12-22",
+      "watermark": "SIMULATION_ONLY_NOT_ODISHA_RISK"
+    },
+    {
+      "display_name": "Synthetic Jajpur",
+      "issue_date": "2025-12-15",
+      "probability": 0.144753,
+      "synthetic_district_id": "SIM-D13",
+      "target_date": "2025-12-22",
+      "watermark": "SIMULATION_ONLY_NOT_ODISHA_RISK"
+    },
+    {
+      "display_name": "Synthetic Jharsuguda",
+      "issue_date": "2025-12-15",
+      "probability": 0.155688,
+      "synthetic_district_id": "SIM-D14",
+      "target_date": "2025-12-22",
+      "watermark": "SIMULATION_ONLY_NOT_ODISHA_RISK"
+    },
+    {
+      "display_name": "Synthetic Kalahandi",
+      "issue_date": "2025-12-15",
+      "probability": 0.15648,
+      "synthetic_district_id": "SIM-D15",
+      "target_date": "2025-12-22",
+      "watermark": "SIMULATION_ONLY_NOT_ODISHA_RISK"
+    },
+    {
+      "display_name": "Synthetic Kandhamal",
+      "issue_date": "2025-12-15",
+      "probability": 0.152069,
+      "synthetic_district_id": "SIM-D16",
+      "target_date": "2025-12-22",
+      "watermark": "SIMULATION_ONLY_NOT_ODISHA_RISK"
+    },
+    {
+      "display_name": "Synthetic Kendrapara",
+      "issue_date": "2025-12-15",
+      "probability": 0.149412,
+      "synthetic_district_id": "SIM-D17",
+      "target_date": "2025-12-22",
+      "watermark": "SIMULATION_ONLY_NOT_ODISHA_RISK"
+    },
+    {
+      "display_name": "Synthetic Keonjhar",
+      "issue_date": "2025-12-15",
+      "probability": 0.144898,
+      "synthetic_district_id": "SIM-D18",
+      "target_date": "2025-12-22",
+      "watermark": "SIMULATION_ONLY_NOT_ODISHA_RISK"
+    },
+    {
+      "display_name": "Synthetic Khordha",
+      "issue_date": "2025-12-15",
+      "probability": 0.142717,
+      "synthetic_district_id": "SIM-D19",
+      "target_date": "2025-12-22",
+      "watermark": "SIMULATION_ONLY_NOT_ODISHA_RISK"
+    },
+    {
+      "display_name": "Synthetic Koraput",
+      "issue_date": "2025-12-15",
+      "probability": 0.158847,
+      "synthetic_district_id": "SIM-D20",
+      "target_date": "2025-12-22",
+      "watermark": "SIMULATION_ONLY_NOT_ODISHA_RISK"
+    },
+    {
+      "display_name": "Synthetic Malkangiri",
+      "issue_date": "2025-12-15",
+      "probability": 0.147846,
+      "synthetic_district_id": "SIM-D21",
+      "target_date": "2025-12-22",
+      "watermark": "SIMULATION_ONLY_NOT_ODISHA_RISK"
+    },
+    {
+      "display_name": "Synthetic Mayurbhanj",
+      "issue_date": "2025-12-15",
+      "probability": 0.144038,
+      "synthetic_district_id": "SIM-D22",
+      "target_date": "2025-12-22",
+      "watermark": "SIMULATION_ONLY_NOT_ODISHA_RISK"
+    },
+    {
+      "display_name": "Synthetic Nabarangpur",
+      "issue_date": "2025-12-15",
+      "probability": 0.147685,
+      "synthetic_district_id": "SIM-D23",
+      "target_date": "2025-12-22",
+      "watermark": "SIMULATION_ONLY_NOT_ODISHA_RISK"
+    },
+    {
+      "display_name": "Synthetic Nayagarh",
+      "issue_date": "2025-12-15",
+      "probability": 0.147074,
+      "synthetic_district_id": "SIM-D24",
+      "target_date": "2025-12-22",
+      "watermark": "SIMULATION_ONLY_NOT_ODISHA_RISK"
+    },
+    {
+      "display_name": "Synthetic Nuapada",
+      "issue_date": "2025-12-15",
+      "probability": 0.151398,
+      "synthetic_district_id": "SIM-D25",
+      "target_date": "2025-12-22",
+      "watermark": "SIMULATION_ONLY_NOT_ODISHA_RISK"
+    },
+    {
+      "display_name": "Synthetic Puri",
+      "issue_date": "2025-12-15",
+      "probability": 0.154894,
+      "synthetic_district_id": "SIM-D26",
+      "target_date": "2025-12-22",
+      "watermark": "SIMULATION_ONLY_NOT_ODISHA_RISK"
+    },
+    {
+      "display_name": "Synthetic Rayagada",
+      "issue_date": "2025-12-15",
+      "probability": 0.141232,
+      "synthetic_district_id": "SIM-D27",
+      "target_date": "2025-12-22",
+      "watermark": "SIMULATION_ONLY_NOT_ODISHA_RISK"
+    },
+    {
+      "display_name": "Synthetic Sambalpur",
+      "issue_date": "2025-12-15",
+      "probability": 0.155954,
+      "synthetic_district_id": "SIM-D28",
+      "target_date": "2025-12-22",
+      "watermark": "SIMULATION_ONLY_NOT_ODISHA_RISK"
+    },
+    {
+      "display_name": "Synthetic Subarnapur",
+      "issue_date": "2025-12-15",
+      "probability": 0.147406,
+      "synthetic_district_id": "SIM-D29",
+      "target_date": "2025-12-22",
+      "watermark": "SIMULATION_ONLY_NOT_ODISHA_RISK"
+    },
+    {
+      "display_name": "Synthetic Sundargarh",
+      "issue_date": "2025-12-15",
+      "probability": 0.151575,
+      "synthetic_district_id": "SIM-D30",
+      "target_date": "2025-12-22",
+      "watermark": "SIMULATION_ONLY_NOT_ODISHA_RISK"
+    }
+  ],
+  "models": [
+    "weekly_seasonal_naive",
+    "l2_logistic_regression"
+  ],
+  "pooled": {
+    "model_brier": 0.076614,
+    "note": "Software diagnostic only; not Odisha model performance or formal calibration.",
+    "reliability": [
+      {
+        "count": 502,
+        "lower": 0.0,
+        "mean_probability": 0.161885,
+        "observed_fraction": 0.051793,
+        "upper": 0.2
+      },
+      {
+        "count": 217,
+        "lower": 0.2,
+        "mean_probability": 0.242288,
+        "observed_fraction": 0.110599,
+        "upper": 0.4
+      },
+      {
+        "count": 1,
+        "lower": 0.4,
+        "mean_probability": 0.429714,
+        "observed_fraction": 0.0,
+        "upper": 0.6
+      },
+      {
+        "count": 0,
+        "lower": 0.6,
+        "mean_probability": 0.0,
+        "observed_fraction": 0.0,
+        "upper": 0.8
+      },
+      {
+        "count": 0,
+        "lower": 0.8,
+        "mean_probability": 0.0,
+        "observed_fraction": 0.0,
+        "upper": 1.0
+      }
+    ],
+    "seasonal_baseline_brier": 0.064979
+  },
+  "real_odisha_prediction_available": false,
+  "rolling_origins": [
+    {
+      "model_brier": 0.069924,
+      "origin_week_index": 104,
+      "seasonal_baseline_brier": 0.058839,
+      "test_rows": 240,
+      "train_rows": 3000
+    },
+    {
+      "model_brier": 0.109488,
+      "origin_week_index": 130,
+      "seasonal_baseline_brier": 0.099223,
+      "test_rows": 240,
+      "train_rows": 3780
+    },
+    {
+      "model_brier": 0.05043,
+      "origin_week_index": 143,
+      "seasonal_baseline_brier": 0.036875,
+      "test_rows": 240,
+      "train_rows": 4170
+    }
+  ],
+  "schema_version": "1.0.0",
+  "seed": 20260721,
+  "target": "synthetic_1_week_ahead_binary_event",
+  "watermark": "SIMULATION_ONLY_NOT_ODISHA_RISK"
+}

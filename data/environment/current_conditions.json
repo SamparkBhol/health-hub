@@ -1,0 +1,3534 @@
+{
+  "as_of": "2026-07-22",
+  "coverage": {
+    "districts": 30,
+    "scored": 30,
+    "status_counts": {
+      "observed": 30
+    }
+  },
+  "data_edge": {
+    "imd_collected_at": null,
+    "nasa_power_last_observed_day": "2026-07-19",
+    "nasa_power_window": "2026-03-12..2026-07-19"
+  },
+  "districts": [
+    {
+      "canonical_name": "Angul",
+      "district_id": "OD-DIST-angul",
+      "environment": {
+        "day_coverage": 0.9464,
+        "district_id": "OD-DIST-angul",
+        "expected_days": 56,
+        "features": {
+          "dtr_4w_c": 6.7057,
+          "humid_days_4w": 15.0,
+          "longest_dry_run_4w_days": 2.0,
+          "rain_1w_mm": 74.27,
+          "rain_2w_mm": 143.86,
+          "rain_4w_anomaly_sd": 0.2428,
+          "rain_4w_mm": 326.79,
+          "rain_4w_x_t2m_4w": 590.3228,
+          "rain_8w_anomaly_sd": -0.4881,
+          "rain_8w_mm": 425.58,
+          "rh_4w_anomaly_sd": -1.7718,
+          "rh_4w_pct": 78.8379,
+          "t2m_4w_anomaly_sd": 1.4911,
+          "t2m_4w_c": 28.8064,
+          "tmax_4w_c": 32.4557
+        },
+        "features_descriptive_only": [
+          "rain_8w_anomaly_sd",
+          "longest_dry_run_4w_days",
+          "humid_days_4w",
+          "tmax_4w_c",
+          "rain_4w_x_t2m_4w"
+        ],
+        "features_used_for_scoring": [
+          "rain_1w_mm",
+          "rain_2w_mm",
+          "rain_4w_mm",
+          "rain_8w_mm",
+          "rain_4w_anomaly_sd",
+          "t2m_4w_c",
+          "t2m_4w_anomaly_sd",
+          "rh_4w_pct",
+          "rh_4w_anomaly_sd",
+          "dtr_4w_c"
+        ],
+        "iso_week": 29,
+        "issue_week": "2026-07-13",
+        "observed_days": 53,
+        "parameter_day_coverage": {
+          "rain_mm": 0.9464,
+          "rh_pct": 1.0,
+          "t2m_c": 1.0,
+          "tmax_c": 1.0,
+          "tmin_c": 1.0
+        },
+        "reason_code": null,
+        "status": "observed",
+        "window_day_coverage": {
+          "all_parameters_common_4w": 1.0,
+          "rain_1w": 1.0,
+          "rain_2w": 1.0,
+          "rain_4w": 1.0,
+          "rain_8w": 0.9464,
+          "rh_4w": 1.0,
+          "t2m_4w": 1.0,
+          "tmax_4w": 1.0,
+          "tmin_4w": 1.0
+        },
+        "window_end": "2026-07-19"
+      },
+      "is_synthetic": false,
+      "reason_code": null,
+      "shares_climate_grid_cell_with": [],
+      "status": "observed",
+      "suitability": {
+        "band": "much_above_typical",
+        "district_id": "OD-DIST-angul",
+        "environmental_linear_predictor": 0.14951,
+        "iso_week": 29,
+        "reason_code": null,
+        "reference_samples": 84,
+        "status": "scored",
+        "suitability_percentile": 91.73,
+        "top_drivers": [
+          {
+            "coefficient": 0.226941,
+            "contribution": 0.353139,
+            "feature": "rain_4w_mm",
+            "standardised": 1.5561,
+            "value": 326.79
+          },
+          {
+            "coefficient": 0.153792,
+            "contribution": 0.169024,
+            "feature": "t2m_4w_anomaly_sd",
+            "standardised": 1.099,
+            "value": 1.4911
+          },
+          {
+            "coefficient": 0.127838,
+            "contribution": -0.103486,
+            "feature": "dtr_4w_c",
+            "standardised": -0.8095,
+            "value": 6.7057
+          },
+          {
+            "coefficient": 0.09349,
+            "contribution": -0.100366,
+            "feature": "rh_4w_anomaly_sd",
+            "standardised": -1.0735,
+            "value": -1.7718
+          }
+        ]
+      }
+    },
+    {
+      "canonical_name": "Balangir",
+      "district_id": "OD-DIST-balangir",
+      "environment": {
+        "day_coverage": 0.9464,
+        "district_id": "OD-DIST-balangir",
+        "expected_days": 56,
+        "features": {
+          "dtr_4w_c": 6.4811,
+          "humid_days_4w": 15.0,
+          "longest_dry_run_4w_days": 2.0,
+          "rain_1w_mm": 60.35,
+          "rain_2w_mm": 119.09,
+          "rain_4w_anomaly_sd": 0.8478,
+          "rain_4w_mm": 378.63,
+          "rain_4w_x_t2m_4w": 440.1574,
+          "rain_8w_anomaly_sd": -0.3235,
+          "rain_8w_mm": 446.54,
+          "rh_4w_anomaly_sd": -0.4071,
+          "rh_4w_pct": 78.5904,
+          "t2m_4w_anomaly_sd": 0.1431,
+          "t2m_4w_c": 28.1625,
+          "tmax_4w_c": 31.6468
+        },
+        "features_descriptive_only": [
+          "rain_8w_anomaly_sd",
+          "longest_dry_run_4w_days",
+          "humid_days_4w",
+          "tmax_4w_c",
+          "rain_4w_x_t2m_4w"
+        ],
+        "features_used_for_scoring": [
+          "rain_1w_mm",
+          "rain_2w_mm",
+          "rain_4w_mm",
+          "rain_8w_mm",
+          "rain_4w_anomaly_sd",
+          "t2m_4w_c",
+          "t2m_4w_anomaly_sd",
+          "rh_4w_pct",
+          "rh_4w_anomaly_sd",
+          "dtr_4w_c"
+        ],
+        "iso_week": 29,
+        "issue_week": "2026-07-13",
+        "observed_days": 53,
+        "parameter_day_coverage": {
+          "rain_mm": 0.9464,
+          "rh_pct": 1.0,
+          "t2m_c": 1.0,
+          "tmax_c": 1.0,
+          "tmin_c": 1.0
+        },
+        "reason_code": null,
+        "status": "observed",
+        "window_day_coverage": {
+          "all_parameters_common_4w": 1.0,
+          "rain_1w": 1.0,
+          "rain_2w": 1.0,
+          "rain_4w": 1.0,
+          "rain_8w": 0.9464,
+          "rh_4w": 1.0,
+          "t2m_4w": 1.0,
+          "tmax_4w": 1.0,
+          "tmin_4w": 1.0
+        },
+        "window_end": "2026-07-19"
+      },
+      "is_synthetic": false,
+      "reason_code": null,
+      "shares_climate_grid_cell_with": [],
+      "status": "observed",
+      "suitability": {
+        "band": "elevated",
+        "district_id": "OD-DIST-balangir",
+        "environmental_linear_predictor": 0.201392,
+        "iso_week": 29,
+        "reason_code": null,
+        "reference_samples": 84,
+        "status": "scored",
+        "suitability_percentile": 89.48,
+        "top_drivers": [
+          {
+            "coefficient": 0.226941,
+            "contribution": 0.441224,
+            "feature": "rain_4w_mm",
+            "standardised": 1.9442,
+            "value": 378.63
+          },
+          {
+            "coefficient": 0.127838,
+            "contribution": -0.11018,
+            "feature": "dtr_4w_c",
+            "standardised": -0.8619,
+            "value": 6.4811
+          },
+          {
+            "coefficient": -0.09516,
+            "contribution": -0.050257,
+            "feature": "rh_4w_pct",
+            "standardised": 0.5281,
+            "value": 78.5904
+          },
+          {
+            "coefficient": -0.068134,
+            "contribution": -0.047084,
+            "feature": "rain_1w_mm",
+            "standardised": 0.691,
+            "value": 60.35
+          }
+        ]
+      }
+    },
+    {
+      "canonical_name": "Balasore",
+      "district_id": "OD-DIST-balasore",
+      "environment": {
+        "day_coverage": 0.9464,
+        "district_id": "OD-DIST-balasore",
+        "expected_days": 56,
+        "features": {
+          "dtr_4w_c": 5.0536,
+          "humid_days_4w": 23.0,
+          "longest_dry_run_4w_days": 0.0,
+          "rain_1w_mm": 141.45,
+          "rain_2w_mm": 191.55,
+          "rain_4w_anomaly_sd": 1.0635,
+          "rain_4w_mm": 400.89,
+          "rain_4w_x_t2m_4w": 710.5775,
+          "rain_8w_anomaly_sd": 0.4395,
+          "rain_8w_mm": 564.17,
+          "rh_4w_anomaly_sd": -0.4655,
+          "rh_4w_pct": 84.745,
+          "t2m_4w_anomaly_sd": 0.1015,
+          "t2m_4w_c": 28.7725,
+          "tmax_4w_c": 31.7039
+        },
+        "features_descriptive_only": [
+          "rain_8w_anomaly_sd",
+          "longest_dry_run_4w_days",
+          "humid_days_4w",
+          "tmax_4w_c",
+          "rain_4w_x_t2m_4w"
+        ],
+        "features_used_for_scoring": [
+          "rain_1w_mm",
+          "rain_2w_mm",
+          "rain_4w_mm",
+          "rain_8w_mm",
+          "rain_4w_anomaly_sd",
+          "t2m_4w_c",
+          "t2m_4w_anomaly_sd",
+          "rh_4w_pct",
+          "rh_4w_anomaly_sd",
+          "dtr_4w_c"
+        ],
+        "iso_week": 29,
+        "issue_week": "2026-07-13",
+        "observed_days": 53,
+        "parameter_day_coverage": {
+          "rain_mm": 0.9464,
+          "rh_pct": 1.0,
+          "t2m_c": 1.0,
+          "tmax_c": 1.0,
+          "tmin_c": 1.0
+        },
+        "reason_code": null,
+        "status": "observed",
+        "window_day_coverage": {
+          "all_parameters_common_4w": 1.0,
+          "rain_1w": 1.0,
+          "rain_2w": 1.0,
+          "rain_4w": 1.0,
+          "rain_8w": 0.9464,
+          "rh_4w": 1.0,
+          "t2m_4w": 1.0,
+          "tmax_4w": 1.0,
+          "tmin_4w": 1.0
+        },
+        "window_end": "2026-07-19"
+      },
+      "is_synthetic": false,
+      "reason_code": null,
+      "shares_climate_grid_cell_with": [],
+      "status": "observed",
+      "suitability": {
+        "band": "typical",
+        "district_id": "OD-DIST-balasore",
+        "environmental_linear_predictor": -0.01201,
+        "iso_week": 29,
+        "reason_code": null,
+        "reference_samples": 84,
+        "status": "scored",
+        "suitability_percentile": 66.02,
+        "top_drivers": [
+          {
+            "coefficient": 0.226941,
+            "contribution": 0.479048,
+            "feature": "rain_4w_mm",
+            "standardised": 2.1109,
+            "value": 400.89
+          },
+          {
+            "coefficient": -0.068134,
+            "contribution": -0.171767,
+            "feature": "rain_1w_mm",
+            "standardised": 2.521,
+            "value": 141.45
+          },
+          {
+            "coefficient": 0.127838,
+            "contribution": -0.152714,
+            "feature": "dtr_4w_c",
+            "standardised": -1.1946,
+            "value": 5.0536
+          },
+          {
+            "coefficient": -0.051387,
+            "contribution": -0.090278,
+            "feature": "rain_2w_mm",
+            "standardised": 1.7568,
+            "value": 191.55
+          }
+        ]
+      }
+    },
+    {
+      "canonical_name": "Bargarh",
+      "district_id": "OD-DIST-bargarh",
+      "environment": {
+        "day_coverage": 0.9464,
+        "district_id": "OD-DIST-bargarh",
+        "expected_days": 56,
+        "features": {
+          "dtr_4w_c": 6.8039,
+          "humid_days_4w": 12.0,
+          "longest_dry_run_4w_days": 3.0,
+          "rain_1w_mm": 59.69,
+          "rain_2w_mm": 139.06,
+          "rain_4w_anomaly_sd": -0.206,
+          "rain_4w_mm": 321.43,
+          "rain_4w_x_t2m_4w": 541.4948,
+          "rain_8w_anomaly_sd": -1.1502,
+          "rain_8w_mm": 389.63,
+          "rh_4w_anomaly_sd": -0.6751,
+          "rh_4w_pct": 77.1757,
+          "t2m_4w_anomaly_sd": 0.6384,
+          "t2m_4w_c": 28.6846,
+          "tmax_4w_c": 32.2946
+        },
+        "features_descriptive_only": [
+          "rain_8w_anomaly_sd",
+          "longest_dry_run_4w_days",
+          "humid_days_4w",
+          "tmax_4w_c",
+          "rain_4w_x_t2m_4w"
+        ],
+        "features_used_for_scoring": [
+          "rain_1w_mm",
+          "rain_2w_mm",
+          "rain_4w_mm",
+          "rain_8w_mm",
+          "rain_4w_anomaly_sd",
+          "t2m_4w_c",
+          "t2m_4w_anomaly_sd",
+          "rh_4w_pct",
+          "rh_4w_anomaly_sd",
+          "dtr_4w_c"
+        ],
+        "iso_week": 29,
+        "issue_week": "2026-07-13",
+        "observed_days": 53,
+        "parameter_day_coverage": {
+          "rain_mm": 0.9464,
+          "rh_pct": 1.0,
+          "t2m_c": 1.0,
+          "tmax_c": 1.0,
+          "tmin_c": 1.0
+        },
+        "reason_code": null,
+        "status": "observed",
+        "window_day_coverage": {
+          "all_parameters_common_4w": 1.0,
+          "rain_1w": 1.0,
+          "rain_2w": 1.0,
+          "rain_4w": 1.0,
+          "rain_8w": 0.9464,
+          "rh_4w": 1.0,
+          "t2m_4w": 1.0,
+          "tmax_4w": 1.0,
+          "tmin_4w": 1.0
+        },
+        "window_end": "2026-07-19"
+      },
+      "is_synthetic": false,
+      "reason_code": null,
+      "shares_climate_grid_cell_with": [],
+      "status": "observed",
+      "suitability": {
+        "band": "elevated",
+        "district_id": "OD-DIST-bargarh",
+        "environmental_linear_predictor": 0.149056,
+        "iso_week": 29,
+        "reason_code": null,
+        "reference_samples": 84,
+        "status": "scored",
+        "suitability_percentile": 83.41,
+        "top_drivers": [
+          {
+            "coefficient": 0.226941,
+            "contribution": 0.344031,
+            "feature": "rain_4w_mm",
+            "standardised": 1.516,
+            "value": 321.43
+          },
+          {
+            "coefficient": 0.127838,
+            "contribution": -0.10056,
+            "feature": "dtr_4w_c",
+            "standardised": -0.7866,
+            "value": 6.8039
+          },
+          {
+            "coefficient": 0.153792,
+            "contribution": 0.080332,
+            "feature": "t2m_4w_anomaly_sd",
+            "standardised": 0.5223,
+            "value": 0.6384
+          },
+          {
+            "coefficient": -0.051387,
+            "contribution": -0.054409,
+            "feature": "rain_2w_mm",
+            "standardised": 1.0588,
+            "value": 139.06
+          }
+        ]
+      }
+    },
+    {
+      "canonical_name": "Bhadrak",
+      "district_id": "OD-DIST-bhadrak",
+      "environment": {
+        "day_coverage": 0.9464,
+        "district_id": "OD-DIST-bhadrak",
+        "expected_days": 56,
+        "features": {
+          "dtr_4w_c": 3.8164,
+          "humid_days_4w": 26.0,
+          "longest_dry_run_4w_days": 0.0,
+          "rain_1w_mm": 140.6,
+          "rain_2w_mm": 185.11,
+          "rain_4w_anomaly_sd": 0.7309,
+          "rain_4w_mm": 399.93,
+          "rain_4w_x_t2m_4w": 769.8653,
+          "rain_8w_anomaly_sd": 0.3456,
+          "rain_8w_mm": 609.8,
+          "rh_4w_anomaly_sd": -0.7403,
+          "rh_4w_pct": 85.4711,
+          "t2m_4w_anomaly_sd": 0.3162,
+          "t2m_4w_c": 28.925,
+          "tmax_4w_c": 31.1282
+        },
+        "features_descriptive_only": [
+          "rain_8w_anomaly_sd",
+          "longest_dry_run_4w_days",
+          "humid_days_4w",
+          "tmax_4w_c",
+          "rain_4w_x_t2m_4w"
+        ],
+        "features_used_for_scoring": [
+          "rain_1w_mm",
+          "rain_2w_mm",
+          "rain_4w_mm",
+          "rain_8w_mm",
+          "rain_4w_anomaly_sd",
+          "t2m_4w_c",
+          "t2m_4w_anomaly_sd",
+          "rh_4w_pct",
+          "rh_4w_anomaly_sd",
+          "dtr_4w_c"
+        ],
+        "iso_week": 29,
+        "issue_week": "2026-07-13",
+        "observed_days": 53,
+        "parameter_day_coverage": {
+          "rain_mm": 0.9464,
+          "rh_pct": 1.0,
+          "t2m_c": 1.0,
+          "tmax_c": 1.0,
+          "tmin_c": 1.0
+        },
+        "reason_code": null,
+        "status": "observed",
+        "window_day_coverage": {
+          "all_parameters_common_4w": 1.0,
+          "rain_1w": 1.0,
+          "rain_2w": 1.0,
+          "rain_4w": 1.0,
+          "rain_8w": 0.9464,
+          "rh_4w": 1.0,
+          "t2m_4w": 1.0,
+          "tmax_4w": 1.0,
+          "tmin_4w": 1.0
+        },
+        "window_end": "2026-07-19"
+      },
+      "is_synthetic": false,
+      "reason_code": null,
+      "shares_climate_grid_cell_with": [],
+      "status": "observed",
+      "suitability": {
+        "band": "typical",
+        "district_id": "OD-DIST-bhadrak",
+        "environmental_linear_predictor": -0.033787,
+        "iso_week": 29,
+        "reason_code": null,
+        "reference_samples": 84,
+        "status": "scored",
+        "suitability_percentile": 59.43,
+        "top_drivers": [
+          {
+            "coefficient": 0.226941,
+            "contribution": 0.477416,
+            "feature": "rain_4w_mm",
+            "standardised": 2.1037,
+            "value": 399.93
+          },
+          {
+            "coefficient": 0.127838,
+            "contribution": -0.189577,
+            "feature": "dtr_4w_c",
+            "standardised": -1.4829,
+            "value": 3.8164
+          },
+          {
+            "coefficient": -0.068134,
+            "contribution": -0.17046,
+            "feature": "rain_1w_mm",
+            "standardised": 2.5018,
+            "value": 140.6
+          },
+          {
+            "coefficient": -0.09516,
+            "contribution": -0.088413,
+            "feature": "rh_4w_pct",
+            "standardised": 0.9291,
+            "value": 85.4711
+          }
+        ]
+      }
+    },
+    {
+      "canonical_name": "Boudh",
+      "district_id": "OD-DIST-boudh",
+      "environment": {
+        "day_coverage": 0.9464,
+        "district_id": "OD-DIST-boudh",
+        "expected_days": 56,
+        "features": {
+          "dtr_4w_c": 6.175,
+          "humid_days_4w": 16.0,
+          "longest_dry_run_4w_days": 2.0,
+          "rain_1w_mm": 113.47,
+          "rain_2w_mm": 163.88,
+          "rain_4w_anomaly_sd": 1.0592,
+          "rain_4w_mm": 403.52,
+          "rain_4w_x_t2m_4w": 303.5047,
+          "rain_8w_anomaly_sd": 0.1222,
+          "rain_8w_mm": 485.78,
+          "rh_4w_anomaly_sd": -1.5671,
+          "rh_4w_pct": 79.7289,
+          "t2m_4w_anomaly_sd": 1.5861,
+          "t2m_4w_c": 27.7521,
+          "tmax_4w_c": 31.0768
+        },
+        "features_descriptive_only": [
+          "rain_8w_anomaly_sd",
+          "longest_dry_run_4w_days",
+          "humid_days_4w",
+          "tmax_4w_c",
+          "rain_4w_x_t2m_4w"
+        ],
+        "features_used_for_scoring": [
+          "rain_1w_mm",
+          "rain_2w_mm",
+          "rain_4w_mm",
+          "rain_8w_mm",
+          "rain_4w_anomaly_sd",
+          "t2m_4w_c",
+          "t2m_4w_anomaly_sd",
+          "rh_4w_pct",
+          "rh_4w_anomaly_sd",
+          "dtr_4w_c"
+        ],
+        "iso_week": 29,
+        "issue_week": "2026-07-13",
+        "observed_days": 53,
+        "parameter_day_coverage": {
+          "rain_mm": 0.9464,
+          "rh_pct": 1.0,
+          "t2m_c": 1.0,
+          "tmax_c": 1.0,
+          "tmin_c": 1.0
+        },
+        "reason_code": null,
+        "status": "observed",
+        "window_day_coverage": {
+          "all_parameters_common_4w": 1.0,
+          "rain_1w": 1.0,
+          "rain_2w": 1.0,
+          "rain_4w": 1.0,
+          "rain_8w": 0.9464,
+          "rh_4w": 1.0,
+          "t2m_4w": 1.0,
+          "tmax_4w": 1.0,
+          "tmin_4w": 1.0
+        },
+        "window_end": "2026-07-19"
+      },
+      "is_synthetic": false,
+      "reason_code": null,
+      "shares_climate_grid_cell_with": [],
+      "status": "observed",
+      "suitability": {
+        "band": "much_above_typical",
+        "district_id": "OD-DIST-boudh",
+        "environmental_linear_predictor": 0.208133,
+        "iso_week": 29,
+        "reason_code": null,
+        "reference_samples": 84,
+        "status": "scored",
+        "suitability_percentile": 95.62,
+        "top_drivers": [
+          {
+            "coefficient": 0.226941,
+            "contribution": 0.483516,
+            "feature": "rain_4w_mm",
+            "standardised": 2.1306,
+            "value": 403.52
+          },
+          {
+            "coefficient": 0.153792,
+            "contribution": 0.178913,
+            "feature": "t2m_4w_anomaly_sd",
+            "standardised": 1.1633,
+            "value": 1.5861
+          },
+          {
+            "coefficient": -0.068134,
+            "contribution": -0.12875,
+            "feature": "rain_1w_mm",
+            "standardised": 1.8897,
+            "value": 113.47
+          },
+          {
+            "coefficient": 0.127838,
+            "contribution": -0.1193,
+            "feature": "dtr_4w_c",
+            "standardised": -0.9332,
+            "value": 6.175
+          }
+        ]
+      }
+    },
+    {
+      "canonical_name": "Cuttack",
+      "district_id": "OD-DIST-cuttack",
+      "environment": {
+        "day_coverage": 0.9464,
+        "district_id": "OD-DIST-cuttack",
+        "expected_days": 56,
+        "features": {
+          "dtr_4w_c": 6.2743,
+          "humid_days_4w": 15.0,
+          "longest_dry_run_4w_days": 3.0,
+          "rain_1w_mm": 96.3,
+          "rain_2w_mm": 132.31,
+          "rain_4w_anomaly_sd": 0.1646,
+          "rain_4w_mm": 319.12,
+          "rain_4w_x_t2m_4w": 661.7181,
+          "rain_8w_anomaly_sd": -0.3846,
+          "rain_8w_mm": 426.9,
+          "rh_4w_anomaly_sd": -1.3036,
+          "rh_4w_pct": 81.1532,
+          "t2m_4w_anomaly_sd": 1.2517,
+          "t2m_4w_c": 29.0736,
+          "tmax_4w_c": 32.6711
+        },
+        "features_descriptive_only": [
+          "rain_8w_anomaly_sd",
+          "longest_dry_run_4w_days",
+          "humid_days_4w",
+          "tmax_4w_c",
+          "rain_4w_x_t2m_4w"
+        ],
+        "features_used_for_scoring": [
+          "rain_1w_mm",
+          "rain_2w_mm",
+          "rain_4w_mm",
+          "rain_8w_mm",
+          "rain_4w_anomaly_sd",
+          "t2m_4w_c",
+          "t2m_4w_anomaly_sd",
+          "rh_4w_pct",
+          "rh_4w_anomaly_sd",
+          "dtr_4w_c"
+        ],
+        "iso_week": 29,
+        "issue_week": "2026-07-13",
+        "observed_days": 53,
+        "parameter_day_coverage": {
+          "rain_mm": 0.9464,
+          "rh_pct": 1.0,
+          "t2m_c": 1.0,
+          "tmax_c": 1.0,
+          "tmin_c": 1.0
+        },
+        "reason_code": null,
+        "status": "observed",
+        "window_day_coverage": {
+          "all_parameters_common_4w": 1.0,
+          "rain_1w": 1.0,
+          "rain_2w": 1.0,
+          "rain_4w": 1.0,
+          "rain_8w": 0.9464,
+          "rh_4w": 1.0,
+          "t2m_4w": 1.0,
+          "tmax_4w": 1.0,
+          "tmin_4w": 1.0
+        },
+        "window_end": "2026-07-19"
+      },
+      "is_synthetic": false,
+      "reason_code": null,
+      "shares_climate_grid_cell_with": [],
+      "status": "observed",
+      "suitability": {
+        "band": "elevated",
+        "district_id": "OD-DIST-cuttack",
+        "environmental_linear_predictor": 0.084516,
+        "iso_week": 29,
+        "reason_code": null,
+        "reference_samples": 84,
+        "status": "scored",
+        "suitability_percentile": 80.78,
+        "top_drivers": [
+          {
+            "coefficient": 0.226941,
+            "contribution": 0.340106,
+            "feature": "rain_4w_mm",
+            "standardised": 1.4987,
+            "value": 319.12
+          },
+          {
+            "coefficient": 0.153792,
+            "contribution": 0.144129,
+            "feature": "t2m_4w_anomaly_sd",
+            "standardised": 0.9372,
+            "value": 1.2517
+          },
+          {
+            "coefficient": 0.127838,
+            "contribution": -0.116341,
+            "feature": "dtr_4w_c",
+            "standardised": -0.9101,
+            "value": 6.2743
+          },
+          {
+            "coefficient": -0.068134,
+            "contribution": -0.102353,
+            "feature": "rain_1w_mm",
+            "standardised": 1.5022,
+            "value": 96.3
+          }
+        ]
+      }
+    },
+    {
+      "canonical_name": "Deogarh",
+      "district_id": "OD-DIST-deogarh",
+      "environment": {
+        "day_coverage": 0.9464,
+        "district_id": "OD-DIST-deogarh",
+        "expected_days": 56,
+        "features": {
+          "dtr_4w_c": 6.4896,
+          "humid_days_4w": 19.0,
+          "longest_dry_run_4w_days": 0.0,
+          "rain_1w_mm": 78.78,
+          "rain_2w_mm": 186.92,
+          "rain_4w_anomaly_sd": 0.7282,
+          "rain_4w_mm": 373.68,
+          "rain_4w_x_t2m_4w": 448.9498,
+          "rain_8w_anomaly_sd": 0.022,
+          "rain_8w_mm": 476.21,
+          "rh_4w_anomaly_sd": -1.0559,
+          "rh_4w_pct": 80.9589,
+          "t2m_4w_anomaly_sd": 1.0934,
+          "t2m_4w_c": 28.2014,
+          "tmax_4w_c": 31.7525
+        },
+        "features_descriptive_only": [
+          "rain_8w_anomaly_sd",
+          "longest_dry_run_4w_days",
+          "humid_days_4w",
+          "tmax_4w_c",
+          "rain_4w_x_t2m_4w"
+        ],
+        "features_used_for_scoring": [
+          "rain_1w_mm",
+          "rain_2w_mm",
+          "rain_4w_mm",
+          "rain_8w_mm",
+          "rain_4w_anomaly_sd",
+          "t2m_4w_c",
+          "t2m_4w_anomaly_sd",
+          "rh_4w_pct",
+          "rh_4w_anomaly_sd",
+          "dtr_4w_c"
+        ],
+        "iso_week": 29,
+        "issue_week": "2026-07-13",
+        "observed_days": 53,
+        "parameter_day_coverage": {
+          "rain_mm": 0.9464,
+          "rh_pct": 1.0,
+          "t2m_c": 1.0,
+          "tmax_c": 1.0,
+          "tmin_c": 1.0
+        },
+        "reason_code": null,
+        "status": "observed",
+        "window_day_coverage": {
+          "all_parameters_common_4w": 1.0,
+          "rain_1w": 1.0,
+          "rain_2w": 1.0,
+          "rain_4w": 1.0,
+          "rain_8w": 0.9464,
+          "rh_4w": 1.0,
+          "t2m_4w": 1.0,
+          "tmax_4w": 1.0,
+          "tmin_4w": 1.0
+        },
+        "window_end": "2026-07-19"
+      },
+      "is_synthetic": false,
+      "reason_code": null,
+      "shares_climate_grid_cell_with": [],
+      "status": "observed",
+      "suitability": {
+        "band": "much_above_typical",
+        "district_id": "OD-DIST-deogarh",
+        "environmental_linear_predictor": 0.173899,
+        "iso_week": 29,
+        "reason_code": null,
+        "reference_samples": 84,
+        "status": "scored",
+        "suitability_percentile": 95.23,
+        "top_drivers": [
+          {
+            "coefficient": 0.226941,
+            "contribution": 0.432813,
+            "feature": "rain_4w_mm",
+            "standardised": 1.9072,
+            "value": 373.68
+          },
+          {
+            "coefficient": 0.153792,
+            "contribution": 0.127663,
+            "feature": "t2m_4w_anomaly_sd",
+            "standardised": 0.8301,
+            "value": 1.0934
+          },
+          {
+            "coefficient": 0.127838,
+            "contribution": -0.109924,
+            "feature": "dtr_4w_c",
+            "standardised": -0.8599,
+            "value": 6.4896
+          },
+          {
+            "coefficient": -0.051387,
+            "contribution": -0.087114,
+            "feature": "rain_2w_mm",
+            "standardised": 1.6953,
+            "value": 186.92
+          }
+        ]
+      }
+    },
+    {
+      "canonical_name": "Dhenkanal",
+      "district_id": "OD-DIST-dhenkanal",
+      "environment": {
+        "day_coverage": 0.9464,
+        "district_id": "OD-DIST-dhenkanal",
+        "expected_days": 56,
+        "features": {
+          "dtr_4w_c": 6.2857,
+          "humid_days_4w": 19.0,
+          "longest_dry_run_4w_days": 3.0,
+          "rain_1w_mm": 77.13,
+          "rain_2w_mm": 139.62,
+          "rain_4w_anomaly_sd": 0.4365,
+          "rain_4w_mm": 334.25,
+          "rain_4w_x_t2m_4w": 516.7744,
+          "rain_8w_anomaly_sd": -0.1773,
+          "rain_8w_mm": 445.33,
+          "rh_4w_anomaly_sd": -1.1975,
+          "rh_4w_pct": 82.0368,
+          "t2m_4w_anomaly_sd": 1.1701,
+          "t2m_4w_c": 28.5461,
+          "tmax_4w_c": 32.1082
+        },
+        "features_descriptive_only": [
+          "rain_8w_anomaly_sd",
+          "longest_dry_run_4w_days",
+          "humid_days_4w",
+          "tmax_4w_c",
+          "rain_4w_x_t2m_4w"
+        ],
+        "features_used_for_scoring": [
+          "rain_1w_mm",
+          "rain_2w_mm",
+          "rain_4w_mm",
+          "rain_8w_mm",
+          "rain_4w_anomaly_sd",
+          "t2m_4w_c",
+          "t2m_4w_anomaly_sd",
+          "rh_4w_pct",
+          "rh_4w_anomaly_sd",
+          "dtr_4w_c"
+        ],
+        "iso_week": 29,
+        "issue_week": "2026-07-13",
+        "observed_days": 53,
+        "parameter_day_coverage": {
+          "rain_mm": 0.9464,
+          "rh_pct": 1.0,
+          "t2m_c": 1.0,
+          "tmax_c": 1.0,
+          "tmin_c": 1.0
+        },
+        "reason_code": null,
+        "status": "observed",
+        "window_day_coverage": {
+          "all_parameters_common_4w": 1.0,
+          "rain_1w": 1.0,
+          "rain_2w": 1.0,
+          "rain_4w": 1.0,
+          "rain_8w": 0.9464,
+          "rh_4w": 1.0,
+          "t2m_4w": 1.0,
+          "tmax_4w": 1.0,
+          "tmin_4w": 1.0
+        },
+        "window_end": "2026-07-19"
+      },
+      "is_synthetic": false,
+      "reason_code": null,
+      "shares_climate_grid_cell_with": [],
+      "status": "observed",
+      "suitability": {
+        "band": "elevated",
+        "district_id": "OD-DIST-dhenkanal",
+        "environmental_linear_predictor": 0.128581,
+        "iso_week": 29,
+        "reason_code": null,
+        "reference_samples": 84,
+        "status": "scored",
+        "suitability_percentile": 88.53,
+        "top_drivers": [
+          {
+            "coefficient": 0.226941,
+            "contribution": 0.365814,
+            "feature": "rain_4w_mm",
+            "standardised": 1.6119,
+            "value": 334.25
+          },
+          {
+            "coefficient": 0.153792,
+            "contribution": 0.135635,
+            "feature": "t2m_4w_anomaly_sd",
+            "standardised": 0.8819,
+            "value": 1.1701
+          },
+          {
+            "coefficient": 0.127838,
+            "contribution": -0.116001,
+            "feature": "dtr_4w_c",
+            "standardised": -0.9074,
+            "value": 6.2857
+          },
+          {
+            "coefficient": -0.068134,
+            "contribution": -0.072881,
+            "feature": "rain_1w_mm",
+            "standardised": 1.0697,
+            "value": 77.13
+          }
+        ]
+      }
+    },
+    {
+      "canonical_name": "Gajapati",
+      "district_id": "OD-DIST-gajapati",
+      "environment": {
+        "day_coverage": 0.9464,
+        "district_id": "OD-DIST-gajapati",
+        "expected_days": 56,
+        "features": {
+          "dtr_4w_c": 4.5461,
+          "humid_days_4w": 19.0,
+          "longest_dry_run_4w_days": 3.0,
+          "rain_1w_mm": 112.52,
+          "rain_2w_mm": 131.87,
+          "rain_4w_anomaly_sd": 0.3531,
+          "rain_4w_mm": 280.24,
+          "rain_4w_x_t2m_4w": 222.2904,
+          "rain_8w_anomaly_sd": -0.2406,
+          "rain_8w_mm": 367.34,
+          "rh_4w_anomaly_sd": -0.4006,
+          "rh_4w_pct": 83.6957,
+          "t2m_4w_anomaly_sd": 0.8462,
+          "t2m_4w_c": 27.7932,
+          "tmax_4w_c": 30.295
+        },
+        "features_descriptive_only": [
+          "rain_8w_anomaly_sd",
+          "longest_dry_run_4w_days",
+          "humid_days_4w",
+          "tmax_4w_c",
+          "rain_4w_x_t2m_4w"
+        ],
+        "features_used_for_scoring": [
+          "rain_1w_mm",
+          "rain_2w_mm",
+          "rain_4w_mm",
+          "rain_8w_mm",
+          "rain_4w_anomaly_sd",
+          "t2m_4w_c",
+          "t2m_4w_anomaly_sd",
+          "rh_4w_pct",
+          "rh_4w_anomaly_sd",
+          "dtr_4w_c"
+        ],
+        "iso_week": 29,
+        "issue_week": "2026-07-13",
+        "observed_days": 53,
+        "parameter_day_coverage": {
+          "rain_mm": 0.9464,
+          "rh_pct": 1.0,
+          "t2m_c": 1.0,
+          "tmax_c": 1.0,
+          "tmin_c": 1.0
+        },
+        "reason_code": null,
+        "status": "observed",
+        "window_day_coverage": {
+          "all_parameters_common_4w": 1.0,
+          "rain_1w": 1.0,
+          "rain_2w": 1.0,
+          "rain_4w": 1.0,
+          "rain_8w": 0.9464,
+          "rh_4w": 1.0,
+          "t2m_4w": 1.0,
+          "tmax_4w": 1.0,
+          "tmin_4w": 1.0
+        },
+        "window_end": "2026-07-19"
+      },
+      "is_synthetic": false,
+      "reason_code": null,
+      "shares_climate_grid_cell_with": [],
+      "status": "observed",
+      "suitability": {
+        "band": "typical",
+        "district_id": "OD-DIST-gajapati",
+        "environmental_linear_predictor": -0.068638,
+        "iso_week": 29,
+        "reason_code": null,
+        "reference_samples": 84,
+        "status": "scored",
+        "suitability_percentile": 59.71,
+        "top_drivers": [
+          {
+            "coefficient": 0.226941,
+            "contribution": 0.274042,
+            "feature": "rain_4w_mm",
+            "standardised": 1.2075,
+            "value": 280.24
+          },
+          {
+            "coefficient": 0.127838,
+            "contribution": -0.167836,
+            "feature": "dtr_4w_c",
+            "standardised": -1.3129,
+            "value": 4.5461
+          },
+          {
+            "coefficient": -0.068134,
+            "contribution": -0.12729,
+            "feature": "rain_1w_mm",
+            "standardised": 1.8682,
+            "value": 112.52
+          },
+          {
+            "coefficient": 0.153792,
+            "contribution": 0.101952,
+            "feature": "t2m_4w_anomaly_sd",
+            "standardised": 0.6629,
+            "value": 0.8462
+          }
+        ]
+      }
+    },
+    {
+      "canonical_name": "Ganjam",
+      "district_id": "OD-DIST-ganjam",
+      "environment": {
+        "day_coverage": 0.9464,
+        "district_id": "OD-DIST-ganjam",
+        "expected_days": 56,
+        "features": {
+          "dtr_4w_c": 5.6679,
+          "humid_days_4w": 16.0,
+          "longest_dry_run_4w_days": 2.0,
+          "rain_1w_mm": 132.47,
+          "rain_2w_mm": 155.84,
+          "rain_4w_anomaly_sd": 0.8622,
+          "rain_4w_mm": 348.5,
+          "rain_4w_x_t2m_4w": 63.2279,
+          "rain_8w_anomaly_sd": 0.1737,
+          "rain_8w_mm": 428.19,
+          "rh_4w_anomaly_sd": -0.7833,
+          "rh_4w_pct": 82.7296,
+          "t2m_4w_anomaly_sd": 1.1912,
+          "t2m_4w_c": 27.1814,
+          "tmax_4w_c": 30.2804
+        },
+        "features_descriptive_only": [
+          "rain_8w_anomaly_sd",
+          "longest_dry_run_4w_days",
+          "humid_days_4w",
+          "tmax_4w_c",
+          "rain_4w_x_t2m_4w"
+        ],
+        "features_used_for_scoring": [
+          "rain_1w_mm",
+          "rain_2w_mm",
+          "rain_4w_mm",
+          "rain_8w_mm",
+          "rain_4w_anomaly_sd",
+          "t2m_4w_c",
+          "t2m_4w_anomaly_sd",
+          "rh_4w_pct",
+          "rh_4w_anomaly_sd",
+          "dtr_4w_c"
+        ],
+        "iso_week": 29,
+        "issue_week": "2026-07-13",
+        "observed_days": 53,
+        "parameter_day_coverage": {
+          "rain_mm": 0.9464,
+          "rh_pct": 1.0,
+          "t2m_c": 1.0,
+          "tmax_c": 1.0,
+          "tmin_c": 1.0
+        },
+        "reason_code": null,
+        "status": "observed",
+        "window_day_coverage": {
+          "all_parameters_common_4w": 1.0,
+          "rain_1w": 1.0,
+          "rain_2w": 1.0,
+          "rain_4w": 1.0,
+          "rain_8w": 0.9464,
+          "rh_4w": 1.0,
+          "t2m_4w": 1.0,
+          "tmax_4w": 1.0,
+          "tmin_4w": 1.0
+        },
+        "window_end": "2026-07-19"
+      },
+      "is_synthetic": false,
+      "reason_code": null,
+      "shares_climate_grid_cell_with": [],
+      "status": "observed",
+      "suitability": {
+        "band": "elevated",
+        "district_id": "OD-DIST-ganjam",
+        "environmental_linear_predictor": 0.058219,
+        "iso_week": 29,
+        "reason_code": null,
+        "reference_samples": 84,
+        "status": "scored",
+        "suitability_percentile": 78.0,
+        "top_drivers": [
+          {
+            "coefficient": 0.226941,
+            "contribution": 0.390028,
+            "feature": "rain_4w_mm",
+            "standardised": 1.7186,
+            "value": 348.5
+          },
+          {
+            "coefficient": -0.068134,
+            "contribution": -0.157961,
+            "feature": "rain_1w_mm",
+            "standardised": 2.3184,
+            "value": 132.47
+          },
+          {
+            "coefficient": 0.153792,
+            "contribution": 0.137839,
+            "feature": "t2m_4w_anomaly_sd",
+            "standardised": 0.8963,
+            "value": 1.1912
+          },
+          {
+            "coefficient": 0.127838,
+            "contribution": -0.134411,
+            "feature": "dtr_4w_c",
+            "standardised": -1.0514,
+            "value": 5.6679
+          }
+        ]
+      }
+    },
+    {
+      "canonical_name": "Jagatsinghpur",
+      "district_id": "OD-DIST-jagatsinghpur",
+      "environment": {
+        "day_coverage": 0.9464,
+        "district_id": "OD-DIST-jagatsinghpur",
+        "expected_days": 56,
+        "features": {
+          "dtr_4w_c": 2.9414,
+          "humid_days_4w": 27.0,
+          "longest_dry_run_4w_days": 0.0,
+          "rain_1w_mm": 245.06,
+          "rain_2w_mm": 274.74,
+          "rain_4w_anomaly_sd": 1.8215,
+          "rain_4w_mm": 524.43,
+          "rain_4w_x_t2m_4w": 974.316,
+          "rain_8w_anomaly_sd": 1.4871,
+          "rain_8w_mm": 639.66,
+          "rh_4w_anomaly_sd": 0.0338,
+          "rh_4w_pct": 85.6293,
+          "t2m_4w_anomaly_sd": 0.1193,
+          "t2m_4w_c": 28.8579,
+          "tmax_4w_c": 30.5429
+        },
+        "features_descriptive_only": [
+          "rain_8w_anomaly_sd",
+          "longest_dry_run_4w_days",
+          "humid_days_4w",
+          "tmax_4w_c",
+          "rain_4w_x_t2m_4w"
+        ],
+        "features_used_for_scoring": [
+          "rain_1w_mm",
+          "rain_2w_mm",
+          "rain_4w_mm",
+          "rain_8w_mm",
+          "rain_4w_anomaly_sd",
+          "t2m_4w_c",
+          "t2m_4w_anomaly_sd",
+          "rh_4w_pct",
+          "rh_4w_anomaly_sd",
+          "dtr_4w_c"
+        ],
+        "iso_week": 29,
+        "issue_week": "2026-07-13",
+        "observed_days": 53,
+        "parameter_day_coverage": {
+          "rain_mm": 0.9464,
+          "rh_pct": 1.0,
+          "t2m_c": 1.0,
+          "tmax_c": 1.0,
+          "tmin_c": 1.0
+        },
+        "reason_code": null,
+        "status": "observed",
+        "window_day_coverage": {
+          "all_parameters_common_4w": 1.0,
+          "rain_1w": 1.0,
+          "rain_2w": 1.0,
+          "rain_4w": 1.0,
+          "rain_8w": 0.9464,
+          "rh_4w": 1.0,
+          "t2m_4w": 1.0,
+          "tmax_4w": 1.0,
+          "tmin_4w": 1.0
+        },
+        "window_end": "2026-07-19"
+      },
+      "is_synthetic": false,
+      "reason_code": null,
+      "shares_climate_grid_cell_with": [],
+      "status": "observed",
+      "suitability": {
+        "band": "elevated",
+        "district_id": "OD-DIST-jagatsinghpur",
+        "environmental_linear_predictor": -0.058173,
+        "iso_week": 29,
+        "reason_code": null,
+        "reference_samples": 84,
+        "status": "scored",
+        "suitability_percentile": 76.39,
+        "top_drivers": [
+          {
+            "coefficient": 0.226941,
+            "contribution": 0.688964,
+            "feature": "rain_4w_mm",
+            "standardised": 3.0359,
+            "value": 524.43
+          },
+          {
+            "coefficient": -0.068134,
+            "contribution": -0.331057,
+            "feature": "rain_1w_mm",
+            "standardised": 4.8589,
+            "value": 245.06
+          },
+          {
+            "coefficient": 0.127838,
+            "contribution": -0.215648,
+            "feature": "dtr_4w_c",
+            "standardised": -1.6869,
+            "value": 2.9414
+          },
+          {
+            "coefficient": -0.051387,
+            "contribution": -0.147125,
+            "feature": "rain_2w_mm",
+            "standardised": 2.8631,
+            "value": 274.74
+          }
+        ]
+      }
+    },
+    {
+      "canonical_name": "Jajpur",
+      "district_id": "OD-DIST-jajpur",
+      "environment": {
+        "day_coverage": 0.9464,
+        "district_id": "OD-DIST-jajpur",
+        "expected_days": 56,
+        "features": {
+          "dtr_4w_c": 5.9346,
+          "humid_days_4w": 21.0,
+          "longest_dry_run_4w_days": 2.0,
+          "rain_1w_mm": 118.17,
+          "rain_2w_mm": 174.61,
+          "rain_4w_anomaly_sd": 0.9752,
+          "rain_4w_mm": 369.32,
+          "rain_4w_x_t2m_4w": 519.1584,
+          "rain_8w_anomaly_sd": 0.2806,
+          "rain_8w_mm": 493.27,
+          "rh_4w_anomaly_sd": -0.322,
+          "rh_4w_pct": 85.0604,
+          "t2m_4w_anomaly_sd": 0.2792,
+          "t2m_4w_c": 28.4057,
+          "tmax_4w_c": 31.8829
+        },
+        "features_descriptive_only": [
+          "rain_8w_anomaly_sd",
+          "longest_dry_run_4w_days",
+          "humid_days_4w",
+          "tmax_4w_c",
+          "rain_4w_x_t2m_4w"
+        ],
+        "features_used_for_scoring": [
+          "rain_1w_mm",
+          "rain_2w_mm",
+          "rain_4w_mm",
+          "rain_8w_mm",
+          "rain_4w_anomaly_sd",
+          "t2m_4w_c",
+          "t2m_4w_anomaly_sd",
+          "rh_4w_pct",
+          "rh_4w_anomaly_sd",
+          "dtr_4w_c"
+        ],
+        "iso_week": 29,
+        "issue_week": "2026-07-13",
+        "observed_days": 53,
+        "parameter_day_coverage": {
+          "rain_mm": 0.9464,
+          "rh_pct": 1.0,
+          "t2m_c": 1.0,
+          "tmax_c": 1.0,
+          "tmin_c": 1.0
+        },
+        "reason_code": null,
+        "status": "observed",
+        "window_day_coverage": {
+          "all_parameters_common_4w": 1.0,
+          "rain_1w": 1.0,
+          "rain_2w": 1.0,
+          "rain_4w": 1.0,
+          "rain_8w": 0.9464,
+          "rh_4w": 1.0,
+          "t2m_4w": 1.0,
+          "tmax_4w": 1.0,
+          "tmin_4w": 1.0
+        },
+        "window_end": "2026-07-19"
+      },
+      "is_synthetic": false,
+      "reason_code": null,
+      "shares_climate_grid_cell_with": [],
+      "status": "observed",
+      "suitability": {
+        "band": "typical",
+        "district_id": "OD-DIST-jajpur",
+        "environmental_linear_predictor": 0.027634,
+        "iso_week": 29,
+        "reason_code": null,
+        "reference_samples": 84,
+        "status": "scored",
+        "suitability_percentile": 73.43,
+        "top_drivers": [
+          {
+            "coefficient": 0.226941,
+            "contribution": 0.425405,
+            "feature": "rain_4w_mm",
+            "standardised": 1.8745,
+            "value": 369.32
+          },
+          {
+            "coefficient": -0.068134,
+            "contribution": -0.135976,
+            "feature": "rain_1w_mm",
+            "standardised": 1.9957,
+            "value": 118.17
+          },
+          {
+            "coefficient": 0.127838,
+            "contribution": -0.126461,
+            "feature": "dtr_4w_c",
+            "standardised": -0.9892,
+            "value": 5.9346
+          },
+          {
+            "coefficient": -0.09516,
+            "contribution": -0.086136,
+            "feature": "rh_4w_pct",
+            "standardised": 0.9052,
+            "value": 85.0604
+          }
+        ]
+      }
+    },
+    {
+      "canonical_name": "Jharsuguda",
+      "district_id": "OD-DIST-jharsuguda",
+      "environment": {
+        "day_coverage": 0.9464,
+        "district_id": "OD-DIST-jharsuguda",
+        "expected_days": 56,
+        "features": {
+          "dtr_4w_c": 6.8993,
+          "humid_days_4w": 10.0,
+          "longest_dry_run_4w_days": 2.0,
+          "rain_1w_mm": 101.58,
+          "rain_2w_mm": 243.81,
+          "rain_4w_anomaly_sd": 0.5393,
+          "rain_4w_mm": 382.38,
+          "rain_4w_x_t2m_4w": 745.2313,
+          "rain_8w_anomaly_sd": 0.0024,
+          "rain_8w_mm": 473.22,
+          "rh_4w_anomaly_sd": -0.921,
+          "rh_4w_pct": 76.6354,
+          "t2m_4w_anomaly_sd": 0.798,
+          "t2m_4w_c": 28.9489,
+          "tmax_4w_c": 32.5639
+        },
+        "features_descriptive_only": [
+          "rain_8w_anomaly_sd",
+          "longest_dry_run_4w_days",
+          "humid_days_4w",
+          "tmax_4w_c",
+          "rain_4w_x_t2m_4w"
+        ],
+        "features_used_for_scoring": [
+          "rain_1w_mm",
+          "rain_2w_mm",
+          "rain_4w_mm",
+          "rain_8w_mm",
+          "rain_4w_anomaly_sd",
+          "t2m_4w_c",
+          "t2m_4w_anomaly_sd",
+          "rh_4w_pct",
+          "rh_4w_anomaly_sd",
+          "dtr_4w_c"
+        ],
+        "iso_week": 29,
+        "issue_week": "2026-07-13",
+        "observed_days": 53,
+        "parameter_day_coverage": {
+          "rain_mm": 0.9464,
+          "rh_pct": 1.0,
+          "t2m_c": 1.0,
+          "tmax_c": 1.0,
+          "tmin_c": 1.0
+        },
+        "reason_code": null,
+        "status": "observed",
+        "window_day_coverage": {
+          "all_parameters_common_4w": 1.0,
+          "rain_1w": 1.0,
+          "rain_2w": 1.0,
+          "rain_4w": 1.0,
+          "rain_8w": 0.9464,
+          "rh_4w": 1.0,
+          "t2m_4w": 1.0,
+          "tmax_4w": 1.0,
+          "tmin_4w": 1.0
+        },
+        "window_end": "2026-07-19"
+      },
+      "is_synthetic": false,
+      "reason_code": null,
+      "shares_climate_grid_cell_with": [],
+      "status": "observed",
+      "suitability": {
+        "band": "elevated",
+        "district_id": "OD-DIST-jharsuguda",
+        "environmental_linear_predictor": 0.125844,
+        "iso_week": 29,
+        "reason_code": null,
+        "reference_samples": 84,
+        "status": "scored",
+        "suitability_percentile": 80.78,
+        "top_drivers": [
+          {
+            "coefficient": 0.226941,
+            "contribution": 0.447596,
+            "feature": "rain_4w_mm",
+            "standardised": 1.9723,
+            "value": 382.38
+          },
+          {
+            "coefficient": -0.051387,
+            "contribution": -0.125989,
+            "feature": "rain_2w_mm",
+            "standardised": 2.4518,
+            "value": 243.81
+          },
+          {
+            "coefficient": -0.068134,
+            "contribution": -0.110471,
+            "feature": "rain_1w_mm",
+            "standardised": 1.6214,
+            "value": 101.58
+          },
+          {
+            "coefficient": 0.127838,
+            "contribution": -0.097719,
+            "feature": "dtr_4w_c",
+            "standardised": -0.7644,
+            "value": 6.8993
+          }
+        ]
+      }
+    },
+    {
+      "canonical_name": "Kalahandi",
+      "district_id": "OD-DIST-kalahandi",
+      "environment": {
+        "day_coverage": 0.9464,
+        "district_id": "OD-DIST-kalahandi",
+        "expected_days": 56,
+        "features": {
+          "dtr_4w_c": 6.0511,
+          "humid_days_4w": 15.0,
+          "longest_dry_run_4w_days": 2.0,
+          "rain_1w_mm": 75.56,
+          "rain_2w_mm": 117.47,
+          "rain_4w_anomaly_sd": 1.9793,
+          "rain_4w_mm": 464.36,
+          "rain_4w_x_t2m_4w": 70.8149,
+          "rain_8w_anomaly_sd": 1.061,
+          "rain_8w_mm": 537.63,
+          "rh_4w_anomaly_sd": -0.0211,
+          "rh_4w_pct": 81.2782,
+          "t2m_4w_anomaly_sd": -0.1194,
+          "t2m_4w_c": 27.1525,
+          "tmax_4w_c": 30.4361
+        },
+        "features_descriptive_only": [
+          "rain_8w_anomaly_sd",
+          "longest_dry_run_4w_days",
+          "humid_days_4w",
+          "tmax_4w_c",
+          "rain_4w_x_t2m_4w"
+        ],
+        "features_used_for_scoring": [
+          "rain_1w_mm",
+          "rain_2w_mm",
+          "rain_4w_mm",
+          "rain_8w_mm",
+          "rain_4w_anomaly_sd",
+          "t2m_4w_c",
+          "t2m_4w_anomaly_sd",
+          "rh_4w_pct",
+          "rh_4w_anomaly_sd",
+          "dtr_4w_c"
+        ],
+        "iso_week": 29,
+        "issue_week": "2026-07-13",
+        "observed_days": 53,
+        "parameter_day_coverage": {
+          "rain_mm": 0.9464,
+          "rh_pct": 1.0,
+          "t2m_c": 1.0,
+          "tmax_c": 1.0,
+          "tmin_c": 1.0
+        },
+        "reason_code": null,
+        "status": "observed",
+        "window_day_coverage": {
+          "all_parameters_common_4w": 1.0,
+          "rain_1w": 1.0,
+          "rain_2w": 1.0,
+          "rain_4w": 1.0,
+          "rain_8w": 0.9464,
+          "rh_4w": 1.0,
+          "t2m_4w": 1.0,
+          "tmax_4w": 1.0,
+          "tmin_4w": 1.0
+        },
+        "window_end": "2026-07-19"
+      },
+      "is_synthetic": false,
+      "reason_code": null,
+      "shares_climate_grid_cell_with": [],
+      "status": "observed",
+      "suitability": {
+        "band": "much_above_typical",
+        "district_id": "OD-DIST-kalahandi",
+        "environmental_linear_predictor": 0.292168,
+        "iso_week": 29,
+        "reason_code": null,
+        "reference_samples": 84,
+        "status": "scored",
+        "suitability_percentile": 96.08,
+        "top_drivers": [
+          {
+            "coefficient": 0.226941,
+            "contribution": 0.586894,
+            "feature": "rain_4w_mm",
+            "standardised": 2.5861,
+            "value": 464.36
+          },
+          {
+            "coefficient": 0.127838,
+            "contribution": -0.122992,
+            "feature": "dtr_4w_c",
+            "standardised": -0.9621,
+            "value": 6.0511
+          },
+          {
+            "coefficient": -0.068134,
+            "contribution": -0.070468,
+            "feature": "rain_1w_mm",
+            "standardised": 1.0342,
+            "value": 75.56
+          },
+          {
+            "coefficient": -0.09516,
+            "contribution": -0.065162,
+            "feature": "rh_4w_pct",
+            "standardised": 0.6848,
+            "value": 81.2782
+          }
+        ]
+      }
+    },
+    {
+      "canonical_name": "Kandhamal",
+      "district_id": "OD-DIST-kandhamal",
+      "environment": {
+        "day_coverage": 0.9464,
+        "district_id": "OD-DIST-kandhamal",
+        "expected_days": 56,
+        "features": {
+          "dtr_4w_c": 5.7932,
+          "humid_days_4w": 19.0,
+          "longest_dry_run_4w_days": 2.0,
+          "rain_1w_mm": 109.31,
+          "rain_2w_mm": 148.79,
+          "rain_4w_anomaly_sd": 2.38,
+          "rain_4w_mm": 489.46,
+          "rain_4w_x_t2m_4w": -111.3521,
+          "rain_8w_anomaly_sd": 1.4014,
+          "rain_8w_mm": 563.1,
+          "rh_4w_anomaly_sd": -0.6716,
+          "rh_4w_pct": 81.8064,
+          "t2m_4w_anomaly_sd": 1.0095,
+          "t2m_4w_c": 26.7725,
+          "tmax_4w_c": 29.925
+        },
+        "features_descriptive_only": [
+          "rain_8w_anomaly_sd",
+          "longest_dry_run_4w_days",
+          "humid_days_4w",
+          "tmax_4w_c",
+          "rain_4w_x_t2m_4w"
+        ],
+        "features_used_for_scoring": [
+          "rain_1w_mm",
+          "rain_2w_mm",
+          "rain_4w_mm",
+          "rain_8w_mm",
+          "rain_4w_anomaly_sd",
+          "t2m_4w_c",
+          "t2m_4w_anomaly_sd",
+          "rh_4w_pct",
+          "rh_4w_anomaly_sd",
+          "dtr_4w_c"
+        ],
+        "iso_week": 29,
+        "issue_week": "2026-07-13",
+        "observed_days": 53,
+        "parameter_day_coverage": {
+          "rain_mm": 0.9464,
+          "rh_pct": 1.0,
+          "t2m_c": 1.0,
+          "tmax_c": 1.0,
+          "tmin_c": 1.0
+        },
+        "reason_code": null,
+        "status": "observed",
+        "window_day_coverage": {
+          "all_parameters_common_4w": 1.0,
+          "rain_1w": 1.0,
+          "rain_2w": 1.0,
+          "rain_4w": 1.0,
+          "rain_8w": 0.9464,
+          "rh_4w": 1.0,
+          "t2m_4w": 1.0,
+          "tmax_4w": 1.0,
+          "tmin_4w": 1.0
+        },
+        "window_end": "2026-07-19"
+      },
+      "is_synthetic": false,
+      "reason_code": null,
+      "shares_climate_grid_cell_with": [],
+      "status": "observed",
+      "suitability": {
+        "band": "much_above_typical",
+        "district_id": "OD-DIST-kandhamal",
+        "environmental_linear_predictor": 0.333991,
+        "iso_week": 29,
+        "reason_code": null,
+        "reference_samples": 84,
+        "status": "scored",
+        "suitability_percentile": 98.97,
+        "top_drivers": [
+          {
+            "coefficient": 0.226941,
+            "contribution": 0.629544,
+            "feature": "rain_4w_mm",
+            "standardised": 2.774,
+            "value": 489.46
+          },
+          {
+            "coefficient": 0.127838,
+            "contribution": -0.130675,
+            "feature": "dtr_4w_c",
+            "standardised": -1.0222,
+            "value": 5.7932
+          },
+          {
+            "coefficient": -0.068134,
+            "contribution": -0.122355,
+            "feature": "rain_1w_mm",
+            "standardised": 1.7958,
+            "value": 109.31
+          },
+          {
+            "coefficient": 0.153792,
+            "contribution": 0.118933,
+            "feature": "t2m_4w_anomaly_sd",
+            "standardised": 0.7733,
+            "value": 1.0095
+          }
+        ]
+      }
+    },
+    {
+      "canonical_name": "Kendrapara",
+      "district_id": "OD-DIST-kendrapara",
+      "environment": {
+        "day_coverage": 0.9464,
+        "district_id": "OD-DIST-kendrapara",
+        "expected_days": 56,
+        "features": {
+          "dtr_4w_c": 2.6154,
+          "humid_days_4w": 28.0,
+          "longest_dry_run_4w_days": 0.0,
+          "rain_1w_mm": 175.1,
+          "rain_2w_mm": 216.52,
+          "rain_4w_anomaly_sd": 1.116,
+          "rain_4w_mm": 439.42,
+          "rain_4w_x_t2m_4w": 852.1609,
+          "rain_8w_anomaly_sd": 0.5969,
+          "rain_8w_mm": 635.0,
+          "rh_4w_anomaly_sd": -0.2659,
+          "rh_4w_pct": 85.8368,
+          "t2m_4w_anomaly_sd": 0.0776,
+          "t2m_4w_c": 28.9393,
+          "tmax_4w_c": 30.4071
+        },
+        "features_descriptive_only": [
+          "rain_8w_anomaly_sd",
+          "longest_dry_run_4w_days",
+          "humid_days_4w",
+          "tmax_4w_c",
+          "rain_4w_x_t2m_4w"
+        ],
+        "features_used_for_scoring": [
+          "rain_1w_mm",
+          "rain_2w_mm",
+          "rain_4w_mm",
+          "rain_8w_mm",
+          "rain_4w_anomaly_sd",
+          "t2m_4w_c",
+          "t2m_4w_anomaly_sd",
+          "rh_4w_pct",
+          "rh_4w_anomaly_sd",
+          "dtr_4w_c"
+        ],
+        "iso_week": 29,
+        "issue_week": "2026-07-13",
+        "observed_days": 53,
+        "parameter_day_coverage": {
+          "rain_mm": 0.9464,
+          "rh_pct": 1.0,
+          "t2m_c": 1.0,
+          "tmax_c": 1.0,
+          "tmin_c": 1.0
+        },
+        "reason_code": null,
+        "status": "observed",
+        "window_day_coverage": {
+          "all_parameters_common_4w": 1.0,
+          "rain_1w": 1.0,
+          "rain_2w": 1.0,
+          "rain_4w": 1.0,
+          "rain_8w": 0.9464,
+          "rh_4w": 1.0,
+          "t2m_4w": 1.0,
+          "tmax_4w": 1.0,
+          "tmin_4w": 1.0
+        },
+        "window_end": "2026-07-19"
+      },
+      "is_synthetic": false,
+      "reason_code": null,
+      "shares_climate_grid_cell_with": [],
+      "status": "observed",
+      "suitability": {
+        "band": "typical",
+        "district_id": "OD-DIST-kendrapara",
+        "environmental_linear_predictor": -0.080092,
+        "iso_week": 29,
+        "reason_code": null,
+        "reference_samples": 84,
+        "status": "scored",
+        "suitability_percentile": 55.38,
+        "top_drivers": [
+          {
+            "coefficient": 0.226941,
+            "contribution": 0.544517,
+            "feature": "rain_4w_mm",
+            "standardised": 2.3994,
+            "value": 439.42
+          },
+          {
+            "coefficient": 0.127838,
+            "contribution": -0.225364,
+            "feature": "dtr_4w_c",
+            "standardised": -1.7629,
+            "value": 2.6154
+          },
+          {
+            "coefficient": -0.068134,
+            "contribution": -0.2235,
+            "feature": "rain_1w_mm",
+            "standardised": 3.2803,
+            "value": 175.1
+          },
+          {
+            "coefficient": -0.051387,
+            "contribution": -0.107341,
+            "feature": "rain_2w_mm",
+            "standardised": 2.0889,
+            "value": 216.52
+          }
+        ]
+      }
+    },
+    {
+      "canonical_name": "Keonjhar",
+      "district_id": "OD-DIST-keonjhar",
+      "environment": {
+        "day_coverage": 0.9464,
+        "district_id": "OD-DIST-keonjhar",
+        "expected_days": 56,
+        "features": {
+          "dtr_4w_c": 6.3204,
+          "humid_days_4w": 19.0,
+          "longest_dry_run_4w_days": 1.0,
+          "rain_1w_mm": 94.41,
+          "rain_2w_mm": 174.33,
+          "rain_4w_anomaly_sd": 0.8545,
+          "rain_4w_mm": 365.76,
+          "rain_4w_x_t2m_4w": 243.4917,
+          "rain_8w_anomaly_sd": 0.1291,
+          "rain_8w_mm": 477.59,
+          "rh_4w_anomaly_sd": -0.8952,
+          "rh_4w_pct": 83.3657,
+          "t2m_4w_anomaly_sd": 1.0637,
+          "t2m_4w_c": 27.6657,
+          "tmax_4w_c": 31.2857
+        },
+        "features_descriptive_only": [
+          "rain_8w_anomaly_sd",
+          "longest_dry_run_4w_days",
+          "humid_days_4w",
+          "tmax_4w_c",
+          "rain_4w_x_t2m_4w"
+        ],
+        "features_used_for_scoring": [
+          "rain_1w_mm",
+          "rain_2w_mm",
+          "rain_4w_mm",
+          "rain_8w_mm",
+          "rain_4w_anomaly_sd",
+          "t2m_4w_c",
+          "t2m_4w_anomaly_sd",
+          "rh_4w_pct",
+          "rh_4w_anomaly_sd",
+          "dtr_4w_c"
+        ],
+        "iso_week": 29,
+        "issue_week": "2026-07-13",
+        "observed_days": 53,
+        "parameter_day_coverage": {
+          "rain_mm": 0.9464,
+          "rh_pct": 1.0,
+          "t2m_c": 1.0,
+          "tmax_c": 1.0,
+          "tmin_c": 1.0
+        },
+        "reason_code": null,
+        "status": "observed",
+        "window_day_coverage": {
+          "all_parameters_common_4w": 1.0,
+          "rain_1w": 1.0,
+          "rain_2w": 1.0,
+          "rain_4w": 1.0,
+          "rain_8w": 0.9464,
+          "rh_4w": 1.0,
+          "t2m_4w": 1.0,
+          "tmax_4w": 1.0,
+          "tmin_4w": 1.0
+        },
+        "window_end": "2026-07-19"
+      },
+      "is_synthetic": false,
+      "reason_code": null,
+      "shares_climate_grid_cell_with": [],
+      "status": "observed",
+      "suitability": {
+        "band": "much_above_typical",
+        "district_id": "OD-DIST-keonjhar",
+        "environmental_linear_predictor": 0.133144,
+        "iso_week": 29,
+        "reason_code": null,
+        "reference_samples": 84,
+        "status": "scored",
+        "suitability_percentile": 92.45,
+        "top_drivers": [
+          {
+            "coefficient": 0.226941,
+            "contribution": 0.419356,
+            "feature": "rain_4w_mm",
+            "standardised": 1.8479,
+            "value": 365.76
+          },
+          {
+            "coefficient": 0.153792,
+            "contribution": 0.124574,
+            "feature": "t2m_4w_anomaly_sd",
+            "standardised": 0.81,
+            "value": 1.0637
+          },
+          {
+            "coefficient": 0.127838,
+            "contribution": -0.114969,
+            "feature": "dtr_4w_c",
+            "standardised": -0.8993,
+            "value": 6.3204
+          },
+          {
+            "coefficient": -0.068134,
+            "contribution": -0.099448,
+            "feature": "rain_1w_mm",
+            "standardised": 1.4596,
+            "value": 94.41
+          }
+        ]
+      }
+    },
+    {
+      "canonical_name": "Khordha",
+      "district_id": "OD-DIST-khordha",
+      "environment": {
+        "day_coverage": 0.9464,
+        "district_id": "OD-DIST-khordha",
+        "expected_days": 56,
+        "features": {
+          "dtr_4w_c": 4.3046,
+          "humid_days_4w": 17.0,
+          "longest_dry_run_4w_days": 2.0,
+          "rain_1w_mm": 173.17,
+          "rain_2w_mm": 196.56,
+          "rain_4w_anomaly_sd": 0.988,
+          "rain_4w_mm": 428.82,
+          "rain_4w_x_t2m_4w": 876.3243,
+          "rain_8w_anomaly_sd": 0.5273,
+          "rain_8w_mm": 524.15,
+          "rh_4w_anomaly_sd": -0.5345,
+          "rh_4w_pct": 82.8868,
+          "t2m_4w_anomaly_sd": 0.6823,
+          "t2m_4w_c": 29.0436,
+          "tmax_4w_c": 31.4896
+        },
+        "features_descriptive_only": [
+          "rain_8w_anomaly_sd",
+          "longest_dry_run_4w_days",
+          "humid_days_4w",
+          "tmax_4w_c",
+          "rain_4w_x_t2m_4w"
+        ],
+        "features_used_for_scoring": [
+          "rain_1w_mm",
+          "rain_2w_mm",
+          "rain_4w_mm",
+          "rain_8w_mm",
+          "rain_4w_anomaly_sd",
+          "t2m_4w_c",
+          "t2m_4w_anomaly_sd",
+          "rh_4w_pct",
+          "rh_4w_anomaly_sd",
+          "dtr_4w_c"
+        ],
+        "iso_week": 29,
+        "issue_week": "2026-07-13",
+        "observed_days": 53,
+        "parameter_day_coverage": {
+          "rain_mm": 0.9464,
+          "rh_pct": 1.0,
+          "t2m_c": 1.0,
+          "tmax_c": 1.0,
+          "tmin_c": 1.0
+        },
+        "reason_code": null,
+        "status": "observed",
+        "window_day_coverage": {
+          "all_parameters_common_4w": 1.0,
+          "rain_1w": 1.0,
+          "rain_2w": 1.0,
+          "rain_4w": 1.0,
+          "rain_8w": 0.9464,
+          "rh_4w": 1.0,
+          "t2m_4w": 1.0,
+          "tmax_4w": 1.0,
+          "tmin_4w": 1.0
+        },
+        "window_end": "2026-07-19"
+      },
+      "is_synthetic": false,
+      "reason_code": null,
+      "shares_climate_grid_cell_with": [
+        "OD-DIST-puri"
+      ],
+      "status": "observed",
+      "suitability": {
+        "band": "elevated",
+        "district_id": "OD-DIST-khordha",
+        "environmental_linear_predictor": 0.023639,
+        "iso_week": 29,
+        "reason_code": null,
+        "reference_samples": 84,
+        "status": "scored",
+        "suitability_percentile": 82.1,
+        "top_drivers": [
+          {
+            "coefficient": 0.226941,
+            "contribution": 0.526506,
+            "feature": "rain_4w_mm",
+            "standardised": 2.32,
+            "value": 428.82
+          },
+          {
+            "coefficient": -0.068134,
+            "contribution": -0.220533,
+            "feature": "rain_1w_mm",
+            "standardised": 3.2367,
+            "value": 173.17
+          },
+          {
+            "coefficient": 0.127838,
+            "contribution": -0.17503,
+            "feature": "dtr_4w_c",
+            "standardised": -1.3692,
+            "value": 4.3046
+          },
+          {
+            "coefficient": -0.051387,
+            "contribution": -0.093702,
+            "feature": "rain_2w_mm",
+            "standardised": 1.8234,
+            "value": 196.56
+          }
+        ]
+      }
+    },
+    {
+      "canonical_name": "Koraput",
+      "district_id": "OD-DIST-koraput",
+      "environment": {
+        "day_coverage": 0.9464,
+        "district_id": "OD-DIST-koraput",
+        "expected_days": 56,
+        "features": {
+          "dtr_4w_c": 4.9425,
+          "humid_days_4w": 23.0,
+          "longest_dry_run_4w_days": 2.0,
+          "rain_1w_mm": 79.06,
+          "rain_2w_mm": 111.38,
+          "rain_4w_anomaly_sd": 0.6285,
+          "rain_4w_mm": 435.15,
+          "rain_4w_x_t2m_4w": -1023.535,
+          "rain_8w_anomaly_sd": 0.0168,
+          "rain_8w_mm": 543.0,
+          "rh_4w_anomaly_sd": 0.3485,
+          "rh_4w_pct": 87.1343,
+          "t2m_4w_anomaly_sd": -0.2839,
+          "t2m_4w_c": 24.6479,
+          "tmax_4w_c": 27.3304
+        },
+        "features_descriptive_only": [
+          "rain_8w_anomaly_sd",
+          "longest_dry_run_4w_days",
+          "humid_days_4w",
+          "tmax_4w_c",
+          "rain_4w_x_t2m_4w"
+        ],
+        "features_used_for_scoring": [
+          "rain_1w_mm",
+          "rain_2w_mm",
+          "rain_4w_mm",
+          "rain_8w_mm",
+          "rain_4w_anomaly_sd",
+          "t2m_4w_c",
+          "t2m_4w_anomaly_sd",
+          "rh_4w_pct",
+          "rh_4w_anomaly_sd",
+          "dtr_4w_c"
+        ],
+        "iso_week": 29,
+        "issue_week": "2026-07-13",
+        "observed_days": 53,
+        "parameter_day_coverage": {
+          "rain_mm": 0.9464,
+          "rh_pct": 1.0,
+          "t2m_c": 1.0,
+          "tmax_c": 1.0,
+          "tmin_c": 1.0
+        },
+        "reason_code": null,
+        "status": "observed",
+        "window_day_coverage": {
+          "all_parameters_common_4w": 1.0,
+          "rain_1w": 1.0,
+          "rain_2w": 1.0,
+          "rain_4w": 1.0,
+          "rain_8w": 0.9464,
+          "rh_4w": 1.0,
+          "t2m_4w": 1.0,
+          "tmax_4w": 1.0,
+          "tmin_4w": 1.0
+        },
+        "window_end": "2026-07-19"
+      },
+      "is_synthetic": false,
+      "reason_code": null,
+      "shares_climate_grid_cell_with": [],
+      "status": "observed",
+      "suitability": {
+        "band": "elevated",
+        "district_id": "OD-DIST-koraput",
+        "environmental_linear_predictor": 0.20276,
+        "iso_week": 29,
+        "reason_code": null,
+        "reference_samples": 84,
+        "status": "scored",
+        "suitability_percentile": 81.3,
+        "top_drivers": [
+          {
+            "coefficient": 0.226941,
+            "contribution": 0.537261,
+            "feature": "rain_4w_mm",
+            "standardised": 2.3674,
+            "value": 435.15
+          },
+          {
+            "coefficient": 0.127838,
+            "contribution": -0.156024,
+            "feature": "dtr_4w_c",
+            "standardised": -1.2205,
+            "value": 4.9425
+          },
+          {
+            "coefficient": -0.09516,
+            "contribution": -0.097637,
+            "feature": "rh_4w_pct",
+            "standardised": 1.026,
+            "value": 87.1343
+          },
+          {
+            "coefficient": -0.068134,
+            "contribution": -0.075849,
+            "feature": "rain_1w_mm",
+            "standardised": 1.1132,
+            "value": 79.06
+          }
+        ]
+      }
+    },
+    {
+      "canonical_name": "Malkangiri",
+      "district_id": "OD-DIST-malkangiri",
+      "environment": {
+        "day_coverage": 0.9464,
+        "district_id": "OD-DIST-malkangiri",
+        "expected_days": 56,
+        "features": {
+          "dtr_4w_c": 4.7668,
+          "humid_days_4w": 21.0,
+          "longest_dry_run_4w_days": 1.0,
+          "rain_1w_mm": 53.5,
+          "rain_2w_mm": 89.02,
+          "rain_4w_anomaly_sd": 0.3248,
+          "rain_4w_mm": 368.65,
+          "rain_4w_x_t2m_4w": -501.6273,
+          "rain_8w_anomaly_sd": -0.2939,
+          "rain_8w_mm": 475.08,
+          "rh_4w_anomaly_sd": 0.195,
+          "rh_4w_pct": 86.2964,
+          "t2m_4w_anomaly_sd": -0.6823,
+          "t2m_4w_c": 25.6393,
+          "tmax_4w_c": 28.1986
+        },
+        "features_descriptive_only": [
+          "rain_8w_anomaly_sd",
+          "longest_dry_run_4w_days",
+          "humid_days_4w",
+          "tmax_4w_c",
+          "rain_4w_x_t2m_4w"
+        ],
+        "features_used_for_scoring": [
+          "rain_1w_mm",
+          "rain_2w_mm",
+          "rain_4w_mm",
+          "rain_8w_mm",
+          "rain_4w_anomaly_sd",
+          "t2m_4w_c",
+          "t2m_4w_anomaly_sd",
+          "rh_4w_pct",
+          "rh_4w_anomaly_sd",
+          "dtr_4w_c"
+        ],
+        "iso_week": 29,
+        "issue_week": "2026-07-13",
+        "observed_days": 53,
+        "parameter_day_coverage": {
+          "rain_mm": 0.9464,
+          "rh_pct": 1.0,
+          "t2m_c": 1.0,
+          "tmax_c": 1.0,
+          "tmin_c": 1.0
+        },
+        "reason_code": null,
+        "status": "observed",
+        "window_day_coverage": {
+          "all_parameters_common_4w": 1.0,
+          "rain_1w": 1.0,
+          "rain_2w": 1.0,
+          "rain_4w": 1.0,
+          "rain_8w": 0.9464,
+          "rh_4w": 1.0,
+          "t2m_4w": 1.0,
+          "tmax_4w": 1.0,
+          "tmin_4w": 1.0
+        },
+        "window_end": "2026-07-19"
+      },
+      "is_synthetic": false,
+      "reason_code": null,
+      "shares_climate_grid_cell_with": [],
+      "status": "observed",
+      "suitability": {
+        "band": "typical",
+        "district_id": "OD-DIST-malkangiri",
+        "environmental_linear_predictor": 0.086316,
+        "iso_week": 29,
+        "reason_code": null,
+        "reference_samples": 84,
+        "status": "scored",
+        "suitability_percentile": 61.12,
+        "top_drivers": [
+          {
+            "coefficient": 0.226941,
+            "contribution": 0.424266,
+            "feature": "rain_4w_mm",
+            "standardised": 1.8695,
+            "value": 368.65
+          },
+          {
+            "coefficient": 0.127838,
+            "contribution": -0.161259,
+            "feature": "dtr_4w_c",
+            "standardised": -1.2614,
+            "value": 4.7668
+          },
+          {
+            "coefficient": -0.09516,
+            "contribution": -0.09299,
+            "feature": "rh_4w_pct",
+            "standardised": 0.9772,
+            "value": 86.2964
+          },
+          {
+            "coefficient": 0.153792,
+            "contribution": -0.057044,
+            "feature": "t2m_4w_anomaly_sd",
+            "standardised": -0.3709,
+            "value": -0.6823
+          }
+        ]
+      }
+    },
+    {
+      "canonical_name": "Mayurbhanj",
+      "district_id": "OD-DIST-mayurbhanj",
+      "environment": {
+        "day_coverage": 0.9464,
+        "district_id": "OD-DIST-mayurbhanj",
+        "expected_days": 56,
+        "features": {
+          "dtr_4w_c": 6.8654,
+          "humid_days_4w": 19.0,
+          "longest_dry_run_4w_days": 0.0,
+          "rain_1w_mm": 167.98,
+          "rain_2w_mm": 234.42,
+          "rain_4w_anomaly_sd": 1.8502,
+          "rain_4w_mm": 438.1,
+          "rain_4w_x_t2m_4w": 274.5948,
+          "rain_8w_anomaly_sd": 0.6634,
+          "rain_8w_mm": 553.06,
+          "rh_4w_anomaly_sd": -0.8997,
+          "rh_4w_pct": 82.8875,
+          "t2m_4w_anomaly_sd": 1.4445,
+          "t2m_4w_c": 27.6268,
+          "tmax_4w_c": 31.6307
+        },
+        "features_descriptive_only": [
+          "rain_8w_anomaly_sd",
+          "longest_dry_run_4w_days",
+          "humid_days_4w",
+          "tmax_4w_c",
+          "rain_4w_x_t2m_4w"
+        ],
+        "features_used_for_scoring": [
+          "rain_1w_mm",
+          "rain_2w_mm",
+          "rain_4w_mm",
+          "rain_8w_mm",
+          "rain_4w_anomaly_sd",
+          "t2m_4w_c",
+          "t2m_4w_anomaly_sd",
+          "rh_4w_pct",
+          "rh_4w_anomaly_sd",
+          "dtr_4w_c"
+        ],
+        "iso_week": 29,
+        "issue_week": "2026-07-13",
+        "observed_days": 53,
+        "parameter_day_coverage": {
+          "rain_mm": 0.9464,
+          "rh_pct": 1.0,
+          "t2m_c": 1.0,
+          "tmax_c": 1.0,
+          "tmin_c": 1.0
+        },
+        "reason_code": null,
+        "status": "observed",
+        "window_day_coverage": {
+          "all_parameters_common_4w": 1.0,
+          "rain_1w": 1.0,
+          "rain_2w": 1.0,
+          "rain_4w": 1.0,
+          "rain_8w": 0.9464,
+          "rh_4w": 1.0,
+          "t2m_4w": 1.0,
+          "tmax_4w": 1.0,
+          "tmin_4w": 1.0
+        },
+        "window_end": "2026-07-19"
+      },
+      "is_synthetic": false,
+      "reason_code": null,
+      "shares_climate_grid_cell_with": [],
+      "status": "observed",
+      "suitability": {
+        "band": "much_above_typical",
+        "district_id": "OD-DIST-mayurbhanj",
+        "environmental_linear_predictor": 0.157884,
+        "iso_week": 29,
+        "reason_code": null,
+        "reference_samples": 84,
+        "status": "scored",
+        "suitability_percentile": 95.08,
+        "top_drivers": [
+          {
+            "coefficient": 0.226941,
+            "contribution": 0.542274,
+            "feature": "rain_4w_mm",
+            "standardised": 2.3895,
+            "value": 438.1
+          },
+          {
+            "coefficient": -0.068134,
+            "contribution": -0.212554,
+            "feature": "rain_1w_mm",
+            "standardised": 3.1196,
+            "value": 167.98
+          },
+          {
+            "coefficient": 0.153792,
+            "contribution": 0.164186,
+            "feature": "t2m_4w_anomaly_sd",
+            "standardised": 1.0676,
+            "value": 1.4445
+          },
+          {
+            "coefficient": -0.051387,
+            "contribution": -0.119573,
+            "feature": "rain_2w_mm",
+            "standardised": 2.3269,
+            "value": 234.42
+          }
+        ]
+      }
+    },
+    {
+      "canonical_name": "Nabarangpur",
+      "district_id": "OD-DIST-nabarangpur",
+      "environment": {
+        "day_coverage": 0.9464,
+        "district_id": "OD-DIST-nabarangpur",
+        "expected_days": 56,
+        "features": {
+          "dtr_4w_c": 5.5679,
+          "humid_days_4w": 21.0,
+          "longest_dry_run_4w_days": 2.0,
+          "rain_1w_mm": 89.35,
+          "rain_2w_mm": 119.44,
+          "rain_4w_anomaly_sd": 0.8216,
+          "rain_4w_mm": 448.4,
+          "rain_4w_x_t2m_4w": -665.874,
+          "rain_8w_anomaly_sd": 0.2036,
+          "rain_8w_mm": 549.03,
+          "rh_4w_anomaly_sd": 0.5691,
+          "rh_4w_pct": 84.9511,
+          "t2m_4w_anomaly_sd": -0.9276,
+          "t2m_4w_c": 25.515,
+          "tmax_4w_c": 28.6007
+        },
+        "features_descriptive_only": [
+          "rain_8w_anomaly_sd",
+          "longest_dry_run_4w_days",
+          "humid_days_4w",
+          "tmax_4w_c",
+          "rain_4w_x_t2m_4w"
+        ],
+        "features_used_for_scoring": [
+          "rain_1w_mm",
+          "rain_2w_mm",
+          "rain_4w_mm",
+          "rain_8w_mm",
+          "rain_4w_anomaly_sd",
+          "t2m_4w_c",
+          "t2m_4w_anomaly_sd",
+          "rh_4w_pct",
+          "rh_4w_anomaly_sd",
+          "dtr_4w_c"
+        ],
+        "iso_week": 29,
+        "issue_week": "2026-07-13",
+        "observed_days": 53,
+        "parameter_day_coverage": {
+          "rain_mm": 0.9464,
+          "rh_pct": 1.0,
+          "t2m_c": 1.0,
+          "tmax_c": 1.0,
+          "tmin_c": 1.0
+        },
+        "reason_code": null,
+        "status": "observed",
+        "window_day_coverage": {
+          "all_parameters_common_4w": 1.0,
+          "rain_1w": 1.0,
+          "rain_2w": 1.0,
+          "rain_4w": 1.0,
+          "rain_8w": 0.9464,
+          "rh_4w": 1.0,
+          "t2m_4w": 1.0,
+          "tmax_4w": 1.0,
+          "tmin_4w": 1.0
+        },
+        "window_end": "2026-07-19"
+      },
+      "is_synthetic": false,
+      "reason_code": null,
+      "shares_climate_grid_cell_with": [],
+      "status": "observed",
+      "suitability": {
+        "band": "typical",
+        "district_id": "OD-DIST-nabarangpur",
+        "environmental_linear_predictor": 0.174479,
+        "iso_week": 29,
+        "reason_code": null,
+        "reference_samples": 84,
+        "status": "scored",
+        "suitability_percentile": 74.73,
+        "top_drivers": [
+          {
+            "coefficient": 0.226941,
+            "contribution": 0.559776,
+            "feature": "rain_4w_mm",
+            "standardised": 2.4666,
+            "value": 448.4
+          },
+          {
+            "coefficient": 0.127838,
+            "contribution": -0.13739,
+            "feature": "dtr_4w_c",
+            "standardised": -1.0747,
+            "value": 5.5679
+          },
+          {
+            "coefficient": -0.068134,
+            "contribution": -0.091668,
+            "feature": "rain_1w_mm",
+            "standardised": 1.3454,
+            "value": 89.35
+          },
+          {
+            "coefficient": -0.09516,
+            "contribution": -0.08553,
+            "feature": "rh_4w_pct",
+            "standardised": 0.8988,
+            "value": 84.9511
+          }
+        ]
+      }
+    },
+    {
+      "canonical_name": "Nayagarh",
+      "district_id": "OD-DIST-nayagarh",
+      "environment": {
+        "day_coverage": 0.9464,
+        "district_id": "OD-DIST-nayagarh",
+        "expected_days": 56,
+        "features": {
+          "dtr_4w_c": 5.4664,
+          "humid_days_4w": 18.0,
+          "longest_dry_run_4w_days": 2.0,
+          "rain_1w_mm": 152.81,
+          "rain_2w_mm": 176.93,
+          "rain_4w_anomaly_sd": 0.8627,
+          "rain_4w_mm": 382.95,
+          "rain_4w_x_t2m_4w": 638.9794,
+          "rain_8w_anomaly_sd": 0.2369,
+          "rain_8w_mm": 467.63,
+          "rh_4w_anomaly_sd": -0.6735,
+          "rh_4w_pct": 80.8054,
+          "t2m_4w_anomaly_sd": 0.6134,
+          "t2m_4w_c": 28.6686,
+          "tmax_4w_c": 31.6857
+        },
+        "features_descriptive_only": [
+          "rain_8w_anomaly_sd",
+          "longest_dry_run_4w_days",
+          "humid_days_4w",
+          "tmax_4w_c",
+          "rain_4w_x_t2m_4w"
+        ],
+        "features_used_for_scoring": [
+          "rain_1w_mm",
+          "rain_2w_mm",
+          "rain_4w_mm",
+          "rain_8w_mm",
+          "rain_4w_anomaly_sd",
+          "t2m_4w_c",
+          "t2m_4w_anomaly_sd",
+          "rh_4w_pct",
+          "rh_4w_anomaly_sd",
+          "dtr_4w_c"
+        ],
+        "iso_week": 29,
+        "issue_week": "2026-07-13",
+        "observed_days": 53,
+        "parameter_day_coverage": {
+          "rain_mm": 0.9464,
+          "rh_pct": 1.0,
+          "t2m_c": 1.0,
+          "tmax_c": 1.0,
+          "tmin_c": 1.0
+        },
+        "reason_code": null,
+        "status": "observed",
+        "window_day_coverage": {
+          "all_parameters_common_4w": 1.0,
+          "rain_1w": 1.0,
+          "rain_2w": 1.0,
+          "rain_4w": 1.0,
+          "rain_8w": 0.9464,
+          "rh_4w": 1.0,
+          "t2m_4w": 1.0,
+          "tmax_4w": 1.0,
+          "tmin_4w": 1.0
+        },
+        "window_end": "2026-07-19"
+      },
+      "is_synthetic": false,
+      "reason_code": null,
+      "shares_climate_grid_cell_with": [],
+      "status": "observed",
+      "suitability": {
+        "band": "typical",
+        "district_id": "OD-DIST-nayagarh",
+        "environmental_linear_predictor": 0.019203,
+        "iso_week": 29,
+        "reason_code": null,
+        "reference_samples": 84,
+        "status": "scored",
+        "suitability_percentile": 68.42,
+        "top_drivers": [
+          {
+            "coefficient": 0.226941,
+            "contribution": 0.448564,
+            "feature": "rain_4w_mm",
+            "standardised": 1.9766,
+            "value": 382.95
+          },
+          {
+            "coefficient": -0.068134,
+            "contribution": -0.189232,
+            "feature": "rain_1w_mm",
+            "standardised": 2.7773,
+            "value": 152.81
+          },
+          {
+            "coefficient": 0.127838,
+            "contribution": -0.140413,
+            "feature": "dtr_4w_c",
+            "standardised": -1.0984,
+            "value": 5.4664
+          },
+          {
+            "coefficient": -0.051387,
+            "contribution": -0.080288,
+            "feature": "rain_2w_mm",
+            "standardised": 1.5624,
+            "value": 176.93
+          }
+        ]
+      }
+    },
+    {
+      "canonical_name": "Nuapada",
+      "district_id": "OD-DIST-nuapada",
+      "environment": {
+        "day_coverage": 0.9464,
+        "district_id": "OD-DIST-nuapada",
+        "expected_days": 56,
+        "features": {
+          "dtr_4w_c": 6.1464,
+          "humid_days_4w": 14.0,
+          "longest_dry_run_4w_days": 2.0,
+          "rain_1w_mm": 72.88,
+          "rain_2w_mm": 118.69,
+          "rain_4w_anomaly_sd": -0.5892,
+          "rain_4w_mm": 301.7,
+          "rain_4w_x_t2m_4w": 116.1545,
+          "rain_8w_anomaly_sd": -1.4976,
+          "rain_8w_mm": 371.88,
+          "rh_4w_anomaly_sd": -0.4271,
+          "rh_4w_pct": 79.7675,
+          "t2m_4w_anomaly_sd": 0.5244,
+          "t2m_4w_c": 27.385,
+          "tmax_4w_c": 30.7
+        },
+        "features_descriptive_only": [
+          "rain_8w_anomaly_sd",
+          "longest_dry_run_4w_days",
+          "humid_days_4w",
+          "tmax_4w_c",
+          "rain_4w_x_t2m_4w"
+        ],
+        "features_used_for_scoring": [
+          "rain_1w_mm",
+          "rain_2w_mm",
+          "rain_4w_mm",
+          "rain_8w_mm",
+          "rain_4w_anomaly_sd",
+          "t2m_4w_c",
+          "t2m_4w_anomaly_sd",
+          "rh_4w_pct",
+          "rh_4w_anomaly_sd",
+          "dtr_4w_c"
+        ],
+        "iso_week": 29,
+        "issue_week": "2026-07-13",
+        "observed_days": 53,
+        "parameter_day_coverage": {
+          "rain_mm": 0.9464,
+          "rh_pct": 1.0,
+          "t2m_c": 1.0,
+          "tmax_c": 1.0,
+          "tmin_c": 1.0
+        },
+        "reason_code": null,
+        "status": "observed",
+        "window_day_coverage": {
+          "all_parameters_common_4w": 1.0,
+          "rain_1w": 1.0,
+          "rain_2w": 1.0,
+          "rain_4w": 1.0,
+          "rain_8w": 0.9464,
+          "rh_4w": 1.0,
+          "t2m_4w": 1.0,
+          "tmax_4w": 1.0,
+          "tmin_4w": 1.0
+        },
+        "window_end": "2026-07-19"
+      },
+      "is_synthetic": false,
+      "reason_code": null,
+      "shares_climate_grid_cell_with": [],
+      "status": "observed",
+      "suitability": {
+        "band": "typical",
+        "district_id": "OD-DIST-nuapada",
+        "environmental_linear_predictor": 0.08396,
+        "iso_week": 29,
+        "reason_code": null,
+        "reference_samples": 84,
+        "status": "scored",
+        "suitability_percentile": 55.58,
+        "top_drivers": [
+          {
+            "coefficient": 0.226941,
+            "contribution": 0.310506,
+            "feature": "rain_4w_mm",
+            "standardised": 1.3682,
+            "value": 301.7
+          },
+          {
+            "coefficient": 0.127838,
+            "contribution": -0.120151,
+            "feature": "dtr_4w_c",
+            "standardised": -0.9399,
+            "value": 6.1464
+          },
+          {
+            "coefficient": 0.153792,
+            "contribution": 0.068475,
+            "feature": "t2m_4w_anomaly_sd",
+            "standardised": 0.4452,
+            "value": 0.5244
+          },
+          {
+            "coefficient": -0.068134,
+            "contribution": -0.066347,
+            "feature": "rain_1w_mm",
+            "standardised": 0.9738,
+            "value": 72.88
+          }
+        ]
+      }
+    },
+    {
+      "canonical_name": "Puri",
+      "district_id": "OD-DIST-puri",
+      "environment": {
+        "day_coverage": 0.9464,
+        "district_id": "OD-DIST-puri",
+        "expected_days": 56,
+        "features": {
+          "dtr_4w_c": 4.3046,
+          "humid_days_4w": 17.0,
+          "longest_dry_run_4w_days": 2.0,
+          "rain_1w_mm": 173.17,
+          "rain_2w_mm": 196.56,
+          "rain_4w_anomaly_sd": 0.988,
+          "rain_4w_mm": 428.82,
+          "rain_4w_x_t2m_4w": 876.3243,
+          "rain_8w_anomaly_sd": 0.5273,
+          "rain_8w_mm": 524.15,
+          "rh_4w_anomaly_sd": -0.5345,
+          "rh_4w_pct": 82.8868,
+          "t2m_4w_anomaly_sd": 0.6823,
+          "t2m_4w_c": 29.0436,
+          "tmax_4w_c": 31.4896
+        },
+        "features_descriptive_only": [
+          "rain_8w_anomaly_sd",
+          "longest_dry_run_4w_days",
+          "humid_days_4w",
+          "tmax_4w_c",
+          "rain_4w_x_t2m_4w"
+        ],
+        "features_used_for_scoring": [
+          "rain_1w_mm",
+          "rain_2w_mm",
+          "rain_4w_mm",
+          "rain_8w_mm",
+          "rain_4w_anomaly_sd",
+          "t2m_4w_c",
+          "t2m_4w_anomaly_sd",
+          "rh_4w_pct",
+          "rh_4w_anomaly_sd",
+          "dtr_4w_c"
+        ],
+        "iso_week": 29,
+        "issue_week": "2026-07-13",
+        "observed_days": 53,
+        "parameter_day_coverage": {
+          "rain_mm": 0.9464,
+          "rh_pct": 1.0,
+          "t2m_c": 1.0,
+          "tmax_c": 1.0,
+          "tmin_c": 1.0
+        },
+        "reason_code": null,
+        "status": "observed",
+        "window_day_coverage": {
+          "all_parameters_common_4w": 1.0,
+          "rain_1w": 1.0,
+          "rain_2w": 1.0,
+          "rain_4w": 1.0,
+          "rain_8w": 0.9464,
+          "rh_4w": 1.0,
+          "t2m_4w": 1.0,
+          "tmax_4w": 1.0,
+          "tmin_4w": 1.0
+        },
+        "window_end": "2026-07-19"
+      },
+      "is_synthetic": false,
+      "reason_code": null,
+      "shares_climate_grid_cell_with": [
+        "OD-DIST-khordha"
+      ],
+      "status": "observed",
+      "suitability": {
+        "band": "elevated",
+        "district_id": "OD-DIST-puri",
+        "environmental_linear_predictor": 0.023639,
+        "iso_week": 29,
+        "reason_code": null,
+        "reference_samples": 84,
+        "status": "scored",
+        "suitability_percentile": 82.1,
+        "top_drivers": [
+          {
+            "coefficient": 0.226941,
+            "contribution": 0.526506,
+            "feature": "rain_4w_mm",
+            "standardised": 2.32,
+            "value": 428.82
+          },
+          {
+            "coefficient": -0.068134,
+            "contribution": -0.220533,
+            "feature": "rain_1w_mm",
+            "standardised": 3.2367,
+            "value": 173.17
+          },
+          {
+            "coefficient": 0.127838,
+            "contribution": -0.17503,
+            "feature": "dtr_4w_c",
+            "standardised": -1.3692,
+            "value": 4.3046
+          },
+          {
+            "coefficient": -0.051387,
+            "contribution": -0.093702,
+            "feature": "rain_2w_mm",
+            "standardised": 1.8234,
+            "value": 196.56
+          }
+        ]
+      }
+    },
+    {
+      "canonical_name": "Rayagada",
+      "district_id": "OD-DIST-rayagada",
+      "environment": {
+        "day_coverage": 0.9464,
+        "district_id": "OD-DIST-rayagada",
+        "expected_days": 56,
+        "features": {
+          "dtr_4w_c": 5.8218,
+          "humid_days_4w": 17.0,
+          "longest_dry_run_4w_days": 3.0,
+          "rain_1w_mm": 96.96,
+          "rain_2w_mm": 123.02,
+          "rain_4w_anomaly_sd": 1.1996,
+          "rain_4w_mm": 382.26,
+          "rain_4w_x_t2m_4w": -162.324,
+          "rain_8w_anomaly_sd": 0.4627,
+          "rain_8w_mm": 459.29,
+          "rh_4w_anomaly_sd": -0.4629,
+          "rh_4w_pct": 82.49,
+          "t2m_4w_anomaly_sd": 0.7065,
+          "t2m_4w_c": 26.5754,
+          "tmax_4w_c": 29.7186
+        },
+        "features_descriptive_only": [
+          "rain_8w_anomaly_sd",
+          "longest_dry_run_4w_days",
+          "humid_days_4w",
+          "tmax_4w_c",
+          "rain_4w_x_t2m_4w"
+        ],
+        "features_used_for_scoring": [
+          "rain_1w_mm",
+          "rain_2w_mm",
+          "rain_4w_mm",
+          "rain_8w_mm",
+          "rain_4w_anomaly_sd",
+          "t2m_4w_c",
+          "t2m_4w_anomaly_sd",
+          "rh_4w_pct",
+          "rh_4w_anomaly_sd",
+          "dtr_4w_c"
+        ],
+        "iso_week": 29,
+        "issue_week": "2026-07-13",
+        "observed_days": 53,
+        "parameter_day_coverage": {
+          "rain_mm": 0.9464,
+          "rh_pct": 1.0,
+          "t2m_c": 1.0,
+          "tmax_c": 1.0,
+          "tmin_c": 1.0
+        },
+        "reason_code": null,
+        "status": "observed",
+        "window_day_coverage": {
+          "all_parameters_common_4w": 1.0,
+          "rain_1w": 1.0,
+          "rain_2w": 1.0,
+          "rain_4w": 1.0,
+          "rain_8w": 0.9464,
+          "rh_4w": 1.0,
+          "t2m_4w": 1.0,
+          "tmax_4w": 1.0,
+          "tmin_4w": 1.0
+        },
+        "window_end": "2026-07-19"
+      },
+      "is_synthetic": false,
+      "reason_code": null,
+      "shares_climate_grid_cell_with": [],
+      "status": "observed",
+      "suitability": {
+        "band": "elevated",
+        "district_id": "OD-DIST-rayagada",
+        "environmental_linear_predictor": 0.167312,
+        "iso_week": 29,
+        "reason_code": null,
+        "reference_samples": 84,
+        "status": "scored",
+        "suitability_percentile": 88.52,
+        "top_drivers": [
+          {
+            "coefficient": 0.226941,
+            "contribution": 0.447392,
+            "feature": "rain_4w_mm",
+            "standardised": 1.9714,
+            "value": 382.26
+          },
+          {
+            "coefficient": 0.127838,
+            "contribution": -0.129824,
+            "feature": "dtr_4w_c",
+            "standardised": -1.0155,
+            "value": 5.8218
+          },
+          {
+            "coefficient": -0.068134,
+            "contribution": -0.103368,
+            "feature": "rain_1w_mm",
+            "standardised": 1.5171,
+            "value": 96.96
+          },
+          {
+            "coefficient": 0.153792,
+            "contribution": 0.087418,
+            "feature": "t2m_4w_anomaly_sd",
+            "standardised": 0.5684,
+            "value": 0.7065
+          }
+        ]
+      }
+    },
+    {
+      "canonical_name": "Sambalpur",
+      "district_id": "OD-DIST-sambalpur",
+      "environment": {
+        "day_coverage": 0.9464,
+        "district_id": "OD-DIST-sambalpur",
+        "expected_days": 56,
+        "features": {
+          "dtr_4w_c": 6.6518,
+          "humid_days_4w": 14.0,
+          "longest_dry_run_4w_days": 2.0,
+          "rain_1w_mm": 106.41,
+          "rain_2w_mm": 241.05,
+          "rain_4w_anomaly_sd": 0.9326,
+          "rain_4w_mm": 416.25,
+          "rain_4w_x_t2m_4w": 700.6379,
+          "rain_8w_anomaly_sd": 0.1508,
+          "rain_8w_mm": 502.96,
+          "rh_4w_anomaly_sd": -1.0621,
+          "rh_4w_pct": 78.8954,
+          "t2m_4w_anomaly_sd": 0.9749,
+          "t2m_4w_c": 28.6832,
+          "tmax_4w_c": 32.2007
+        },
+        "features_descriptive_only": [
+          "rain_8w_anomaly_sd",
+          "longest_dry_run_4w_days",
+          "humid_days_4w",
+          "tmax_4w_c",
+          "rain_4w_x_t2m_4w"
+        ],
+        "features_used_for_scoring": [
+          "rain_1w_mm",
+          "rain_2w_mm",
+          "rain_4w_mm",
+          "rain_8w_mm",
+          "rain_4w_anomaly_sd",
+          "t2m_4w_c",
+          "t2m_4w_anomaly_sd",
+          "rh_4w_pct",
+          "rh_4w_anomaly_sd",
+          "dtr_4w_c"
+        ],
+        "iso_week": 29,
+        "issue_week": "2026-07-13",
+        "observed_days": 53,
+        "parameter_day_coverage": {
+          "rain_mm": 0.9464,
+          "rh_pct": 1.0,
+          "t2m_c": 1.0,
+          "tmax_c": 1.0,
+          "tmin_c": 1.0
+        },
+        "reason_code": null,
+        "status": "observed",
+        "window_day_coverage": {
+          "all_parameters_common_4w": 1.0,
+          "rain_1w": 1.0,
+          "rain_2w": 1.0,
+          "rain_4w": 1.0,
+          "rain_8w": 0.9464,
+          "rh_4w": 1.0,
+          "t2m_4w": 1.0,
+          "tmax_4w": 1.0,
+          "tmin_4w": 1.0
+        },
+        "window_end": "2026-07-19"
+      },
+      "is_synthetic": false,
+      "reason_code": null,
+      "shares_climate_grid_cell_with": [],
+      "status": "observed",
+      "suitability": {
+        "band": "much_above_typical",
+        "district_id": "OD-DIST-sambalpur",
+        "environmental_linear_predictor": 0.169001,
+        "iso_week": 29,
+        "reason_code": null,
+        "reference_samples": 84,
+        "status": "scored",
+        "suitability_percentile": 92.07,
+        "top_drivers": [
+          {
+            "coefficient": 0.226941,
+            "contribution": 0.505147,
+            "feature": "rain_4w_mm",
+            "standardised": 2.2259,
+            "value": 416.25
+          },
+          {
+            "coefficient": -0.051387,
+            "contribution": -0.124103,
+            "feature": "rain_2w_mm",
+            "standardised": 2.4151,
+            "value": 241.05
+          },
+          {
+            "coefficient": -0.068134,
+            "contribution": -0.117896,
+            "feature": "rain_1w_mm",
+            "standardised": 1.7304,
+            "value": 106.41
+          },
+          {
+            "coefficient": 0.153792,
+            "contribution": 0.115332,
+            "feature": "t2m_4w_anomaly_sd",
+            "standardised": 0.7499,
+            "value": 0.9749
+          }
+        ]
+      }
+    },
+    {
+      "canonical_name": "Subarnapur",
+      "district_id": "OD-DIST-subarnapur",
+      "environment": {
+        "day_coverage": 0.9464,
+        "district_id": "OD-DIST-subarnapur",
+        "expected_days": 56,
+        "features": {
+          "dtr_4w_c": 6.7707,
+          "humid_days_4w": 14.0,
+          "longest_dry_run_4w_days": 2.0,
+          "rain_1w_mm": 86.69,
+          "rain_2w_mm": 182.05,
+          "rain_4w_anomaly_sd": 0.3979,
+          "rain_4w_mm": 368.46,
+          "rain_4w_x_t2m_4w": 702.0479,
+          "rain_8w_anomaly_sd": -0.437,
+          "rain_8w_mm": 443.18,
+          "rh_4w_anomaly_sd": -0.9717,
+          "rh_4w_pct": 77.0568,
+          "t2m_4w_anomaly_sd": 0.5639,
+          "t2m_4w_c": 28.9054,
+          "tmax_4w_c": 32.5218
+        },
+        "features_descriptive_only": [
+          "rain_8w_anomaly_sd",
+          "longest_dry_run_4w_days",
+          "humid_days_4w",
+          "tmax_4w_c",
+          "rain_4w_x_t2m_4w"
+        ],
+        "features_used_for_scoring": [
+          "rain_1w_mm",
+          "rain_2w_mm",
+          "rain_4w_mm",
+          "rain_8w_mm",
+          "rain_4w_anomaly_sd",
+          "t2m_4w_c",
+          "t2m_4w_anomaly_sd",
+          "rh_4w_pct",
+          "rh_4w_anomaly_sd",
+          "dtr_4w_c"
+        ],
+        "iso_week": 29,
+        "issue_week": "2026-07-13",
+        "observed_days": 53,
+        "parameter_day_coverage": {
+          "rain_mm": 0.9464,
+          "rh_pct": 1.0,
+          "t2m_c": 1.0,
+          "tmax_c": 1.0,
+          "tmin_c": 1.0
+        },
+        "reason_code": null,
+        "status": "observed",
+        "window_day_coverage": {
+          "all_parameters_common_4w": 1.0,
+          "rain_1w": 1.0,
+          "rain_2w": 1.0,
+          "rain_4w": 1.0,
+          "rain_8w": 0.9464,
+          "rh_4w": 1.0,
+          "t2m_4w": 1.0,
+          "tmax_4w": 1.0,
+          "tmin_4w": 1.0
+        },
+        "window_end": "2026-07-19"
+      },
+      "is_synthetic": false,
+      "reason_code": null,
+      "shares_climate_grid_cell_with": [],
+      "status": "observed",
+      "suitability": {
+        "band": "typical",
+        "district_id": "OD-DIST-subarnapur",
+        "environmental_linear_predictor": 0.13267,
+        "iso_week": 29,
+        "reason_code": null,
+        "reference_samples": 84,
+        "status": "scored",
+        "suitability_percentile": 73.89,
+        "top_drivers": [
+          {
+            "coefficient": 0.226941,
+            "contribution": 0.423943,
+            "feature": "rain_4w_mm",
+            "standardised": 1.8681,
+            "value": 368.46
+          },
+          {
+            "coefficient": 0.127838,
+            "contribution": -0.10155,
+            "feature": "dtr_4w_c",
+            "standardised": -0.7944,
+            "value": 6.7707
+          },
+          {
+            "coefficient": -0.068134,
+            "contribution": -0.087579,
+            "feature": "rain_1w_mm",
+            "standardised": 1.2854,
+            "value": 86.69
+          },
+          {
+            "coefficient": -0.051387,
+            "contribution": -0.083786,
+            "feature": "rain_2w_mm",
+            "standardised": 1.6305,
+            "value": 182.05
+          }
+        ]
+      }
+    },
+    {
+      "canonical_name": "Sundargarh",
+      "district_id": "OD-DIST-sundargarh",
+      "environment": {
+        "day_coverage": 0.9464,
+        "district_id": "OD-DIST-sundargarh",
+        "expected_days": 56,
+        "features": {
+          "dtr_4w_c": 6.8586,
+          "humid_days_4w": 17.0,
+          "longest_dry_run_4w_days": 0.0,
+          "rain_1w_mm": 107.99,
+          "rain_2w_mm": 223.71,
+          "rain_4w_anomaly_sd": 0.8964,
+          "rain_4w_mm": 390.43,
+          "rain_4w_x_t2m_4w": 321.4076,
+          "rain_8w_anomaly_sd": 0.27,
+          "rain_8w_mm": 502.37,
+          "rh_4w_anomaly_sd": -0.823,
+          "rh_4w_pct": 81.3879,
+          "t2m_4w_anomaly_sd": 1.0352,
+          "t2m_4w_c": 27.8232,
+          "tmax_4w_c": 31.6636
+        },
+        "features_descriptive_only": [
+          "rain_8w_anomaly_sd",
+          "longest_dry_run_4w_days",
+          "humid_days_4w",
+          "tmax_4w_c",
+          "rain_4w_x_t2m_4w"
+        ],
+        "features_used_for_scoring": [
+          "rain_1w_mm",
+          "rain_2w_mm",
+          "rain_4w_mm",
+          "rain_8w_mm",
+          "rain_4w_anomaly_sd",
+          "t2m_4w_c",
+          "t2m_4w_anomaly_sd",
+          "rh_4w_pct",
+          "rh_4w_anomaly_sd",
+          "dtr_4w_c"
+        ],
+        "iso_week": 29,
+        "issue_week": "2026-07-13",
+        "observed_days": 53,
+        "parameter_day_coverage": {
+          "rain_mm": 0.9464,
+          "rh_pct": 1.0,
+          "t2m_c": 1.0,
+          "tmax_c": 1.0,
+          "tmin_c": 1.0
+        },
+        "reason_code": null,
+        "status": "observed",
+        "window_day_coverage": {
+          "all_parameters_common_4w": 1.0,
+          "rain_1w": 1.0,
+          "rain_2w": 1.0,
+          "rain_4w": 1.0,
+          "rain_8w": 0.9464,
+          "rh_4w": 1.0,
+          "t2m_4w": 1.0,
+          "tmax_4w": 1.0,
+          "tmin_4w": 1.0
+        },
+        "window_end": "2026-07-19"
+      },
+      "is_synthetic": false,
+      "reason_code": null,
+      "shares_climate_grid_cell_with": [],
+      "status": "observed",
+      "suitability": {
+        "band": "much_above_typical",
+        "district_id": "OD-DIST-sundargarh",
+        "environmental_linear_predictor": 0.149711,
+        "iso_week": 29,
+        "reason_code": null,
+        "reference_samples": 84,
+        "status": "scored",
+        "suitability_percentile": 91.89,
+        "top_drivers": [
+          {
+            "coefficient": 0.226941,
+            "contribution": 0.461274,
+            "feature": "rain_4w_mm",
+            "standardised": 2.0326,
+            "value": 390.43
+          },
+          {
+            "coefficient": 0.153792,
+            "contribution": 0.12161,
+            "feature": "t2m_4w_anomaly_sd",
+            "standardised": 0.7907,
+            "value": 1.0352
+          },
+          {
+            "coefficient": -0.068134,
+            "contribution": -0.120326,
+            "feature": "rain_1w_mm",
+            "standardised": 1.766,
+            "value": 107.99
+          },
+          {
+            "coefficient": -0.051387,
+            "contribution": -0.112254,
+            "feature": "rain_2w_mm",
+            "standardised": 2.1845,
+            "value": 223.71
+          }
+        ]
+      }
+    }
+  ],
+  "generated_at": "2026-07-22T06:57:35.344379Z",
+  "is_synthetic": false,
+  "layer_version": "current-environmental-conditions-1.0.0",
+  "quantity": {
+    "is_case_count": false,
+    "is_forecast": false,
+    "is_incidence": false,
+    "is_outbreak_probability": false,
+    "kind": "experimental_environmental_feature_index_percentile",
+    "statement": "Experimental percentile of a district's current environmental feature index within its own 2009-2022 history for the same part of the calendar. The weak weights come from an association with EpiClim file-row occurrence and have not demonstrated disease-prediction value. It describes weather context, not transmission suitability, outbreak risk, incidence or case counts."
+  },
+  "ranking_most_unusual_conditions": [
+    {
+      "band": "much_above_typical",
+      "canonical_name": "Kandhamal",
+      "district_id": "OD-DIST-kandhamal",
+      "suitability_percentile": 98.97
+    },
+    {
+      "band": "much_above_typical",
+      "canonical_name": "Kalahandi",
+      "district_id": "OD-DIST-kalahandi",
+      "suitability_percentile": 96.08
+    },
+    {
+      "band": "much_above_typical",
+      "canonical_name": "Boudh",
+      "district_id": "OD-DIST-boudh",
+      "suitability_percentile": 95.62
+    },
+    {
+      "band": "much_above_typical",
+      "canonical_name": "Deogarh",
+      "district_id": "OD-DIST-deogarh",
+      "suitability_percentile": 95.23
+    },
+    {
+      "band": "much_above_typical",
+      "canonical_name": "Mayurbhanj",
+      "district_id": "OD-DIST-mayurbhanj",
+      "suitability_percentile": 95.08
+    },
+    {
+      "band": "much_above_typical",
+      "canonical_name": "Keonjhar",
+      "district_id": "OD-DIST-keonjhar",
+      "suitability_percentile": 92.45
+    },
+    {
+      "band": "much_above_typical",
+      "canonical_name": "Sambalpur",
+      "district_id": "OD-DIST-sambalpur",
+      "suitability_percentile": 92.07
+    },
+    {
+      "band": "much_above_typical",
+      "canonical_name": "Sundargarh",
+      "district_id": "OD-DIST-sundargarh",
+      "suitability_percentile": 91.89
+    },
+    {
+      "band": "much_above_typical",
+      "canonical_name": "Angul",
+      "district_id": "OD-DIST-angul",
+      "suitability_percentile": 91.73
+    },
+    {
+      "band": "elevated",
+      "canonical_name": "Balangir",
+      "district_id": "OD-DIST-balangir",
+      "suitability_percentile": 89.48
+    }
+  ],
+  "schema_version": "1.0.0",
+  "sources": {
+    "climate": {
+      "access": "keyless public API",
+      "distinct_grid_cells": 29,
+      "districts": 30,
+      "districts_sharing_a_grid_cell": [
+        "OD-DIST-khordha",
+        "OD-DIST-puri"
+      ],
+      "grid_degrees": [
+        0.5,
+        0.625
+      ],
+      "grid_note": "Districts sharing a provider grid cell receive identical climate values. That is the resolution of the reanalysis, not a duplicated record.",
+      "product": "daily_point_v2_near_real_time",
+      "provider": "NASA POWER"
+    },
+    "meteorology": {
+      "blocked_surfaces": [],
+      "failures": [],
+      "products": [],
+      "provider": "India Meteorological Department"
+    },
+    "suitability_model": {
+      "fitted_against": {
+        "catalogue_sha256": "7348076420202f8146ec2d36f36423cebd31af3cfbb8784e8c01e84b8ce0fb31",
+        "disease_group": "any_reported_outbreak",
+        "districts": 30,
+        "event_rate": 0.015935,
+        "events": 294,
+        "panel_end": "2022-12-31",
+        "panel_start": "2009-01-01",
+        "rows": 18450,
+        "target_kind": "experimental_epiclim_catalogue_row_occurrence",
+        "target_statement": "Experimental retrospective probability that the frozen EpiClim file contains at least one row dated in this district-week. EpiClim is incomplete and positive-only: zero means no matching row in this file, not no official publication and not no disease. This is not incidence, not a case count, not an official-report probability and not an operational outbreak forecast."
+      },
+      "generated_at": "2026-07-22T06:57:27.733523Z",
+      "model_version": "experimental-environmental-feature-index-1.0.0"
+    }
+  },
+  "uses_real_odisha_data": true,
+  "warnings": [
+    "This layer describes observed weather, not disease. It carries no case counts, no incidence and no outbreak probability. A high environmental feature-index percentile means the weak fitted weather index is unusual for this time of year by the standard of the district's own 2009-2022 record; it does not establish transmission suitability or mean an outbreak is expected.",
+    "NASA POWER is a coarse global reanalysis sampled at one representative interior point per district. It is environmental context, not a district-average exposure.",
+    "IMD warning colours and hazard codes are IMD's own official meteorological products, reproduced verbatim. They are weather warnings, not health warnings.",
+    "This scalar describes weather, not disease.",
+    "The historical association it encodes is weak, and that is measured rather than asserted. A three-way ablation on identical rows, origins and baselines (data/forecasting/environment_block_ablation.json) found that removing the environmental block entirely moves the pooled Brier score by order 1e-05 against a Brier of order 1e-02, in both directions depending on horizon. Substantially all of the catalogue-row model's measured skill comes from seasonal climatology and row history, not from weather.",
+    "So a high percentile means this weak fitted weather index is unusual for the season in this district. It does not mean an outbreak is expected and must never be rendered as disease risk or transmission suitability."
+  ]
+}

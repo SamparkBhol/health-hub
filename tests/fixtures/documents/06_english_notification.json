@@ -1,0 +1,10 @@
+{
+  "fixture_schema": "1.0",
+  "fixture_kind": "synthetic",
+  "watermark": "SYNTHETIC TEST FIXTURE — NOT A REAL NHM NOTICE",
+  "media_type": "text/html",
+  "source_id": "synthetic_english_notice",
+  "source_language_hint": "en",
+  "body": "<html><body><p>This is synthetic test data. Malaria cases were reported in Koraput district.</p></body></html>",
+  "expected": {"language": "en", "assertion": "affirmed", "diseases": ["malaria"], "district_ids": ["OD-DIST-koraput"], "eligible": true}
+}

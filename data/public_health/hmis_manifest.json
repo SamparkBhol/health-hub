@@ -1,0 +1,875 @@
+{
+  "schema_version": "1.0.0",
+  "retrieved_at": "2026-07-22T09:19:48.345792Z",
+  "publisher": "Open Government Data Platform India / Odisha HMIS",
+  "scope": "Monthly facility-reported test and service records; provisional; not deduplicated people or population incidence",
+  "row_count": 2880,
+  "district_count": 30,
+  "resources": [
+    {
+      "fiscal_year": "2012-13",
+      "month": 4,
+      "source_url": "https://www.data.gov.in/sites/default/files/dataurl21122020/hmis-item-2012-13-mn-od-for-Apr.csv",
+      "resource_url": "https://www.data.gov.in/resource/item-wise-hmis-report-district-level-odisha-april-2012-13",
+      "sha256": "bd14d20c2747c57b1d0a1d7fe474be54ba1d111b00de90d711329260c7195997",
+      "byte_length": 110317,
+      "district_rows": 30
+    },
+    {
+      "fiscal_year": "2012-13",
+      "month": 5,
+      "source_url": "https://www.data.gov.in/sites/default/files/dataurl21122020/hmis-item-2012-13-mn-od-for-May.csv",
+      "resource_url": "https://www.data.gov.in/resource/item-wise-hmis-report-district-level-odisha-may-2012-13",
+      "sha256": "cded25f3aeec2824a010dce0577b7d03b0a191bac62ebdb34571648ebedfe7dc",
+      "byte_length": 111103,
+      "district_rows": 30
+    },
+    {
+      "fiscal_year": "2012-13",
+      "month": 6,
+      "source_url": "https://www.data.gov.in/sites/default/files/dataurl21122020/hmis-item-2012-13-mn-od-for-Jun.csv",
+      "resource_url": "https://www.data.gov.in/resource/item-wise-hmis-report-district-level-odisha-june-2012-13",
+      "sha256": "7e5f4632d719e33d54e88201f717593bddf3df67edb9089fa8850b8ec9b1ae1b",
+      "byte_length": 110177,
+      "district_rows": 30
+    },
+    {
+      "fiscal_year": "2012-13",
+      "month": 7,
+      "source_url": "https://www.data.gov.in/sites/default/files/dataurl21122020/hmis-item-2012-13-mn-od-for-Jul.csv",
+      "resource_url": "https://www.data.gov.in/resource/item-wise-hmis-report-district-level-odisha-july-2012-13",
+      "sha256": "7bdeae9f1132a04d901cf7a2830b791ebef958d4498c5953dab36c81902a7317",
+      "byte_length": 110753,
+      "district_rows": 30
+    },
+    {
+      "fiscal_year": "2012-13",
+      "month": 8,
+      "source_url": "https://www.data.gov.in/sites/default/files/dataurl21122020/hmis-item-2012-13-mn-od-for-Aug.csv",
+      "resource_url": "https://www.data.gov.in/resource/item-wise-hmis-report-district-level-odisha-august-2012-13",
+      "sha256": "e58a7969fa51adf55c44a02938f825ad2bdc8c5914f9ab06b3111776633f40f2",
+      "byte_length": 110795,
+      "district_rows": 30
+    },
+    {
+      "fiscal_year": "2012-13",
+      "month": 9,
+      "source_url": "https://www.data.gov.in/sites/default/files/dataurl21122020/hmis-item-2012-13-mn-od-for-Sep.csv",
+      "resource_url": "https://www.data.gov.in/resource/item-wise-hmis-report-district-level-odisha-september-2012-13",
+      "sha256": "44f003200b30030b7b5c3e8e5e68f359b13f57c8d2c9515307a13d0bb7901209",
+      "byte_length": 110437,
+      "district_rows": 30
+    },
+    {
+      "fiscal_year": "2012-13",
+      "month": 10,
+      "source_url": "https://www.data.gov.in/sites/default/files/dataurl21122020/hmis-item-2012-13-mn-od-for-Oct.csv",
+      "resource_url": "https://www.data.gov.in/resource/item-wise-hmis-report-district-level-odisha-october-2012-13",
+      "sha256": "d4aaa63f99b86716e3e4f631e4b33d9c7e35cc8e64527b300023a7a86ef410ff",
+      "byte_length": 109670,
+      "district_rows": 30
+    },
+    {
+      "fiscal_year": "2012-13",
+      "month": 11,
+      "source_url": "https://www.data.gov.in/sites/default/files/dataurl21122020/hmis-item-2012-13-mn-od-for-Nov.csv",
+      "resource_url": "https://www.data.gov.in/resource/item-wise-hmis-report-district-level-odisha-november-2012-13",
+      "sha256": "8f39199e338e03aacf3726e6f4e3c207467a65fc88f57ed7317528ea8ccbbac8",
+      "byte_length": 110197,
+      "district_rows": 30
+    },
+    {
+      "fiscal_year": "2012-13",
+      "month": 12,
+      "source_url": "https://www.data.gov.in/sites/default/files/dataurl21122020/hmis-item-2012-13-mn-od-for-Dec.csv",
+      "resource_url": "https://www.data.gov.in/resource/item-wise-hmis-report-district-level-odisha-december-2012-13",
+      "sha256": "ce2735e032b2efcc1956baff7ada2390f940c4789d581a27ba358f5b57557562",
+      "byte_length": 110479,
+      "district_rows": 30
+    },
+    {
+      "fiscal_year": "2012-13",
+      "month": 1,
+      "source_url": "https://www.data.gov.in/sites/default/files/dataurl21122020/hmis-item-2012-13-mn-od-for-Jan.csv",
+      "resource_url": "https://www.data.gov.in/resource/item-wise-hmis-report-district-level-odisha-january-2012-13",
+      "sha256": "000b540e406a705497255373e547004167e385379f4fdb1c35e10a62a8062be9",
+      "byte_length": 110295,
+      "district_rows": 30
+    },
+    {
+      "fiscal_year": "2012-13",
+      "month": 2,
+      "source_url": "https://www.data.gov.in/sites/default/files/dataurl21122020/hmis-item-2012-13-mn-od-for-Feb.csv",
+      "resource_url": "https://www.data.gov.in/resource/item-wise-hmis-report-district-level-odisha-february-2012-13",
+      "sha256": "7fb6925aeac897999afd2cd12f0cdc6e65d3c41aee9b3936385989516ad17b6e",
+      "byte_length": 110367,
+      "district_rows": 30
+    },
+    {
+      "fiscal_year": "2012-13",
+      "month": 3,
+      "source_url": "https://www.data.gov.in/sites/default/files/dataurl21122020/hmis-item-2012-13-mn-od-for-Mar.csv",
+      "resource_url": "https://www.data.gov.in/resource/item-wise-hmis-report-district-level-odisha-march-2012-13",
+      "sha256": "1663ee9be234f9a47ab2fc3703c0a43ddc99da1ac78ade9a218429621298b8f2",
+      "byte_length": 110339,
+      "district_rows": 30
+    },
+    {
+      "fiscal_year": "2013-14",
+      "month": 4,
+      "source_url": "https://www.data.gov.in/sites/default/files/dataurl21122020/hmis-item-2013-14-mn-od-for-Apr.csv",
+      "resource_url": "https://www.data.gov.in/resource/item-wise-hmis-report-district-level-odisha-april-2013-14",
+      "sha256": "7511db3acdf412564056a5680754e819335072d38c45a0a7ec381f3d4174e7e2",
+      "byte_length": 110015,
+      "district_rows": 30
+    },
+    {
+      "fiscal_year": "2013-14",
+      "month": 5,
+      "source_url": "https://www.data.gov.in/sites/default/files/dataurl21122020/hmis-item-2013-14-mn-od-for-May.csv",
+      "resource_url": "https://www.data.gov.in/resource/item-wise-hmis-report-district-level-odisha-may-2013-14",
+      "sha256": "27731747e9f6d0967156f88b4a1dfb8690d69b6dc36a2d7074d088ae0ad6c0ab",
+      "byte_length": 110125,
+      "district_rows": 30
+    },
+    {
+      "fiscal_year": "2013-14",
+      "month": 6,
+      "source_url": "https://www.data.gov.in/sites/default/files/dataurl21122020/hmis-item-2013-14-mn-od-for-Jun.csv",
+      "resource_url": "https://www.data.gov.in/resource/item-wise-hmis-report-district-level-odisha-june-2013-14",
+      "sha256": "e45df261a825c2c18a0d1cae66804c0e211a63546ce0f2b16ef32ea20f1c92c0",
+      "byte_length": 110130,
+      "district_rows": 30
+    },
+    {
+      "fiscal_year": "2013-14",
+      "month": 7,
+      "source_url": "https://www.data.gov.in/sites/default/files/dataurl21122020/hmis-item-2013-14-mn-od-for-Jul.csv",
+      "resource_url": "https://www.data.gov.in/resource/item-wise-hmis-report-district-level-odisha-july-2013-14",
+      "sha256": "ce412ded5d49590c3bc9a149bc0de75ecd5c3c7740f3ba4aefa30368f71e9cd7",
+      "byte_length": 110743,
+      "district_rows": 30
+    },
+    {
+      "fiscal_year": "2013-14",
+      "month": 8,
+      "source_url": "https://www.data.gov.in/sites/default/files/dataurl21122020/hmis-item-2013-14-mn-od-for-Aug.csv",
+      "resource_url": "https://www.data.gov.in/resource/item-wise-hmis-report-district-level-odisha-august-2013-14",
+      "sha256": "226a83d6f20f92a0d52d5981261aedda258f9dee38be8b32eb97d914f97a1e96",
+      "byte_length": 110214,
+      "district_rows": 30
+    },
+    {
+      "fiscal_year": "2013-14",
+      "month": 9,
+      "source_url": "https://www.data.gov.in/sites/default/files/dataurl21122020/hmis-item-2013-14-mn-od-for-Sep.csv",
+      "resource_url": "https://www.data.gov.in/resource/item-wise-hmis-report-district-level-odisha-september-2013-14",
+      "sha256": "8c008fc349e4760dab5dd9688c3a7a283565d57d7c91821d4f37c50c329c83e9",
+      "byte_length": 110351,
+      "district_rows": 30
+    },
+    {
+      "fiscal_year": "2013-14",
+      "month": 10,
+      "source_url": "https://www.data.gov.in/sites/default/files/dataurl21122020/hmis-item-2013-14-mn-od-for-Oct.csv",
+      "resource_url": "https://www.data.gov.in/resource/item-wise-hmis-report-district-level-odisha-october-2013-14",
+      "sha256": "1dd42579880b5363d6d0b0076043f9d48a0bf71c04d1d5293d00e1395eac560b",
+      "byte_length": 110489,
+      "district_rows": 30
+    },
+    {
+      "fiscal_year": "2013-14",
+      "month": 11,
+      "source_url": "https://www.data.gov.in/sites/default/files/dataurl21122020/hmis-item-2013-14-mn-od-for-Nov.csv",
+      "resource_url": "https://www.data.gov.in/resource/item-wise-hmis-report-district-level-odisha-november-2013-14",
+      "sha256": "080901eb258fad87f32a03167fb5299ade2bc8dd3349b1f5e8814bb309ab5155",
+      "byte_length": 110721,
+      "district_rows": 30
+    },
+    {
+      "fiscal_year": "2013-14",
+      "month": 12,
+      "source_url": "https://www.data.gov.in/sites/default/files/dataurl21122020/hmis-item-2013-14-mn-od-for-Dec.csv",
+      "resource_url": "https://www.data.gov.in/resource/item-wise-hmis-report-district-level-odisha-december-2013-14",
+      "sha256": "b7894ba8906ae05d6fc500b31aeb9d39065415700fba4368cd4b0222cb9e601b",
+      "byte_length": 110621,
+      "district_rows": 30
+    },
+    {
+      "fiscal_year": "2013-14",
+      "month": 1,
+      "source_url": "https://www.data.gov.in/sites/default/files/dataurl21122020/hmis-item-2013-14-mn-od-for-Jan.csv",
+      "resource_url": "https://www.data.gov.in/resource/item-wise-hmis-report-district-level-odisha-january-2013-14",
+      "sha256": "2c799583d39973df9f221c11371b418209bb29271426ea4d312507130e74a7d5",
+      "byte_length": 110368,
+      "district_rows": 30
+    },
+    {
+      "fiscal_year": "2013-14",
+      "month": 2,
+      "source_url": "https://www.data.gov.in/sites/default/files/dataurl21122020/hmis-item-2013-14-mn-od-for-Feb.csv",
+      "resource_url": "https://www.data.gov.in/resource/item-wise-hmis-report-district-level-odisha-february-2013-14",
+      "sha256": "7b52f05ed0a280360dad0062c18736172b766b999271f6f29d2307b662b5e165",
+      "byte_length": 110321,
+      "district_rows": 30
+    },
+    {
+      "fiscal_year": "2013-14",
+      "month": 3,
+      "source_url": "https://www.data.gov.in/sites/default/files/dataurl21122020/hmis-item-2013-14-mn-od-for-Mar.csv",
+      "resource_url": "https://www.data.gov.in/resource/item-wise-hmis-report-district-level-odisha-march-2013-14",
+      "sha256": "850b9b1e71910656af97f467bd6b68ebbc23592d52249e9c57c25be0556d7c3f",
+      "byte_length": 110825,
+      "district_rows": 30
+    },
+    {
+      "fiscal_year": "2014-15",
+      "month": 4,
+      "source_url": "https://www.data.gov.in/sites/default/files/dataurl21122020/hmis-item-2014-15-mn-od-for-Apr.csv",
+      "resource_url": "https://www.data.gov.in/resource/item-wise-hmis-report-district-level-odisha-april-2014-15",
+      "sha256": "738b5da0d9be7db0a3f52da694b86d9ad675edb7fc1c0c1bf70b1dfcc78d14e5",
+      "byte_length": 109914,
+      "district_rows": 30
+    },
+    {
+      "fiscal_year": "2014-15",
+      "month": 5,
+      "source_url": "https://www.data.gov.in/sites/default/files/dataurl21122020/hmis-item-2014-15-mn-od-for-May.csv",
+      "resource_url": "https://www.data.gov.in/resource/item-wise-hmis-report-district-level-odisha-may-2014-15",
+      "sha256": "540f0a670b6f4b9f12eb1d9126b4178f1321139419fc4143ea60c5b4b9c80b39",
+      "byte_length": 110681,
+      "district_rows": 30
+    },
+    {
+      "fiscal_year": "2014-15",
+      "month": 6,
+      "source_url": "https://www.data.gov.in/sites/default/files/dataurl21122020/hmis-item-2014-15-mn-od-for-Jun.csv",
+      "resource_url": "https://www.data.gov.in/resource/item-wise-hmis-report-district-level-odisha-june-2014-15",
+      "sha256": "2d545148ee073d5388ff9ebfe9e2b16067cfcbee68a7e9881235cf49e2addd2d",
+      "byte_length": 110492,
+      "district_rows": 30
+    },
+    {
+      "fiscal_year": "2014-15",
+      "month": 7,
+      "source_url": "https://www.data.gov.in/sites/default/files/dataurl21122020/hmis-item-2014-15-mn-od-for-Jul.csv",
+      "resource_url": "https://www.data.gov.in/resource/item-wise-hmis-report-district-level-odisha-july-2014-15",
+      "sha256": "6d17ef3e40e74662c8f6cf282cf6b6900f439fdb4f2ba4efa86e4174fd3604b1",
+      "byte_length": 110912,
+      "district_rows": 30
+    },
+    {
+      "fiscal_year": "2014-15",
+      "month": 8,
+      "source_url": "https://www.data.gov.in/sites/default/files/dataurl21122020/hmis-item-2014-15-mn-od-for-Aug.csv",
+      "resource_url": "https://www.data.gov.in/resource/item-wise-hmis-report-district-level-odisha-august-2014-15",
+      "sha256": "1086388c6c643c047d6ee50ec9dd7fca4e792bce7f922245348cf1e0178da2ab",
+      "byte_length": 110686,
+      "district_rows": 30
+    },
+    {
+      "fiscal_year": "2014-15",
+      "month": 9,
+      "source_url": "https://www.data.gov.in/sites/default/files/dataurl21122020/hmis-item-2014-15-mn-od-for-Sep.csv",
+      "resource_url": "https://www.data.gov.in/resource/item-wise-hmis-report-district-level-odisha-september-2014-15",
+      "sha256": "8ceb0be276ca6b0be7744aad249877afecec9f0ad4db3d2e2c95e035e519408a",
+      "byte_length": 111099,
+      "district_rows": 30
+    },
+    {
+      "fiscal_year": "2014-15",
+      "month": 10,
+      "source_url": "https://www.data.gov.in/sites/default/files/dataurl21122020/hmis-item-2014-15-mn-od-for-Oct.csv",
+      "resource_url": "https://www.data.gov.in/resource/item-wise-hmis-report-district-level-odisha-october-2014-15",
+      "sha256": "13d286e3880731bb9cdf384ef9b667d2468fab2439a4f6601dc3e111b1accbcc",
+      "byte_length": 110638,
+      "district_rows": 30
+    },
+    {
+      "fiscal_year": "2014-15",
+      "month": 11,
+      "source_url": "https://www.data.gov.in/sites/default/files/dataurl21122020/hmis-item-2014-15-mn-od-for-Nov.csv",
+      "resource_url": "https://www.data.gov.in/resource/item-wise-hmis-report-district-level-odisha-november-2014-15",
+      "sha256": "1226d113f2aee4bafea5464646fde45ee5e5cf5bb152a9fde2dfdce76847da3e",
+      "byte_length": 111114,
+      "district_rows": 30
+    },
+    {
+      "fiscal_year": "2014-15",
+      "month": 12,
+      "source_url": "https://www.data.gov.in/sites/default/files/dataurl21122020/hmis-item-2014-15-mn-od-for-Dec.csv",
+      "resource_url": "https://www.data.gov.in/resource/item-wise-hmis-report-district-level-odisha-december-2014-15",
+      "sha256": "4310d6a53aa4f3cbdf3a7a38ad528633eab07f8a140e02854c0ecb6f3e4245ca",
+      "byte_length": 110778,
+      "district_rows": 30
+    },
+    {
+      "fiscal_year": "2014-15",
+      "month": 1,
+      "source_url": "https://www.data.gov.in/sites/default/files/dataurl21122020/hmis-item-2014-15-mn-od-for-Jan.csv",
+      "resource_url": "https://www.data.gov.in/resource/item-wise-hmis-report-district-level-odisha-january-2014-15",
+      "sha256": "57f58bd781ac3c0ac8ac83f363b0b5bd335ce009b3d6597a5ab2edc03db9008a",
+      "byte_length": 110457,
+      "district_rows": 30
+    },
+    {
+      "fiscal_year": "2014-15",
+      "month": 2,
+      "source_url": "https://www.data.gov.in/sites/default/files/dataurl21122020/hmis-item-2014-15-mn-od-for-Feb.csv",
+      "resource_url": "https://www.data.gov.in/resource/item-wise-hmis-report-district-level-odisha-february-2014-15",
+      "sha256": "d3c633554799f177090b51d2a06543bbd18b88fc7aaf526e3556d929fed49fcf",
+      "byte_length": 110957,
+      "district_rows": 30
+    },
+    {
+      "fiscal_year": "2014-15",
+      "month": 3,
+      "source_url": "https://www.data.gov.in/sites/default/files/dataurl21122020/hmis-item-2014-15-mn-od-for-Mar.csv",
+      "resource_url": "https://www.data.gov.in/resource/item-wise-hmis-report-district-level-odisha-march-2014-15",
+      "sha256": "0b3bdee03417dc3807a7f5ded07aecf149183261d2fe96c939b73e80313feb72",
+      "byte_length": 111092,
+      "district_rows": 30
+    },
+    {
+      "fiscal_year": "2015-16",
+      "month": 4,
+      "source_url": "https://www.data.gov.in/sites/default/files/dataurl21122020/hmis-item-2015-16-mn-od-for-Apr.csv",
+      "resource_url": "https://www.data.gov.in/resource/item-wise-hmis-report-district-level-odisha-april-2015-16",
+      "sha256": "361bd520683bac2b10f6ac987675bb8176fc1adef6bd1290f115d950f6cba9c1",
+      "byte_length": 111702,
+      "district_rows": 30
+    },
+    {
+      "fiscal_year": "2015-16",
+      "month": 5,
+      "source_url": "https://www.data.gov.in/sites/default/files/dataurl21122020/hmis-item-2015-16-mn-od-for-May.csv",
+      "resource_url": "https://www.data.gov.in/resource/item-wise-hmis-report-district-level-odisha-may-2015-16",
+      "sha256": "557f1d1c2744555c9162d28db077bb941536d8321850100a053ce1a3308fd4b6",
+      "byte_length": 112199,
+      "district_rows": 30
+    },
+    {
+      "fiscal_year": "2015-16",
+      "month": 6,
+      "source_url": "https://www.data.gov.in/sites/default/files/dataurl21122020/hmis-item-2015-16-mn-od-for-Jun.csv",
+      "resource_url": "https://www.data.gov.in/resource/item-wise-hmis-report-district-level-odisha-june-2015-16",
+      "sha256": "e929e8a4a26e230c104a747217920b6f4d892d9633bf9a400ca1e1e953bf2c97",
+      "byte_length": 111734,
+      "district_rows": 30
+    },
+    {
+      "fiscal_year": "2015-16",
+      "month": 7,
+      "source_url": "https://www.data.gov.in/sites/default/files/dataurl21122020/hmis-item-2015-16-mn-od-for-Jul.csv",
+      "resource_url": "https://www.data.gov.in/resource/item-wise-hmis-report-district-level-odisha-july-2015-16",
+      "sha256": "7c413f290f10d49c5a49f42416a229bce8643c308761418b0f4be11d3e5156cc",
+      "byte_length": 111935,
+      "district_rows": 30
+    },
+    {
+      "fiscal_year": "2015-16",
+      "month": 8,
+      "source_url": "https://www.data.gov.in/sites/default/files/dataurl21122020/hmis-item-2015-16-mn-od-for-Aug.csv",
+      "resource_url": "https://www.data.gov.in/resource/item-wise-hmis-report-district-level-odisha-august-2015-16",
+      "sha256": "793f1ec538c3bfe806f29cd16149687a3441acfcb30afcb5a265481c88459213",
+      "byte_length": 111889,
+      "district_rows": 30
+    },
+    {
+      "fiscal_year": "2015-16",
+      "month": 9,
+      "source_url": "https://www.data.gov.in/sites/default/files/dataurl21122020/hmis-item-2015-16-mn-od-for-Sep.csv",
+      "resource_url": "https://www.data.gov.in/resource/item-wise-hmis-report-district-level-odisha-september-2015-16",
+      "sha256": "dea36880f8be20ce368e3e64dd400af9daa583a1bb9a16350497a487dd70121f",
+      "byte_length": 111807,
+      "district_rows": 30
+    },
+    {
+      "fiscal_year": "2015-16",
+      "month": 10,
+      "source_url": "https://www.data.gov.in/sites/default/files/dataurl21122020/hmis-item-2015-16-mn-od-for-Oct.csv",
+      "resource_url": "https://www.data.gov.in/resource/item-wise-hmis-report-district-level-odisha-october-2015-16",
+      "sha256": "3902768d10ec339d98baf6de0dd7eec02fba89f6f564037724ba708e3217279c",
+      "byte_length": 111937,
+      "district_rows": 30
+    },
+    {
+      "fiscal_year": "2015-16",
+      "month": 11,
+      "source_url": "https://www.data.gov.in/sites/default/files/dataurl21122020/hmis-item-2015-16-mn-od-for-Nov.csv",
+      "resource_url": "https://www.data.gov.in/resource/item-wise-hmis-report-district-level-odisha-november-2015-16",
+      "sha256": "02a4531a448442e666f644b4f77b5b1f3f1918ebba44b5018971c377c8933f0a",
+      "byte_length": 111903,
+      "district_rows": 30
+    },
+    {
+      "fiscal_year": "2015-16",
+      "month": 12,
+      "source_url": "https://www.data.gov.in/sites/default/files/dataurl21122020/hmis-item-2015-16-mn-od-for-Dec.csv",
+      "resource_url": "https://www.data.gov.in/resource/item-wise-hmis-report-district-level-odisha-december-2015-16",
+      "sha256": "012f3a9664e7c532ecb0bc76ec737a17811a8c87e605526609adc8c7d4179f9d",
+      "byte_length": 112720,
+      "district_rows": 30
+    },
+    {
+      "fiscal_year": "2015-16",
+      "month": 1,
+      "source_url": "https://www.data.gov.in/sites/default/files/dataurl21122020/hmis-item-2015-16-mn-od-for-Jan.csv",
+      "resource_url": "https://www.data.gov.in/resource/item-wise-hmis-report-district-level-odisha-january-2015-16",
+      "sha256": "f76ca961c3ed7abb1572a1578985e7c4c94c5a38d2ec853466055fb884bd6490",
+      "byte_length": 112026,
+      "district_rows": 30
+    },
+    {
+      "fiscal_year": "2015-16",
+      "month": 2,
+      "source_url": "https://www.data.gov.in/sites/default/files/dataurl21122020/hmis-item-2015-16-mn-od-for-Feb.csv",
+      "resource_url": "https://www.data.gov.in/resource/item-wise-hmis-report-district-level-odisha-february-2015-16",
+      "sha256": "9a53ce7b20c33a9545650b25c2d60b7adfd295fda05b048507b8fb503e1cc115",
+      "byte_length": 111728,
+      "district_rows": 30
+    },
+    {
+      "fiscal_year": "2015-16",
+      "month": 3,
+      "source_url": "https://www.data.gov.in/sites/default/files/dataurl21122020/hmis-item-2015-16-mn-od-for-Mar.csv",
+      "resource_url": "https://www.data.gov.in/resource/item-wise-hmis-report-district-level-odisha-march-2015-16",
+      "sha256": "d349456a49c48675a0c28d2e9b8321a3d121b46b3e3971899d168dfbaf1b4cd9",
+      "byte_length": 112071,
+      "district_rows": 30
+    },
+    {
+      "fiscal_year": "2016-17",
+      "month": 4,
+      "source_url": "https://www.data.gov.in/sites/default/files/dataurl21122020/hmis-item-2016-17-mn-od-for-Apr.csv",
+      "resource_url": "https://www.data.gov.in/resource/item-wise-hmis-report-district-level-odisha-april-2016-17",
+      "sha256": "16ae50e9053882a810e79404f9bcb3902dd0591a162e0e00b3ea1dade6ecdee3",
+      "byte_length": 111555,
+      "district_rows": 30
+    },
+    {
+      "fiscal_year": "2016-17",
+      "month": 5,
+      "source_url": "https://www.data.gov.in/sites/default/files/dataurl21122020/hmis-item-2016-17-mn-od-for-May.csv",
+      "resource_url": "https://www.data.gov.in/resource/item-wise-hmis-report-district-level-odisha-may-2016-17",
+      "sha256": "10aab4c984f6aa799965ae6e29a9313fe66a9106fe69c9d7f5ffa7a660b8cbc9",
+      "byte_length": 111751,
+      "district_rows": 30
+    },
+    {
+      "fiscal_year": "2016-17",
+      "month": 6,
+      "source_url": "https://www.data.gov.in/sites/default/files/dataurl21122020/hmis-item-2016-17-mn-od-for-Jun.csv",
+      "resource_url": "https://www.data.gov.in/resource/item-wise-hmis-report-district-level-odisha-june-2016-17",
+      "sha256": "978a3d571a823b3f5a414a6cb46422450d0d7351ab205cea4ea41fd363b85ea7",
+      "byte_length": 111892,
+      "district_rows": 30
+    },
+    {
+      "fiscal_year": "2016-17",
+      "month": 7,
+      "source_url": "https://www.data.gov.in/sites/default/files/dataurl21122020/hmis-item-2016-17-mn-od-for-Jul.csv",
+      "resource_url": "https://www.data.gov.in/resource/item-wise-hmis-report-district-level-odisha-july-2016-17",
+      "sha256": "9b3de9eb59861e07aad2bfff27df0f01ec6ae51b8a41385c0efb39486dea7944",
+      "byte_length": 112419,
+      "district_rows": 30
+    },
+    {
+      "fiscal_year": "2016-17",
+      "month": 8,
+      "source_url": "https://www.data.gov.in/sites/default/files/dataurl21122020/hmis-item-2016-17-mn-od-for-Aug.csv",
+      "resource_url": "https://www.data.gov.in/resource/item-wise-hmis-report-district-level-odisha-august-2016-17",
+      "sha256": "6df27c1f4b9367531920f4c2e9da9ac4420a736a28aa0e2ad3bf98dd1f8b1a03",
+      "byte_length": 112494,
+      "district_rows": 30
+    },
+    {
+      "fiscal_year": "2016-17",
+      "month": 9,
+      "source_url": "https://www.data.gov.in/sites/default/files/dataurl21122020/hmis-item-2016-17-mn-od-for-Sep.csv",
+      "resource_url": "https://www.data.gov.in/resource/item-wise-hmis-report-district-level-odisha-september-2016-17",
+      "sha256": "990cf11e185cdaf248bb8c86785171ca5632176d40bd31dc1628dbedfb3e5085",
+      "byte_length": 112397,
+      "district_rows": 30
+    },
+    {
+      "fiscal_year": "2016-17",
+      "month": 10,
+      "source_url": "https://www.data.gov.in/sites/default/files/dataurl21122020/hmis-item-2016-17-mn-od-for-Oct.csv",
+      "resource_url": "https://www.data.gov.in/resource/item-wise-hmis-report-district-level-odisha-october-2016-17",
+      "sha256": "fabbb3d0e7345720807a92ac7bcb632ee8662139cdb05fda9fac4430930079cc",
+      "byte_length": 111934,
+      "district_rows": 30
+    },
+    {
+      "fiscal_year": "2016-17",
+      "month": 11,
+      "source_url": "https://www.data.gov.in/sites/default/files/dataurl21122020/hmis-item-2016-17-mn-od-for-Nov.csv",
+      "resource_url": "https://www.data.gov.in/resource/item-wise-hmis-report-district-level-odisha-november-2016-17",
+      "sha256": "b601f75a63ea704756c9a5de63ca30b0fbb43ba2af8ac37be4a29393f78c6c27",
+      "byte_length": 112457,
+      "district_rows": 30
+    },
+    {
+      "fiscal_year": "2016-17",
+      "month": 12,
+      "source_url": "https://www.data.gov.in/sites/default/files/dataurl21122020/hmis-item-2016-17-mn-od-for-Dec.csv",
+      "resource_url": "https://www.data.gov.in/resource/item-wise-hmis-report-district-level-odisha-december-2016-17",
+      "sha256": "3160d6131cf49cff0701cd7b6445a0d03feac51d62cacb4e772f2c9b9f0c3364",
+      "byte_length": 112226,
+      "district_rows": 30
+    },
+    {
+      "fiscal_year": "2016-17",
+      "month": 1,
+      "source_url": "https://www.data.gov.in/sites/default/files/dataurl21122020/hmis-item-2016-17-mn-od-for-Jan.csv",
+      "resource_url": "https://www.data.gov.in/resource/item-wise-hmis-report-district-level-odisha-january-2016-17",
+      "sha256": "77c87204c69ad7f83a91116b5dba69a6b0ccb338bc8b778fda0af2c476b59ae4",
+      "byte_length": 112384,
+      "district_rows": 30
+    },
+    {
+      "fiscal_year": "2016-17",
+      "month": 2,
+      "source_url": "https://www.data.gov.in/sites/default/files/dataurl21122020/hmis-item-2016-17-mn-od-for-Feb.csv",
+      "resource_url": "https://www.data.gov.in/resource/item-wise-hmis-report-district-level-odisha-february-2016-17",
+      "sha256": "c9dbf6cbfe9fa8940fae5a67355e8e8b8cabfa3da3d37eb019826f835beeb267",
+      "byte_length": 112604,
+      "district_rows": 30
+    },
+    {
+      "fiscal_year": "2016-17",
+      "month": 3,
+      "source_url": "https://www.data.gov.in/sites/default/files/dataurl21122020/hmis-item-2016-17-mn-od-for-Mar.csv",
+      "resource_url": "https://www.data.gov.in/resource/item-wise-hmis-report-district-level-odisha-march-2016-17",
+      "sha256": "6b03ad99780cc98d3b3c11e488717aad77598eaa6ce228dc51d091ff5f9c9d5b",
+      "byte_length": 112227,
+      "district_rows": 30
+    },
+    {
+      "fiscal_year": "2017-18",
+      "month": 4,
+      "source_url": "https://www.data.gov.in/sites/default/files/dataurl21122020/hmis-item-2017-18-mn-od-for-Apr.csv",
+      "resource_url": "https://www.data.gov.in/resource/item-wise-hmis-report-district-level-odisha-april-2017-18",
+      "sha256": "ba186cd4ae82c4af492ffda78f23306962c701882b38e4f5372c342e1cf37b3a",
+      "byte_length": 303744,
+      "district_rows": 30
+    },
+    {
+      "fiscal_year": "2017-18",
+      "month": 5,
+      "source_url": "https://www.data.gov.in/sites/default/files/dataurl21122020/hmis-item-2017-18-mn-od-for-May.csv",
+      "resource_url": "https://www.data.gov.in/resource/item-wise-hmis-report-district-level-odisha-may-2017-18",
+      "sha256": "0ed9dec6738fc07a077f8546c608cabeb05d00a16ebafb45f6017642e495351c",
+      "byte_length": 304771,
+      "district_rows": 30
+    },
+    {
+      "fiscal_year": "2017-18",
+      "month": 6,
+      "source_url": "https://www.data.gov.in/sites/default/files/dataurl21122020/hmis-item-2017-18-mn-od-for-Jun.csv",
+      "resource_url": "https://www.data.gov.in/resource/item-wise-hmis-report-district-level-odisha-june-2017-18",
+      "sha256": "81d35604f3b6d2afdc82e5947dddfaeda2abdaa6adac64b61f9bf5c214b0c812",
+      "byte_length": 304717,
+      "district_rows": 30
+    },
+    {
+      "fiscal_year": "2017-18",
+      "month": 7,
+      "source_url": "https://www.data.gov.in/sites/default/files/dataurl21122020/hmis-item-2017-18-mn-od-for-Jul.csv",
+      "resource_url": "https://www.data.gov.in/resource/item-wise-hmis-report-district-level-odisha-july-2017-18",
+      "sha256": "65321fd8057ba2103adbcecbe53a722cb4c55f73e52bd2729901762064ef2f80",
+      "byte_length": 307004,
+      "district_rows": 30
+    },
+    {
+      "fiscal_year": "2017-18",
+      "month": 8,
+      "source_url": "https://www.data.gov.in/sites/default/files/dataurl21122020/hmis-item-2017-18-mn-od-for-Aug.csv",
+      "resource_url": "https://www.data.gov.in/resource/item-wise-hmis-report-district-level-odisha-august-2017-18",
+      "sha256": "f12b42c70831892a9c51b365951ca5e934bf617c09b05db9c6febbb80306108b",
+      "byte_length": 307392,
+      "district_rows": 30
+    },
+    {
+      "fiscal_year": "2017-18",
+      "month": 9,
+      "source_url": "https://www.data.gov.in/sites/default/files/dataurl21122020/hmis-item-2017-18-mn-od-for-Sep.csv",
+      "resource_url": "https://www.data.gov.in/resource/item-wise-hmis-report-district-level-odisha-september-2017-18",
+      "sha256": "c00e28e68774a764a69cda1f228a23ce66591dc6edf1a9c8ccf9bea9f221199d",
+      "byte_length": 306443,
+      "district_rows": 30
+    },
+    {
+      "fiscal_year": "2017-18",
+      "month": 10,
+      "source_url": "https://www.data.gov.in/sites/default/files/dataurl21122020/hmis-item-2017-18-mn-od-for-Oct.csv",
+      "resource_url": "https://www.data.gov.in/resource/item-wise-hmis-report-district-level-odisha-october-2017-18",
+      "sha256": "cce5c71c6cd6904ef36d701ce58a828d71ccf168a909a45615ce6d27dbad62aa",
+      "byte_length": 306261,
+      "district_rows": 30
+    },
+    {
+      "fiscal_year": "2017-18",
+      "month": 11,
+      "source_url": "https://www.data.gov.in/sites/default/files/dataurl21122020/hmis-item-2017-18-mn-od-for-Nov.csv",
+      "resource_url": "https://www.data.gov.in/resource/item-wise-hmis-report-district-level-odisha-november-2017-18",
+      "sha256": "d221dcfbc493b08f42c810d30f326ec65430b1354b73eecb8f031abe02683705",
+      "byte_length": 305235,
+      "district_rows": 30
+    },
+    {
+      "fiscal_year": "2017-18",
+      "month": 12,
+      "source_url": "https://www.data.gov.in/sites/default/files/dataurl21122020/hmis-item-2017-18-mn-od-for-Dec.csv",
+      "resource_url": "https://www.data.gov.in/resource/item-wise-hmis-report-district-level-odisha-december-2017-18",
+      "sha256": "b62110c492d38f3089cad3356c83ad73c96f91a90f1a8677ab35806fcfa12328",
+      "byte_length": 305819,
+      "district_rows": 30
+    },
+    {
+      "fiscal_year": "2017-18",
+      "month": 1,
+      "source_url": "https://www.data.gov.in/sites/default/files/dataurl21122020/hmis-item-2017-18-mn-od-for-Jan.csv",
+      "resource_url": "https://www.data.gov.in/resource/item-wise-hmis-report-district-level-odisha-january-2017-18",
+      "sha256": "9237400547c9498e012b648aee6976c69eea8de9787fc933ca751e044370d3dd",
+      "byte_length": 305550,
+      "district_rows": 30
+    },
+    {
+      "fiscal_year": "2017-18",
+      "month": 2,
+      "source_url": "https://www.data.gov.in/sites/default/files/dataurl21122020/hmis-item-2017-18-mn-od-for-Feb.csv",
+      "resource_url": "https://www.data.gov.in/resource/item-wise-hmis-report-district-level-odisha-february-2017-18",
+      "sha256": "c2f685f29ca529631e107d982d75a683ea3445b3e990d7b40a7eb0dc8a9bdff2",
+      "byte_length": 303845,
+      "district_rows": 30
+    },
+    {
+      "fiscal_year": "2017-18",
+      "month": 3,
+      "source_url": "https://www.data.gov.in/sites/default/files/dataurl21122020/hmis-item-2017-18-mn-od-for-Mar.csv",
+      "resource_url": "https://www.data.gov.in/resource/item-wise-hmis-report-district-level-odisha-march-2017-18",
+      "sha256": "3dcd7552ec93125c54859a849788f6e4ae3454750de8ec5c713232e8e9ed4a1b",
+      "byte_length": 305114,
+      "district_rows": 30
+    },
+    {
+      "fiscal_year": "2018-19",
+      "month": 4,
+      "source_url": "https://www.data.gov.in/sites/default/files/dataurl21122020/hmis-item-2018-19-mn-od-for-Apr.csv",
+      "resource_url": "https://www.data.gov.in/resource/item-wise-hmis-report-district-level-odisha-april-2018-19",
+      "sha256": "5bc3e20b15fee57352a34f59fd4e55450ea20e592b7804742bfc0dbff911564f",
+      "byte_length": 318658,
+      "district_rows": 30
+    },
+    {
+      "fiscal_year": "2018-19",
+      "month": 5,
+      "source_url": "https://www.data.gov.in/sites/default/files/dataurl21122020/hmis-item-2018-19-mn-od-for-May.csv",
+      "resource_url": "https://www.data.gov.in/resource/item-wise-hmis-report-district-level-odisha-may-2018-19",
+      "sha256": "2ae9f158ae02f5388901770686dfaa8d9a8c96ea8fb4423ad2ee2b6458d3c8e8",
+      "byte_length": 318295,
+      "district_rows": 30
+    },
+    {
+      "fiscal_year": "2018-19",
+      "month": 6,
+      "source_url": "https://www.data.gov.in/sites/default/files/dataurl21122020/hmis-item-2018-19-mn-od-for-Jun.csv",
+      "resource_url": "https://www.data.gov.in/resource/item-wise-hmis-report-district-level-odisha-june-2018-19",
+      "sha256": "cc9c9a56715182686f324ec28a023e136446795b73baf33d38899d309e4e2358",
+      "byte_length": 318408,
+      "district_rows": 30
+    },
+    {
+      "fiscal_year": "2018-19",
+      "month": 7,
+      "source_url": "https://www.data.gov.in/sites/default/files/dataurl21122020/hmis-item-2018-19-mn-od-for-Jul.csv",
+      "resource_url": "https://www.data.gov.in/resource/item-wise-hmis-report-district-level-odisha-july-2018-19",
+      "sha256": "c1677886e41b38c09b45acff20084f488afa7e5c91a40e6f449e11ee07abb79d",
+      "byte_length": 319423,
+      "district_rows": 30
+    },
+    {
+      "fiscal_year": "2018-19",
+      "month": 8,
+      "source_url": "https://www.data.gov.in/sites/default/files/dataurl21122020/hmis-item-2018-19-mn-od-for-Aug.csv",
+      "resource_url": "https://www.data.gov.in/resource/item-wise-hmis-report-district-level-odisha-august-2018-19",
+      "sha256": "4d0cc23255084cd3432484e9843add4d33f682fb80a4f6e9556eac8260d72b23",
+      "byte_length": 322402,
+      "district_rows": 30
+    },
+    {
+      "fiscal_year": "2018-19",
+      "month": 9,
+      "source_url": "https://www.data.gov.in/sites/default/files/dataurl21122020/hmis-item-2018-19-mn-od-for-Sep.csv",
+      "resource_url": "https://www.data.gov.in/resource/item-wise-hmis-report-district-level-odisha-september-2018-19",
+      "sha256": "69eaaeb1eb590160c91683b1f7559d8ed4d3757093c0840691363f39858505ab",
+      "byte_length": 323087,
+      "district_rows": 30
+    },
+    {
+      "fiscal_year": "2018-19",
+      "month": 10,
+      "source_url": "https://www.data.gov.in/sites/default/files/dataurl21122020/hmis-item-2018-19-mn-od-for-Oct.csv",
+      "resource_url": "https://www.data.gov.in/resource/item-wise-hmis-report-district-level-odisha-october-2018-19",
+      "sha256": "758e8d5f1f5174711a285200f439242cca812110da34b61a810f04fadda77410",
+      "byte_length": 321402,
+      "district_rows": 30
+    },
+    {
+      "fiscal_year": "2018-19",
+      "month": 11,
+      "source_url": "https://www.data.gov.in/sites/default/files/dataurl21122020/hmis-item-2018-19-mn-od-for-Nov.csv",
+      "resource_url": "https://www.data.gov.in/resource/item-wise-hmis-report-district-level-odisha-november-2018-19",
+      "sha256": "34c88d93037b6ae49029afaf43f88113f49d315b7d454d3f21e45ca89a3153bf",
+      "byte_length": 322251,
+      "district_rows": 30
+    },
+    {
+      "fiscal_year": "2018-19",
+      "month": 12,
+      "source_url": "https://www.data.gov.in/sites/default/files/dataurl21122020/hmis-item-2018-19-mn-od-for-Dec.csv",
+      "resource_url": "https://www.data.gov.in/resource/item-wise-hmis-report-district-level-odisha-december-2018-19",
+      "sha256": "abef619dac1b25d925eaf11b4641a792c2fcbf6bcc322e088494ceab0c5167bc",
+      "byte_length": 321528,
+      "district_rows": 30
+    },
+    {
+      "fiscal_year": "2018-19",
+      "month": 1,
+      "source_url": "https://www.data.gov.in/sites/default/files/dataurl21122020/hmis-item-2018-19-mn-od-for-Jan.csv",
+      "resource_url": "https://www.data.gov.in/resource/item-wise-hmis-report-district-level-odisha-january-2018-19",
+      "sha256": "f082b6d002065e462b8cfe637e68c510d5d7817bb09ba7286afdcbb28c85737a",
+      "byte_length": 321709,
+      "district_rows": 30
+    },
+    {
+      "fiscal_year": "2018-19",
+      "month": 2,
+      "source_url": "https://www.data.gov.in/sites/default/files/dataurl21122020/hmis-item-2018-19-mn-od-for-Feb.csv",
+      "resource_url": "https://www.data.gov.in/resource/item-wise-hmis-report-district-level-odisha-february-2018-19",
+      "sha256": "80446303d810e13041e5ee64ce0901e39f7160687f1f1f1d3634fa63a59df7dc",
+      "byte_length": 322075,
+      "district_rows": 30
+    },
+    {
+      "fiscal_year": "2018-19",
+      "month": 3,
+      "source_url": "https://www.data.gov.in/sites/default/files/dataurl21122020/hmis-item-2018-19-mn-od-for-Mar.csv",
+      "resource_url": "https://www.data.gov.in/resource/item-wise-hmis-report-district-level-odisha-march-2018-19",
+      "sha256": "abdbefc7bdc28c085f5bfc4f24ccc0caaccfbf498744708431a44c17ac137f0a",
+      "byte_length": 320981,
+      "district_rows": 30
+    },
+    {
+      "fiscal_year": "2019-20",
+      "month": 4,
+      "source_url": "https://www.data.gov.in/sites/default/files/dataurl21122020/hmis-item-2019-20-mn-od-for-Apr.csv",
+      "resource_url": "https://www.data.gov.in/resource/item-wise-hmis-report-district-level-odisha-april-2019-20",
+      "sha256": "9a59c2a132e7d51c419dfc26f803b909226cf769e962d9714741797282acafc9",
+      "byte_length": 312906,
+      "district_rows": 30
+    },
+    {
+      "fiscal_year": "2019-20",
+      "month": 5,
+      "source_url": "https://www.data.gov.in/sites/default/files/dataurl21122020/hmis-item-2019-20-mn-od-for-May.csv",
+      "resource_url": "https://www.data.gov.in/resource/item-wise-hmis-report-district-level-odisha-may-2019-20",
+      "sha256": "6c90b2117c759512234ab54d1b978dde247d63998d0abdf3009b72cb3492577f",
+      "byte_length": 313069,
+      "district_rows": 30
+    },
+    {
+      "fiscal_year": "2019-20",
+      "month": 6,
+      "source_url": "https://www.data.gov.in/sites/default/files/dataurl21122020/hmis-item-2019-20-mn-od-for-Jun.csv",
+      "resource_url": "https://www.data.gov.in/resource/item-wise-hmis-report-district-level-odisha-june-2019-20",
+      "sha256": "77269d7cf0adc5acfff45cd13a3459a2b77a431131d6c6a415e213189082ae9f",
+      "byte_length": 313777,
+      "district_rows": 30
+    },
+    {
+      "fiscal_year": "2019-20",
+      "month": 7,
+      "source_url": "https://www.data.gov.in/sites/default/files/dataurl21122020/hmis-item-2019-20-mn-od-for-Jul.csv",
+      "resource_url": "https://www.data.gov.in/resource/item-wise-hmis-report-district-level-odisha-july-2019-20",
+      "sha256": "200433febaad285e2ab551a4a08a509715af8c3a1e74559da3186946c468b24e",
+      "byte_length": 315728,
+      "district_rows": 30
+    },
+    {
+      "fiscal_year": "2019-20",
+      "month": 8,
+      "source_url": "https://www.data.gov.in/sites/default/files/dataurl21122020/hmis-item-2019-20-mn-od-for-Aug.csv",
+      "resource_url": "https://www.data.gov.in/resource/item-wise-hmis-report-district-level-odisha-august-2019-20",
+      "sha256": "87ba34e57649076fcc320c4cac83c0d3507e0d4a8f14cd54da11dcda655a6ae6",
+      "byte_length": 316669,
+      "district_rows": 30
+    },
+    {
+      "fiscal_year": "2019-20",
+      "month": 9,
+      "source_url": "https://www.data.gov.in/sites/default/files/dataurl21122020/hmis-item-2019-20-mn-od-for-Sep.csv",
+      "resource_url": "https://www.data.gov.in/resource/item-wise-hmis-report-district-level-odisha-september-2019-20",
+      "sha256": "6b977c966a068451ba07c9e2328bf6e56989e4b8d784ed2ce67f9fc2a53a3903",
+      "byte_length": 315178,
+      "district_rows": 30
+    },
+    {
+      "fiscal_year": "2019-20",
+      "month": 10,
+      "source_url": "https://www.data.gov.in/sites/default/files/dataurl21122020/hmis-item-2019-20-mn-od-for-Oct.csv",
+      "resource_url": "https://www.data.gov.in/resource/item-wise-hmis-report-district-level-odisha-october-2019-20",
+      "sha256": "6500fc8954f6da92a74616d6fda64b487eb7e1244f2a11d110be5990c6d639f5",
+      "byte_length": 314199,
+      "district_rows": 30
+    },
+    {
+      "fiscal_year": "2019-20",
+      "month": 11,
+      "source_url": "https://www.data.gov.in/sites/default/files/dataurl21122020/hmis-item-2019-20-mn-od-for-Nov.csv",
+      "resource_url": "https://www.data.gov.in/resource/item-wise-hmis-report-district-level-odisha-november-2019-20",
+      "sha256": "5320cd5e552e4db1b598f1b2fcf0a682095e69f04af0fd61ad3923f11d25f7d2",
+      "byte_length": 313306,
+      "district_rows": 30
+    },
+    {
+      "fiscal_year": "2019-20",
+      "month": 12,
+      "source_url": "https://www.data.gov.in/sites/default/files/dataurl21122020/hmis-item-2019-20-mn-od-for-Dec.csv",
+      "resource_url": "https://www.data.gov.in/resource/item-wise-hmis-report-district-level-odisha-december-2019-20",
+      "sha256": "0dec58f76eb04c2077e1360a852d6f331380c3b8d00565e776f15a9e3b6d55b9",
+      "byte_length": 312652,
+      "district_rows": 30
+    },
+    {
+      "fiscal_year": "2019-20",
+      "month": 1,
+      "source_url": "https://www.data.gov.in/sites/default/files/dataurl21122020/hmis-item-2019-20-mn-od-for-Jan.csv",
+      "resource_url": "https://www.data.gov.in/resource/item-wise-hmis-report-district-level-odisha-january-2019-20",
+      "sha256": "4da1b3b5e2e2f0826c0334d9d06de72d107d18a7bddc2ffb7b2a801202267a68",
+      "byte_length": 313444,
+      "district_rows": 30
+    },
+    {
+      "fiscal_year": "2019-20",
+      "month": 2,
+      "source_url": "https://www.data.gov.in/sites/default/files/dataurl21122020/hmis-item-2019-20-mn-od-for-Feb.csv",
+      "resource_url": "https://www.data.gov.in/resource/item-wise-hmis-report-district-level-odisha-february-2019-20",
+      "sha256": "a64ea65b57b6b3bee3e5a322577ebe655e0edfa264511c1848fd9a43ae73da27",
+      "byte_length": 314930,
+      "district_rows": 30
+    },
+    {
+      "fiscal_year": "2019-20",
+      "month": 3,
+      "source_url": "https://www.data.gov.in/sites/default/files/dataurl21122020/hmis-item-2019-20-mn-od-for-Mar.csv",
+      "resource_url": "https://www.data.gov.in/resource/item-wise-hmis-report-district-level-odisha-march-2019-20",
+      "sha256": "dc3bbf004631a5dc9f2ca8c8e965c10afb336aa4c53420b38edbbe4dccf1a718",
+      "byte_length": 312694,
+      "district_rows": 30
+    }
+  ],
+  "derived_csv_sha256": "f2dc43b41e155208b6ead0410fe1d9da37198d4c4743a7a488ce95659c474bcf"
+}

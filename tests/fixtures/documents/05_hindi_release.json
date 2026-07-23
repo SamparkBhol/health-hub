@@ -1,0 +1,10 @@
+{
+  "fixture_schema": "1.0",
+  "fixture_kind": "synthetic",
+  "watermark": "SYNTHETIC TEST FIXTURE — NOT A REAL PIB RELEASE",
+  "media_type": "text/html",
+  "source_id": "synthetic_hindi_release",
+  "source_language_hint": "hi",
+  "body": "<html lang=\"hi\"><body><p>यह केवल कृत्रिम परीक्षण डेटा है। गंजाम जिले में डेंगू का मामला दर्ज किया गया।</p></body></html>",
+  "expected": {"language": "hi", "assertion": "affirmed", "diseases": ["dengue"], "district_ids": ["OD-DIST-ganjam"], "eligible": true}
+}

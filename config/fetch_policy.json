@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0.0",
+  "user_agent": "OdishaPublicHealthEvidenceBot/0.1",
+  "connect_timeout_seconds": 8,
+  "read_timeout_seconds": 20,
+  "maximum_redirects": 3,
+  "maximum_response_bytes": 20971520,
+  "allowed_schemes": ["https"],
+  "allowed_content_types": [
+    "text/html",
+    "text/plain",
+    "application/pdf",
+    "application/json",
+    "application/xml",
+    "text/xml"
+  ],
+  "allow_http_hosts": [],
+  "accept_encoding": "identity"
+}

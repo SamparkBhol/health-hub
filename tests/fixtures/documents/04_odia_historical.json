@@ -1,0 +1,10 @@
+{
+  "fixture_schema": "1.0",
+  "fixture_kind": "synthetic",
+  "watermark": "SYNTHETIC TEST FIXTURE — NOT A REAL HEALTH EVENT",
+  "media_type": "text/html",
+  "source_id": "synthetic_odia_notice",
+  "source_language_hint": "or",
+  "body": "<html lang=\"or\"><body><p>ଏହା କୃତ୍ରିମ ତଥ୍ୟ। ଗତ ବର୍ଷ କୋରାପୁଟରେ କଲେରା ପୂର୍ବ ପ୍ରକୋପ ବିଷୟରେ ଏହି ଐତିହାସିକ ଟିପ୍ପଣୀ।</p></body></html>",
+  "expected": {"language": "or", "assertion": "non_current", "diseases": ["cholera"], "district_ids": ["OD-DIST-koraput"], "eligible": false}
+}

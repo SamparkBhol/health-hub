@@ -1,0 +1,221 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "id": "aws_data_layer.fid-132992d2_19f8643f018_-2a27",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     82.3417,
+     17.895
+    ]
+   },
+   "geometry_name": "geom",
+   "properties": {
+    "id": "A0AEF408",
+    "call_sign": "CTP",
+    "station_id": null,
+    "dat": "2026-07-21Z",
+    "time": "1970-01-01T19:45:00Z",
+    "rain_sel": "NULL",
+    "rainfall": "2.0",
+    "temp": "21.5",
+    "temp_min": "22.2",
+    "temp_max": "23.8",
+    "temp_min_max": "NULL",
+    "dewpoint": 0,
+    "weather": 0,
+    "nebulosity": 0,
+    "rh": "90",
+    "winddir": "34",
+    "windspeed": "1",
+    "mslp": "1003.6",
+    "winddir2": "",
+    "windspeed2": "",
+    "update_time": "2026-07-21 19:59:05",
+    "station": "CHINTAPALLI_AMFU"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "aws_data_layer.fid-132992d2_19f8643f018_-2a26",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     83.903,
+     18.4101
+    ]
+   },
+   "geometry_name": "geom",
+   "properties": {
+    "id": "AAAD0304",
+    "call_sign": "AMA",
+    "station_id": null,
+    "dat": "2026-07-21Z",
+    "time": "1970-01-01T19:45:00Z",
+    "rain_sel": "NULL",
+    "rainfall": "5.0",
+    "temp": "25.7",
+    "temp_min": "25.8",
+    "temp_max": "32.1",
+    "temp_min_max": "NULL",
+    "dewpoint": 0,
+    "weather": 0,
+    "nebulosity": 0,
+    "rh": "98",
+    "winddir": "254",
+    "windspeed": "1",
+    "mslp": "1004.2",
+    "winddir2": "",
+    "windspeed2": "",
+    "update_time": "2026-07-21 19:59:05",
+    "station": "RAGOLU"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "aws_data_layer.fid-132992d2_19f8643f018_-2a25",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     84.1163,
+     18.3334
+    ]
+   },
+   "geometry_name": "geom",
+   "properties": {
+    "id": "APKGL000",
+    "call_sign": "KGL",
+    "station_id": null,
+    "dat": "2026-07-21Z",
+    "time": "1970-01-01T19:45:00Z",
+    "rain_sel": "0.5",
+    "rainfall": "5.0",
+    "temp": "NULL",
+    "temp_min": "24.7",
+    "temp_max": "33.9",
+    "temp_min_max": "NULL",
+    "dewpoint": 0,
+    "weather": 61,
+    "nebulosity": 8,
+    "rh": "100",
+    "winddir": "224",
+    "windspeed": "1",
+    "mslp": "1003.0",
+    "winddir2": "",
+    "windspeed2": "",
+    "update_time": "2026-07-21 19:59:05",
+    "station": "NAGARALAPETA_KALINGAPATNAM"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "aws_data_layer.fid-132992d2_19f8643f018_-2a24",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     83.834,
+     18.2277
+    ]
+   },
+   "geometry_name": "geom",
+   "properties": {
+    "id": "APETC000",
+    "call_sign": "ETC",
+    "station_id": null,
+    "dat": "2026-07-21Z",
+    "time": "1970-01-01T14:00:00Z",
+    "rain_sel": "0.5",
+    "rainfall": "1.5",
+    "temp": "27.7",
+    "temp_min": "29.0",
+    "temp_max": "30.8",
+    "temp_min_max": "NULL",
+    "dewpoint": 0,
+    "weather": 61,
+    "nebulosity": 0,
+    "rh": "81",
+    "winddir": "260",
+    "windspeed": "3",
+    "mslp": "1001.3",
+    "winddir2": "",
+    "windspeed2": "",
+    "update_time": "2026-07-21 14:14:04",
+    "station": "SKY_COLLEGE_ETCHERLA"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "aws_data_layer.fid-132992d2_19f8643f018_-2a23",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     83.45,
+     17.8883
+    ]
+   },
+   "geometry_name": "geom",
+   "properties": {
+    "id": "AAACC4E0",
+    "call_sign": "BHM",
+    "station_id": null,
+    "dat": "2026-04-18Z",
+    "time": "1970-01-01T19:30:00Z",
+    "rain_sel": "NULL",
+    "rainfall": "0.0",
+    "temp": "27.3",
+    "temp_min": "27.0",
+    "temp_max": "30.3",
+    "temp_min_max": "NULL",
+    "dewpoint": 0,
+    "weather": 0,
+    "nebulosity": 2,
+    "rh": "89",
+    "winddir": "203",
+    "windspeed": "3",
+    "mslp": "1008.3",
+    "winddir2": "",
+    "windspeed2": "",
+    "update_time": "2026-04-18 19:44:04",
+    "station": "BHIMUNIPATTINAM"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "aws_data_layer.fid-132992d2_19f8643f018_-2a22",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     83.415,
+     18.1417
+    ]
+   },
+   "geometry_name": "geom",
+   "properties": {
+    "id": "AAACD944",
+    "call_sign": "VZM",
+    "station_id": null,
+    "dat": "2026-07-21Z",
+    "time": "1970-01-01T19:30:00Z",
+    "rain_sel": "NULL",
+    "rainfall": "0.0",
+    "temp": "27.5",
+    "temp_min": "26.8",
+    "temp_max": "32.1",
+    "temp_min_max": "NULL",
+    "dewpoint": 0,
+    "weather": 0,
+    "nebulosity": 0,
+    "rh": "92",
+    "winddir": "270",
+    "windspeed": "4.3",
+    "mslp": "1004.2",
+    "winddir2": "",
+    "windspeed2": "",
+    "update_time": "2026-07-21 19:44:04",
+    "station": "VIZIANAGARAM"
+   }
+  }
+ ]
+}

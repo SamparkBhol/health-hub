@@ -1,0 +1,13 @@
+:7860 {
+	encode zstd gzip
+
+	handle /api/* {
+		reverse_proxy 127.0.0.1:8000
+	}
+
+	handle {
+		root * /app/apps/web/dist
+		try_files {path} /index.html
+		file_server
+	}
+}

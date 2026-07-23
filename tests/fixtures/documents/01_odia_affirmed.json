@@ -1,0 +1,10 @@
+{
+  "fixture_schema": "1.0",
+  "fixture_kind": "synthetic",
+  "watermark": "SYNTHETIC TEST FIXTURE — NOT A REAL HEALTH EVENT",
+  "media_type": "text/html",
+  "source_id": "synthetic_odia_notice",
+  "source_language_hint": "or",
+  "body": "<!doctype html><html lang=\"or\"><head><title>ପରୀକ୍ଷା ସୂଚନା</title></head><body><p>ଏହା କେବଳ କୃତ୍ରିମ ପରୀକ୍ଷା ତଥ୍ୟ। ଖୋର୍ଦ୍ଧା ଜିଲ୍ଲାରେ ଡେଙ୍ଗୁ ମାମଲା ଚିହ୍ନଟ ହୋଇଛି।</p></body></html>",
+  "expected": {"language": "or", "assertion": "affirmed", "diseases": ["dengue"], "district_ids": ["OD-DIST-khordha"], "eligible": true}
+}

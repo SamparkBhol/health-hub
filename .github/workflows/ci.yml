@@ -1,0 +1,59 @@
+name: ci
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    services:
+      postgres:
+        image: postgres:16
+        env:
+          POSTGRES_DB: odisha_smoke
+          POSTGRES_PASSWORD: odisha_smoke
+          POSTGRES_USER: odisha_smoke
+        ports:
+          - 5432:5432
+        options: >-
+          --health-cmd "pg_isready -U odisha_smoke -d odisha_smoke"
+          --health-interval 5s
+          --health-timeout 5s
+          --health-retries 10
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+      - uses: astral-sh/setup-uv@d0cc045d04ccac9d8b7881df0226f9e82c39688e # v6
+        with:
+          enable-cache: true
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
+        with:
+          node-version: "22"
+          cache: npm
+          cache-dependency-path: apps/web/package-lock.json
+      - name: OCR runtime
+        run: sudo apt-get update -qq && sudo apt-get install -y poppler-utils tesseract-ocr tesseract-ocr-eng tesseract-ocr-hin tesseract-ocr-ori
+      - run: uv sync --all-groups --frozen
+      - run: npm --prefix apps/web ci
+      - run: make verify
+      - name: PostgreSQL repository smoke
+        env:
+          DATABASE_URL: postgresql://odisha_smoke:odisha_smoke@127.0.0.1:5432/odisha_smoke
+        run: make postgres-smoke
+      - name: Upload acceptance evidence
+        # Never publish the checked-in report from a run that failed before
+        # `make verify` regenerated and validated it.
+        if: success()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: verification-evidence
+          path: |
+            data/epiclim/audit.json
+            data/boundaries/manifest.json
+            data/synthetic/forecast_report.json
+            reports/
+          if-no-files-found: ignore

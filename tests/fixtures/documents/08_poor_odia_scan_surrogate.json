@@ -1,0 +1,11 @@
+{
+  "fixture_schema": "1.0",
+  "fixture_kind": "synthetic_ocr_surrogate",
+  "watermark": "SYNTHETIC LOW-CONFIDENCE OCR OUTPUT — NO SOURCE PDF BYTES INCLUDED",
+  "media_type": "application/pdf",
+  "source_id": "synthetic_odia_scan",
+  "source_language_hint": "or",
+  "ocr_text": "ଏହା କୃତ୍ରିମ ତଥ୍ୟ। କନ୍ଧମାଳରେ ଡେଙ୍ଗୁ ମାମଲା।",
+  "ocr_confidence": 0.42,
+  "expected": {"language": "or", "assertion": "affirmed", "diseases": ["dengue"], "district_ids": ["OD-DIST-kandhamal"], "eligible": false, "manual_review": true}
+}

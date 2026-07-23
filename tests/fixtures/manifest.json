@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0.0",
+  "hash_algorithm": "sha256",
+  "documents": {
+    "documents/01_odia_affirmed.json": "4fc81cd58183bdcbde862bbc08cd2ab12f5cf48d8964fe87712291982588e95a",
+    "documents/02_odia_affirmed_malaria.json": "de533d24ec86ab038c3f8586e100f12b437b37c0fe01b1fa9ab6970db35c3254",
+    "documents/03_odia_negated.json": "d84d8fa19f9049724fa2881ee85fdbeed4a360106de0ea3c0aac0ba6865e50f2",
+    "documents/04_odia_historical.json": "2d2f092fd21c5e4f8d5ffa0294231b947c03a0c4f9d100c71be8de03883cbed0",
+    "documents/05_hindi_release.json": "706bc08dbd05047bfa731224a7bb43eadb3120aa5f935b8439a363f7e775ff60",
+    "documents/06_english_notification.json": "33293bb64823bb93a9ef806ab1e3c9c2d2ced89c05a2d20f8ac26708692af840",
+    "documents/07_odia_scanned_pdf_surrogate.json": "5d326e1b836dbc95d48439957dcb84981a433ca31a472b5b46587d62ab131e8d",
+    "documents/08_poor_odia_scan_surrogate.json": "633ab03c3684eef524b469105fc995d5078cb141cf171c32204e75293bc48f7d",
+    "documents/09_pii_redaction.json": "6c001992e06dcd5f24cdd11175d0d4b8a720c2fa6623127ecdbec8e0a586d01b",
+    "documents/10_dedup_english.json": "c32a8a1bf7cd22cbb7c8e8e7b83307a5554f283982b069519129ade73a2250d7",
+    "documents/11_dedup_odia.json": "902090f2d81b0282917999aad146839de46c8f059cefdddc51a92f64c305aa3e",
+    "documents/12_idsp_weekly_pdf_surrogate.json": "0236a51e18d9a15b95a4a37969f1bb6f5a1605b9430b9cae33929654d0d1e334"
+  },
+  "environment": {
+    "environment/nasa_power_bhubaneswar_demo_20260701_20260707.json": "ada016557fb8b398f5c16b9489b0734c661628a6ff2b5c1c0aa521f676b1b5fa"
+  }
+}

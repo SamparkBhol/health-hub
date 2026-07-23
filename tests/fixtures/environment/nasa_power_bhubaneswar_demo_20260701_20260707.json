@@ -1,0 +1,25 @@
+{
+  "fixture_kind": "sanitised_public_data_excerpt",
+  "source": "NASA POWER Daily API",
+  "requested_url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=PRECTOTCORR%2CT2M%2CT2M_MAX%2CT2M_MIN%2CRH2M&community=AG&longitude=85.820000&latitude=20.300000&start=20260701&end=20260707&format=JSON&time-standard=UTC",
+  "retrieved_on": "2026-07-21",
+  "point_note": "Fixed Bhubaneswar/Khordha demo point, not an authoritative district centroid",
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [85.82, 20.3, 72.95]},
+  "properties": {"parameter": {
+    "PRECTOTCORR": {"20260701": 12.61, "20260702": 13.88, "20260703": 26.32, "20260704": 34.45, "20260705": 39.09, "20260706": 6.32, "20260707": 7.75},
+    "T2M": {"20260701": 29.91, "20260702": 30.04, "20260703": 28.65, "20260704": 27.04, "20260705": 27.05, "20260706": 27.94, "20260707": 29.25},
+    "T2M_MAX": {"20260701": 35.05, "20260702": 34.14, "20260703": 32.5, "20260704": 28.25, "20260705": 29.35, "20260706": 30.13, "20260707": 34.19},
+    "T2M_MIN": {"20260701": 27.02, "20260702": 27.0, "20260703": 26.24, "20260704": 26.2, "20260705": 25.43, "20260706": 25.52, "20260707": 26.38},
+    "RH2M": {"20260701": 77.64, "20260702": 79.89, "20260703": 84.96, "20260704": 93.77, "20260705": 92.52, "20260706": 84.74, "20260707": 79.92}
+  }},
+  "header": {"title": "NASA/POWER Source Native Resolution Daily Data", "api": {"version": "v2.9.4", "name": "POWER Daily API"}, "sources": ["GEOSIT", "POWER"], "fill_value": -999.0, "time_standard": "UTC", "start": "20260701", "end": "20260707"},
+  "messages": [],
+  "parameters": {
+    "PRECTOTCORR": {"units": "mm/day", "longname": "Precipitation Corrected"},
+    "T2M": {"units": "C", "longname": "Temperature at 2 Meters"},
+    "T2M_MAX": {"units": "C", "longname": "Temperature at 2 Meters Maximum"},
+    "T2M_MIN": {"units": "C", "longname": "Temperature at 2 Meters Minimum"},
+    "RH2M": {"units": "%", "longname": "Relative Humidity at 2 Meters"}
+  }
+}

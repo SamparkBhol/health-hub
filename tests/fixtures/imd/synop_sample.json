@@ -1,0 +1,245 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "id": "synop_data_layer.fid-132992d2_19f8643f018_-29a5",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     83.32,
+     17.72
+    ]
+   },
+   "geometry_name": "geom",
+   "properties": {
+    "station_id": 43150,
+    "dat": "2026-07-21Z",
+    "utc": 18,
+    "mslp": 1005,
+    "winddir": 230,
+    "windsp": 2,
+    "dbtemp": 28.4,
+    "dewtemp": 24.7,
+    "weather": 50,
+    "nebulosity": 8,
+    "rh": 80,
+    "3hrlyrain": 0,
+    "6hrlyrain": 0,
+    "12hrlyrain": 0,
+    "24hrlyrain": 0.01,
+    "min": null,
+    "max": null,
+    "visibility": 2000,
+    "sigwx": 50,
+    "10gust": null,
+    "latitude1": "17.72",
+    "longitude1": "83.32",
+    "pressure_24hr_change": "0.3",
+    "update_time": "2026-07-21T18:16:03Z",
+    "station": "Visakhapatnam",
+    "priority": 0
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "synop_data_layer.fid-132992d2_19f8643f018_-29a4",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     81.65,
+     21.23
+    ]
+   },
+   "geometry_name": "geom",
+   "properties": {
+    "station_id": 42874,
+    "dat": "2026-07-21Z",
+    "utc": 18,
+    "mslp": 1004,
+    "winddir": 230,
+    "windsp": 3,
+    "dbtemp": 24.2,
+    "dewtemp": 23.6,
+    "weather": 61,
+    "nebulosity": 8,
+    "rh": 96,
+    "3hrlyrain": 5,
+    "6hrlyrain": 0,
+    "12hrlyrain": 0,
+    "24hrlyrain": 29,
+    "min": null,
+    "max": null,
+    "visibility": 4000,
+    "sigwx": 61,
+    "10gust": null,
+    "latitude1": "21.23",
+    "longitude1": "81.65",
+    "pressure_24hr_change": "-0.4",
+    "update_time": "2026-07-21T18:24:04Z",
+    "station": "Raipur-Lalpur",
+    "priority": 0
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "synop_data_layer.fid-132992d2_19f8643f018_-29a3",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     82.03,
+     19.07
+    ]
+   },
+   "geometry_name": "geom",
+   "properties": {
+    "station_id": 43041,
+    "dat": "2026-07-21Z",
+    "utc": 18,
+    "mslp": 1006,
+    "winddir": 0,
+    "windsp": 0,
+    "dbtemp": 23.6,
+    "dewtemp": 22.4,
+    "weather": 10,
+    "nebulosity": 8,
+    "rh": 93,
+    "3hrlyrain": 0,
+    "6hrlyrain": 0,
+    "12hrlyrain": 0,
+    "24hrlyrain": 2,
+    "min": null,
+    "max": null,
+    "visibility": 2000,
+    "sigwx": 10,
+    "10gust": null,
+    "latitude1": "19.07",
+    "longitude1": "82.03",
+    "pressure_24hr_change": "0.3",
+    "update_time": "2026-07-21T18:24:04Z",
+    "station": "Jagdalpur",
+    "priority": 0
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "synop_data_layer.fid-132992d2_19f8643f018_-29a2",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     86.93,
+     21.52
+    ]
+   },
+   "geometry_name": "geom",
+   "properties": {
+    "station_id": 42895,
+    "dat": "2026-07-21Z",
+    "utc": 18,
+    "mslp": 1003,
+    "winddir": 0,
+    "windsp": 0,
+    "dbtemp": 25.8,
+    "dewtemp": 25.2,
+    "weather": 60,
+    "nebulosity": 8,
+    "rh": 96,
+    "3hrlyrain": 16,
+    "6hrlyrain": 0,
+    "12hrlyrain": 0,
+    "24hrlyrain": 20,
+    "min": null,
+    "max": null,
+    "visibility": 2000,
+    "sigwx": 60,
+    "10gust": null,
+    "latitude1": "21.52",
+    "longitude1": "86.93",
+    "pressure_24hr_change": "-0.2",
+    "update_time": "2026-07-21T18:16:03Z",
+    "station": "Balasore",
+    "priority": 0
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "synop_data_layer.fid-132992d2_19f8643f018_-29a1",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     85.83,
+     20.25
+    ]
+   },
+   "geometry_name": "geom",
+   "properties": {
+    "station_id": 42971,
+    "dat": "2026-07-21Z",
+    "utc": 18,
+    "mslp": 1004,
+    "winddir": 0,
+    "windsp": 0,
+    "dbtemp": 26,
+    "dewtemp": 25.1,
+    "weather": 62,
+    "nebulosity": 8,
+    "rh": 95,
+    "3hrlyrain": 14,
+    "6hrlyrain": 0,
+    "12hrlyrain": 0,
+    "24hrlyrain": 36,
+    "min": null,
+    "max": null,
+    "visibility": 2000,
+    "sigwx": 62,
+    "10gust": null,
+    "latitude1": "20.25",
+    "longitude1": "85.83",
+    "pressure_24hr_change": "-0.2",
+    "update_time": "2026-07-21T18:16:03Z",
+    "station": "Bhubneshwar-Airport",
+    "priority": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "synop_data_layer.fid-132992d2_19f8643f018_-29a0",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     84.88,
+     19.27
+    ]
+   },
+   "geometry_name": "geom",
+   "properties": {
+    "station_id": 43049,
+    "dat": "2026-07-21Z",
+    "utc": 18,
+    "mslp": 1004,
+    "winddir": 0,
+    "windsp": 0,
+    "dbtemp": 25,
+    "dewtemp": 25,
+    "weather": 60,
+    "nebulosity": 8,
+    "rh": 100,
+    "3hrlyrain": 2,
+    "6hrlyrain": 0,
+    "12hrlyrain": 0,
+    "24hrlyrain": 22,
+    "min": null,
+    "max": null,
+    "visibility": 2000,
+    "sigwx": 60,
+    "10gust": null,
+    "latitude1": "19.27",
+    "longitude1": "84.88",
+    "pressure_24hr_change": "0.1",
+    "update_time": "2026-07-21T18:08:03Z",
+    "station": "Gopalpur",
+    "priority": 0
+   }
+  }
+ ]
+}

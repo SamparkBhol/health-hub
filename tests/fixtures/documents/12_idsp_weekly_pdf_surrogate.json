@@ -1,0 +1,10 @@
+{
+  "fixture_schema": "1.0",
+  "fixture_kind": "synthetic_official_catalogue_parser_surrogate",
+  "watermark": "SYNTHETIC PARSER FIXTURE — NOT AN IDSP REPORT",
+  "media_type": "application/pdf",
+  "source_id": "synthetic_idsp_weekly",
+  "source_language_hint": "en",
+  "ocr_text": "Synthetic table row for parser testing only\nOR/ANU/2026/9/334 Angul Acute Diarrhoeal Disease 12 0\n",
+  "expected": {"catalogue_rows": 1, "outbreak_id": "OR/ANU/2026/9/334", "year": 2026, "week": 9, "district_code": "ANU"}
+}

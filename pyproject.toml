@@ -1,0 +1,92 @@
+[project]
+name = "odisha-public-health-intelligence-hub"
+version = "0.1.0"
+description = "Multilingual, provenance-first public-health evidence platform for Odisha"
+requires-python = ">=3.11"
+license = { text = "Apache-2.0" }
+dependencies = [
+  "apscheduler>=3.11,<4",
+  "beautifulsoup4>=4.12,<5",
+  "boto3>=1.35,<2",
+  "fastapi>=0.115,<1",
+  "httpx>=0.27,<1",
+  "pillow>=11,<13",
+  "psycopg[binary]>=3.2,<4",
+  "pydantic>=2.10,<3",
+  "pydantic-settings>=2.7,<3",
+  "pypdfium2>=4.30,<5",
+  "python-multipart>=0.0.20,<1",
+  "pyyaml>=6.0,<7",
+  "sqlalchemy>=2.0,<3",
+  "uvicorn[standard]>=0.34,<1",
+]
+
+[project.optional-dependencies]
+# Translation only: Odia/Hindi/English in and out, without the retrieval or
+# generation models.  This is the subset `translate.available()` actually gates
+# on, and it deliberately excludes llama-cpp-python, which PyPI publishes as an
+# sdist only and which therefore compiles the whole llama.cpp tree on install --
+# the single thing that makes a memory-capped free host fail its build.
+# Everything in `packages.nlp` keeps its heavy imports function-local, so the
+# retrieval and generation modules still import fine and simply report
+# unavailable. The production compose file installs the complete `nlp` profile.
+translate = [
+  "ctranslate2>=4.5,<5",
+  "indic-nlp-library>=0.92,<1",
+  "sentencepiece>=0.2,<1",
+]
+# On-device multilingual NLP (translation, embeddings, grounded generation).
+# Kept out of the default install because the wheels are large and llama-cpp-python
+# builds from source; `packages.nlp` degrades to typed unavailable states without
+# them.  Install with: uv pip install ".[nlp]" and then run scripts/fetch_models.py.
+nlp = [
+  "ctranslate2>=4.5,<5",
+  "huggingface-hub>=0.30,<2",
+  "indic-nlp-library>=0.92,<1",
+  "llama-cpp-python>=0.3.9,<0.4",
+  "numpy>=2,<3",
+  "onnxruntime>=1.20,<2",
+  "sentencepiece>=0.2,<1",
+  "tokenizers>=0.20,<1",
+]
+
+[dependency-groups]
+dev = [
+  "mypy>=1.14,<2",
+  "pyshp>=2.3,<3",
+  "pytest>=8.3,<10",
+  "pytest-asyncio>=0.25,<1",
+  "pytest-cov>=6,<8",
+  "ruff>=0.9,<1",
+  "types-pyyaml>=6.0,<7",
+]
+
+[tool.uv]
+package = false
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+addopts = "-ra --strict-markers"
+markers = [
+  "network: requires live external network access",
+  "ocr: requires optional Tesseract language packs",
+]
+
+[tool.ruff]
+target-version = "py311"
+line-length = 100
+exclude = [".venv", "apps/web"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP", "S"]
+ignore = ["S101"]
+
+[tool.mypy]
+# 3.12 is what the Dockerfile, the CI runner and the local venv all execute;
+# the numpy 2.x stubs used by packages/nlp cannot be parsed under 3.11.
+python_version = "3.12"
+warn_unused_configs = true
+check_untyped_defs = true
+ignore_missing_imports = true
+exclude = ["apps/web"]

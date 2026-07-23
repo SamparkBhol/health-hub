@@ -2,8 +2,8 @@
 
   Janaswasthya Odisha is an open-source, multilingual public-health intelligence platform for Odisha. It combines online health-information collection,
   district-level disease mapping, environmental analysis, predictive modelling and a grounded AI assistant in one application.
-
-''' https://turbo-space-enigma-jj59vx6r65xj3prwj-7860.app.github.dev/ '''  , for github codespace link , that be switched on 15 minutes before viewing the website agent ai directly
+ 
+https://turbo-space-enigma-jj59vx6r65xj3prwj-7860.app.github.dev/  , for github codespace link , that be switched on 15 minutes before viewing the website agent ai directly
 
   ## Core capabilities
 

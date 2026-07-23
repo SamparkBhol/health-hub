@@ -104,6 +104,14 @@
   - Scikit-learn and gradient-boosted models
   - Docker and Docker Compose
 
+
+<img width="1886" height="948" alt="image" src="https://github.com/user-attachments/assets/19f13594-d68f-404c-ae27-a494d284a7b9" />
+
+<img width="1741" height="683" alt="image" src="https://github.com/user-attachments/assets/95e6a1ec-cd53-4607-ac36-148d7c31f935" />
+
+<img width="1580" height="852" alt="image" src="https://github.com/user-attachments/assets/8fb3bfd3-ffbe-4515-9d70-f47b676a80af" />
+
+
   ## Run locally
 
   ### Requirements

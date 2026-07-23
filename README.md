@@ -75,7 +75,8 @@
   Grounded multilingual assistant
 
   The system uses specialised collection, extraction, verification, geographic, modelling and assistant components coordinated as an agentic workflow.
-
+  ```
+  
   ## Technology
 
   - Python, FastAPI and Pydantic

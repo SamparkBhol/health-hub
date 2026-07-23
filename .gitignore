@@ -28,7 +28,7 @@ coverage/
 reports/*.tmp
 data/raw/
 data/quarantine/
-
+*.tsbuildinfo
 # Locally downloaded NLP models (see scripts/fetch_models.py) and derived caches.
 models/
 runtime/

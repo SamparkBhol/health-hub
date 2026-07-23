@@ -74,7 +74,8 @@ COPY --from=web-build /web/dist /app/apps/web/dist
 # Models are public and ungated. The separate model-build layer stays cached
 # across ordinary application changes and avoids a multi-gigabyte download
 # every time free hardware wakes from sleep.
-RUN RUN chmod 0755 /app/scripts/start_huggingface.sh \
+
+RUN chmod 0755 /app/scripts/start_huggingface.sh \
     && python scripts/doctor.py --runtime \
     && python scripts/make_synthetic.py \
     && useradd --create-home --uid 1000 user \
